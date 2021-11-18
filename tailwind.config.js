@@ -7,7 +7,8 @@ module.exports = {
         brand: {
           black: {
             1: '#0E0F14',
-            2: '#14151D'
+            2: '#14151D',
+            3: '#151619'
           },
           orange: {
             1: '#BF6B10'

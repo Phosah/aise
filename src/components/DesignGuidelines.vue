@@ -1,7 +1,7 @@
 <template>
-    <div class="p-3 bg-brand-black-2 shadow-sm">
+    <div class="min-h-80 mb-10 px-6 py-6 bg-brand-black-2 shadow-sm" :class="border">
         <div class="mb-8"><img :src="imageUrl" :alt="altText"></div>
-        <h4 class="mb-4">{{ title }}</h4>
+        <h4 class="mb-6 text-2xl font-semibold">{{ title }}</h4>
         <p>{{ text }}</p>
     </div>
 </template>
@@ -25,6 +25,10 @@ export default {
         text: {
             type: String,
             default: ""
+        },
+        border: {
+            type: String,
+            default: "border-t-0 rounded-none"
         }
     }
 }

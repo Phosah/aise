@@ -1,10 +1,10 @@
 <template>
-  <div class="flex justify-between py-20">
-      <p>LinkedIn</p>
-      <p>Behance</p>
-      <p>Dribble</p>
-      <p>Twitter</p>
-      <p>Medium</p>
+  <div class="flex justify-between w-10/12 mx-auto py-20 text-white font-semibold">
+    <a class="pb-3 hover:border-b-2 hover:border-white" href="#">LinkedIn</a>
+    <a class="pb-3 hover:border-b-2 hover:border-white" href="#">Behance</a>
+    <a class="pb-3 hover:border-b-2 hover:border-white" href="#">Dribble</a>
+    <a class="pb-3 hover:border-b-2 hover:border-white" href="#">Twitter</a>
+    <a class="pb-3 hover:border-b-2 hover:border-white" href="#">Medium</a>
   </div>
 </template>
 

@@ -89,8 +89,8 @@ export default {
                 },
                 {
                     // imageUrl: require("../assets/inclusivity.png"),
-                    altText: "inclusivity icon",
-                    title: "inclusivity",
+                    altText: "Inclusivity icon",
+                    title: "Inclusivity",
                     text: "Inclusive design is a methodology that enables and draws on the full range of human diversity.",
                     border: "border-t-4 rounded-b-md"
                 },

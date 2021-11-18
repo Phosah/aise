@@ -1,95 +1,116 @@
 <template>
-    <div class="max-w-5xl mx-auto">
-        <HeaderDark />
-        <section>
-            <h3>Simplifying user experiences through digital solutions</h3>
-            <div><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-            <p>Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</p>
-        </section>
-        <section class="py-20">
-            <h2>SOME WORKS</h2>
-            <div class="flex items-center justify-between mb-12 py-8  bg-brand-blue-1">
-                <div>
-                    <h3 class="mb-4">Bitpowr</h3>
-                    <p class="mb-8">Blockchain, Fintech B2B</p>
-                    <p class="border-b">Case Study</p>
+    <div class="max-w-6xl mx-auto">
+        <NavbarDark />
+        <header class="w-10/12 mx-auto py-20">
+            <h3 class="w-1/3 text-2xl font-bold">Simplifying user experiences through digital solutions</h3>
+            <div class="mb-6"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
+            <div class="flex justify-end w-1/2 ml-auto">Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</div>
+        </header>
+        <main class="w-10/12 mx-auto py-20">
+            <h2 class="works-header mb-16 text-6xl lg:text-7xl text-transparent">SOME WORKS</h2>
+            <section class="flex items-center justify-between mb-12 py-8 bg-brand-blue-1 text-white">
+                <div class="flex-1">
+                    <div class="w-2/3 mx-auto">
+                        <h2 class="mb-4 text-xl font-semibold">Bitpowr</h2>
+                        <p class="mb-8 font-light">Blockchain, Fintech B2B</p>
+                        <p class="inline-block font-semibold border-b">Case Study</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="../assets/bitpowr-phone.png" alt="Bitpowr phone">
+                <div class="flex flex-1">
+                    <div><img src="../assets/bitpowr-phone.png" alt="Bitpowr phone"></div>
+                    <div><img src="../assets/bitpowr-pc.png" alt="Bitpowr laptop"></div>                   
                 </div>
-                <div>
-                    <img src="../assets/bitpowr-pc.png" alt="Bitpowr laptop">
+            </section>
+            <section class="flex items-center justify-between mb-12 bg-brand-orange-1 text-white">
+                <div class="flex-1">
+                    <div class="w-2/3 mx-auto">
+                        <h2 class="mb-4 text-xl font-semibold">Trigle</h2>
+                        <p class="mb-8 font-light">Food delivery, Commerce</p>
+                        <p class="inline-block font-semibold border-b">Case Study</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex items-center justify-between mb-12  bg-brand-orange-1">
-                <div>
-                    <h3 class="mb-4">Trigle</h3>
-                    <p class="mb-8">Food delivery, Commerce</p>
-                    <p class="border-b">Case Study</p>
-                </div>
-                <div>
+                <div class="flex-1">
                     <img src="../assets/trigle-home.png" alt="Trigle home photo">
                 </div>
-            </div>
-            <div class="flex items-center justify-between py-8 bg-brand-green-1">
-                <div>
-                    <h3 class="mb-4">Doorstep</h3>
-                    <p class="mb-8">Logistics</p>
-                    <p class="border-b">Case Study</p>
+            </section>
+            <section class="flex items-center justify-between mb-12  py-8 bg-brand-green-1 text-white">
+                <div class="flex-1">
+                    <div class="w-2/3 mx-auto">
+                        <h2 class="mb-4 text-xl font-semibold">Doorstep</h2>
+                        <p class="mb-8 font-light">Logistics</p>
+                        <p class="inline-block font-semibold border-b">Case Study</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="../assets/doorstep-pc.png" alt="Doorstep laptop">
+                <div class="flex-1">
+                    <img src="../assets/doorstep-pc.png" alt="Trigle home photo">
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
         <section class="py-20 bg-brand-black-1 text-white">
-            <h2 class="mb-12">TESTIMONIALS</h2>
-            <div class="flex items-center justify-between space-x-6 mb-8">
-                <div class=""><img src="../assets/testimonial-man.png" alt="Testimonial man"></div>
-                <div>
-                    <div class="flex items-center space-x-4 mb-8">
-                        <p>1.0</p>
-                        <div class="h-8 border-r border-2"></div>
-                        <div class="flex items-center space-x-2">
-                            <img src="../assets/logo.png" alt="Aise Logo">
-                            <p>cunad</p>
+            <div class="w-10/12 mx-auto">
+                <h2 class="testimonials-header mb-16 text-6xl lg:text-7xl text-transparent">TESTIMONIALS</h2>
+                <div class="flex items-center justify-between space-x-12 mb-8">
+                    <div class=""><img src="../assets/testimonial-man.png" alt="Testimonial man"></div>
+                    <div>
+                        <div class="flex items-center space-x-4 mb-8">
+                            <p>1.0</p>
+                            <div class="h-8 border-r border-2"></div>
+                            <div class="flex items-center space-x-2">
+                                <img src="../assets/logo.png" alt="Aise Logo">
+                                <p>cunad</p>
+                            </div>
+                        </div>
+                        <h3 class="mb-4">Emma Dorsey</h3>
+                        <p class="mb-4">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                        <div class="flex items-center space-x-6">
+                            <img src="../assets/twitter.png" alt="Twitter Logo">
+                            <img src="../assets/linkedin.png" alt="LinkedIn Logo">
                         </div>
                     </div>
-                    <h3 class="mb-4">Emma Dorsey</h3>
-                    <p class="mb-4">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-                    <div class="flex items-center space-x-6">
-                        <img src="../assets/twitter.png" alt="Twitter Logo">
-                        <img src="../assets/linkedin.png" alt="LinkedIn Logo">
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex space-x-4">
+                        <div class="border-b border-2 w-12 border-red-200"></div>
+                        <div class="border-b border-2 w-12 border-red"></div>
+                        <div class="border-b border-2 w-12 border-red"></div>
+                        <div class="border-b border-2 w-12 border-red"></div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <button class="rounded p-3"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
+                        <button class="rounded-full p-3 bg-white"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
                     </div>
                 </div>
             </div>
-            <div class="flex items-center justify-between">
-                <div class="flex space-x-4">
-                    <div class="border-b border-2 w-16 border-red-200"></div>
-                    <div class="border-b border-2 w-16 border-red"></div>
-                    <div class="border-b border-2 w-16 border-red"></div>
-                    <div class="border-b border-2 w-16 border-red"></div>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <button class="rounded p-3"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
-                    <button class="rounded p-3 bg-red-200"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
-                </div>
-            </div>
         </section>
-        <section class="flex flex-col items-center py-20 text-brand-black-1">
-            <div class="mb-8"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
-            <h3 class="mb-4">Let's talk about your project</h3>
-            <p class="mb-4">It takes any designer to design a product, but it takes creative <span>identification of users needs, and business goals to design the future</span></p>
-            <button class="p-3 text-brand-black-1 bg-white">Book an appointment</button>
+        <section class="flex flex-col items-center w-10/12 mx-auto py-20 text-brand-black-1">
+            <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
+            <h3 class="mb-8 text-5xl font-semibold">Let's talk about your project</h3>
+            <p class="mb-16 text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
+            <button class="px-8 py-5 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <FooterDark />
   </div>
 </template>
 
 <script>
-import HeaderDark from '../components/HeaderDark.vue'
+import NavbarDark from '../components/NavbarDark.vue'
 import FooterDark from '../components/FooterDark.vue'
 export default {
-    components: { HeaderDark, FooterDark }
+    components: { NavbarDark, FooterDark }
 }
 </script>
+
+<style scoped>
+.works-header {
+    color: #000;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0E0F14;
+}
+.testimonials-header {
+    color: #fff;
+    -webkit-text-fill-color: #0E0F14;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+</style>

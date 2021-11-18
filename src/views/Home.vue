@@ -27,19 +27,19 @@
         </section>
         <section class="py-20 bg-brand-black-1 text-white">
             <div class="w-10/12 mx-auto">
-                <h2 class="mb-16 text-7xl">MY DESIGN GUIDELINES</h2>
+                <h2 class="guideline-header mb-16 text-6xl lg:text-7xl text-transparent">MY DESIGN GUIDELINES</h2>
                 <div class="grid grid-cols-3 gap-10">
-                    <div v-for="(guideline, index) in guidelines" :key="index">
+                    <template v-for="(guideline, index) in guidelines" :key="index">
                         <DesignGuidelines :imageUrl="guideline.imageUrl" :title="guideline.title" :text="guideline.text" :altText="guideline.altText" :class="guideline.border"/>
-                    </div>
+                    </template>
                 </div>
             </div>
         </section>
-        <section class="pt-32 pb-20 bg-brand-black-1 text-white">
+        <section class="py-20 bg-brand-black-1 text-white">
             <div class="flex flex-col items-center w-10/12 mx-auto ">
                 <div class="mb-24"><img src="../assets/project-talk.png" alt="Project talk"></div>
                 <h2 class="mb-8 text-5xl font-semibold">Let's talk about your project</h2>
-                <p class="mb-16 text-xl text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
+                <p class="mb-16 text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
                 <button class="px-8 py-5 text-brand-black-1 font-bold bg-white rounded-sm">Book an appointment</button>
             </div>
         </section>
@@ -110,5 +110,11 @@ export default {
 <style scoped>
 .header {
     height: calc(100vh - 96px);
+}
+.guideline-header {
+    color: #fff;
+    -webkit-text-fill-color: #0E0F14;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-80 mb-10 px-6 py-6 bg-brand-black-2 shadow-sm" :class="border">
+    <div class="mb-10 px-6 py-6 bg-brand-black-2 shadow-sm" :class="border">
         <div class="mb-8"><img :src="imageUrl" :alt="altText"></div>
         <h4 class="mb-6 text-2xl font-semibold">{{ title }}</h4>
         <p>{{ text }}</p>

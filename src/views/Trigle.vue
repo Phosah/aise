@@ -204,13 +204,13 @@
             <h5>Onboarding to the rescue</h5>
             <p>The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
             <div class="flex items-center justify-between my-8">
-                <div><img src="../assets/phone-1.png" alt="Phone"></div>
-                <div><img src="../assets/phone-2.png" alt="Phone"></div>
-                <div><img src="../assets/phone-3.png" alt="Phone"></div>
+                <div><img class="w-24" src="../assets/phone-1.png" alt="Phone"></div>
+                <div><img class="w-24" src="../assets/phone-2.png" alt="Phone"></div>
+                <div><img class="w-24" src="../assets/phone-3.png" alt="Phone"></div>
             </div>
             <div class="flex items-center justify-between my-8">
-                <div><img src="../assets/phone-4.png" alt="Phone"></div>
-                <div><img src="../assets/phone-5.png" alt="Phone"></div>
+                <div><img class="w-24" src="../assets/phone-4.png" alt="Phone"></div>
+                <div><img class="w-24" src="../assets/phone-5.png" alt="Phone"></div>
             </div>
         </section>
         <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">

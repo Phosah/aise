@@ -5,14 +5,14 @@
         </div>
         <header class="header flex items-center justify-center max-w-7xl mx-auto py-32 px-16">
             <div class="">
-                <h3 class="w-2/3 text-5xl font-extrabold font-playfair">Simplifying user <br> experiences through <br> digital solutions</h3>
+                <h3 class="w-2/3 text-6xl font-extrabold font-playfair">Simplifying user <br> experiences through <br> digital solutions</h3>
                 <div class="transform -translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                <div class="flex w-1/2 ml-auto -translate-y-20 text-sm">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
+                <div class="flex w-1/2 ml-auto -translate-y-20">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
         </header>
-        <main class="max-w-7xl mx-auto py-20 px-16">
-            <h2 class="works-header mb-16 text-6xl lg:text-7xl text-transparent">SOME WORKS</h2>
-            <section class="flex items-center justify-between h-4/5 mb-12 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
+        <main class="max-w-7xl mx-auto mb-32 px-16">
+            <h2 class="works-header mb-28 text-9xl text-transparent">SOME WORKS</h2>
+            <section class="works-box flex items-center justify-between mb-20 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
                 <div class="flex-1">
                     <div class="w-2/3 mx-auto">
                         <h2 class="mb-4 text-xl font-semibold">Bitpowr</h2>
@@ -25,7 +25,7 @@
                     <div><img src="../assets/bitpowr-pc.png" alt="Bitpowr laptop"></div>                   
                 </div>
             </section>
-            <section class="flex items-center justify-between mb-12 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+            <section class="works-box flex items-center justify-between mb-20 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
                 <div class="flex-1">
                     <div class="w-2/3 mx-auto">
                         <h2 class="mb-4 text-xl font-semibold">Trigle</h2>
@@ -37,7 +37,7 @@
                     <img src="../assets/trigle-home.png" alt="Trigle home photo">
                 </div>
             </section>
-            <section class="flex items-center justify-between mb-12 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+            <section class="works-box flex items-center justify-between mb-20 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
                 <div class="flex-1">
                     <div class="w-2/3 mx-auto">
                         <h2 class="mb-4 text-xl font-semibold">Doorstep</h2>
@@ -115,6 +115,9 @@ export default {
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0E0F14;
+}
+.works-box {
+    height: 550px;
 }
 .testimonials-header {
     color: #fff;

@@ -35,6 +35,12 @@ module.exports = {
             1: '#FF07071a'
           },
         }
+      },
+      backgroundImage: {
+        'hero-image': "url('../src/assets/hero.png')",
+      },
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif']
       }
     },
   },

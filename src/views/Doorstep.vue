@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-6xl mx-auto">
       <NavbarDark />
-        <section class="flex items-center justify-between w-10/12 mx-auto bg-brand-green-1 text-white">
+        <section class="flex items-center justify-between w-10/12 mx-auto bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
             <div class="flex-1">
                 <div class="w-2/3 mx-auto">
                     <h2 class="mb-4 text-xl font-semibold">Doorstep</h2>

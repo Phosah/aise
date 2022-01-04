@@ -1,30 +1,14 @@
 <template>
   <div class="max-w-6xl mx-auto">
-      <!-- <NavbarDark /> -->
-        <!-- <header class="max-w-6xl mx-auto py-32">
-            <div class="bg-yellow-200">
-                <h3 class="w-2/3 text-5xl font-extrabold font-playfair bg-green-300 ">Simplifying user <br> experiences through <br> digital solutions</h3>
-                <div class="mb-6 bg-blue-400"><img class="transform -translate-y-20" src="../assets/solutions.png" alt="Creative solutions image"></div>
-                <div class="flex justify-end w-1/2 ml-auto -translate-y-24">Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</div>
-            </div>
-        </header> -->
-        <!-- <div class="bg-blue-600 text-right text-white text-2xl">Hello Osasuyi</div>
-        <div class="flex items-start">
-            <p class="text-red-600 text-center w-1/2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, esse. Molestiae ipsam nulla reprehenderit, sit eligendi illum voluptate magnam incidunt culpa reiciendis rerum cupiditate suscipit, illo nostrum blanditiis eveniet possimus.</p>
-            <img class="bg-green-300 w-72" src="../assets/business-goals.png" alt="">
-        </div>
-        <div class="heading-box">
-            <h1 class="heading">This is a heading</h1>
-        </div> -->
         <section class="flex items-center h-screen py-20 bg-brand-black-1 text-white">
             <div class="max-w-7xl mx-auto px-16">
                 <h2 class="testimonials-header mb-8 text-9xl text-transparent">TESTIMONIALS</h2>
                 <div class="flex items-center justify-between space-x-12 mb-8">
                     <div class="flex-1"><img src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex-1">
-                        <div class="flex items-end space-x-4 mb-8 text-2xl">
-                            <p class="pb-2">1.0</p>
-                            <div class="h-14 border-r border-2"></div>
+                        <div class="flex items- space-x-4 mb-8 text-2xl">
+                            <p class="pb-2 py-6 pr-8 border-r-2">1.0</p>
+                            <!-- <div class="h-14 border-r border-2"></div> -->
                             <div class="flex items-end">
                                 <img src="../assets/logo.png" alt="Aise Logo">
                                 <p class="pb-2">cunad</p>

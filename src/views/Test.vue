@@ -1,42 +1,11 @@
 <template>
-  <div class="max-w-6xl mx-auto">
-        <section class="flex items-center h-screen py-20 bg-brand-black-1 text-white">
-            <div class="max-w-7xl mx-auto px-16">
-                <h2 class="testimonials-header mb-8 text-9xl text-transparent">TESTIMONIALS</h2>
-                <div class="flex items-center justify-between space-x-12 mb-8">
-                    <div class="flex-1"><img src="../assets/testimonial-man.png" alt="Testimonial man"></div>
-                    <div class="flex-1">
-                        <div class="flex items- space-x-4 mb-8 text-2xl">
-                            <p class="pb-2 py-6 pr-8 border-r-2">1.0</p>
-                            <!-- <div class="h-14 border-r border-2"></div> -->
-                            <div class="flex items-end">
-                                <img src="../assets/logo.png" alt="Aise Logo">
-                                <p class="pb-2">cunad</p>
-                            </div>
-                        </div>
-                        <h3 class="mb-4">Emma Dorsey</h3>
-                        <p class="mb-4">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-                        <div class="flex items-center space-x-6">
-                            <img src="../assets/twitter.png" alt="Twitter Logo">
-                            <img src="../assets/linkedin.png" alt="LinkedIn Logo">
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center justify-between">
-                    <div class="flex space-x-4">
-                        <div class="border-b border-2 w-12 border-red-200"></div>
-                        <div class="border-b border-2 w-12 border-red"></div>
-                        <div class="border-b border-2 w-12 border-red"></div>
-                        <div class="border-b border-2 w-12 border-red"></div>
-                    </div>
-                    <div class="flex items-center space-x-4">
-                        <button class="rounded p-3"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
-                        <button class="rounded-full p-3 bg-white"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
-                    </div>
-                </div>
+        <header class="header flex items-center justify-center max-w-7xl mx-auto py-32 px-16">
+            <div class="bg-red-200 flex flex-col md:block items-center">
+                <h3 class="mb-12 md:mb-0 md:w-2/3 text-4xl lg:text-6xl font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
+                <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
+                <div class="md:flex md:w-1/2 md:ml-auto -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
-        </section>
-    </div>
+        </header>
 </template>
 
 <script>
@@ -53,6 +22,9 @@ export default {
 </script>
 
 <style>
+.header {
+    height: calc(100vh - 80px);
+}
 .heading-box {
     display: flex;
     justify-content: center;

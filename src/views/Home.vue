@@ -3,45 +3,45 @@
         <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
-        <header class="header flex items-center justify-center max-w-7xl mx-auto py-32 px-16">
-            <div class="">
-                <h3 class="w-2/3 text-4xl lg:text-6xl font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
-                <div class="transform -translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                <div class="flex w-1/2 ml-auto -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
+        <header class="header flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 px-16">
+            <div class="flex flex-col md:block items-center">
+                <h3 class="mb-12 md:mb-0 md:w-2/3 text-4xl lg:text-6xl font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
+                <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
+                <div class="md:flex md:w-1/2 md:ml-auto -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
         </header>
         <main class="max-w-7xl mx-auto mb-32 px-16">
-            <h2 class="works-header mb-2 text-7xl lg:text-9xl text-transparent">SOME WORKS</h2>
-            <section class="works-box flex items-center justify-between mb-20 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
-                <div class="w-1/3">
-                    <div class="ml-16">
-                        <h2 class="mb-4 text-5xl font-semibold font-playfair">Bitpowr</h2>
-                        <p class="mb-12 text-3xl font-light">Blockchain, Fintech B2B</p>
-                        <a href="#" class="inline-block pb-1 text-2xl font-semibold border-b-2">Case Study</a>
+            <h2 class="works-header mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
+                <div class="md:w-1/3 md:text-left text-center">
+                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Bitpowr</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Blockchain, Fintech B2B</p>
+                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
                     </div>
                 </div>
                 <div class="flex flex-1 justify-end">
                     <div><img class="h-96" src="../assets/bitpowr-home.png" alt="Bitpowr devices"></div>                   
                 </div>
             </section>
-            <section class="works-box flex items-center justify-between mb-20 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
-                <div class="flex-1">
-                    <div class="ml-16">
-                        <h2 class="mb-4 text-5xl font-semibold font-playfair">Trigle</h2>
-                        <p class="mb-12 text-3xl font-light">Food delivery, Commerce</p>
-                        <a href="#" class="inline-block pb-1 text-2xl font-semibold border-b-2">Case Study</a>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+                <div class="flex-1 md:text-left text-center">
+                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
+                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
                     </div>
                 </div>
                 <div class="flex-1">
                     <img src="../assets/trigle-home.png" alt="Trigle home photo">
                 </div>
             </section>
-            <section class="works-box flex items-center justify-between mb-20 py-8 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
-                <div class="flex-1">
-                    <div class="w-2/3 mx-auto">
-                        <h2 class="mb-4 text-5xl font-semibold font-playfair">Doorstep</h2>
-                        <p class="mb-12 text-3xl font-light">Logistics</p>
-                        <a href="#" class="inline-block pb-1 text-2xl font-semibold border-b-2">Case Study</a>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+                <div class="flex-1  md:text-left text-center">
+                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
+                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -51,8 +51,8 @@
         </main>
         <section class="flex items-center h-screen py-20 bg-brand-black-1 text-white">
             <div class="max-w-7xl mx-auto px-16">
-                <h2 class="testimonials-header mb-8 text-7xl lg:text-9xl text-transparent">TESTIMONIALS</h2>
-                <div class="flex items-center justify-between space-x-12 mb-8">
+                <h2 class="testimonials-header mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent">TESTIMONIALS</h2>
+                <div class="md:flex items-center justify-between space-x-12 mb-8">
                     <div class="flex-1"><img class="mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex-1">
                         <div class="flex items-center space-x-4 mb-12 text-2xl">
@@ -115,8 +115,10 @@ export default {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0E0F14;
 }
-.works-box {
-    height: 650px;
+@media screen and (min-width: 768px) { 
+    .works-box {
+        height: 650px;
+    }
 }
 .testimonials-header {
     color: #fff;

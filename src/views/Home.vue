@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="flex flex-1 justify-end">
-                    <div><img class="h-96" src="../assets/bitpowr-home.png" alt="Bitpowr devices"></div>                   
+                    <div><img class="" src="../assets/bitpowr-home.png" alt="Bitpowr devices"></div>                   
                 </div>
             </section>
             <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
@@ -49,12 +49,12 @@
                 </div>
             </section>
         </main>
-        <section class="flex items-center h-screen py-20 bg-brand-black-1 text-white">
-            <div class="max-w-7xl mx-auto px-16">
-                <h2 class="testimonials-header mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent">TESTIMONIALS</h2>
-                <div class="md:flex items-center justify-between space-x-12 mb-8">
-                    <div class="flex-1"><img class="mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
-                    <div class="flex-1">
+        <section class="flex items-center md:h-screen py-20 bg-brand-black-1 text-white">
+            <div class="max-w-7xl mx-auto md:px-16">
+                <h2 class="testimonials-header mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
+                <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
+                    <div class="flex-1 mb-8 md:mb-0"><img class="mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
+                    <div class="flex-1 px-16 md:px-0">
                         <div class="flex items-center space-x-4 mb-12 text-2xl">
                             <p class="mr-2">1.0</p>
                             <div class="h-14 border-r border-2"></div>
@@ -63,7 +63,7 @@
                                 <p class="pb-2">cunad</p>
                             </div>
                         </div>
-                        <h3 class="mb-8 text-3xl">Emma Dorsey</h3>
+                        <h3 class="mb-8 text-2xl md:text-3xl">Emma Dorsey</h3>
                         <p class="mb-8">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
                         <div class="flex items-center space-x-6">
                             <img src="../assets/twitter.png" alt="Twitter Logo">
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex items-center space-x-12">
+                <div class="flex items-center space-x-12 px-16 md:px-0">
                     <div class="flex flex-1 space-x-4">
                         <div class="border-b border-2 w-1/4"></div>
                         <div class="border-b border-2 w-1/4"></div>
@@ -85,10 +85,10 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col items-center max-w-7xl mx-auto py-20 px-16 text-brand-black-1">
+        <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
-            <h3 class="mb-8 text-5xl lg:text-7xl font-semibold">Let's talk about your project</h3>
-            <p class="mb-16 text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+            <h3 class="mb-8 text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+            <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             <button class="px-8 py-5 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <div class="max-w-7xl mx-auto">

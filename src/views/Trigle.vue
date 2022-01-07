@@ -1,62 +1,73 @@
 <template>
-  <div class="max-w-6xl mx-auto">
-        <NavbarDark />
-        <section class="flex items-center justify-between w-10/12 mx-auto bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
-            <div class="flex-1">
-                <div class="w-2/3 mx-auto">
-                    <h2 class="mb-4 text-xl font-semibold">Trigle</h2>
-                    <p class="mb-8 font-light">Food delivery, Commerce</p>
-                    <p class="inline-block font-semibold border-b">Case Study</p>
+  <div class="">
+        <div class="max-w-7xl mx-auto">
+            <NavbarDark />
+        </div>
+        <section class="max-w-7xl mx-auto px-16">
+            <div class="flex items-center justify-between bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+                <div class="flex-1">
+                    <div class="w-2/3 mx-auto">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
+                        <p class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</p>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/trigle-home.png" alt="Trigle home photo">
                 </div>
             </div>
-            <div class="flex-1">
-                <img src="../assets/trigle-home.png" alt="Trigle home photo">
+        </section>
+        <section class="max-w-7xl mx-auto px-16">
+            <div class="max-w-5xl mx-auto py-20 px-16 text-brand-black-4">
+                <h1 class="mb-8 text-6xl font-semibold text-brand-black-1 font-playfair">Trigle App Design</h1>
+                <p class="mb-16 text-xl">Bringing simplicity and flexibility to having your meals</p>
+                <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                    Trigle is a restaurant finding app with a <br> framework developed for both tourists, <br> and residents to find restaurants closest <br> to them depending on the location
+                </div>
+                <p class="lg:w-5/6 text-xl leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
             </div>
         </section>
-        <section class="max-w-xl mx-auto py-20 text-brand-black-4">
-            <h1 class="mb-8 text-5xl font-semibold text-brand-black-1">Trigle App Design</h1>
-            <p class="mb-16">Bringing simplicity and flexibility to having your meals</p>
-            <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl font-bold">
-                Trigle is a restaurant finding app with a framework developed for both tourists, and residents to find restaurants closest to them depending on the location
-            </div>
-            <p>It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
-        </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h2 class="mb-8 text-xl font-bold">The problem</h2>
-                <p class="mb-8">We live in times where so much is happening online, which keeps us locked in the world of our mobile phones becoming where everyone wants (needs) to be able to access their daily needs. This has greatly reduced the exploration that occurs from the regular strolling to see new places hence directions even in our environment are a bit unknown, so we are caught up with little knowledge of restaurants for good meals and hangouts.</p>
-                <p>Also due to the busy routine of work, there is little time to prepare your meals most times and we all need to have our healthy meal either for sustenance or for leisure with friends or having that special dinner with a loved one. But due to the lack of exploration the knowledge of good restaurants to go to or order a meal from becomes difficult.</p>
-            </div>
-            <div class="flex-1">
-                <!-- <img src="../assets/trigle-problem-1.png" alt="Guys and lady smiling and operating their mobiles."> -->
-                <img src="../assets/trigle-problem-1.png" alt="Guys and lady smiling and operating their mobiles.">
+        <section class="max-w-7xl mx-auto px-16 py-20">
+            <div class="flex items-center justify-between space-x-12">              
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">The problem</h2>
+                    <p class="mb-8">We live in times where so much is happening online, which keeps us locked in the world of our mobile phones becoming where everyone wants (needs) to be able to access their daily needs. This has greatly reduced the exploration that occurs from the regular strolling to see new places hence directions even in our environment are a bit unknown, so we are caught up with little knowledge of restaurants for good meals and hangouts.</p>
+                    <p>Also due to the busy routine of work, there is little time to prepare your meals most times and we all need to have our healthy meal either for sustenance or for leisure with friends or having that special dinner with a loved one. But due to the lack of exploration the knowledge of good restaurants to go to or order a meal from becomes difficult.</p>
+                </div>
+                <div class="flex-1 justify-end">
+                    <img class="transform translate-y-6 -translate-x-10 lg:-translate-x-0" src="../assets/trigle-problem-2.png" alt="Guys and lady smiling and operating their mobiles.">
+                    <img src="../assets/trigle-problem-1.png" alt="Guys and lady smiling and operating their mobiles.">
+                </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <img class="mb-8" src="../assets/trigle-why-1.png" alt="Ladies on tourism">
-                <img src="../assets/trigle-why-2.png" alt="Ladies eating pizza at a restaurant">
-            </div>
-            <div class="flex-1">
-                <h3 class="mb-4 text-xl font-bold">Why Trigle?</h3>
-                <p class="mb-8">With so much need and desire for good meals and the lock of time for its preparation, there has been an increase in food ordering and delivery demand</p>
-                <p class="mb-2">As good as the innovation was it still held some pain points and some of which include</p>
-                <ul class="mb-20 list-disc list-inside">
-                    <li class="px-4">Knowledge of a handful of restaurants websites or apps to order meals from</li>
-                    <li class="px-4">Humans always want to try out new things and being restricted to restaurants you know restricts that</li>
-                    <li class="px-4">There is also a high need for a change of environment to clear the head or have a nice time with friends or loved ones which requires you to go physically to the restaurants</li>
-                </ul>
-                <p class="mb-8">With Trigle having its logistics services small restaurants have nothing to worry about not being able to deliver meals fast as that was their major concern</p>
-                <p>It also gives you real-life AR directions to the restaurants for those who want to eat in this eradicates the stress of asking your way around or trying to figure out the complex maps</p>
+        <section class="max-w-7xl mx-auto px-16 py-20">
+            <div class="flex items-center justify-between space-x-12 ">                
+                <div class="flex-1">
+                    <img class="mb-8" src="../assets/trigle-why-1.png" alt="Ladies on tourism">
+                    <img src="../assets/trigle-why-2.png" alt="Ladies eating pizza at a restaurant">
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Why Trigle?</h3>
+                    <p class="mb-8">With so much need and desire for good meals and the lock of time for its preparation, there has been an increase in food ordering and delivery demand</p>
+                    <p class="mb-2">As good as the innovation was it still held some pain points and some of which include</p>
+                    <ul class="mb-20 list-disc list-inside">
+                        <li class="px-4">Knowledge of a handful of restaurants websites or apps to order meals from</li>
+                        <li class="px-4">Humans always want to try out new things and being restricted to restaurants you know restricts that</li>
+                        <li class="px-4">There is also a high need for a change of environment to clear the head or have a nice time with friends or loved ones which requires you to go physically to the restaurants</li>
+                    </ul>
+                    <p class="mb-8">With Trigle having its logistics services small restaurants have nothing to worry about not being able to deliver meals fast as that was their major concern</p>
+                    <p>It also gives you real-life AR directions to the restaurants for those who want to eat in this eradicates the stress of asking your way around or trying to figure out the complex maps</p>
+                </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
+        <section class="max-w-7xl mx-auto py-20 pl-16">
+        <div class="flex items-center justify-between space-x-12">
             <div class="flex-1">
-                <h3 class="`mb-4 text-xl font-bold`">Our target users</h3>
+                <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Our target users</h3>
                 <p class="mb-8">The age range for our main target audience from the research was estimated to be between the ages of 20-35 years old as the major users having statistics of 68% of food ordering requests coming from that age range, this doesn't stop the design from being tailored for all but helps focus on our major users needs more in-depth
                 </p>
                 <p>With a vast majority falling into the category of</p>
-                <ol class="list-decimal">
+                <ol class="list-decimal px-5">
                     <li>Remote workers.</li>
                     <li>College students.</li>
                     <li>Unmarried</li>
@@ -64,16 +75,19 @@
                 </ol>
             </div>
             <div class="flex-1">
-                <img src="../assets/target-users.png" alt="Target users">
+                <img class="h-full" src="../assets/target-users.png" alt="Target users">
             </div>
+        </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h3 class="mb-4 text-xl font-bold">Business growth</h3>
-                <p>With so much growth and increase in the online food delivery service, it is an enticing and robust market because it deals with a daily satisfaction of human consumption need and an everyday necessity. The research was taken on the potential growth of the product in the next coming years and from survey, an analysis was determined, one of which is <br>In 2020, China’s market size of online food delivery services reached 102 billion dollars. </p>              
-            </div>
-            <div class="flex-1">
-                <h3 class="mb-4 text-xl font-bold">Estimated growth</h3>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Business growth</h3>
+                    <p class="mb-8">With so much growth and increase in the online food delivery service, it is an enticing and robust market because it deals with a daily satisfaction of human consumption need and an everyday necessity. The research was taken on the potential growth of the product in the next coming years and from survey, an analysis was determined, one of which is </p> <p>In 2020, China’s market size of online food delivery services reached 102 billion dollars. </p>              
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Estimated growth</h3>
+                </div>
             </div>
         </section>
         <section class="w-10/12 mx-auto py-20">

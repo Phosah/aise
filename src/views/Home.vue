@@ -3,11 +3,11 @@
         <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
-        <header class="header flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 px-16">
+        <header class="header flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 md:px-16">
             <div class="flex flex-col md:block items-center">
-                <h3 class="mb-12 md:mb-0 md:w-2/3 text-4xl lg:text-6xl font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
+                <h3 class="mb-12 md:mb-0 md:w-2/3 px-16 md:px-0 text-3xl md:text-4xl lg:text-6xl font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
                 <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                <div class="md:flex md:w-1/2 md:ml-auto -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
+                <div class="md:flex md:w-1/2 md:ml-auto px-16 md:px-0 -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
         </header>
         <main class="max-w-7xl mx-auto mb-32 px-16">
@@ -85,10 +85,12 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 px-16 text-brand-black-1">
+        <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
-            <h3 class="mb-8 text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
-            <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+            <div class="px-16 md:px-0">
+                <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+            </div>
             <button class="px-8 py-5 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <div class="max-w-7xl mx-auto">

@@ -145,96 +145,104 @@
                 </div>
             </div>
         </section>
-        <section class="py-20">
-            <div class="flex items-center justify-between space-x-12 w-10/12 mx-auto">
-                <div>
-                    <div><img src="../assets/samuel.png" alt=""></div>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-10 mb-16">
+                <div class="w-1/3">
+                    <img src="../assets/samuel.png" alt="">
                 </div>
-                <div>
-                    <h3 class="mb-4 text-xl font-bold">Samuel LeJourn</h3>
-                    <p>Samuel is an Accountant with over 3 years of working experience, he is a graduate of the Covenant University Ota. He is calm, inquisitive, career-driven and a lover of family</p>
-                </div>
-            </div>
-            <div class="flex items-center justify-between space-x-12 w-10/12 mx-auto">
-                <div>
-                    <p><span>Age:</span>20 years old</p>
-                    <p><span>Occupation:</span>Engineer</p>
-                    <p><span>Status:</span>Single</p>
-                </div>
-                <div>
-                    <h4>Goals and needs</h4>
-                    <p>Samuel moves from site to site depending on the job and most times it carries me interstates, hence Samuel needs to be able to get a good meal of my choice regardless of being new in town</p>
-                </div>
-                <div>
-                    <h4>Pain points</h4>
-                    <p>Difficulty in communicating with foreigners in the new environment so getting recommendations is difficult, then after getting recommendations, getting directions to the restaurants gets difficult</p>
+                <div class="w-2/3">
+                    <h3 class="mb-4 text-3xl lg:text-5xl font-bold font-playfair">Samuel LeJourn</h3>
+                    <p class="text-lg">Samuel is an Accountant with over 3 years of working experience, he is a graduate of the Covenant University Ota. He is calm, inquisitive, career-driven and a lover of family</p>
                 </div>
             </div>
-        </section>
-        <section class="py-20">
-            <div class="flex items-center justify-between space-x-12 w-10/12 mx-auto">
-                <div>
-                    <div><img src="../assets/ari.png" alt=""></div>
+            <div class="flex justify-between space-x-10">
+                <div class="w-1/3">
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Age:</span>20 years old</p>
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Occupation:</span>Engineer</p>
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Status:</span>Single</p>
                 </div>
-                <div>
-                    <h3 class="mb-4 text-xl font-bold">Samuel LeJourn</h3>
-                    <p>Ari is a graphic illustrator that lives in New York With over 3 years of working experience and over 200 successful designs. She is a lover of memes and appreciates the company of friends</p>
-                </div>
-            </div>
-            <div class="flex items-center justify-between space-x-12 w-10/12 mx-auto">
-                <div>
-                    <p><span>Age:</span>24 years old</p>
-                    <p><span>Occupation:</span>Illusstrator</p>
-                    <p><span>Status:</span>Single</p>
-                </div>
-                <div>
-                    <h4>Goals and needs</h4>
-                    <p>Ari needs to be able to explore around the city to see various forms of like and their meals are a key part of that life and having a place(s) where she can sit with friends and share the moments</p>
-                </div>
-                <div>
-                    <h4>Pain points</h4>
-                    <p>Knowledge of varieties of restaurants to hang out with friends or meet new people so she ends up exploring the same old places over again, it gets tiring. Also difficulty in navigating to a new restaurant even when an address is given, the use of google maps are not as easy as the app makes it sound</p>
+                <div class="flex space-x-6 w-2/3">
+                    <div>
+                        <h4 class="text-xl lg:text-2xl font-bold mb-4">Goals and needs</h4>
+                        <p class="text-sm">Samuel moves from site to site depending on the job and most times it carries me interstates, hence Samuel needs to be able to get a good meal of my choice regardless of being new in town</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl lg:text-2xl font-bold mb-4">Pain points</h4>
+                        <p class="text-sm">Difficulty in communicating with foreigners in the new environment so getting recommendations is difficult, then after getting recommendations, getting directions to the restaurants gets difficult</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h3 class="mb-4 text-xl font-bold">How might we</h3>
-            <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
-            <div class="flex space-x-4">
-                <div class="p-3 bg-red-500">
-                    Create a way to access to <span class="font-bold">multiple restaurants</span> at the same time
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-10 mb-16">
+                <div class="w-1/3">
+                    <img src="../assets/ari.png" alt="">
                 </div>
-                <div class="p-3 bg-red-500">
-                    How might we be able to <span class="font-bold">book a space</span> for hangouts with friends
+                <div class="w-2/3">
+                    <h3 class="mb-4 text-3xl lg:text-5xl font-bold font-playfair">Samuel LeJourn</h3>
+                    <p class="text-lg">Ari is a graphic illustrator that lives in New York With over 3 years of working experience and over 200 successful designs. She is a lover of memes and appreciates the company of friends</p>
                 </div>
-                <div class="p-3 bg-red-500">
-                    Get clear <span class="font-bold">directions to such restaurants</span> without a third party help
+            </div>
+            <div class="flex justify-between space-x-10">
+                <div class="w-1/3 pl-12">
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Age:</span> 24 years old</p>
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Occupation:</span> Illustrator</p>
+                    <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Status:</span> Single</p>
+                </div>
+                <div class="flex space-x-6 w-2/3">
+                    <div>
+                        <h4 class="text-xl lg:text-2xl font-bold mb-4">Goals and needs</h4>
+                        <p class="text-sm">Ari needs to be able to explore around the city to see various forms of like and their meals are a key part of that life and having a place(s) where she can sit with friends and share the moments</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl lg:text-2xl font-bold mb-4">Pain points</h4>
+                        <p class="text-sm">Knowledge of varieties of restaurants to hang out with friends or meet new people so she ends up exploring the same old places over again, it gets tiring. Also difficulty in navigating to a new restaurant even when an address is given, the use of google maps are not as easy as the app makes it sound</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h3 class="mb-4 text-xl font-bold">Product Goal</h3>
-            <p class="mb-4">From results gotten from research and identifying of users pain points, we discovered that users want to be able to have their meals regardless of location or language, also they want to be able to have space where they can create memories with friends and loved ones. hence these solutions were brought to life and are listed below.</p>
-            <div class="flex space-x-4">
-                <div>
-                    <div><img src="../assets/reservation.png" alt="Reservation"></div>
-                    <h5>Space reservation</h5>
-                    <p>The ability to reserve a spot in the restaurant for yourself and loved one so you don't have to hope you meet space and probably be disappointed</p>
-                </div>
-                <div>
-                    <div><img src="../assets/order.png" alt="Order"></div>
-                    <h5>Make an order</h5>
-                    <p>This is the standard and most basic for any restaurant app and that's being able to order food of your choice now from a range of available stores/restaurants</p>
-                </div>
-                <div>
-                    <div><img src="../assets/ar.png" alt="AR Directions"></div>
-                    <h5>AR Directions</h5>
-                    <p>Due to the constant pain points of users having issues with locating the restaurants due to their unfamiliarity of the terrain and the complexity of understanding google maps, a more simplified means of direction pointers should be used</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="">
+                <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">How might we</h3>
+                <p class="w-2/3 mb-8">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
+                <div class="flex space-x-8 lg:space-x-14">
+                    <div class="p-6 bg-brand-gray-light-1 rounded-md">
+                        Create a way to access to <span class="font-bold">multiple restaurants</span> at the same time
+                    </div>
+                    <div class="p-6 bg-brand-gray-light-1 rounded-md">
+                        How might we be able to <span class="font-bold">book a space</span> for hangouts with friends
+                    </div>
+                    <div class="p-6 bg-brand-gray-light-1 rounded-md">
+                        Get clear <span class="font-bold">directions to such restaurants</span> without a third party help
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <div class="mb-8"><img src="../assets/map-ordering.png" alt="User Journey map (Ordering)"></div>
+        <section class="max-w-7xl mx-auto mb-20 py-20 px-16">
+            <div class="">
+                <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Product Goal</h3>
+                <p class="mb-14">From results gotten from research and identifying of users pain points, we discovered that users want to be able to have their meals regardless of location or language, also they want to be able to have space where they can create memories with friends and loved ones. hence these solutions were brought to life and are listed below.</p>
+                <div class="flex space-x-8 lg:space-x-12">
+                    <div>
+                        <div class="mb-8"><img src="../assets/reservation.png" alt="Reservation"></div>
+                        <h5 class="mb-4 text-xl lg:text-2xl font-bold">Space reservation</h5>
+                        <p>The ability to reserve a spot in the restaurant for yourself and loved one so you don't have to hope you meet space and probably be disappointed</p>
+                    </div>
+                    <div>
+                        <div class="mb-8"><img src="../assets/order.png" alt="Order"></div>
+                        <h5 class="mb-4 text-xl lg:text-2xl font-bold">Make an order</h5>
+                        <p>This is the standard and most basic for any restaurant app and that's being able to order food of your choice now from a range of available stores/restaurants</p>
+                    </div>
+                    <div>
+                        <div class="mb-8"><img src="../assets/ar.png" alt="AR Directions"></div>
+                        <h5 class="mb-4 text-xl lg:text-2xl font-bold">AR Directions</h5>
+                        <p>Due to the constant pain points of users having issues with locating the restaurants due to their unfamiliarity of the terrain and the complexity of understanding google maps, a more simplified means of direction pointers should be used</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="mb-28"><img src="../assets/map-ordering.png" alt="User Journey map (Ordering)"></div>
             <div><img src="../assets/map-booking.png" alt="User Journey map (Booking)"></div>
         </section>
         <section class="w-10/12 mx-auto py-20">

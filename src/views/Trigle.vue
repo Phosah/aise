@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="text-brand-black-4">
         <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
@@ -80,45 +80,69 @@
         </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="flex items-center justify-between space-x-12">
+            <div class="flex justify-between space-x-12">
                 <div class="flex-1">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Business growth</h3>
                     <p class="mb-8">With so much growth and increase in the online food delivery service, it is an enticing and robust market because it deals with a daily satisfaction of human consumption need and an everyday necessity. The research was taken on the potential growth of the product in the next coming years and from survey, an analysis was determined, one of which is </p> <p>In 2020, China’s market size of online food delivery services reached 102 billion dollars. </p>              
                 </div>
                 <div class="flex-1">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Estimated growth</h3>
+                    <div class="">
+                        <div class="flex items-center space-x-2 w-7/12 mb-4">
+                            <p>2017</p>
+                            <div class="flex justify-end py-2 px-3 bg-brand-gray-light-2 w-full font-semibold rounded-md">$337</div>
+                        </div>
+                        <div class="flex items-center space-x-2 w-8/12 mb-4">
+                            <p>2021</p>
+                            <div class="flex justify-end py-2 px-3 bg-brand-orange-3 w-full font-semibold text-white rounded-md">$375</div>
+                        </div>
+                        <div class="flex items-center space-x-2 w-10/12 mb-4">
+                            <p>2025</p>
+                            <div class="flex justify-end py-2 px-3 bg-brand-gray-light-2 w-full font-semibold rounded-md">$470</div>
+                        </div>
+                        <div class="flex items-center space-x-2 mb-4">
+                            <p>2030</p>
+                            <div class="flex justify-end py-2 px-3 bg-brand-gray-light-2 w-full font-semibold rounded-md">$650</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <div class="mb-8">
-                <h2 class="mb-4 text-2xl font-bold">The process</h2>
-                <p class="mb-8">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
-                <p>Project timeline: <span class="font-bold">4 weeks</span></p>
-            </div>
-            <div class="flex space-x-4">
-                <div class="p-2 rounded-md bg-red-500">Stakeholder meetings</div>
-                <div class="p-2 rounded-md bg-red-500">Reviews</div>
-                <div class="p-2 rounded-md bg-red-500">UX design</div>
-                <div class="p-2 rounded-md bg-red-500">UI design</div>
-                <div class="p-2 rounded-md bg-red-500">Testing</div>
-                <div class="p-2 rounded-md bg-red-500">Documentation</div>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="">
+                <div class="mb-24 text-center">
+                    <h2 class="mb-8 text-6xl font-semibold text-brand-black-1 font-playfair">The process</h2>
+                    <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
+                    <p>Project timeline: <span class="font-bold">4 weeks</span></p>
+                </div>
+                <div class="flex flex-wrap justify-center space-x-4 text-white font-semibold">
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-blue-3 via-brand-blue-4 to-brand-blue-5">Stackholder meetings</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-green-2 to-brand-green-3">Reviews</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-pink-1 to-brand-pink-2">UX design</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-orange-4 to-brand-orange-5">UI design</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-purple-2 to-brand-purple-3">Testing</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-red-2 to-brand-red-3">Documentation</div>
+                </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div>
-                <img src="../assets/person-1.png" alt="Person">
-                <img src="../assets/person-2.png" alt="Person">
-                <img src="../assets/person-3.png" alt="Person">
-                <img src="../assets/person-4.png" alt="Person">
-                <img src="../assets/person-5.png" alt="Person">
-                <img src="../assets/person-6.png" alt="Person">
-            </div>
-            <div>
-                <h3 class="mb-4 text-xl font-bold">Research</h3>
-                <p class="mb-8">After listening carefully to stakeholders and the product owners, since they are the first source of information source as they were the ones with the project idea and brief and have to an extent gotten down a bit of research of their own, I began with the UX phase which started with series of intense research.</p>
-                <p>The research comprised of both offline and scheduled offline interviews, then competitive research of other food delivering and restaurant apps.
-                In this process users needs were identified and understood in an in-depth manner and from this personas were generated to be able to personalize the pain points, challenges and identify the core requirements of users</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <div class="">
+                        <img class="" src="../assets/person-2.png" alt="Person">
+                        <img class="transform translate-x-64 translate-y-32" src="../assets/person-1.png" alt="Person">
+                        <img src="../assets/person-3.png" alt="Person">
+                        <img class="transform -translate-y-36 translate-x-28"  src="../assets/person-4.png" alt="Person">
+                        <img class="transform -translate-y-96 translate-x-56" src="../assets/person-5.png" alt="Person">
+                        <img class="transform -translate-y-44 translate-x-24" src="../assets/person-6.png" alt="Person">
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Research</h3>
+                    <p class="mb-8">After listening carefully to stakeholders and the product owners, since they are the first source of information source as they were the ones with the project idea and brief and have to an extent gotten down a bit of research of their own, I began with the UX phase which started with series of intense research.</p>
+                    <p>The research comprised of both offline and scheduled offline interviews, then competitive research of other food delivering and restaurant apps.
+                    In this process users needs were identified and understood in an in-depth manner and from this personas were generated to be able to personalize the pain points, challenges and identify the core requirements of users</p>
+                </div>
             </div>
         </section>
         <section class="py-20">

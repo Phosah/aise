@@ -19,7 +19,7 @@
         </section>
         <section class="max-w-7xl mx-auto px-16">
             <div class="max-w-5xl mx-auto py-20 px-16 text-brand-black-4">
-                <h1 class="mb-8 text-6xl font-semibold text-brand-black-1 font-playfair">Trigle App Design</h1>
+                <h1 class="mb-8 text-6xl font-semibold font-playfair">Trigle App Design</h1>
                 <p class="mb-16 text-xl">Bringing simplicity and flexibility to having your meals</p>
                 <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
                     Trigle is a restaurant finding app with a <br> framework developed for both tourists, <br> and residents to find restaurants closest <br> to them depending on the location
@@ -111,7 +111,7 @@
         <section class="max-w-7xl mx-auto py-20 px-16">
             <div class="">
                 <div class="mb-24 text-center">
-                    <h2 class="mb-8 text-6xl font-semibold text-brand-black-1 font-playfair">The process</h2>
+                    <h2 class="mb-8 text-6xl font-semibold font-playfair">The process</h2>
                     <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                     <p>Project timeline: <span class="font-bold">4 weeks</span></p>
                 </div>
@@ -245,124 +245,119 @@
             <div class="mb-28"><img src="../assets/map-ordering.png" alt="User Journey map (Ordering)"></div>
             <div><img src="../assets/map-booking.png" alt="User Journey map (Booking)"></div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h1>EXPLORE</h1>
-            <h5>Onboarding to the rescue</h5>
-            <p>The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
-            <div class="flex items-center justify-between my-8">
-                <div><img class="w-24" src="../assets/phone-1.png" alt="Phone"></div>
-                <div><img class="w-24" src="../assets/phone-2.png" alt="Phone"></div>
-                <div><img class="w-24" src="../assets/phone-3.png" alt="Phone"></div>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h1 class="mb-8 text-6xl font-semibold font-playfair text-center">Onboarding to the rescue</h1>
+            <p class="w-2/3 lg:w-2/4 mx-auto text-center">The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
+            <div class="flex items-center justify-center space-x-14 my-16">
+                <div><img class="" src="../assets/phone-1.png" alt="Phone"></div>
+                <div><img class="" src="../assets/phone-2.png" alt="Phone"></div>
+                <div><img class="" src="../assets/phone-3.png" alt="Phone"></div>
             </div>
-            <div class="flex items-center justify-between my-8">
-                <div><img class="w-24" src="../assets/phone-4.png" alt="Phone"></div>
-                <div><img class="w-24" src="../assets/phone-5.png" alt="Phone"></div>
-            </div>
-        </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h1>HOME</h1>
-                <h3 class="mb-4">Home screen</h3>
-                <p>The home screen is comprises of all the restaurants listed on the platform and broken down into categories of specilaization for users to utilize the quick filter selection to navigate through</p>
-                <p>Also the home welcomes first time users to complete profile and by doing so gives you points which could be used when accumulated to make an order, this process was created to gamify the app, this tends to make the users comfortable making orders knowing there is a bouns reward on te way</p>
-            </div>
-            <div class="flex flex-1">
-                <img class="w-32" src="../assets/home-screen-phone-2.png" alt="Phones">
-                <img class="w-32" src="../assets/home-screen-phone-1.png" alt="Phones">
+            <div class="flex items-center justify-center space-x-14 w-2/3 mx-auto my-8">
+                <div><img class="" src="../assets/phone-4.png" alt="Phone"></div>
+                <div><img class="" src="../assets/phone-5.png" alt="Phone"></div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex flex-1">
-                <img class="w-32" src="../assets/home-screen-phone-2.png" alt="Phones">
-                <img class="w-32" src="../assets/home-screen-phone-1.png" alt="Phones">
-            </div>
-             <div class="flex-1">
-                <h1>RESTAURANTS</h1>
-                <h3 class="mb-4">Restaurant page</h3>
-                <p>This view is for the selected restaurant, you get to have banner of a meal the reason is to give an expectation of what the restaurant offers, which in turn increases possibilities of making a purchase from that restaurant. A good banner increases order by 50%</p>
-                <p>The second screen indicates when the user scrolls upwards, to prevent indicators of the restaurant you are on to leave leaving you guessing where you are again, the micro interaction works in such a way that the logo and name changes poition to the top onscroll</p>
-            </div>
-        </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-             <div class="flex-1">
-                <h1>FEATURES</h1>
-                <h3 class="mb-4">Other features</h3>
-                <p class="mb-8">These compirses of</p>
-                <ol class="list-italic">
-                    <li class="mb-4">The AR direction feature: when in a restaurant, once you navigate to the locations, there is a display of an overview of the location and potential time estimate depending on your mode of transport. Clicking on te GET DIRECTIONS button brings up the AR feature that gives precise view and directions to your destination</li>
-                    <li>The next feature is the book a reservation: here the user has the ability to select a date, the number of guests that would be with him or a reservation for himself alone and the time he would want to come</li>
-                </ol>
-                <p>This view is for the selected restaurant, you get to have banner of a meal the reason is to give an expectation of what the restaurant offers, which in turn increases possibilities of making a purchase from that restaurant. A good banner increases order by 50%</p>
-                <p>The second screen indicates when the user scrolls upwards, to prevent indicators of the restaurant you are on to leave leaving you guessing where you are again, the micro interaction works in such a way that the logo and name changes poition to the top onscroll</p>
-            </div>
-            <div class="flex flex-1">
-                <img class="w-32" src="../assets/home-screen-phone-2.png" alt="Phones">
-                <img class="w-32" src="../assets/home-screen-phone-1.png" alt="Phones">
-                <img class="w-32" src="../assets/home-screen-phone-1.png" alt="Phones">
-            </div>
-        </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h1>PAYMENT OPTIONS</h1>
-            <h3 class="mb-4">Payment options</h3>
-            <p class="mb-8">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
-            <div class="flex items-center justify-between space-x-4">
-                <img class="w-32" src="../assets/payment-phone-1.png" alt="Payment phone">
-                <img class="w-32" src="../assets/payment-phone-2.png" alt="Payment phone">
-                <img class="w-32" src="../assets/payment-phone-3.png" alt="Payment phone">
-                <img class="w-32" src="../assets/payment-phone-4.png" alt="Payment phone">
-            </div>
-        </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h1>OTHERS</h1>
-            <h3>+70 design screens</h3>
-            <div><img src="../assets/others.png" alt="Screens"></div>
-            <div class="py-20 bg-gray-800">
-                <div class="flex items-center justify-center space-x-4">
-                    <img class="w-8" src="../assets/other-phone.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-2.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-3.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-4.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-5.png" alt="Phone">
-                    <img class="w-10" src="../assets/other-phone-6.png" alt="Phone">
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Home screen</h3>
+                    <p class="mb-8">The home screen is comprises of all the restaurants listed on the platform and broken down into categories of specilaization for users to utilize the quick filter selection to navigate through</p>
+                    <p>Also the home welcomes first time users to complete profile and by doing so gives you points which could be used when accumulated to make an order, this process was created to gamify the app, this tends to make the users comfortable making orders knowing there is a bouns reward on te way</p>
                 </div>
-                <div class="flex items-center justify-center space-x-4">
-                    <img class="w-8" src="../assets/other-phone-7.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-8.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-9.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-10.png" alt="Phone">
-                    <img class="w-24" src="../assets/other-phone-11.png" alt="Phone">
-                    <img class="w-10" src="../assets/other-phone-12.png" alt="Phone">
+                <div class="flex-1">
+                    <img class="" src="../assets/home-screen-photo.png" alt="Phones">
                 </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div>
-                <h1>SUCCESS</h1>
-                <h3 class="mb-8">Success measurement</h3>
-                <p>To measure the success of this interface which would guiide iterations i would focus on</p>
-                <ol class="list-italic">
-                    <li>How many dropoffs happend when creating an order </li>
-                    <li>Do users get lost or confuded in using the AR direction mapping</li>
-                    <li>How many users dropped of during creating a reservation due to complexity</li>
-                </ol>
-            </div>
-            <div><img src="../assets/thumbs-up.png" alt="Hand"></div>
-        </section>
-        <section class="w-10/12 mx-auto py-20">
-        <h2 class="mb-8">Other Projects</h2>
-            <div class="grid md:grid-cols-2 gap-10">
-                <template v-for="(project, index) in projects" :key="index">
-                    <DesignGuidelines :imageUrl="project.imageUrl" :title="project.title" :text="project.text" :altText="project.altText" :class="project.border"/>
-                </template>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <img class="" src="../assets/restaurant-page-photo.png" alt="Phones">
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Restaurant page</h3>
+                    <p class="mb-8">This view is for the selected restaurant, you get to have banner of a meal the reason is to give an expectation of what the restaurant offers, which in turn increases possibilities of making a purchase from that restaurant. A good banner increases order by 50%</p>
+                    <p>The second screen indicates when the user scrolls upwards, to prevent indicators of the restaurant you are on to leave leaving you guessing where you are again, the micro interaction works in such a way that the logo and name changes poition to the top onscroll</p>
+                </div>
             </div>
         </section>
-        <section class="py-20">
-            <div class="flex flex-col items-center w-10/12 mx-auto ">
-                <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk"></div>
-                <h2 class="mb-8 text-4xl md:text-5xl font-semibold">Let's talk about your project</h2>
-                <p class="mb-16 text-xl font-light md:text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
-                <button class="px-8 py-5 bg-brand-black-1 text-white font-bold bg-white rounded-sm">Book an appointment</button>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Other features</h3>
+                    <p class="mb-6">These compirses of</p>
+                    <ol class="list-decimal pl-5">
+                        <li class="mb-4">The AR direction feature: when in a restaurant, once you navigate to the locations, there is a display of an overview of the location and potential time estimate depending on your mode of transport. Clicking on te GET DIRECTIONS button brings up the AR feature that gives precise view and directions to your destination</li>
+                        <li>The next feature is the book a reservation: here the user has the ability to select a date, the number of guests that would be with him or a reservation for himself alone and the time he would want to come</li>
+                    </ol>
+                </div>
+                <div class="flex flex-1">
+                    <img class="" src="../assets/other-features-photo.png" alt="Phones">
+                </div>
             </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h3 class="mb-8 text-6xl font-semibold font-playfair text-center">Payment options</h3>
+            <p class="w-2/3 lg:w-2/4 mx-auto mb-24 text-center">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
+            <div class="flex items-center justify-between space-x-8">
+                <img class="" src="../assets/payment-phone-1.png" alt="Payment phone">
+                <img class="" src="../assets/payment-phone-2.png" alt="Payment phone">
+                <img class="" src="../assets/payment-phone-3.png" alt="Payment phone">
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto pt-20">
+            <h3 class="mb-24 text-6xl font-semibold font-playfair text-center">+70 design screens</h3>
+            <div><img src="../assets/screens.png" alt="Screens"></div>
+        </section>
+        <section class="max-w-7xl mx-auto py-36 bg-brand-black-6">
+            <div class="">
+                <div class="flex flex-wrap items-center justify-center space-x-4 mb-14">
+                    <img class="flex-1 w-24" src="../assets/other-phone-1.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-2.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-3.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-4.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-5.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-6.png" alt="Phone">
+                </div>
+                <div class="flex items-center justify-center space-x-4">
+                    <img class="flex-1 w-24" src="../assets/other-phone-7.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-8.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-9.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-10.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-11.png" alt="Phone">
+                    <img class="flex-1 w-24" src="../assets/other-phone-12.png" alt="Phone">
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Success measurement</h3>
+                    <p class="mb-8">To measure the success of this interface which would guiide iterations i would focus on</p>
+                    <ol class="list-decimal pl-5">
+                        <li>How many dropoffs happend when creating an order </li>
+                        <li>Do users get lost or confuded in using the AR direction mapping</li>
+                        <li>How many users dropped of during creating a reservation due to complexity</li>
+                    </ol>
+                </div>
+                <div class="flex-1"><img class="mx-auto" src="../assets/success-photo.png" alt="Hand"></div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+        <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
+        <div class="flex items-center justify-between space-x-8">
+            <div><img src="../assets/bitpowr.png" alt="Bitpowr"></div>
+            <div><img src="../assets/doorstep.png" alt="Doorstep"></div>
+        </div>
+        </section>
+       <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">
+            <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
+            <div class="px-16 md:px-0">
+                <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+            </div>
+            <button class="px-8 py-6 font-bold rounded-md text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <div class="">
             <FooterDark />
@@ -373,29 +368,12 @@
 <script>
 import NavbarDark from '../components/NavbarDark'
 import FooterDark from '../components/FooterDark'
-import DesignGuidelines from '../components/DesignGuidelines'
+
 export default {
     name: 'Trigle',
-    components: { NavbarDark, FooterDark, DesignGuidelines },
+    components: { NavbarDark, FooterDark},
     data() {
         return {
-            projects: [
-                {
-                    imageUrl: require("../assets/empower.png"),
-                    altText: "Empower icon",
-                    title: "Empathy",
-                    text: "Finite design maximizes the overall quality of time spent by bounding the experience and prioritizing meaningful and relevant content.",
-                    border: "border-t-2 border-blue-400 rounded-md"
-                },
-                {
-                    imageUrl: require("../assets/empower.png"),
-                    altText: "Empower icon",
-                    title: "Inclusivity",
-                    text: "Inclusive design is a methodology that enables and draws on the full range of human diversity.",
-                    border: "border-t-2 border-blue-400 rounded-md"
-                },
-
-            ]
         }
     }
 }

@@ -370,8 +370,8 @@
         <section class="max-w-7xl mx-auto py-20 px-16">
             <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
             <div class="flex items-center justify-between space-x-8">
-                <div><img src="../assets/bitpowr.png" alt="Bitpowr"></div>
-                <div><img src="../assets/doorstep.png" alt="Doorstep"></div>
+                <router-link to="/"><div><img src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
+                <router-link to="/doorstep"><div><img src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
             </div>
         </section>
        <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">

@@ -29,7 +29,7 @@
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
                         <p class="mb-12 text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
-                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
+                        <router-link to="/trigle" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -41,7 +41,7 @@
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
                         <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
-                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
+                        <router-link to="/doorstep" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
                     </div>
                 </div>
                 <div class="flex-1">

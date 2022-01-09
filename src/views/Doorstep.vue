@@ -1,36 +1,44 @@
 <template>
-    <div class="max-w-6xl mx-auto">
-        <NavbarDark />
-        <section class="flex items-center justify-between w-10/12 mx-auto bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
-            <div class="flex-1">
-                <div class="w-2/3 mx-auto">
-                    <h2 class="mb-4 text-xl font-semibold">Osasuyi</h2>
-                    <p class="mb-8 font-light">Logistics</p>
-                    <p class="inline-block font-semibold border-b">Case Study</p>
+    <div class="text-brand-black-4">
+        <div class="max-w-7xl mx-auto">
+            <NavbarDark />
+        </div>
+        <section class="max-w-7xl mx-auto px-16">
+            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+                <div class="flex-1">
+                    <div class="w-2/3 mx-auto">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
+                        <p class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</p>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
                 </div>
             </div>
-            <div class="flex-1">
-                <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="max-w-5xl mx-auto px-16">
+                <h1 class="mb-8 text-6xl font-semibold font-playfair">Doorstep Logistics</h1>
+                <p class="mb-16 text-xl">The fastest way to ship your packages and parcels around the world</p>
+                <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                    Doorstep is a solution that helps to <br> simplify logistics and shipping services to ensure quick delivery of packages in a simplified processes
+                </div>
+                <p class="lg:w-5/6 text-xl leading-8">Sending of documents and parcels have been in high demand as a result of expanding businesses and inter country trading. It gets to solve this by its provision of an integration sync with the tracking ID of the platform to constantly keep you in the loop.</p>
             </div>
         </section>
-        <section class="max-w-xl mx-auto py-20 text-brand-black-4">
-            <h1 class="mb-8 text-5xl font-semibold text-brand-black-1">Doorstep Logistics</h1>
-            <p class="mb-16">The fastest way to ship your packages and parcels around the world</p>
-            <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl font-bold">
-                Doorstep is a solution that helps to simplify logistics and shipping services to ensure quick delivery of packages in a simplified processes
-            </div>
-            <p>Sending of documents and parcels have been in high demand as a result of expanding businesses and inter country trading. It gets to solve this by its provision of an integration sync with the tracking ID of the platform to constantly keep you in the loop.</p>
-        </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h2 class="mb-8 text-xl font-bold">Project responsibilities</h2>
-                <p class="mb-8">During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
-            </div>
-            <div class="flex-1">
-                <img src="../assets/project-photo.png" alt="Project">
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Project responsibilities</h2>
+                    <p class="mb-8">During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/project-photo.png" alt="Project">
+                </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
+        <!-- <section class="max-w-7xl mx-auto py-20 px-16">
             <div class="grid md:grid-cols-2 gap-10">
                 <template v-for="(project, index) in projects" :key="index">
                     <ProjectResponsibilities 
@@ -43,12 +51,12 @@
                     />
                 </template>
             </div>
-        </section>
-        <section class="w-10/12 mx-auto py-20">
+        </section> -->
+        <section class="max-w-7xl mx-auto py-20 px-16">
             <div class="grid md:grid-cols-2 gap-10">
                 <div class="mb-10 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
                     <div class="mb-8"><img class="p-4 bg-brand-purple-1 rounded-md" src="../assets/discover-icon.png" alt="Discover"></div>
-                    <h4 class="mb-6 text-2xl font-semibold">Discover</h4>
+                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Discover</h4>
                     <p class="mb-6">Discovery was the first phase in the UX-design process that involved</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-purple-1 rounded-full" src="../assets/tick-purple.png" alt="tick"></div>
@@ -69,7 +77,7 @@
                 </div>
                 <div class="mb-10 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
                     <div class="mb-8"><img class="p-4 bg-brand-blue-2 rounded-md" src="../assets/define-icon.png" alt="Discover"></div>
-                    <h4 class="mb-6 text-2xl font-semibold">Define</h4>
+                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Define</h4>
                     <p class="mb-6">Defining a product is a phase in the UX-design process that involves</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-blue-2 rounded-full" src="../assets/tick-blue.png" alt="tick"></div>
@@ -90,7 +98,7 @@
                 </div>
                 <div class="mb-10 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
                     <div class="mb-8"><img class="p-4 bg-brand-orange-2 rounded-md" src="../assets/ideate-icon.png" alt="Ideate"></div>
-                    <h4 class="mb-6 text-2xl font-semibold">Ideate</h4>
+                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Ideate</h4>
                     <p class="mb-6">This part of the design process was where the product structure to shape</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-orange-2 rounded-full" src="../assets/tick-yellow.png" alt="tick"></div>
@@ -111,7 +119,7 @@
                 </div>
                 <div class="mb-10 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
                     <div class="mb-8"><img class="p-4 bg-brand-red-1 rounded-md" src="../assets/visual-icon.png" alt="Visual"></div>
-                    <h4 class="mb-6 text-2xl font-semibold">Visual Design</h4>
+                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Visual Design</h4>
                     <p class="mb-6">The research and structuring was brought to life visually to solve the problem</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-red-1 rounded-full" src="../assets/tick-red.png" alt="tick"></div>
@@ -134,83 +142,89 @@
         </section>
         <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
             <div class="flex-1">
-                <h2 class="mb-8 text-xl font-bold">The problem</h2>
+                <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">The problem</h2>
                 <p class="mb-8">The difficulty of knowing how to send a package and knowing the dimensions and and weights of packages and parcels which are usually a major criteria in creating a shipping request. Also a major problem was tracking each major milestone in the packages journey</p>
             </div>
             <div class="flex-1">
                 <img src="../assets/problem-photo.png" alt="Project">
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <div class="mb-8">
-                <h2 class="mb-4 text-2xl font-bold">Project Timeline</h2>
-                <p class="mb-8">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="mb-8 text-center">
+                <h2 class="mb-8 text-6xl font-semibold font-playfair">Project Timeline</h2>
+                <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                 <p>Project timeline: <span class="font-bold">4 weeks</span></p>
             </div>
-            <div class="flex space-x-4">
-                <div class="p-2 rounded-md bg-red-500">Week 1: Interviews</div>
-                <div class="p-2 rounded-md bg-red-500">Week 2: Research</div>
-                <div class="p-2 rounded-md bg-red-500">Week 3: Brainstorming & IA</div>
-                <div class="p-2 rounded-md bg-red-500">Week 4: Visual design</div>
+             <div class="flex flex-wrap justify-center space-x-4 text-white font-semibold">
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-blue-3 via-brand-blue-4 to-brand-blue-5">Week 1: Interviews</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-orange-4 to-brand-orange-5">Week 2: Research</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-purple-2 to-brand-purple-3">Week 3: Brainstorming & IA</div>
+                    <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-red-2 to-brand-red-3">Week 4: Visual design</div>
+                </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+               <div class="flex-1">
+                    <div class="">
+                        <img class="" src="../assets/person-2.png" alt="Person">
+                        <img class="transform translate-x-64 translate-y-32" src="../assets/person-1.png" alt="Person">
+                        <img src="../assets/person-3.png" alt="Person">
+                        <img class="transform -translate-y-36 translate-x-28"  src="../assets/person-4.png" alt="Person">
+                        <img class="transform -translate-y-96 translate-x-56" src="../assets/person-5.png" alt="Person">
+                        <img class="transform -translate-y-44 translate-x-24" src="../assets/person-6.png" alt="Person">
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">User Interviews</h3>
+                    <p class="mb-8">Interviews & surveys are aimed at getting an indepth approach of how our targeted users would engage the product, determine their pain points, challenges, what they would love to have on the platform and structure all to get  the best solution for their problems.</p>
+                    <p>I gathered the data from the interviews and structured out their pains and needs to have a structure for an empathy mapping</p>
+                </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div>
-                <img src="../assets/person-1.png" alt="Person">
-                <img src="../assets/person-2.png" alt="Person">
-                <img src="../assets/person-3.png" alt="Person">
-                <img src="../assets/person-4.png" alt="Person">
-                <img src="../assets/person-5.png" alt="Person">
-                <img src="../assets/person-6.png" alt="Person">
-            </div>
-            <div>
-                <h3 class="mb-4 text-xl font-bold">User Interviews</h3>
-                <p class="mb-8">Interviews & surveys are aimed at getting an indepth approach of how our targeted users would engage the product, determine their pain points, challenges, what they would love to have on the platform and structure all to get  the best solution for their problems.</p>
-                <p>I gathered the data from the interviews and structured out their pains and needs to have a structure for an empathy mapping</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <img src="../assets/research-photo.png" alt="Quantitative research">
+                </div>
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Quantitative research result</h2>
+                    <p class="mb-8">From the findings of our survey and interviews carried out along with an online research of users complaints from users of competitors products, the largest pain was the identifying of the dimensions of the package to be sent which is usually a requirement to detemine shipment cost</p>
+                </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h2 class="mb-8 text-xl font-bold">Quantitative research result</h2>
-                <p class="mb-8">From the findings of our survey and interviews carried out along with an online research of users complaints from users of competitors products, the largest pain was the identifying of the dimensions of the package to be sent which is usually a requirement to detemine shipment cost</p>
-            </div>
-            <div class="flex-1">
-                <img src="../assets/research-photo.png" alt="Quantitative research">
-            </div>
-        </section>
-        <section class="w-10/12 mx-auto py-20 text-white bg-brand-black-4">
-            <h2 class="mb-4 text-2xl font-bold text-white text-center">Personas</h2>
-            <div class="flex space-x-10 justify-center">
+        <section class="max-w-7xl mx-auto py-20 py-16 text-white bg-brand-black-4">
+            <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Personas</h2>
+            <div class="lg:flex lg:space-x-14 lg:justify-center">
                 <div class="flex space-x-6">
                     <div>
                         <div class="flex space-x-4 items-center mb-4">
                             <div><img src="../assets/personas-1.png" alt="Man"></div>
                             <div>
-                                <h4>Jonathan Ini</h4>
-                                <p>Accountant</p>
+                                <h4 class="mb-2 font-bold">Jonathan Ini</h4>
+                                <p class="text-sm">Accountant</p>
                             </div>
                         </div>
-                        <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">Rarely use logistics services</div>
+                        <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5 text-sm">Rarely use logistics services</div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>About Jonathan</h4>
-                            <p>Jonathan is an Accountant with over 3 years working experience, he is a graduate of the Convenant university Ota. <br>
+                            <h4 class="mb-4 font-bold">About Jonathan</h4>
+                            <p class="text-sm">Jonathan is an Accountant with over 3 years working experience, he is a graduate of the Convenant university Ota. <br>
                             He is a calm, inquisitive, career driven and a lover of family</p>
                         </div>
                     </div>
                     <div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Demographics</h4>
-                            <p>27 years old</p>
-                            <p>Lives in Lagos, Nigeria</p>
-                            <p>Single</p>
+                            <h4 class="mb-4 font-bold">Demographics</h4>
+                            <p class="text-sm">27 years old</p>
+                            <p class="text-sm">Lives in Lagos, Nigeria</p>
+                            <p class="text-sm">Single</p>
                         </div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Goals and needs</h4>
-                            <p>A means to be able to send packages to his siblings abroad and be aware of everything going on along the delivery</p>
+                            <h4 class="mb-4 font-bold">Goals and needs</h4>
+                            <p class="text-sm">A means to be able to send packages to his siblings abroad and be aware of everything going on along the delivery</p>
                         </div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Pain points</h4>
-                            <p>Its really difficult to know the exact or approximate dimensions of your shipments due to the fact i dont know alot about dimensioning</p>
+                            <h4 class="mb-4 font-bold">Pain points</h4>
+                            <p class="text-sm">Its really difficult to know the exact or approximate dimensions of your shipments due to the fact i dont know alot about dimensioning</p>
                         </div>
                     </div>
                 </div>
@@ -219,153 +233,154 @@
                         <div class="flex space-x-4 items-center mb-4">
                             <div><img src="../assets/personas-1.png" alt="Man"></div>
                             <div>
-                                <h4>Jonathan Ini</h4>
-                                <p>Accountant</p>
+                                <h4 class="mb-2 font-bold">Damilola Peters</h4>
+                                <p class="text-sm">Businessman</p>
                             </div>
                         </div>
-                        <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">Rarely use logistics services</div>
+                        <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5 text-sm">Very frequency in using logistics services</div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>About Jonathan</h4>
-                            <p>Jonathan is an Accountant with over 3 years working experience, he is a graduate of the Convenant university Ota. <br>
-                            He is a calm, inquisitive, career driven and a lover of family</p>
+                            <h4 class="mb-8 font-bold">About Damilola</h4>
+                            <p class="text-sm">Damilola is an Entrepreneur into fabric exportation. He has been into the exportation business for 8 years and wishes to expand his business from just Asia to Europe aswell</p>
                         </div>
                     </div>
                     <div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Demographics</h4>
-                            <p>27 years old</p>
-                            <p>Lives in Lagos, Nigeria</p>
-                            <p>Single</p>
+                            <h4 class="mb-4 font-bold">Demographics</h4>
+                            <p class="text-sm">32 years old</p>
+                            <p class="text-sm">Lives in Kenya, Nairobi</p>
+                            <p class="text-sm">Married</p>
                         </div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Goals and needs</h4>
-                            <p>A means to be able to send packages to his siblings abroad and be aware of everything going on along the delivery</p>
+                            <h4 class="mb-4 font-bold">Goals and needs</h4>
+                            <p class="text-sm">A means to be able to send my goods to to my business partners at flexible timings based on urgency</p>
                         </div>
                         <div class="w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4>Pain points</h4>
-                            <p>Its really difficult to know the exact or approximate dimensions of your shipments due to the fact i dont know alot about dimensioning</p>
+                            <h4 class="mb-4 font-bold">Pain points</h4>
+                            <p class="text-sm">The fact that i would have to wait sometimes for days befor the container gets filled with other peoples products so all can be shipped together slows my business down</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="flex items-center space-x-8 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <div class="flex space-x-2">
-                    <div><img src="../assets/fedex.png" alt="FedEx"></div>
-                    <div><img src="../assets/dhl.png" alt="DHL"></div>
-                    <div><img src="../assets/ups.png" alt="UPS"></div>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center space-x-8">
+                <div class="flex-1">
+                    <div class="flex space-x-2">
+                        <div><img src="../assets/fedex.png" alt="FedEx"></div>
+                        <div><img src="../assets/dhl.png" alt="DHL"></div>
+                        <div><img src="../assets/ups.png" alt="UPS"></div>
+                    </div>
+                    <div class="flex space-x-2">
+                        <div><img src="../assets/xpologistics.png" alt="XPOLogistics"></div>
+                        <div><img src="../assets/expeditors.png" alt="Expeditors"></div>
+                        <div><img src="../assets/gig.png" alt="Gig"></div>
+                    </div>
                 </div>
-                <div class="flex space-x-2">
-                    <div><img src="../assets/xpologistics.png" alt="XPOLogistics"></div>
-                    <div><img src="../assets/expeditors.png" alt="Expeditors"></div>
-                    <div><img src="../assets/gig.png" alt="Gig"></div>
+                <div class="flex-1">
+                    <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Competitor analysis</h3>
+                    <p>In order to understand the market, i conducted a SWOT analysis on the clients top competitors. Here i investigated the in’s and out’s of the companies, their strengths and weakness, opportunities and potential threats</p>
                 </div>
-            </div>
-            <div class="flex-1">
-                <h3 class="mb-4 text-xl font-bold">Competitor analysis</h3>
-                <p>In order to understand the market, i conducted a SWOT analysis on the clients top competitors. Here i investigated the in’s and out’s of the companies, their strengths and weakness, opportunities and potential threats</p>
             </div>
         </section>
-        <section class="py-20">
-            <h2 class="mb-4 text-2xl font-bold">Design strategy</h2>
-            <p>My design strategy comprised of integrated planning processes that examined the relationships between how the design and business may complement one another, in simple terms finding a balance between business objectives and creative solutions</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h2 class="mb-8 text-6xl font-semibold font-playfair text-center">Design strategy</h2>
+            <p class="mb-16 text-center">My design strategy comprised of integrated planning processes that examined the relationships between how the design and business may complement one another, in simple terms finding a balance between business objectives and creative solutions</p>
             <div class="flex justify-center"><img src="../assets/strategy.png" alt="Design strategy"></div>
             <div class="flex space-x-6">
                 <div class="flex-1">
-                    <div class="flex items-center">
-                        <div class="w-16 h-16 mb-4 rounded-full bg-brand-green-1 "></div>
-                        <h4>Business goal</h4>
+                    <div class="flex items-center mb-10">
+                        <div class="w-16 h-16 rounded-full bg-brand-green-1 "></div>
+                        <h4 class="transform -translate-x-4 text-xl lg:text-3xl font-bold font-playfair">Business goal</h4>
                     </div>
-                    <div class="flex space-x-2 mb-4">
-                        <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
-                        <p>To enable smooth integrations with 3rd party companies to ease delivery, minimize cost</p>
+                    <div class="flex space-x-5 mb-6">
+                        <div class=""><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
+                        <p class="flex-1">To enable smooth integrations with 3rd party companies to ease delivery, minimize cost</p>
                     </div>
-                    <div class="flex space-x-2">
+                    <div class="flex space-x-5">
                         <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
-                        <p>Increase users retention</p>
+                        <p>Increase users retention </p>
                     </div>
                 </div>
                 <div class="flex-1">
-                    <div class="flex items-center">
-                        <div class="w-16 h-16 mb-4 rounded-full bg-brand-green-1 "></div>
-                        <h4>Target users</h4>
+                    <div class="flex items-center mb-10">
+                        <div class="w-16 h-16 rounded-full bg-brand-green-1 "></div>
+                        <h4 class="transform -translate-x-4 text-xl lg:text-3xl font-bold font-playfair">Target users</h4>
                     </div>
-                    <div class="flex space-x-2 mb-4">
+                    <div class="flex space-x-5 mb-6">
                         <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
                         <p>Businesses with foreign customers</p>
                     </div>
-                    <div class="flex space-x-2">
+                    <div class="flex space-x-5">
                         <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
                         <p>People with family and friends abroad</p>
                     </div>
                 </div>
                 <div class="flex-1">
-                    <div class="flex items-center">
-                        <div class="w-16 h-16 mb-4 rounded-full bg-brand-green-1 "></div>
-                        <h4>Platforms</h4>
+                    <div class="flex items-center mb-10">
+                        <div class="w-16 h-16 rounded-full bg-brand-green-1 "></div>
+                        <h4 class="transform -translate-x-4 text-xl lg:text-3xl font-bold font-playfair">Platforms</h4>
                     </div>
-                    <div class="flex space-x-2 mb-4">
+                    <div class="flex space-x-5 mb-6">
                         <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
                         <p>Web Application</p>
                     </div>
-                    <div class="flex space-x-2">
+                    <div class="flex space-x-5">
                         <div><img class="p-2 rounded-full bg-brand-green-1" src="../assets/tick-white.png" alt="Tick"></div>
                         <p>Mobile App - IOS & Android</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h2>The Solution</h2>
-            <p>Below shows a few of the screens that portrayed the soltions to the stated problem in the most user friendly manner</p>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h2 class="mb-8 text-6xl font-semibold font-playfair text-center">The Solution</h2>
+            <p class="mb-16 w-2/3 lg:w-2/4 mx-auto text-center text-center">Below shows a few of the screens that portrayed the soltions to the stated problem in the most user friendly manner</p>
             <div class="flex items-center justify-between space-x-12 py-20">
                 <div class="flex-1">
-                    <h2 class="mb-8 text-xl font-bold">Main dashboard</h2>
-                    <p class="mb-8">This shows the dashboard of the users showing all their shipments analysis and various activities in a simplified manner that presents the informations to you at a glance</p>
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Main dashboard</h2>
+                    <p class="">This shows the dashboard of the users showing all their shipments analysis and various activities in a simplified manner that presents the informations to you at a glance</p>
                 </div>
                 <div class="flex-1">
-                    <img src="../assets/solution-1.png" alt="Solution">
-                </div>
-            </div>
-            <div class="flex items-center justify-between space-x-12 py-20">
-                <div class="flex-1">
-                    <img src="../assets/solution-2.png" alt="Solution">
-                </div>
-                <div class="flex-1">
-                    <h2 class="mb-8 text-xl font-bold">Tracking page</h2>
-                    <p class="mb-8">This page is where shipmensts are searched for and tracked in a simplified manner displaying to you the status of your shipment and the expected delivery date shown first as the most important things, then if you want to get more info, a table with the various listings of every location or update is shown</p>
+                    <img class="ml-auto" src="../assets/solution-1.png" alt="Solution">
                 </div>
             </div>
             <div class="flex items-center justify-between space-x-12 py-20">
                 <div class="flex-1">
-                    <h2 class="mb-8 text-xl font-bold">Create shipments</h2>
-                    <p class="mb-8">Based on the users research on their pain points, the shipment creation process starts from a page to upload your shipment and from your upload, it is scanned and the dimensions is estimated for you with little artificial intelligence, that solves the problem of getting stuck on dimensions</p>
+                    <img class="mr-auto" src="../assets/solution-2.png" alt="Solution">
                 </div>
                 <div class="flex-1">
-                    <img src="../assets/solution-3.png" alt="Solution">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Tracking page</h2>
+                    <p class="">This page is where shipmensts are searched for and tracked in a simplified manner displaying to you the status of your shipment and the expected delivery date shown first as the most important things, then if you want to get more info, a table with the various listings of every location or update is shown</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-between space-x-12 py-20">
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Create shipments</h2>
+                    <p class="">Based on the users research on their pain points, the shipment creation process starts from a page to upload your shipment and from your upload, it is scanned and the dimensions is estimated for you with little artificial intelligence, that solves the problem of getting stuck on dimensions</p>
+                </div>
+                <div class="flex-1">
+                    <img class="ml-auto" src="../assets/solution-3.png" alt="Solution">
                 </div>
             </div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h2>Conclusion</h2>
-            <p>The experience of this project was an insightful one, the aim to simplify the process even further is in progress and results from feedback of V1 would be used to make the users experience better and solve the problems better for the users</p>
-            <div><img src="../assets/conclusion.png" alt="Conclusion"></div>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h2 class="mb-8 text-6xl font-semibold font-playfair text-center">Conclusion</h2>
+            <p class="mb-16 text-center">The experience of this project was an insightful one, the aim to simplify the process even further is in progress and results from feedback of V1 would be used to make the users experience better and solve the problems better for the users</p>
+            <div class="flex justify-center"><img src="../assets/conclusion.png" alt="Conclusion"></div>
         </section>
-        <section class="w-10/12 mx-auto py-20">
-            <h2>Other Projects</h2>
-            <div class="flex space-x-3">
-                <img src="../assets/bitpowr.png" alt="Bitpowr">
-                <img src="../assets/doorstep.png" alt="Doorstep">
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
+            <div class="flex items-center justify-between space-x-8">
+                <div><img src="../assets/bitpowr.png" alt="Bitpowr"></div>
+                <div><img src="../assets/doorstep.png" alt="Doorstep"></div>
             </div>
         </section>
-        <section class="py-20">
-            <div class="flex flex-col items-center w-10/12 mx-auto ">
-                <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk"></div>
-                <h2 class="mb-8 text-4xl md:text-5xl font-semibold">Let's talk about your project</h2>
-                <p class="mb-16 text-xl font-light md:text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
-                <button class="px-8 py-5 bg-brand-black-1 text-white font-bold bg-white rounded-sm">Book an appointment</button>
+       <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">
+            <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
+            <div class="px-16 md:px-0">
+                <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             </div>
+            <button class="px-8 py-6 font-bold rounded-md text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <div class="">
             <FooterDark />
@@ -375,11 +390,11 @@
 
 <script>
 import NavbarDark from '../components/NavbarDark'
-import ProjectResponsibilities from '../components/ProjectResponsibilities'
+// import ProjectResponsibilities from '../components/ProjectResponsibilities'
 import FooterDark from '../components/FooterDark'
 export default {
     name: "Doorstep",
-    components: {NavbarDark, ProjectResponsibilities, FooterDark},
+    components: {NavbarDark, FooterDark},
     data() {
         return {
             projects: [

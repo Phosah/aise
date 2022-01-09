@@ -17,8 +17,8 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto px-16">
-            <div class="max-w-5xl mx-auto py-20 px-16 text-brand-black-4">
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="max-w-5xl mx-auto px-16 text-brand-black-4">
                 <h1 class="mb-8 text-6xl font-semibold font-playfair">Trigle App Design</h1>
                 <p class="mb-16 text-xl">Bringing simplicity and flexibility to having your meals</p>
                 <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
@@ -156,7 +156,7 @@
                 </div>
             </div>
             <div class="flex justify-between space-x-10">
-                <div class="w-1/3">
+                <div class="w-1/3 pl-12">
                     <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Age:</span>20 years old</p>
                     <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Occupation:</span>Engineer</p>
                     <p class="mb-2"><span class="text-lg lg:text-xl font-bold">Status:</span>Single</p>
@@ -345,11 +345,11 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
-        <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
-        <div class="flex items-center justify-between space-x-8">
-            <div><img src="../assets/bitpowr.png" alt="Bitpowr"></div>
-            <div><img src="../assets/doorstep.png" alt="Doorstep"></div>
-        </div>
+            <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
+            <div class="flex items-center justify-between space-x-8">
+                <div><img src="../assets/bitpowr.png" alt="Bitpowr"></div>
+                <div><img src="../assets/doorstep.png" alt="Doorstep"></div>
+            </div>
         </section>
        <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>

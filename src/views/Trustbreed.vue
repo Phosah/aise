@@ -58,17 +58,15 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">UX competitive analysis</h3>
-            <p class="mb-8">I was given two potential competitors by the founders and stakeholders began my study on them and built their marketing profile, SWOT profile, and conducted a UX analysis of their products. The goal was to identify what type of problems users face with competitors’ products, as well as understand what the users might expect from my product.</p>
+        <!-- <section class="max-w-7xl mx-auto py-20 px-16">
             <section>
                 <div class="flex justify-between">
                     <div class="flex items-center">
                         <div class="inline-block bg-brand-orange-7  p-3 rounded-full"><img class="bg-white p-2 rounded-full" src="../assets/strength-icon.png" alt="Strength icon"></div>
-                        <div class="w-36 transform -translate-x-1 p-2 rounded-r-full bg-brand-orange-7 text-white">STRENGTHS</div>
+                        <div class="w-40 transform -translate-x-2 p-2 rounded-r-full bg-brand-orange-7 text-lg text-white font-semibold">STRENGTHS</div>
                     </div>
                     <div class="flex items-center">
-                        <div class="w-36 transform translate-x-1 p-2 rounded-l-full bg-brand-blue-7 text-white text-right">WEAKNESS</div>
+                        <div class="w-40 transform translate-x-2 p-2 rounded-l-full bg-brand-blue-7 text-lg text-white font-semibold text-right">WEAKNESS</div>
                         <div class="inline-block bg-brand-blue-7 p-3 rounded-full"><img class="bg-white p-2 rounded-full" src="../assets/weakness-icon.png" alt="Weakness icon"></div>
                     </div>
                 </div>
@@ -82,7 +80,7 @@
                         </ul>
                     </div>
                     <div class="flex-1"><img class="bg-white p-2 rounded-full" src="../assets/trust-pilot.png" alt="Trust pilot"></div>
-                    <div class="flex-1">
+                    <div class="flex-1 pl-10 text-right">
                          <ul class="list-disc">
                             <li>Some of the reviews are fradualent making it hard to believe</li>
                             <li>There's no options to always get in contact with the customers</li>
@@ -94,15 +92,68 @@
                 <div class="flex justify-between">
                     <div class="flex items-center">
                         <div class="inline-block bg-brand-green-5  p-3 rounded-full"><img class="bg-white p-2 rounded-full" src="../assets/opportunities-icon.png" alt="Opportunities icon"></div>
-                        <div class="w-36 transform -translate-x-1 p-2 rounded-r-full bg-brand-green-5 text-white">OPPURTUNITIES</div>
+                        <div class="w-40 transform -translate-x-2 p-2 rounded-r-full bg-brand-green-5 text-lg text-white font-semibold ">OPPURTUNITIES</div>
                     </div>
                     <div class="flex items-center">
-                        <div class="w-36 transform translate-x-1 p-2 rounded-l-full bg-brand-yellow-1 text-white text-right">THREATS</div>
+                        <div class="w-40 transform translate-x-2 p-2 rounded-l-full bg-brand-yellow-1 text-lg text-white font-semibold text-right">THREATS</div>
                         <div class="inline-block bg-brand-yellow-1 p-3 rounded-full"><img class="bg-white p-2 rounded-full" src="../assets/threats-icon.png" alt="Threats icon"></div>
                     </div>
                 </div>
             </section>
-
+            
+        </section> -->
+        <section class="max-w-7xl mx-auto py-20 px-16 bg-brand-black-1 text-white">
+            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">UX competitive analysis</h3>
+            <p class="mb-8">I was given two potential competitors by the founders and stakeholders began my study on them and built their marketing profile, SWOT profile, and conducted a UX analysis of their products. The goal was to identify what type of problems users face with competitors’ products, as well as understand what the users might expect from my product.</p>
+            <div class="mb-20"><img src="../assets/ux-competition-analysis-1.png" alt=""></div>
+            <div><img src="../assets/ux-competition-analysis-1.png" alt=""></div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">User Stories</h3>
+            <p class="md:w-2/3 mb-16">The user stories capture feelings, needs, and expectations of potential users toward creating solutions properly tailored to meet users needs</p>
+            <div class="">
+                <ul class="flex space-x-10 pl-5 list-disc">
+                    <li class="flex-1 mb-8">As a user, i want to be able to make a complaint about a company that I patronized so my issue can be resolved</li>
+                    <li class="flex-1 mb-8">As a user, i want to be able to add a company that is not listed on the platform that I want to make a complaint about</li>
+                </ul>
+                <ul class="flex space-x-10 pl-5 list-disc">
+                    <li class="flex-1 mb-8">As a user i want to be able to leave a good review about a company that served me well so others can know and also patronize them</li>
+                    <li class="flex-1 mb-8">As a user, i want to be able to check the companies that have been listed on trustbreed and give ratings to them so people know how good or bad I feel about their services</li>
+                </ul>
+                <ul class="flex space-x-10 pl-5 list-disc">
+                    <li class="flex-1 mb-8">As a user, i want to be able to monitor my complaint to know the status of the resolution</li>
+                    <li class="flex-1 mb-8">As a user, i want to be able to view the profile of companies to be able to see what they offer and what others feel about them</li>
+                </ul>
+                <ul class="flex space-x-10 pl-5 list-disc">
+                    <li class="flex-1 mb-8">As a user, i want to be able to engage a comment or review made by other users on a complaint I can relate with</li>
+                    <li class="flex-1 mb-8">As a user, i want to be able to give responses to other users complaints in case i have the solution</li>
+                </ul>
+                <ul class="flex space-x-10 pl-5 list-disc">
+                    <li class="flex-1 mb-8">As a user, i want to be able to compare companies of similar services so I know the best company to patronize</li>                       
+                    <li class="flex-1 mb-8">As a user, i want to be able to share my complaint and others complaints with my friends on social media</li>
+                </ul>                   
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Surveys & user interviews</h3>
+            <p class="mb-8">Initially, I was running a survey that turned out to be a tremendous information-gathering tool. It helped me to gauge in-depth insights into the target users, including their pains, their frequency, and how they deal with them. Based on the results, I could formulate specific interview questions to find out more about how they deal with poor services and how what they get to do afterward</p>
+            <p class="mb-8">Organizing the interviews was the most challenging part of the user research process - but conducting them was highly exciting. Listening to users talk about their experiences with poor services helped me to further refine the problem statement. Below holds some of the questions and the collated results</p>
+            <div>
+                <p class="mb-2">1. Have you ever been disappointed with the services provided to you by any company</p>
+                <div><img class="mx-auto" src="../assets/survey-photo.png" alt="Survey photo"></div>
+                <div class="flex items-center space-x-12 px-16 md:px-0">
+                        <div class="flex flex-1 space-x-4">
+                            <div class="border-red-400 border-b border-2 w-1/4"></div>
+                            <div class="border-red-400 border-b border-2 w-1/4"></div>
+                            <div class="border-red-400 border-b border-2 w-1/4"></div>
+                            <div class="border-red-400 border-b border-2 w-1/4"></div>
+                        </div>
+                        <div class="flex-1 flex items-center justify-end space-x-4">
+                            <button class="rounded p-3 bg-red-400"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
+                            <button class="rounded-full p-4 bg-red-400"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
+                        </div>
+                    </div>
+            </div>
         </section>
   </div>
 </template>

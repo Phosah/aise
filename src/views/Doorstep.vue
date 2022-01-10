@@ -140,13 +140,15 @@
                 </div>
             </div>
         </section>
-        <section class="flex items-center justify-between space-x-12 w-10/12 mx-auto py-20">
-            <div class="flex-1">
-                <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">The problem</h2>
-                <p class="mb-8">The difficulty of knowing how to send a package and knowing the dimensions and and weights of packages and parcels which are usually a major criteria in creating a shipping request. Also a major problem was tracking each major milestone in the packages journey</p>
-            </div>
-            <div class="flex-1">
-                <img src="../assets/problem-photo.png" alt="Project">
+        <section class="max-w-7xl mx-auto py-20 px-16">
+            <div class="flex items-center justify-between space-x-12">
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">The problem</h2>
+                    <p class="mb-8">The difficulty of knowing how to send a package and knowing the dimensions and and weights of packages and parcels which are usually a major criteria in creating a shipping request. Also a major problem was tracking each major milestone in the packages journey</p>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/problem-photo.png" alt="Project">
+                </div>
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">

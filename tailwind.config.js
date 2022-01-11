@@ -68,6 +68,11 @@ module.exports = {
       },
       backgroundImage: {
         'hero-image': "url('../src/assets/hero.png')",
+        'one': "url('../src/assets/1.png')",
+        'two': "url('../src/assets/2.png')",
+        'three': "url('../src/assets/3.png')",
+        'four': "url('../src/assets/4.png')",
+        'five': "url('../src/assets/5.png')",
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif']

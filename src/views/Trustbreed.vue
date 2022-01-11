@@ -34,13 +34,46 @@
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
             <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">My Approach</h3>
-            <div class="flex items-center justify-between">
-                <div class="rounded-md">
-                    <h4>Discover</h4>
-                    <ul>
-                        <li>Problem Statement</li>
-                        <li>UX Competitive Analysis</li>
+            <div class="grid grid-cols-3 gap-10 text-white">
+                <div class="h-80 mb-4 p-4 rounded-md bg-brand-orange-6 bg-one bg-cover bg-no-repeat">
+                    <h4 class="text-lg lg:text-2xl mb-6">Discover</h4>
+                    <ul class="list-disc pl-10">
+                        <li class="mb-2">Problem Statement</li>
+                        <li class="mb-2">UX Competitive Analysis</li>
                         <li>User Stories</li>
+                    </ul>
+                </div>
+                <div class="h-80 mb-4 p-4 rounded-md bg-brand-blue-6 bg-two bg-cover bg-no-repeat">
+                    <h4 class="text-lg lg:text-2xl mb-6">User research</h4>
+                    <ul class="list-disc pl-10">
+                        <li class="mb-2">Survey & interviews</li>
+                        <li class="mb-2">User Persona</li>
+                        <li class="mb-2">User Journey Map</li>
+                        <li class="mb-2">Mental Models</li>
+                        <li>User Flow & Task Analysis</li>
+                    </ul>
+                </div>
+                <div class="h-80 mb-4 p-4 rounded-md bg-brand-green-4 bg-three bg-cover bg-no-repeat">
+                    <h4 class="text-lg lg:text-2xl mb-6">Ideate</h4>
+                    <ul class="list-disc pl-10">
+                        <li class="mb-2">Sitemap</li>
+                        <li class="mb-2">Low-fidelity prototype</li>
+                    </ul>
+                </div>
+                <div class="h-80 mb-4 p-4 rounded-md bg-brand-red-4 bg-four bg-cover bg-no-repeat">
+                    <h4 class="text-lg lg:text-2xl mb-6">Usability Testing</h4>
+                    <ul class="list-disc pl-10">
+                        <li class="mb-2">Test Plan</li>
+                        <li class="mb-2">Test Script</li>
+                        <li>Report Findings</li>
+                    </ul>
+                </div>
+                <div class="h-80 mb-4 p-4 rounded-md bg-brand-purple-4 bg-five bg-cover bg-no-repeat">
+                    <h4 class="text-lg lg:text-2xl mb-6">Visual Design</h4>
+                    <ul class="list-disc pl-10">
+                        <li class="mb-2">Style Guide</li>
+                        <li class="mb-2">Evaluating the Design for Accessibility</li>
+                        <li>Converting Low-fi to Hi-fi</li>
                     </ul>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 <template>
   <div class="text-brand-black-4">
-      <div class="max-w-7xl mx-auto">
+        <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
         <section class="max-w-7xl mx-auto px-16">
-            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-contain bg-center bg-brand-green-1 text-white">
                 <div class="flex-1">
                     <div class="w-2/3 mx-auto">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">TrustBreed</h2>
@@ -35,7 +35,7 @@
         <section class="max-w-7xl mx-auto py-20 px-16">
             <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">My Approach</h3>
             <div class="grid grid-cols-3 gap-10 text-white">
-                <div class="h-80 mb-4 p-4 rounded-md bg-brand-orange-6 bg-one bg-cover bg-no-repeat">
+                <div class="h-80 mb-4 p-4 rounded-lg bg-brand-orange-6 bg-one bg-contain bg-center bg-no-repeat">
                     <h4 class="text-lg lg:text-2xl mb-6">Discover</h4>
                     <ul class="list-disc pl-10">
                         <li class="mb-2">Problem Statement</li>
@@ -43,7 +43,7 @@
                         <li>User Stories</li>
                     </ul>
                 </div>
-                <div class="h-80 mb-4 p-4 rounded-md bg-brand-blue-6 bg-two bg-cover bg-no-repeat">
+                <div class="h-80 mb-4 p-4 rounded-lg bg-brand-blue-6 bg-two bg-contain bg-center bg-no-repeat">
                     <h4 class="text-lg lg:text-2xl mb-6">User research</h4>
                     <ul class="list-disc pl-10">
                         <li class="mb-2">Survey & interviews</li>
@@ -53,14 +53,14 @@
                         <li>User Flow & Task Analysis</li>
                     </ul>
                 </div>
-                <div class="h-80 mb-4 p-4 rounded-md bg-brand-green-4 bg-three bg-cover bg-no-repeat">
+                <div class="h-80 mb-4 p-4 rounded-lg bg-brand-green-4 bg-three bg-contain bg-center bg-no-repeat">
                     <h4 class="text-lg lg:text-2xl mb-6">Ideate</h4>
                     <ul class="list-disc pl-10">
                         <li class="mb-2">Sitemap</li>
                         <li class="mb-2">Low-fidelity prototype</li>
                     </ul>
                 </div>
-                <div class="h-80 mb-4 p-4 rounded-md bg-brand-red-4 bg-four bg-cover bg-no-repeat">
+                <div class="h-80 mb-4 p-4 rounded-lg bg-brand-red-4 bg-four bg-contain bg-center bg-no-repeat">
                     <h4 class="text-lg lg:text-2xl mb-6">Usability Testing</h4>
                     <ul class="list-disc pl-10">
                         <li class="mb-2">Test Plan</li>
@@ -68,7 +68,7 @@
                         <li>Report Findings</li>
                     </ul>
                 </div>
-                <div class="h-80 mb-4 p-4 rounded-md bg-brand-purple-4 bg-five bg-cover bg-no-repeat">
+                <div class="h-80 mb-4 p-4 rounded-lg bg-brand-purple-4 bg-five bg-contain bg-center bg-no-repeat">
                     <h4 class="text-lg lg:text-2xl mb-6">Visual Design</h4>
                     <ul class="list-disc pl-10">
                         <li class="mb-2">Style Guide</li>

@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Trigle from '../views/Trigle.vue'
 import Trustbreed from '../views/Trustbreed.vue'
+import PowrFinance from '../views/PowrFinance.vue'
 import Doorstep from '../views/Doorstep.vue'
 import Test from '../views/Test.vue'
 
@@ -21,6 +22,11 @@ const routes = [
         path: '/trigle',
         name: 'trigle',
         component: Trigle
+    },
+    {
+        path: '/powrfinance',
+        name: 'powrfinance',
+        component: PowrFinance
     },
     {
         path: '/trustbreed',

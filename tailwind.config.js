@@ -29,7 +29,8 @@ module.exports = {
             4: '#4364F7',
             5: '#6FB1FC',
             6: '#0A71CB',
-            7: '#51B9F0'
+            7: '#51B9F0',
+            8: '#5285F2'
           },
           green: {
             1: '#006F43',
@@ -73,6 +74,7 @@ module.exports = {
         'three': "url('../src/assets/3.png')",
         'four': "url('../src/assets/4.png')",
         'five': "url('../src/assets/5.png')",
+        'analysis': "url('../src/assets/competitive-analysis.png')",
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif']

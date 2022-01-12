@@ -75,6 +75,9 @@ module.exports = {
         'four': "url('../src/assets/4.png')",
         'five': "url('../src/assets/5.png')",
         'analysis': "url('../src/assets/competitive-analysis.png')",
+        'persona-1': "url('../src/assets/user-persona-1.png')",
+        'business': "url('../src/assets/business-opportunity.png')",
+        'solutions': "url('../src/assets/the-solutions.png')",
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif']

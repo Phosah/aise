@@ -333,7 +333,7 @@
             <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Conclusion</h3>
             <p class="mb-16">Throughout the design process, I learned how to prioritize and be very careful in user experience in the product, a product that is built upon the basis of bad user experiences of other products, the user experience could not be compromised. I got the opportunity to. Thank you for following and going through my documented processes. Feel free to connect with me on LinkedIn, Behance, Dribbble, and Twitter.</p>
         </section>
-         <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-16">
             <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
             <div class="flex items-center justify-between space-x-8">
                 <router-link to="/"><div><img src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>

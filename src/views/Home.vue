@@ -50,7 +50,7 @@
             </section>
         </main>
         <section class="flex items-center md:h-screen py-20 bg-brand-black-1 text-white">
-            <div class="max-w-7xl mx-auto md:px-16">
+            <div class="hidden md:block max-w-7xl mx-auto md:px-16">
                 <h2 class="testimonials-header mb-20 md:mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
                 <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
                     <div class="flex-1 mb-8 md:mb-0"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
@@ -81,6 +81,34 @@
                     <div class="flex-1 flex items-center justify-end space-x-4">
                         <button class="rounded p-3"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
                         <button class="rounded-full p-4 bg-white"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="block md:hidden max-w-7xl mx-auto">
+                <h2 class="testimonials-header mb-20 text-3xl sm:text-6xl  text-center text-transparent">TESTIMONIALS</h2>
+                <div class="mb-8">
+                    <div class="flex-1 mb-4"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
+                    <div class="flex flex-1 space-x-4 mb-10 px-16">
+                        <div class="border-b border-2 w-1/4"></div>
+                        <div class="border-b border-2 w-1/4"></div>
+                        <div class="border-b border-2 w-1/4"></div>
+                        <div class="border-b border-2 w-1/4"></div>
+                    </div>
+                    <div class="flex-1 px-16">
+                        <div class="flex items-center space-x-4 mb-12 text-2xl">
+                            <p class="mr-2">1.0</p>
+                            <div class="h-14 border-r border-2"></div>
+                            <div class="flex items-end pb-2">
+                                <img src="../assets/logo.png" alt="Aise Logo">
+                                <p class="pb-2">cunad</p>
+                            </div>
+                        </div>
+                        <h3 class="mb-8 text-2xl">Emma Dorsey</h3>
+                        <p class="mb-8">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                        <div class="flex items-center space-x-6">
+                            <img src="../assets/twitter.png" alt="Twitter Logo">
+                            <img src="../assets/linkedin.png" alt="LinkedIn Logo">
+                        </div>
                     </div>
                 </div>
             </div>

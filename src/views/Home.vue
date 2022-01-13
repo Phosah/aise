@@ -10,8 +10,8 @@
                 <div class="md:flex md:w-1/2 md:ml-auto px-16 md:px-0 -translate-y-20 text-sm lg:text-lg">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
         </header>
-        <main class="max-w-7xl mx-auto mb-32 px-16">
-            <h2 class="works-header mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
+        <main class="max-w-7xl mx-auto mb-32 md:px-16">
+            <h2 class="works-header mb-14 md:mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
             <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
                 <div class="md:w-1/3 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
@@ -51,9 +51,9 @@
         </main>
         <section class="flex items-center md:h-screen py-20 bg-brand-black-1 text-white">
             <div class="max-w-7xl mx-auto md:px-16">
-                <h2 class="testimonials-header mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
+                <h2 class="testimonials-header mb-20 md:mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
                 <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
-                    <div class="flex-1 mb-8 md:mb-0"><img class="mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
+                    <div class="flex-1 mb-8 md:mb-0"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex-1 px-16 md:px-0">
                         <div class="flex items-center space-x-4 mb-12 text-2xl">
                             <p class="mr-2">1.0</p>

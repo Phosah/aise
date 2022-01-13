@@ -413,7 +413,7 @@
                 <div class="flex-1"><img src="../assets/opportunities-graph-2.png" alt="Opportunities graph"></div>
             </div>
             <div class="mb-16">
-                <h4 class="mb-4 text-2xl lg:text-3xl font-bold font-playfair">Risk</h4>
+                <h4 class="mb-4 text-2xl lg:text-3xl font-bold font-playfair+">Risk</h4>
                 <p class="mb-4">The primary risk is that our app might struggle with initial adoption because of previously established competition and the reluctance of individuals and businesses who carry out transactions to switch from their current and trusted means of sending and receiving money.</p>
                 <p class="mb-4">A major factor that influences the utilization of a fintech platform especially those you entrust to handle your cash requires a high level of trust on the part of the users to the product, and that takes time to build and a high level of transparency.</p>
                 <p class="mb-4">With that in mind, there are possibilities to take a market and stand out as a competent and reliable product through the utilization of trust elements which includes testimonials and endorsements from top businesses/companies and freelancers. Also leveraging on the positive effect of social media.</p>

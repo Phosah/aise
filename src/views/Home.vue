@@ -5,9 +5,9 @@
         </div>
         <header class="header flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 md:px-16">
             <div class="flex flex-col md:block items-center">
-                <h3 class="mb-12 md:mb-0 md:w-2/3 px-16 md:px-0 text-3xl md:text-4xl lg:text-6xl text-white font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
+                <h3 class="mb-12 md:mb-0 md:w-2/3 px-16 md:px-0 text-3xl md:text-4xl lg:text-6xl dark:text-white font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
                 <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                <div class="md:flex md:w-1/2 md:ml-auto px-16 md:px-0 -translate-y-20 text-sm lg:text-lg text-white">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
+                <div class="md:flex md:w-1/2 md:ml-auto px-16 md:px-0 -translate-y-20 text-sm lg:text-lg dark:text-white">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
             </div>
         </header>
         <main class="max-w-7xl mx-auto mb-32 md:px-16">
@@ -49,9 +49,9 @@
                 </div>
             </section>
         </main>
-        <section class="flex items-center md:h-screen py-20 bg-white text-white dark:text-brand-black-1">
+        <section class="flex items-center md:h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1">
             <div class="hidden md:block max-w-7xl mx-auto md:px-16">
-                <h2 class="testimonials-header-dark mb-20 md:mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
+                <h2 class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
                 <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
                     <div class="flex-1 mb-8 md:mb-0"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex-1 px-16 md:px-0">
@@ -119,7 +119,7 @@
                 <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
                 <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             </div>
-            <button class="px-8 py-5 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
+            <button class="px-8 py-5 font-bold rounded-sm text-white dark:text-brand-black-1 bg-brand-black-1 dark:bg-white">Book an appointment</button>
         </section>
         <div class="max-w-7xl mx-auto">
             <FooterDark />

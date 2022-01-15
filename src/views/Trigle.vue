@@ -4,7 +4,7 @@
             <NavbarDark />
         </div>
         <section class="max-w-7xl mx-auto md:px-16">
-            <div class="md:flex md:items-center md:justify-between mb-20 py-28 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+            <div class="md:flex md:items-center md:justify-between mb-20 py-6 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
                 <div class="flex-1  md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
@@ -18,16 +18,16 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="max-w-5xl mx-auto px-16 text-brand-black-4">
-                <h1 class="mb-8 text-6xl font-semibold font-playfair">Trigle App Design</h1>
-                <p class="mb-16 text-xl">Bringing simplicity and flexibility to having your meals</p>
-                <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+            <div class="max-w-5xl mx-auto md:px-16">
+                <h1 class="mb-8 text-4xl md:text-6xl font-semibold font-playfair">Trigle App Design</h1>
+                <p class="mb-16 md:text-xl">Bringing simplicity and flexibility to having your meals</p>
+                <div class="mb-16 md:px-12 pl-6 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
                     Trigle is a restaurant finding app with a <br> framework developed for both tourists, <br> and residents to find restaurants closest <br> to them depending on the location
                 </div>
-                <p class="lg:w-5/6 text-xl leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
+                <p class="lg:w-5/6 md:text-xl leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto px-16 py-20">
+        <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">
             <div class="hidden md:flex items-center justify-between space-x-12">             
                 <div class="flex-1">
                     <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">The problem</h2>
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto px-16 py-20">
+        <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">
             <div class="md:flex md:items-center md:justify-between md:space-x-12 ">                
                 <div class="flex-1 mb-10 md:mb-0">
                     <img class="w-full mb-8" src="../assets/trigle-why-1.png" alt="Ladies on tourism">
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 md:pl-16 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:pl-16 md:px-16">
             <div class="hidden md:flex items-center justify-between space-x-12">
                 <div class="flex-1">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Our target users</h3>
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:justify-between md:space-x-12">
                 <div class="md:flex-1 mb-28 md:mb-0">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Business growth</h3>
@@ -134,10 +134,10 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="">
                 <div class="mb-24 text-center">
-                    <h2 class="mb-8 text-6xl font-semibold font-playfair">The process</h2>
+                    <h2 class="mb-8 text-3xl md:text-6xl font-semibold font-playfair">The process</h2>
                     <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                     <p>Project timeline: <span class="font-bold">4 weeks</span></p>
                 </div>
@@ -151,7 +151,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12">
                 <div class="md:flex-1 mb-12"><img class="w-full" src="../assets/trigle-research.png" alt="Research"></div>
                 <div class="md:flex-1">
@@ -162,7 +162,7 @@
                 </div>
             </div>
         </section>
-        <section class="hidden md:block max-w-7xl mx-auto py-20 px-16">
+        <section class="hidden md:block max-w-7xl mx-auto py-20 px-4 px-16">
             <div class="flex items-center justify-between space-x-10 mb-16">
                 <div class="w-1/3">
                     <img class="w-full" src="../assets/samuel.png" alt="">
@@ -218,7 +218,7 @@
                 </div>
             </div>
         </section>
-        <section class="block md:hidden max-w-7xl mx-auto py-20 px-16">
+        <section class="block md:hidden max-w-7xl mx-auto py-20 px-4">
             <div class="flex items-center space-x-4 mb-16">
                 <div class="w-1/3">
                     <img class="w-full" src="../assets/samuel.png" alt="Man photo">
@@ -246,7 +246,7 @@
                 </div>
             </div>
         </section>
-        <section class="block md:hidden max-w-7xl mx-auto py-20 px-16">
+        <section class="block md:hidden max-w-7xl mx-auto py-20 px-4">
             <div class="flex items-center space-x-4 mb-16">
                 <div class="w-1/3">
                     <img class="w-full" src="../assets/ari.png" alt="">
@@ -274,10 +274,10 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="">
                 <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">How might we</h3>
-                <p class="w-2/3 mb-8">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
+                <p class="md:w-2/3 mb-8">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                 <div class="md:flex md:space-x-8 lg:space-x-14">
                     <div class="mb-10 p-6 bg-brand-gray-light-1 rounded-md">
                         Create a way to access to <span class="font-bold">multiple restaurants</span> at the same time
@@ -291,7 +291,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto mb-20 py-20 px-16">
+        <section class="max-w-7xl mx-auto mb-20 py-20 px-4 md:px-16">
             <div class="">
                 <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Product Goal</h3>
                 <p class="mb-14">From results gotten from research and identifying of users pain points, we discovered that users want to be able to have their meals regardless of location or language, also they want to be able to have space where they can create memories with friends and loved ones. hence these solutions were brought to life and are listed below.</p>
@@ -314,13 +314,13 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="mb-28"><img class="w-full" src="../assets/map-ordering.png" alt="User Journey map (Ordering)"></div>
             <div><img class="w-full" src="../assets/map-booking.png" alt="User Journey map (Booking)"></div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <h1 class="mb-8 text-6xl font-semibold font-playfair text-center">Onboarding to the rescue</h1>
-            <p class="mb-20 md:mb-0 w-2/3 lg:w-2/4 mx-auto text-center">The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <h1 class="mb-8 text-3xl md:text-6xl font-semibold font-playfair text-center">Onboarding to the rescue</h1>
+            <p class="mb-20 md:mb-0 md:w-2/3 lg:w-2/4 mx-auto text-center">The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
             <div class="hidden md:flex items-center justify-center space-x-14 my-16">
                 <div><img class="" src="../assets/phone-1.png" alt="Phone"></div>
                 <div><img class="" src="../assets/phone-2.png" alt="Phone"></div>
@@ -330,9 +330,9 @@
                 <div><img class="" src="../assets/phone-4.png" alt="Phone"></div>
                 <div><img class="" src="../assets/phone-5.png" alt="Phone"></div>
             </div>
-            <div class="block md:hidden"><img class="mx-auto" src="../assets/phone-1.png" alt="Phone"></div>
+            <div class=" md:hidden"><img class="mx-auto" src="../assets/phone-1.png" alt="Phone"></div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12">
                 <div class="mb-12 md:mb-0 md:flex-1">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Home screen</h3>
@@ -344,7 +344,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="hidden md:flex items-center justify-between space-x-12">
                 <div class="flex-1">
                     <img class="" src="../assets/restaurant-page-photo.png" alt="Phones">
@@ -366,7 +366,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12">
                 <div class="md:flex-1 mb-12 md:mb-0">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Other features</h3>
@@ -381,9 +381,9 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <h3 class="mb-8 text-6xl font-semibold font-playfair text-center">Payment options</h3>
-            <p class="w-2/3 lg:w-2/4 mx-auto mb-24 text-center">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <h3 class="mb-8 text-3xl md:text-6xl font-semibold font-playfair text-center">Payment options</h3>
+            <p class="md:w-2/3 lg:w-2/4 mx-auto mb-24 text-center">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
             <div class="hidden md:flex md:items-center md:justify-between md:space-x-8">
                 <div><img class="w-full" src="../assets/payment-phone-1.png" alt="Payment phone"></div>
                 <div><img class="w-full" src="../assets/payment-phone-2.png" alt="Payment phone"></div>
@@ -394,7 +394,7 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto pt-20">
-            <h3 class="mb-24 text-6xl font-semibold font-playfair text-center">+70 design screens</h3>
+            <h3 class="mb-24 text-3xl md:text-6xl font-semibold font-playfair text-center">+70 design screens</h3>
             <div><img src="../assets/screens.png" alt="Screens"></div>
         </section>
         <section class="max-w-7xl mx-auto py-36 bg-brand-black-6">
@@ -427,7 +427,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12">
                 <div class="md:flex-1">
                     <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Success measurement</h3>
@@ -442,10 +442,10 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 md:px-16">
-            <h2 class="mb-16 text-6xl font-semibold font-playfair text-center">Other Projects</h2>
+            <h2 class="mb-16 text-3xl md:text-6xl font-semibold font-playfair text-center">Other Projects</h2>
             <div class="">
                 <div class="md:flex md:items-center md:justify-between md:space-x-8">
-                    <router-link to="/"><div class="mb-12"><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
+                    <router-link to="/"><div class="mb-12 md:mb-0"><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>
             </div>

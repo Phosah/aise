@@ -4,7 +4,7 @@
             <NavbarDark />
         </div>
         <section class="max-w-7xl mx-auto px-16">
-            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-contain bg-center bg-brand-green-1 text-white">
+            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-contain bg-center bg-brand-red-5 text-white">
                 <div class="flex-1">
                     <div class="w-2/3 mx-auto">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">TrustBreed</h2>

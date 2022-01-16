@@ -48,6 +48,30 @@
                     <img src="../assets/doorstep-home.png" alt="Trigle home photo">
                 </div>
             </section>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white">
+                <div class="flex-1 md:text-left text-center">
+                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">TrustBreed</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Customer Service, B2C</p>
+                        <router-link to="/trustbreed" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
+                </div>
+            </section>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
+                <div class="flex-1 md:text-left text-center">
+                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
+                        <router-link to="/powrfinance" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div class="flex flex-1 justify-end">
+                    <div><img class="" src="../assets/bitpowr-home.png" alt="Powr Finance devices"></div>                   
+                </div>
+            </section>
         </main>
         <section class="flex items-center md:h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1">
             <div class="hidden md:block max-w-7xl mx-auto md:px-16">

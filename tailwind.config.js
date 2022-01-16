@@ -55,7 +55,8 @@ module.exports = {
             1: '#FF07071a',
             2: '#E43A15',
             3: '#E65245',
-            4: '#BF0C0C'
+            4: '#BF0C0C',
+            5: '#ED4A4F'
 
           },
           pink: {

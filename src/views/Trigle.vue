@@ -5,11 +5,10 @@
         </div>
         <section class="max-w-7xl mx-auto md:px-16">
             <div class="md:flex md:items-center md:justify-between mb-10 py-6 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
-                <div class="flex-1  md:text-left text-center">
-                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
+                <div class="flex-1 md:text-left text-center">
+                    <div class="md:ml-16 md:pr-6">
                         <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
-                        <p class="mb-12 text-lg md:text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
-                        <router-link to="/trigle" class="inline-block pb-1 text-lg md:text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
+                        <p class="mb-8 text-lg md:text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -464,13 +463,13 @@
                 </div>
             </div>
         </section>
-       <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1">
+       <section class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
             <div class="px-16 md:px-0">
-                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold">Let's talk about your project</h3>
-                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h3>
+                <p class="mb-14 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             </div>
-            <button class="px-8 py-6 font-bold rounded-md text-white bg-brand-black-1">Book an appointment</button>
+            <button class="px-8 py-6 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
         </section>
         <div class="">
             <FooterDark />

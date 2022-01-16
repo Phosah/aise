@@ -20,10 +20,10 @@
             <div class="max-w-5xl mx-auto md:px-16">
                 <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Trigle App Design</h1>
                 <p class="mb-14 md:text-lg lg:text-xl">Bringing simplicity and flexibility to having your meals</p>
-                <div class="mb-14 md:px-12 pl-6 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                <div class="mb-14 md:px-12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
                     Trigle is a restaurant finding app with a <br> framework developed for both tourists, <br> and residents to find restaurants closest <br> to them depending on the location
                 </div>
-                <p class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
+                <p class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
             </div>
         </section>
         <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">

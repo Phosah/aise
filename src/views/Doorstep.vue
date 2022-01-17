@@ -4,12 +4,11 @@
             <NavbarDark />
         </div>
         <section class="max-w-7xl mx-auto md:px-16">
-            <div class="md:flex md:items-center md:justify-between mb-20 py-6 md:py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
-                <div class="flex-1 md:text-left text-center">
-                    <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
-                        <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
-                        <router-link to="/doorstep" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
+            <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+                <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
+                    <div class="md:ml-16 md:pr-6">
+                        <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
+                        <p class="text-lg md:text-xl lg:text-3xl font-light">Logistics</p>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -19,33 +18,35 @@
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
             <div class="max-w-5xl mx-auto md:px-16">
-                <h1 class="mb-8 text-4xl md:text-6xl font-semibold font-playfair">Doorstep Logistics</h1>
-                <p class="mb-16 md:text-xl">The fastest way to ship your packages and parcels around the world</p>
-                <div class="mb-16 md:px-12 pl-6 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
-                    Doorstep is a solution that helps to <br> simplify logistics and shipping services to ensure quick delivery of packages in a simplified processes
+                <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Doorstep Logistics</h1>
+                <p class="mb-14 md:text-lg lg:text-xl">The fastest way to ship your packages and parcels around the world</p>
+                <div class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                    Doorstep is a solution that helps to simplify logistics and shipping services to ensure quick delivery of packages in a simplified processes
                 </div>
-                <p class="lg:w-5/6 md:text-xl leading-8">Sending of documents and parcels have been in high demand as a result of expanding businesses and inter country trading. It gets to solve this by its provision of an integration sync with the tracking ID of the platform to constantly keep you in the loop.</p>
+                <p class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8">Sending of documents and parcels have been in high demand as a result of expanding businesses and inter country trading. It gets to solve this by its provision of an integration sync with the tracking ID of the platform to constantly keep you in the loop.</p>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+        <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16">
             <div class="hidden md:flex items-center justify-between space-x-12">
                 <div class="flex-1">
-                    <h2 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Project responsibilities</h2>
-                    <p class="mb-8">During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
+                    <h2 class="mb-6 text-3xl lg:text-4xl font-bold font-playfair">Project responsibilities</h2>
+                    <p>During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
                 </div>
                 <div class="flex-1">
-                    <img src="../assets/project-photo.png" alt="Project">
+                    <img class="w-full" src="../assets/project-photo.png" alt="Project">
                 </div>
             </div>
+            <!-- Mobile version -->
             <div class="block md:hidden">
                 <div class="mb-10">
-                    <img src="../assets/project-photo.png" alt="Project">
+                    <img class="w-full" src="../assets/project-photo.png" alt="Project">
                 </div>
-                <div class="">
-                    <h2 class="mb-8 text-3xl font-bold font-playfair">Project responsibilities</h2>
-                    <p class="">During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
+                <div class="text-sm">
+                    <h2 class="mb-6 text-2xl font-bold font-playfair">Project responsibilities</h2>
+                    <p>During the course of this project i was incharge of the ux and ui process which occasionally involved stakeholder interviews and surveys</p>
                 </div>
             </div>
+            <!-- End of mobile version -->
         </section>
         <!-- <section class="max-w-7xl mx-auto py-20 px-16">
             <div class="grid md:grid-cols-2 gap-10">
@@ -62,10 +63,10 @@
             </div>
         </section> -->
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="grid md:grid-cols-2 gap-10">
-                <div class="mb-4 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
-                    <div class="mb-8"><img class="p-4 bg-brand-purple-1 rounded-md" src="../assets/discover-icon.png" alt="Discover"></div>
-                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Discover</h4>
+            <div class="grid md:grid-cols-2 gap-10 text-sm md:text-base">
+                <div class="p-10 bg-brand-gray-light-1 shadow-sm rounded-md">
+                    <div class="mb-8"><img class="p-4 bg-brand-purple-1 rounded-2xl" src="../assets/discover-icon.png" alt="Discover"></div>
+                    <h3 class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Discover</h3>
                     <p class="mb-6">Discovery was the first phase in the UX-design process that involved</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-purple-1 rounded-full" src="../assets/tick-purple.png" alt="tick"></div>
@@ -84,9 +85,9 @@
                         <p>Competitor analysis</p>
                     </div>
                 </div>
-                <div class="mb-4 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
-                    <div class="mb-8"><img class="p-4 bg-brand-blue-2 rounded-md" src="../assets/define-icon.png" alt="Discover"></div>
-                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Define</h4>
+                <div class="p-10 bg-brand-gray-light-1 shadow-sm rounded-md">
+                    <div class="mb-8"><img class="p-4 bg-brand-blue-2 rounded-2xl" src="../assets/define-icon.png" alt="Discover"></div>
+                    <h3 class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Define</h3>
                     <p class="mb-6">Defining a product is a phase in the UX-design process that involves</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-blue-2 rounded-full" src="../assets/tick-blue.png" alt="tick"></div>
@@ -105,9 +106,9 @@
                         <p>Empathy mapping</p>
                     </div>
                 </div>
-                <div class="mb-4 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
-                    <div class="mb-8"><img class="p-4 bg-brand-orange-2 rounded-md" src="../assets/ideate-icon.png" alt="Ideate"></div>
-                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Ideate</h4>
+                <div class="p-10 bg-brand-gray-light-1 shadow-sm rounded-md">
+                    <div class="mb-8"><img class="p-4 bg-brand-orange-2 rounded-2xl" src="../assets/ideate-icon.png" alt="Ideate"></div>
+                    <h4 class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Ideate</h4>
                     <p class="mb-6">This part of the design process was where the product structure to shape</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-orange-2 rounded-full" src="../assets/tick-yellow.png" alt="tick"></div>
@@ -126,9 +127,9 @@
                         <p>Card sorting</p>
                     </div>
                 </div>
-                <div class="mb-4 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
-                    <div class="mb-8"><img class="p-4 bg-brand-red-1 rounded-md" src="../assets/visual-icon.png" alt="Visual"></div>
-                    <h4 class="mb-8 text-2xl lg:text-4xl font-bold font-playfair">Visual Design</h4>
+                <div class="p-10 bg-brand-gray-light-1 shadow-sm rounded-md">
+                    <div class="mb-8"><img class="p-4 bg-brand-red-1 rounded-2xl" src="../assets/visual-icon.png" alt="Visual"></div>
+                    <h4 class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Visual Design</h4>
                     <p class="mb-6">The research and structuring was brought to life visually to solve the problem</p>
                     <div class="flex space-x-4 items-center mb-4">
                         <div><img class="p-3 bg-brand-red-1 rounded-full" src="../assets/tick-red.png" alt="tick"></div>

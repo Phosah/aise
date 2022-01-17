@@ -1,14 +1,14 @@
 <template>
-  <div class="text-brand-black-4">
+    <div class="text-brand-black-4">
         <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
         <section class="max-w-7xl mx-auto md:px-16">
-            <div class="md:flex md:items-center md:justify-between mb-10 py-6 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
-                <div class="flex-1 md:text-left text-center">
+            <div class="md:flex md:items-center md:justify-between mb-10 py-20 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+                <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
                     <div class="md:ml-16 md:pr-6">
                         <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
-                        <p class="mb-8 text-lg md:text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
+                        <p class="text-lg md:text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -51,13 +51,13 @@
             <!-- End of mobile version -->
         </section>
         <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">
-            <div class="md:flex md:items-center md:justify-between md:space-x-12 ">                
+            <div class="md:flex md:items-center md:justify-between md:space-x-12">                
                 <div class="flex-1 mb-10 md:mb-0">
                     <img class="w-full mb-8" src="../assets/trigle-why-1.png" alt="Ladies on tourism">
                     <img class="w-full" src="../assets/trigle-why-2.png" alt="Ladies eating pizza at a restaurant">
                 </div>
                 <div class="flex-1 text-sm md:text-base">
-                    <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Why Trigle?</h3>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Why Trigle?</h2>
                     <p class="mb-6">With so much need and desire for good meals and the lock of time for its preparation, there has been an increase in food ordering and delivery demand</p>
                     <p class="">As good as the innovation was it still held some pain points and some of which include</p>
                     <ul class="mb-16 list-disc list-inside">
@@ -73,7 +73,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:pl-16 md:px-16">
             <div class="hidden md:flex items-center justify-between space-x-12">
                 <div class="flex-1">
-                    <h3 class="mb-6 text-3xl lg:text-4xl font-bold font-playfair">Our target users</h3>
+                    <h2 class="mb-6 text-3xl lg:text-4xl font-bold font-playfair">Our target users</h2>
                     <p class="mb-6">The age range for our main target audience from the research was estimated to be between the ages of 20-35 years old as the major users having statistics of 68% of food ordering requests coming from that age range, this doesn't stop the design from being tailored for all but helps focus on our major users needs more in-depth
                     </p>
                     <p>With a vast majority falling into the category of</p>
@@ -94,7 +94,7 @@
                     <img class="w-full h-full" src="../assets/target-users.png" alt="Target users">
                 </div>
                 <div class="text-sm">
-                    <h3 class="mb-6 text-2xl font-bold font-playfair">Our target users</h3>
+                    <h2 class="mb-6 text-2xl font-bold font-playfair">Our target users</h2>
                     <p class="mb-6">The age range for our main target audience from the research was estimated to be between the ages of 20-35 years old as the major users having statistics of 68% of food ordering requests coming from that age range, this doesn't stop the design from being tailored for all but helps focus on our major users needs more in-depth
                     </p>
                     <p>With a vast majority falling into the category of</p>
@@ -111,11 +111,11 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:justify-between md:space-x-12">
                 <div class="md:flex-1 mb-28 md:mb-0 text-sm md:text-base">
-                    <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Business growth</h3>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Business growth</h2>
                     <p class="mb-6">With so much growth and increase in the online food delivery service, it is an enticing and robust market because it deals with a daily satisfaction of human consumption need and an everyday necessity. The research was taken on the potential growth of the product in the next coming years and from survey, an analysis was determined, one of which is </p> <p>In 2020, China’s market size of online food delivery services reached 102 billion dollars. </p>              
                 </div>
                 <div class="md:flex-1">
-                    <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Estimated growth</h3>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Estimated growth</h2>
                     <div class="">
                         <div class="flex items-center space-x-2 w-7/12 mb-4">
                             <p>2017</p>
@@ -140,7 +140,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="">
                 <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
-                    <h2 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">The process</h2>
+                    <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">The process</h1>
                     <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                     <p>Project timeline: <span class="font-bold">4 weeks</span></p>
                 </div>
@@ -158,7 +158,7 @@
             <div class="md:flex md:items-center md:justify-between md:space-x-12">
                 <div class="md:flex-1 mb-12"><img class="w-full" src="../assets/trigle-research.png" alt="Research"></div>
                 <div class="md:flex-1 text-sm md:text-base">
-                    <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Research</h3>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Research</h2>
                     <p class="mb-6">After listening carefully to stakeholders and the product owners, since they are the first source of information source as they were the ones with the project idea and brief and have to an extent gotten down a bit of research of their own, I began with the UX phase which started with series of intense research.</p>
                     <p>The research comprised of both offline and scheduled offline interviews, then competitive research of other food delivering and restaurant apps.
                     In this process users needs were identified and understood in an in-depth manner and from this personas were generated to be able to personalize the pain points, challenges and identify the core requirements of users</p>
@@ -171,7 +171,7 @@
                     <img class="w-full" src="../assets/samuel.png" alt="">
                 </div>
                 <div class="w-2/3">
-                    <h3 class="mb-4 text-3xl lg:text-4xl font-bold font-playfair">Samuel LeJourn</h3>
+                    <h2 class="mb-4 text-3xl lg:text-4xl font-bold font-playfair">Samuel LeJourn</h2>
                     <p class="">Samuel is an Accountant with over 3 years of working experience, he is a graduate of the Covenant University Ota. He is calm, inquisitive, career-driven and a lover of family</p>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                     <img class="w-full" src="../assets/ari.png" alt="">
                 </div>
                 <div class="w-2/3">
-                    <h3 class="mb-4 text-3xl lg:text-4xl font-bold font-playfair">Farida Alasha</h3>
+                    <h2 class="mb-4 text-3xl lg:text-4xl font-bold font-playfair">Farida Alasha</h2>
                     <p>Ari is a graphic illustrator that lives in New York With over 3 years of working experience and over 200 successful designs. She is a lover of memes and appreciates the company of friends</p>
                 </div>
             </div>
@@ -211,11 +211,11 @@
                 </div>
                 <div class="flex space-x-6 w-2/3">
                     <div>
-                        <h4 class="text-lg font-bold mb-4">Goals and needs</h4>
+                        <h3 class="text-lg font-bold mb-4">Goals and needs</h3>
                         <p class="text-sm">Ari needs to be able to explore around the city to see various forms of like and their meals are a key part of that life and having a place(s) where she can sit with friends and share the moments</p>
                     </div>
                     <div>
-                        <h4 class="text-lg font-bold mb-4">Pain points</h4>
+                        <h3 class="text-lg font-bold mb-4">Pain points</h3>
                         <p class="text-sm">Knowledge of varieties of restaurants to hang out with friends or meet new people so she ends up exploring the same old places over again, it gets tiring. Also difficulty in navigating to a new restaurant even when an address is given, the use of google maps are not as easy as the app makes it sound</p>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
             <div class="">
                 <div class="">
                     <div class="mb-16">
-                        <h3 class="mb-4 text-2xl font-bold font-playfair">Samuel LeJourn</h3>
+                        <h2 class="mb-4 text-2xl font-bold font-playfair">Samuel LeJourn</h2>
                         <p class="">Samuel is an Accountant with over 3 years of working experience, he is a graduate of the Covenant University Ota. He is calm, inquisitive, career-driven and a lover of family</p>
                     </div>
                     <div class="mb-16">
@@ -264,15 +264,15 @@
             <div class="">
                 <div class="">
                     <div class="mb-16">
-                        <h3 class="mb-4 text-2xl font-bold font-playfair">Farida Alasha</h3>
+                        <h2 class="mb-4 text-2xl font-bold font-playfair">Farida Alasha</h2>
                         <p class="">Ari is a graphic illustrator that lives in New York With over 3 years of working experience and over 200 successful designs. She is a lover of memes and appreciates the company of friends</p>
                     </div>
                     <div class="mb-16">
-                        <h4 class="text-lg font-bold mb-4">Goals and needs</h4>
+                        <h3 class="text-lg font-bold mb-4">Goals and needs</h3>
                         <p class="text-sm">Ari needs to be able to explore around the city to see various forms of like and their meals are a key part of that life and having a place(s) where she can sit with friends and share the moments</p>
                     </div>
                     <div>
-                        <h4 class="text-lg font-bold mb-4">Pain points</h4>
+                        <h3 class="text-lg font-bold mb-4">Pain points</h3>
                         <p class="text-sm">Knowledge of varieties of restaurants to hang out with friends or meet new people so she ends up exploring the same old places over again, it gets tiring. Also difficulty in navigating to a new restaurant even when an address is given, the use of google maps are not as easy as the app makes it sound</p>
                     </div>
                 </div>
@@ -281,7 +281,7 @@
         <!-- End of Mobile version -->
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="">
-                <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">How might we</h3>
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">How might we</h2>
                 <p class="md:w-2/3 mb-6 text-sm md:text-base">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
                 <div class="grid md:grid-cols-3 gap-4">
                     <div class="md:mb-10 p-6 bg-brand-gray-light-1 rounded-md">
@@ -298,7 +298,7 @@
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="">
-                <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Product Goal</h3>
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Product Goal</h2>
                 <p class="mb-12">From results gotten from research and identifying of users pain points, we discovered that users want to be able to have their meals regardless of location or language, also they want to be able to have space where they can create memories with friends and loved ones. hence these solutions were brought to life and are listed below.</p>
                 <div class="md:flex md:space-x-8 lg:space-x-12">
                     <div class="md:mb-10">
@@ -342,7 +342,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="sm:flex sm:items-center sm:justify-between sm:space-x-12">
                 <div class="mb-12 md:mb-0 sm:flex-1 text-sm md:text-base">
-                    <h3 class="mb-6 text-3xl lg:text-5xl font-bold font-playfair">Home screen</h3>
+                    <h2 class="mb-6 text-3xl lg:text-5xl font-bold font-playfair">Home screen</h2>
                     <p class="mb-6">The home screen is comprises of all the restaurants listed on the platform and broken down into categories of specilaization for users to utilize the quick filter selection to navigate through</p>
                     <p>Also the home welcomes first time users to complete profile and by doing so gives you points which could be used when accumulated to make an order, this process was created to gamify the app, this tends to make the users comfortable making orders knowing there is a bouns reward on te way</p>
                 </div>
@@ -357,7 +357,7 @@
                     <img class="" src="../assets/restaurant-page-photo.png" alt="Phones">
                 </div>
                 <div class="flex-1">
-                    <h3 class="mb-6 md:text-3xl lg:text-4xl font-bold font-playfair">Restaurant page</h3>
+                    <h2 class="mb-6 md:text-3xl lg:text-4xl font-bold font-playfair">Restaurant page</h2>
                     <p class="mb-6">This view is for the selected restaurant, you get to have banner of a meal the reason is to give an expectation of what the restaurant offers, which in turn increases possibilities of making a purchase from that restaurant. A good banner increases order by 50%</p>
                     <p>The second screen indicates when the user scrolls upwards, to prevent indicators of the restaurant you are on to leave leaving you guessing where you are again, the micro interaction works in such a way that the logo and name changes poition to the top onscroll</p>
                 </div>
@@ -365,7 +365,7 @@
             <!-- Mobile version -->
             <div class="block sm:hidden">
                 <div class="mb-12">
-                    <h3 class="mb-6 text-2xl font-bold font-playfair">Restaurant page</h3>
+                    <h2 class="mb-6 text-2xl font-bold font-playfair">Restaurant page</h2>
                     <p class="mb-6">This view is for the selected restaurant, you get to have banner of a meal the reason is to give an expectation of what the restaurant offers, which in turn increases possibilities of making a purchase from that restaurant. A good banner increases order by 50%</p>
                     <p>The second screen indicates when the user scrolls upwards, to prevent indicators of the restaurant you are on to leave leaving you guessing where you are again, the micro interaction works in such a way that the logo and name changes poition to the top onscroll</p>
                 </div>
@@ -378,7 +378,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="sm:flex sm:items-center sm:justify-between sm:space-x-12 text-sm md:text-base">
                 <div class="sm:flex-1 mb-12 sm:mb-0">
-                    <h3 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Other features</h3>
+                    <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Other features</h2>
                     <p class="mb-6">These compirses of</p>
                     <ol class="list-decimal pl-5">
                         <li class="mb-4">The AR direction feature: when in a restaurant, once you navigate to the locations, there is a display of an overview of the location and potential time estimate depending on your mode of transport. Clicking on te GET DIRECTIONS button brings up the AR feature that gives precise view and directions to your destination</li>
@@ -405,7 +405,7 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto pt-20">
-            <h3 class="mb-24 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">+70 design screens</h3>
+            <h1 class="mb-24 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">+70 design screens</h1>
             <div><img src="../assets/screens.png" alt="Screens"></div>
         </section>
         <section class="max-w-7xl mx-auto py-36 bg-brand-black-6">
@@ -443,7 +443,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12 text-sm md:text-base">
                 <div class="md:flex-1">
-                    <h3 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Success measurement</h3>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Success measurement</h2>
                     <p class="mb-6">To measure the success of this interface which would guiide iterations i would focus on</p>
                     <ol class="list-decimal pl-5 mb-12 md:mb-0">
                         <li>How many dropoffs happend when creating an order </li>
@@ -455,18 +455,44 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 md:px-16">
-            <h2 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h2>
-            <div class="">
-                <div class="md:flex md:items-center md:justify-between md:space-x-8">
-                    <router-link to="/"><div class="mb-12 md:mb-0"><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
+            <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
+            <div class="hidden md:block">
+                <div class="flex items-center justify-between space-x-8">
+                    <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>
             </div>
+            <!-- Mobile version -->
+            <section class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+                <div class="text-center">
+                    <div class="mb-20">
+                        <h2 class="mb-4 text-2xl font-semibold font-playfair">Doorstep</h2>
+                        <p class="mb-12 text-xl font-light">Logistics</p>
+                        <router-link to="/doorstep" class="inline-block pb-1 text-xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div>
+                    <img src="../assets/doorstep-home.png" alt="Trigle home photo">
+                </div>
+            </section>
+            <section class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white">
+                <div class="text-center">
+                    <div class="mb-20">
+                        <h2 class="mb-4 text-2xl font-semibold font-playfair">TrustBreed</h2>
+                        <p class="mb-12 text-xl font-light">Customer Service, B2C</p>
+                        <router-link to="/trustbreed" class="inline-block pb-1 text-xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
+                </div>
+            </section>
+            <!-- End of mobile version -->
         </section>
        <section class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
             <div class="px-16 md:px-0">
-                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h3>
+                <h1 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h1>
                 <p class="mb-14 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             </div>
             <button class="px-8 py-6 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>

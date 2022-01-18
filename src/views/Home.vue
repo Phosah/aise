@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="flex-1">
-                    <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
+                    <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo">
                 </div>
             </section>
             <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">

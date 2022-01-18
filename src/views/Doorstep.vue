@@ -404,7 +404,7 @@
             <!-- End of Mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
-            <div class="mb-12 text-center">
+            <div class="mb-12  md:w-5/6 mx-auto text-center">
                 <h2 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Conclusion</h2>
                 <p>The experience of this project was an insightful one, the aim to simplify the process even further is in progress and results from feedback of V1 would be used to make the users experience better and solve the problems better for the users</p>
             </div>
@@ -440,7 +440,7 @@
                     </div>
                 </div>
                 <div class="flex-1">
-                    <img src="../assets/doorstep-home.png" alt="Doorstep home photo">
+                    <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo">
                 </div>
             </section>
             <!-- End of mobile version -->

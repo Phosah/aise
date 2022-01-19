@@ -3,13 +3,12 @@
       <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
-        <section class="max-w-7xl mx-auto px-16">
-            <div class="flex items-center justify-between  py-20 bg-hero-image bg-no-repeat bg-contain bg-center bg-brand-blue-8 text-white">
-                <div class="flex-1">
-                    <div class="w-2/3 mx-auto">
-                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
-                        <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
-                        <p class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</p>
+        <section class="max-w-7xl mx-auto md:px-16">
+            <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-center bg-brand-blue-8 text-white">
+                <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
+                    <div class="md:ml-16 md:pr-6">
+                        <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
+                        <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech, B2B, B2C</p>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -18,340 +17,363 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="max-w-5xl mx-auto px-16">
-                <h1 class="mb-8 text-6xl font-semibold font-playfair">Powr Finance</h1>
-                <p class="mb-16 text-xl">The growth and expansion of businesses and services are heavily dependent on seamless intercontinental financial transactions</p>
-                <div class="mb-16 px-12 border-l-4 border-brand-black-4 text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
-                    Power Finance is a solution that enables <br> Businesses and Freelancers send and receive money from any country of your choice seamlessly
+            <div class="max-w-5xl mx-auto md:px-16">
+                <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Powr Finance</h1>
+                <p class="mb-14 md:text-lg lg:text-xl">The growth and expansion of businesses and services are heavily dependent on seamless intercontinental financial transactions</p>
+                <div class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                    Power Finance is a solution that enables Businesses and Freelancers send and receive money from any country of your choice seamlessly
                 </div>
-                <p class="lg:w-5/6 text-xl leading-8">Powr finance is a fintech app that was designed to scale and grow African businesses by providing them by providing seamless transaction services while catering for other solutions needed to grow like, savings, lending, and currency conversion services, which involve crypto settlements..</p>
+                <p class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8">Powr finance is a fintech app that was designed to scale and grow African businesses by providing them by providing seamless transaction services while catering for other solutions needed to grow like, savings, lending, and currency conversion services, which involve crypto settlements..</p>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="mb-16">
-                <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Scope of work and Timeline</h3>
+        <section class="max-w-7xl mx-auto py-10 px-4 md:px-16 text-sm md:text-base">
+            <div class="mb-20">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Scope of work and Timeline</h2>
                 <p>My responsibilities for the design of Powr finance included user research which included online and in-person interviews, concept ideation, business research, aligning key stakeholders on product goals and decisions, designing user flows, visual design, prototyping, user testing, incorporating user feedback into design iterations, and monitoring of the implementation of the product to ensure the design decisions and visuals are accurately implemented</p>
             </div>
-            <div><img class="w-full" src="../assets/timeline.png" alt="Timeline"></div>
-        </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">My Design Process</h3>
-            <div><img class="w-full" src="../assets/design-process.png" alt="Design Process"></div>
-        </section>
-        <section class="">
-            <div class="max-w-7xl mx-auto py-20 px-16">
-                <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Understanding the Problem</h3>
-                <p class="mb-8">Every good product is built upon solving a problem, and the root of every problem lies with understanding the pain points of users and when none is visible, understanding the limitations users are both aware and unaware of to bring a solution to make life better for them.</p>
-                <p class="mb-16">Over a couple of years, there has been a massive growth of service providers extending their services globally and vice versa, whereby making transactions was the main issue. Sending money abroad prevented vendors from purchasing the necessary pieces of equipment needed for their businesses and receiving payments made it hard to carry out good business. Likewise, for the freelancers, a lot could not offer their services to foreign clients because receiving payments was getting difficult, and using banks, the processes to getting a DOM account was a lot of stress and the bank charges were outrageous</p>
+            <div class="hidden md:block"><img class="w-full" src="../assets/timeline.png" alt="Timeline"></div>
+            <!-- Mobile version -->
+            <div class="block md:hidden">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Timeline</h2>
+                <img class="w-full" src="../assets/timeline-mobile.png" alt="Timeline">
             </div>
-            <div class="flex items-center justify-center h-screen max-w-7xl mx-auto text-6xl lg:text-7xl font-semibold bg-analysis bg-cover bg-center bg-no-repeat text-white">
+            <!-- End of Mobile version -->
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">My Design Process</h2>
+            <div class="hidden md:block"><img class="w-full" src="../assets/design-process.png" alt="Design Process"></div>
+            <!-- Mobile version -->
+            <div class="block md:hidden">
+                <img class="w-full" src="../assets/design-process-mobile.png" alt="Timeline">
+            </div>
+            <!-- End of Mobile version -->
+        </section>
+        <section class="text-sm md:text-base">
+            <div class="max-w-7xl mx-auto pb-20 px-4 md:px-16">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Understanding the Problem</h2>
+                <p class="mb-6">Every good product is built upon solving a problem, and the root of every problem lies with understanding the pain points of users and when none is visible, understanding the limitations users are both aware and unaware of to bring a solution to make life better for them.</p>
+                <p>Over a couple of years, there has been a massive growth of service providers extending their services globally and vice versa, whereby making transactions was the main issue. Sending money abroad prevented vendors from purchasing the necessary pieces of equipment needed for their businesses and receiving payments made it hard to carry out good business. Likewise, for the freelancers, a lot could not offer their services to foreign clients because receiving payments was getting difficult, and using banks, the processes to getting a DOM account was a lot of stress and the bank charges were outrageous</p>
+            </div>
+            <div class="hidden md:flex items-center justify-center h-screen max-w-7xl mx-auto text-6xl lg:text-7xl font-semibold bg-analysis bg-cover bg-center bg-no-repeat text-white">
                 <h1>Competitive analysis</h1>
             </div>
-        </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <h3 class="mb-8 text-3xl lg:text-5xl font-bold font-playfair">Understanding the business goals and Competitor</h3>
-            <p class="mb-8">Understanding our competitors on how they solve problems of similar products that provide solutions for similar user needs has helped me as a designer define what creative solutions could be designed and improved for our product. The three main primary competitors are Wise, Payoneer, & PayPal.</p>
-        </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="flex items-center space-x-4 mb-8">
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Wise</h4>
-                <div class="h-8 border-r-2 border-brand-black-4"></div>
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h4>
+            <!-- Mobile version -->
+            <div class="md:hidden flex items-center justify-center h-screen max-w-7xl mx-auto text-5xl font-semibold bg-analysis-mobile bg-cover bg-center bg-no-repeat text-white">
+                <h1 class="text-center">Competitive analysis</h1>
             </div>
-            <div class="flex items-center space-x-10 mb-10">
-                <div class="flex-1">
+            <!-- End of mobile version -->
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Understanding the business goals and Competitor</h2>
+            <p>Understanding our competitors on how they solve problems of similar products that provide solutions for similar user needs has helped me as a designer define what creative solutions could be designed and improved for our product. The three main primary competitors are Wise, Payoneer, & PayPal.</p>
+        </section>
+        <section class="max-w-7xl mx-auto md:px-16 pb-20 text-sm md:text-base">
+            <div class="flex items-center space-x-4 mb-10 px-4">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Wise</h3>
+                <div class="h-8 border-r-2 border-brand-black-4"></div>
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h3>
+            </div>
+            <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
+                <div class="md:flex-1 px-4">
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Overview</h5>
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
                         <p>The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.</p>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Key Objectives</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Key Objectives</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Providing services at cheap prices</li>
                             <li>Enabling usage of funds both online and offline in any country</li>
                         </ul>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Advantage</h5>
-                        <ul class="list-disc pl-10">
-                            <li class="mb-1">Built a high level of trust with low fees and transparency</li>
-                        </ul>
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Market Advantage</h4>
+                        <p>Built a high level of trust with low fees and transparency</p>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Positioning</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Market Positioning</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Display of trust compared to conventional banks</li>
-                            <li>Leverage big online and offline publications.</li>
-                            <li>Collaborated affiliations with other brands</li>
-                            <li>SEO Optimization</li>
-                            <li>UX and Design</li>
+                            <li class="mb-1">Leverage big online and offline publications.</li>
+                            <li class="mb-1">Collaborated affiliations with other brands</li>
+                            <li class="mb-1">SEO Optimization</li>
+                            <li class="mb-1">UX and Design</li>
                             <li>Social media & Referrals</li>
                         </ul>
                     </div>
                 </div>
-                <div class="flex-1"><img class="h-full" src="../assets/wise.png" alt="Competitive analysis"></div>
+                <div class="md:flex-1"><img class="h-full" src="../assets/wise.png" alt="Competitive analysis"></div>
             </div>
-            <div class="flex space-x-4">
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Strength</h5>
-                    <ul class="list-disc pl-10">
+            <div class="md:flex md:space-x-4 px-4 text-sm">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">Available in over 60 countries, increasing its userbase.</li>
-                        <li>Strong financial health with a net worth of above $5 billion, which shows the market’s trust in it.</li>
+                        <li class="mb-1">Strong financial health with a net worth of above $5 billion, which shows the market’s trust in it.</li>
                         <li>Low cost and transaction fees</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Weakness</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">With approximately 8 million users worldwide, it has the potential to be much higher. If the company markets properly</li>
                         <li>The private status of the company limits its growth.</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Opportunities</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1 mb-8 md:mb-0 ">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">Exploiting blockchain technology to improve its payment process</li>
-                        <li>Globalization.</li>
-                        <li>Going public</li>
+                        <li class="mb-1">Globalization.</li>
+                        <li class="mb-1">Going public</li>
                         <li>Constant evolution by frequently analyzing customers needs.</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Threats</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">New competitors can easily enter the market and challenge them</li>
                         <li>Offline transfer systems like Western Union and Moneygram pose a threat as well.</li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="flex items-center space-x-4 mb-8">
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Payoneer</h4>
+        <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
+            <div class="flex items-center space-x-4 mb-10 px-4">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Payoneer</h3>
                 <div class="h-8 border-r-2 border-brand-black-4"></div>
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h4>
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h3>
             </div>
-            <div class="flex items-center space-x-10 mb-10">
-                <div class="flex-1">
+            <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
+                <div class="md:flex-1 px-4">
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Overview</h5>
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
                         <p>Payoneer is the world’s go-to partner for digital commerce, everywhere. From borderless payments to boundless growth, Payoneer promises any business, in any market, the technology, connections, and confidence to participate and flourish in the new global economy. </p>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Key Objectives</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl
+                        font-bold">Key Objectives</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Providing borderless payments</li>
                             <li>Facilitate digital commerce</li>
                         </ul>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Advantage</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg font-bold">Market Advantage</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Solid customer support</li>
                             <li>Payment portal for most E-commerce vendors</li>
                         </ul>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Positioning</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Market Positioning</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Display of trust with solid customer service</li>
-                            <li>Merchant service payment plan</li>
-                            <li>Ease of bill payment</li>
-                            <li>Collaborated affiliations with other brands</li>
-                            <li>Clean and usable Design</li>
+                            <li class="mb-1">Merchant service payment plan</li>
+                            <li class="mb-1">Ease of bill payment</li>
+                            <li class="mb-1">Collaborated affiliations with other brands</li>
+                            <li class="mb-1">Clean and usable Design</li>
                             <li>Global Expansion</li>
                         </ul>
                     </div>
                 </div>
                 <div class="flex-1"><img class="h-full" src="../assets/payoneer.png" alt="Competitive analysis"></div>
             </div>
-            <div class="flex space-x-4">
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Strength</h5>
-                    <ul class="list-disc pl-10">
+            <div class="md:flex md:space-x-4 px-4 text-sm">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">Payoneer provides services to both developed economies and developing countries, increasing its userbase to over 4m</li>
-                        <li>They have over 300 employees for the customer service, assisting the users in more than 70 different languages</li>
-                        <li>A diverse range of financial services</li>
-                        <li>The computer interface of Payoneer is user-friendly, simple, and easy to use.</li>
+                        <li class="mb-1">They have over 300 employees for the customer service, assisting the users in more than 70 different languages</li>
+                        <li class="mb-1">A diverse range of financial services</li>
+                        <li class="mb-1">The computer interface of Payoneer is user-friendly, simple, and easy to use.</li>
                         <li>It allows users to integrate their Payoneer account with the major freelancing platforms like Fiverr, Freelancer, Upwork, People Per Hour, and many other platforms and this increases userbase.</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Weakness</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">Strict Approval Policies</li>
-                        <li>Payoneer also has the control to require extra from the users, to freeze their account, and stop sending or receiving payments.</li>
-                        <li>No transaction can be done without the internet which is an issue in developing countries.</li>
-                        <li>Payoneer only allows users to make payments either to the bank accounts or to other users.</li>
-                        <li>High fee structure.</li>
+                        <li class="mb-1">Payoneer also has the control to require extra from the users, to freeze their account, and stop sending or receiving payments.</li>
+                        <li class="mb-1">No transaction can be done without the internet which is an issue in developing countries.</li>
+                        <li class="mb-1">Payoneer only allows users to make payments either to the bank accounts or to other users.</li>
+                        <li class="mb-1">High fee structure.</li>
                         <li>Payoneer has a minimum monthly payment requirement of $20,000</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Opportunities</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">Exploiting new technology advancements like blockchain to improve its processes and speed transfer</li>
-                        <li>The fast expansion of internet services across the world.</li>
-                        <li>Going public</li>
-                        <li>Constant evolution by frequently analyzing customers needs.</li>
+                        <li class="mb-1">The fast expansion of internet services across the world.</li>
+                        <li class="mb-1">Going public</li>
+                        <li class="mb-1">Constant evolution by frequently analyzing customers needs.</li>
                         <li>Improved marketing campaigns to increase the userbase</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Threats</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">The customer prefers a local provider rather than an international service provider.</li>
-                        <li>New competitors can easily enter the market and challenge them.</li>
-                        <li>Financial fraud and account hacking activities have also increased in recent years.</li>
-                        <li>Unfavorable international regulations</li>
+                        <li class="mb-1">New competitors can easily enter the market and challenge them.</li>
+                        <li class="mb-1">Financial fraud and account hacking activities have also increased in recent years.</li>
+                        <li class="mb-1">Unfavorable international regulations</li>
                         <li>Payoneer has a high amount of investment capital, making it vulnerable to loosing investors if the economy declines</li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16">
-            <div class="flex items-center space-x-4 mb-8">
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Paypal</h4>
+        <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
+            <div class="flex items-center space-x-4 mb-10 px-4">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Paypal</h3>
                 <div class="h-8 border-r-2 border-brand-black-4"></div>
-                <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h4>
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Competitive Analysis</h3>
             </div>
-            <div class="flex items-center space-x-10 mb-10">
-                <div class="flex-1">
+            <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
+                <div class="md:flex-1 px-4">
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Overview</h5>
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
                         <p>The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.</p>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Key Objectives</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Key Objectives</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Providing services at cheap prices</li>
                             <li>Enabling usage of funds both online and offline in any country</li>
                         </ul>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Advantage</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Market Advantage</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Established a house hold name for e-commerce activities which has improved trust in the product</li>
                         </ul>
                     </div>
                     <div class="mb-8">
-                        <h5 class="mb-4 text-lg font-bold">Market Positioning</h5>
-                        <ul class="list-disc pl-10">
+                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Market Positioning</h4>
+                        <ul class="list-disc pl-6">
                             <li class="mb-1">Portrays as the only online global payment system in the world</li>
-                            <li>Old and reliable.</li>
-                            <li>Large userbase signifying trust in the market</li>
+                            <li class="mb-1">Old and reliable.</li>
+                            <li class="mb-1">Large userbase signifying trust in the market</li>
                             <li>Ecommerce payment portal</li>
                         </ul>
                     </div>
                 </div>
-                <div class="flex-1"><img class="h-full" src="../assets/paypal.png" alt="Competitive analysis"></div>
+                <div class="md:flex-1"><img class="h-full" src="../assets/paypal.png" alt="Competitive analysis"></div>
             </div>
-            <div class="flex space-x-4">
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Strength</h5>
-                    <ul class="list-disc pl-10">
+            <div class="md:flex md:space-x-4 px-4 text-sm">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">PayPal doesn’t charge an annual maintenance fee to use its Mastercard.</li>
-                        <li>Global Presence</li>
-                        <li>Large customer base</li>
-                        <li>High business alliance of PayPal with companies like Facebook to handle all its payment transactions</li>
-                        <li>You don’t need to register an account to use PayPal</li>
+                        <li class="mb-1">Global Presence</li>
+                        <li class="mb-1">Large customer base</li>
+                        <li class="mb-1">High business alliance of PayPal with companies like Facebook to handle all its payment transactions</li>
+                        <li class="mb-1">You don’t need to register an account to use PayPal</li>
                         <li>Selection of who pays the fees from PayPal charges</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Weakness</h5>
-                    <ul class="list-disc pl-10">
+                <div class="md:flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">PayPal is not using a database-driven ordering system</li>
-                        <li>Bad communication between PayPal and its customer</li>
-                        <li>PayPal has been accused of Withheld funds, freezing and termination of PayPal accounts</li>
+                        <li class="mb-1">Bad communication between PayPal and its customer</li>
+                        <li class="mb-1">PayPal has been accused of Withheld funds, freezing and termination of PayPal accounts</li>
                         <li>Dependent on internet connections</li>
                     </ul>
                 </div>
-                <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Opportunities</h5>
-                    <ul class="list-disc pl-10">
+                <div class="flex-1 mb-8 md:mb-0">
+                    <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">The acquisition is one of the opportunities for PayPal as it can bring more customers to PayPal especially with a company that also run IT business</li>
-                        <li>Move towards Cashless or fewer cash Economies</li>
+                        <li class="mb-1">Move towards Cashless or fewer cash Economies</li>
                         <li>Digital currency and technological advancement: </li>
                     </ul>
                 </div>
                 <div class="flex-1">
                     <h5 class="mb-4 text-lg font-bold">Threats</h5>
-                    <ul class="list-disc pl-10">
+                    <ul class="list-disc pl-6">
                         <li class="mb-1">PayPal does not invest in advertising on the internet causes the brand image of PayPal is not very well. So it also needs to strengthen its brand through the Web</li>
-                        <li>In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image</li>
+                        <li class="mb-1">In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image</li>
                         <li>Hacking and Fraud threats</li>
                     </ul>
                 </div>
             </div>
         </section>
         <section>
-            <div class="flex items-center justify-center h-screen max-w-7xl mx-auto bg-persona-1 bg-cover bg-center bg-no-repeat text-white">
-                <div class="w-2/3 mx-auto text-center">
+            <div class="hidden md:flex items-center justify-center h-screen max-w-7xl mx-auto bg-persona-1 bg-cover bg-center bg-no-repeat text-white">
+                <div class="w-2/3 mx-auto text-center md:text-base">
                     <h1 class="mb-8 text-6xl lg:text-7xl font-semibold">User Personas</h1>
                     <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>               
                 </div>
             </div>
-            <div class="max-w-7xl mx-auto py-20 px-16">
-                <div class="flex space-x-6 items-center mb-16">
-                    <div class="w-1/3"><img src="../assets/user-persona-2.png" alt="User persona"></div>
-                    <div class="w-2/3">
+            <!-- Mobile version -->
+            <div class="flex md:hidden items-center justify-center h-screen max-w-7xl mx-auto bg-persona-1-mobile bg-cover bg-center bg-no-repeat text-white">
+                <div class="w-11/12 mx-auto text-center text-sm">
+                    <h1 class="mb-8 text-5xl font-semibold">User Personas</h1>
+                    <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>               
+                </div>
+            </div>
+            <!-- End of Mobile version -->
+            <div class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
+                <div class="md:flex md:space-x-6 md:items-center mb-16">
+                    <div class="md:w-1/3 mb-10 md:mb-0"><img class="w-full" src="../assets/user-persona-2.png" alt="User persona"></div>
+                    <div class="md:w-2/3">
                         <div class="mb-8">
-                            <h4 class="mb-4 text-lg font-bold font-playfair">Annabelle Riche</h4>
+                            <h4 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">Annabelle Riche</h4>
                             <p>Anabelle is a 25-year-old front-end developer that stays in Nigeria and has been freelancing for a living for the past 3 years with over 120 clients from all over the world including America, Europe, and Asia.</p>
                         </div>
-                        <div class="flex space-x-6">
-                            <div class="flex-1">
-                                <h5 class="font-bold">Goals and needs</h5>
-                                <p class="mb-8">Anabelle freelances and wants to expand her reach to higher-paying countries for her talents and skills, hence she is seeking the most secure means of receiving funds from abroad</p>
+                        <div class="md:flex md:space-x-6">
+                            <div class="md:flex-1 mb-8 md:mb-0">
+                                <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
+                                <p class="mb-3">Anabelle freelances and wants to expand her reach to higher-paying countries for her talents and skills, hence she is seeking the most secure means of receiving funds from abroad</p>
                                 <p>She is also looking for a way to save her money, occasionally as a freelancer when she gets paid in whatever currency but she leverages on crypto  for long term savings.</p>
-                            </div>                       
-                            <div class="flex-1">
-                                <h5 class="font-bold">Frustrations</h5>
-                                <p class="mb-8">Extremely high rates that her DOm account provided by banks charge her</p>
+                            </div>        
+                            <div class="md:flex-1 mb-8 md:mb-0">
+                                <h5 class="mb-3 text-base font-bold">Frustrations</h5>
+                                <p class="mb-3">Extremely high rates that her DOm account provided by banks charge her</p>
                                 <p>Her Bank converts her pay at a lesser amount that she would get on the black market or other platforms</p>
                                 <p>Payments might take days to deliver.</p>
                             </div>
-                            <div class="flex-1">
-                                <h5 class="font-bold">Behaviours</h5>
-                                <p class="mb-8">Kate spends most of her time using the laptop for coding. She uses it for her jobs and communication purposes</p>
+                            <div class="md:flex-1">
+                                <h5 class="mb-3 text-base font-bold">Behaviours</h5>
+                                <p class="mb-3">Kate spends most of her time using the laptop for coding. She uses it for her jobs and communication purposes</p>
                                 <p>She gets paid based on the hours of work she does and keeps track of her payment and expenses on her bank mobile app</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex space-x-6 items-center">
-                    <div class="w-1/3"><img src="../assets/user-persona-3.png" alt="User persona"></div>
-                    <div class="w-2/3">
+                <div class="md:flex md:space-x-6 md:items-center">
+                    <div class="md:w-1/3 mb-10"><img class="w-full" src="../assets/user-persona-3.png" alt="User persona"></div>
+                    <div class="md:w-2/3">
                         <div class="mb-8">
-                            <h4 class="mb-4 text-lg font-bold font-playfair">Austine Chidozie</h4>
+                            <h4 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">Austine Chidozie</h4>
                             <p>Austine is a 32-year-old importer who imports spare parts of top automobiles in the world to be used for repair purposes in West Africa. Spends most of his time in Ghana where he lives with his wife and daughter.</p>
                         </div>
-                        <div class="flex space-x-6">
-                            <div class="flex-1">
-                                <h5 class="font-bold">Goals and needs</h5>
-                                <p class="mb-8">Austine is a businessman that constantly makes purchases from China and Germany for spare parts and needs a way to make payment to his overseas business partners.</p>
+                        <div class="md:flex md:space-x-6">
+                            <div class="md:flex-1 mb-8 md:mb-0">
+                                <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
+                                <p class="mb-3">Austine is a businessman that constantly makes purchases from China and Germany for spare parts and needs a way to make payment to his overseas business partners.</p>
                                 <p>He also makes send money to some friends and family both in Nigeria and other countries hence need a way to separate his business account and his personal</p>
                                 <p>He needs to have access to generating invoices and also applying for loans.</p>
-                            </div>                                              
-                            <div class="flex-1">
-                                <h5 class="font-bold">Frustrations</h5>
-                                <p class="mb-8">One of his major pains is having multiple accounts that is being controlled by different apps, one for personal and one for business and he needs a way to have his accounts in one app and easy to switch in one space</p>
+                            </div>            
+                            <div class="md:flex-1 mb-8 md:mb-0">
+                                <h5 class="mb-3 text-base font-bold">Frustrations</h5>
+                                <p class="mb-3">One of his major pains is having multiple accounts that is being controlled by different apps, one for personal and one for business and he needs a way to have his accounts in one app and easy to switch in one space</p>
                                 <p>There are times when I need to make some orders and I just see some massive business opportunities that are above my budget, I need a way to have quick leverage for that purchase that I can payback</p>
                             </div>
-                            <div class="flex-1">
-                                <h5 class="font-bold">Behaviours</h5>
-                                <p class="mb-8">Austine is a busy person, he does not like his time being wasted, so he needs to be able to maximize his time, since time is money, hence he needs to be able to make payments on the go and </p>
+                            <div class="md:flex-1">
+                                <h5 class="mb-3 text-base font-bold">Behaviours</h5>
+                                <p>Austine is a busy person, he does not like his time being wasted, so he needs to be able to maximize his time, since time is money, hence he needs to be able to make payments on the go and </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-16"> 
-            <h4 class="text-2xl lg:text-3xl font-bold font-playfair">Surveys & user interviews</h4>
-            <p class="mb-8">Assessing who my user audiences are has helped me understand who I’m designing for, behaviors, and familiarities so that I can better align and approach design to capture the defined user audiences.  Based on the results, I gathered data to back up my design decisions to maximize value for the users.</p>
-            <div class="flex space-x-6 mb-20">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base"> 
+            <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Surveys & user interviews</h2>
+            <p class="mb-6">Assessing who my user audiences are has helped me understand who I’m designing for, behaviors, and familiarities so that I can better align and approach design to capture the defined user audiences.  Based on the results, I gathered data to back up my design decisions to maximize value for the users.</p>
+            <div class="md:flex md:space-x-6 mb-20">
                 <div class="flex-1 border-dashed border-r border-brand-black-4">
                     <h3 class="mb-4 text-4xl lg:text-7xl font-semibold">70%</h3>
                     <p class="mb-2 font-bold">Of business men</p>

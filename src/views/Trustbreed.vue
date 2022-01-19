@@ -96,7 +96,7 @@
                     <p>The second problem is the ability of users to find the best products to pick to solve their needs in a pool of similar products</p>
                 </div>
                 <div class="md:flex-1">
-                    <img src="../assets/problem-statement-photo.png" alt="Problem fixing">
+                    <img class="w-full" src="../assets/problem-statement-photo.png" alt="Problem fixing">
                 </div>
             </div>
         </section>
@@ -168,22 +168,22 @@
                 <!-- End of mobile version -->
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+        <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
             <div class="mb-8">
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">User Personas</h2>
                 <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>
             </div>
             <div class="md:flex md:space-x-12 mb-28">
                 <div class="md:w-1/3">
-                        <img class="h-full" src="../assets/user-personas-1.png" alt="">
-                        <div class="transform -translate-y-44 pl-6 text-white">
-                            <h2 class="mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-playfair">Jasmine Kent</h2>
-                            <p class="mb-4">Age: 37 years old</p>
-                            <p class="mb-4">Occupation: Product Manager</p>
-                            <p class="mb-4">Status: Married</p>
-                        </div>
+                    <img class="w-full h-full" src="../assets/user-personas-1.png" alt="">
+                    <div class="transform -translate-y-44 pl-6 text-white">
+                        <h2 class="mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-playfair">Jasmine Kent</h2>
+                        <p class="mb-4">Age: 37 years old</p>
+                        <p class="mb-4">Occupation: Product Manager</p>
+                        <p class="mb-4">Status: Married</p>
+                    </div>
                 </div>
-                <div class="md:w-2/3">
+                <div class="md:w-2/3 px-4">
                    <h3 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">About</h3>
                    <p class="mb-8">Jasmine is a 37yrs old project manager who always has to be online due to the remote nature of her job. She works from 9 to 5 from Mondays to Fridays and has a couple of side projects over the weekend</p>
                    <h3 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">Behaviour & Attitude</h3>
@@ -196,7 +196,7 @@
             </div>
             <div class="md:flex md:space-x-12">
                 <div class="md:w-1/3">
-                        <img class="h-full" src="../assets/user-personas-2.png" alt="">
+                        <img class="w-full h-full" src="../assets/user-personas-2.png" alt="">
                         <div class="transform -translate-y-44 pl-6 text-white">
                             <h2 class="mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-playfair">Richard Lawson</h2>
                             <p class="mb-4">Age: 24 years old</p>
@@ -204,7 +204,7 @@
                             <p class="mb-4">Status: Single</p>
                         </div>
                 </div>
-                <div class="md:w-2/3">
+                <div class="md:w-2/3 px-4">
                    <h4 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">About</h4>
                    <p class="mb-8">Richard is a 24yrs old Engineer, he spends a lot of time reading articles and making online purchases for his hardware and engineering materials to be able to work properly</p>
                    <h4 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair">Behaviour & Attitude</h4>
@@ -289,23 +289,23 @@
                 <p>Both in-person and remote moderated usability tests were conducted.  The test included a short brieﬁng and task performance with the Trustbreed. 5 participants took part in the usability test, all participants agreed that the app is uncomplicated and simple to use, including mainly only necessary information and buttons. After collecting the information, I created a rainbow sheet to identify valuable insights.</p>
             </div>
             <div class="hidden md:block rounded-lg rounded-t-lg bg-red-300 text-sm">
-                <div class="flex space-x-10 p-4 border-b border-brand-black-4 bg-red-500 rounded-t-lg">
+                <div class="flex space-x-10 px-6 py-4 border-b border-brand-black-4 bg-red-500 rounded-t-lg">
                     <p class="flex-1">Test Feedbacks</p>
                     <p class="flex-1">Possible Solutions</p>
                 </div>
-                <div class="flex space-x-10 p-4 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
                     <p class="flex-1">Was constantly looking for the search field to easily search for companies and could not find it</p>
                     <p class="flex-1">The search box should be brought lower to within the section so its easier to spot by users</p>
                 </div>
-                <div class="flex space-x-10 p-4 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
                     <p class="flex-1">It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
                     <p class="flex-1">The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when cpcked </p>
                 </div>
-                <div class="flex space-x-10 p-4 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
                     <p class="flex-1">On the dashboard, the 4 categories take too much space</p>
                     <p class="flex-1">The four categories can be merged with one button that has a down showing all the actions that can be taken</p>
                 </div>
-                <div class="flex space-x-10 p-4">
+                <div class="flex space-x-10 p-6">
                     <p class="flex-1">Wanted to make a video of the service I received but could not</p>
                     <p class="flex-1">Addition of a video upload alongside the photo upload option</p>
                 </div>                   
@@ -313,18 +313,18 @@
             <!-- Mobile version -->
             <div class="block md:hidden text-sm">
                 <div class="mb-10 divide-y border-brand-black-4 rounded-lg bg-red-300">
-                    <p class="p-4 bg-red-500 rounded-t-lg">Test Feedbacks</p>
-                    <p class="p-4">Was constantly looking for the search field to easily search for companies and could not find it</p>
-                    <p class="p-4">It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
-                    <p class="p-4">On the dashboard, the 4 categories take too much space</p>
-                    <p class="p-4">Wanted to make a video of the service I received but could not</p>
+                    <p class="px-6 py-4 bg-red-500 rounded-t-lg">Test Feedbacks</p>
+                    <p class="p-6">Was constantly looking for the search field to easily search for companies and could not find it</p>
+                    <p class="p-6">It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
+                    <p class="p-6">On the dashboard, the 4 categories take too much space</p>
+                    <p class="p-6">Wanted to make a video of the service I received but could not</p>
                 </div>
                 <div class="divide-y border-brand-black-4 rounded-lg bg-red-300">
-                    <p class="p-4 bg-red-500 rounded-t-lg">Possible Solutions</p>
-                    <p class="p-4">The search box should be brought lower to within the section so its easier to spot by users</p>
-                    <p class="p-4">The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when clicked </p>
-                    <p class="p-4">The four categories can be merged with one button that has a down showing all the actions that can be taken</p>
-                    <p class="p-4">Addition of a video upload alongside the photo upload option</p>
+                    <p class="px-6 py-4 bg-red-500 rounded-t-lg">Possible Solutions</p>
+                    <p class="p-6">The search box should be brought lower to within the section so its easier to spot by users</p>
+                    <p class="p-6">The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when clicked </p>
+                    <p class="p-6">The four categories can be merged with one button that has a down showing all the actions that can be taken</p>
+                    <p class="p-6">Addition of a video upload alongside the photo upload option</p>
                 </div>                 
             </div>
             <!-- End of Mobile version -->

@@ -11,17 +11,17 @@
             </div>
         </header>
         <main class="max-w-7xl mx-auto mb-32 md:px-16">
-            <h2 class="works-header dark:works-header-dark mb-14 md:mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
+            <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
             <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
                 <div class="md:w-1/3 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Bitpowr</h2>
-                        <p class="mb-12 text-xl lg:text-3xl font-light">Blockchain, Fintech B2B</p>
+                        <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
+                        <p class="mb-12 text-xl lg:text-3xl font-light">Fintech Solution</p>
                         <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
                     </div>
                 </div>
                 <div class="flex flex-1 justify-end">
-                    <div><img class="" src="../assets/bitpowr-home.png" alt="Bitpowr devices"></div>                   
+                    <div><img class="" src="../assets/collect-africa-home.png" alt="Bitpowr devices"></div>                   
                 </div>
             </section>
             <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">

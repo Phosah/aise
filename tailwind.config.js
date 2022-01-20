@@ -80,7 +80,9 @@ module.exports = {
         'persona-1': "url('../src/assets/user-persona-1.png')",
         'persona-1-mobile': "url('../src/assets/user-persona-2.png')",
         'business': "url('../src/assets/business-opportunity.png')",
+        'business-mobile': "url('../src/assets/business-opportunity-mobile.png')",
         'solutions': "url('../src/assets/the-solutions.png')",
+        'solutions-mobile': "url('../src/assets/the-solutions-mobile.png')",
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif']

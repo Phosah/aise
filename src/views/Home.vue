@@ -11,13 +11,13 @@
             </div>
         </header>
         <main class="max-w-7xl mx-auto mb-32 md:px-16">
-            <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
+            <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
+            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                 <div class="md:w-1/3 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
                         <p class="mb-12 text-xl lg:text-3xl font-light">Fintech Solution</p>
-                        <a href="#" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</a>
+                        <router-link to="/collectafrica" class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2">Case Study</router-link>
                     </div>
                 </div>
                 <div class="flex flex-1 justify-end">
@@ -75,7 +75,7 @@
         </main>
         <section class="flex items-center md:min-h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1">
             <div class="hidden md:block max-w-7xl mx-auto md:px-16">
-                <h2 class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-3xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
+                <h2 class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent">TESTIMONIALS</h2>
                 <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
                     <div class="flex-1 mb-8 md:mb-0"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex-1 px-16 md:px-0">
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="block md:hidden max-w-7xl mx-auto">
-                <h2 class="testimonials-header mb-20 text-3xl sm:text-6xl  text-center text-transparent">TESTIMONIALS</h2>
+                <h2 class="testimonials-header mb-20 text-5xl sm:text-6xl  text-center text-transparent">TESTIMONIALS</h2>
                 <div class="mb-8">
                     <div class="flex-1 mb-4"><img class="w-full mx-auto object-cover" src="../assets/testimonial-man.png" alt="Testimonial man"></div>
                     <div class="flex flex-1 space-x-4 mb-10 px-16">

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-brand-black-4">
+    <div class="text-brand-black-4">
         <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
@@ -379,7 +379,7 @@
         <div class="">
             <FooterDark />
         </div>
-  </div>
+    </div>
 </template>
 
 <script>

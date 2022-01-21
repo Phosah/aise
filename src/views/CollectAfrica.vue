@@ -100,7 +100,8 @@
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 text-white text-sm md:text-base">
                 <div class="p-8 rounded-lg bg-brand-orange-6">
-                    <div class="h-64 bg-one bg-contain bg-center bg-no-repeat">
+                    <div class="min-h-64 bg-one bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-research.png" alt="Process research"></div>
                         <h3 class="text-lg md:text-xl lg:text-2xl mb-6 font-bold font-playfair">Research</h3>
                         <ul class="list-disc pl-6">
                             <li class="mb-3">Context study</li>
@@ -110,7 +111,8 @@
                     </div>
                 </div>
                 <div class="p-8 rounded-lg bg-brand-blue-6">
-                    <div class="h-64 bg-two bg-contain bg-center bg-no-repeat">
+                    <div class="min-h-64 bg-two bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-analysis.png" alt="Process Analysis"></div>
                         <h3 class="text-lg md:text-xl lg:text-2xl mb-6 font-bold font-playfair">Analysis</h3>
                         <ul class="list-disc pl-6">
                             <li class="mb-3">Problem statements</li>
@@ -120,7 +122,8 @@
                     </div>
                 </div>
                 <div class="p-8 rounded-lg bg-brand-green-4">
-                    <div class="h-64 bg-three bg-contain bg-center bg-no-repeat">
+                    <div class="min-h-64 bg-three bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-ideation.png" alt="Process Ideation"></div>
                         <h3 class="text-lg md:text-xl lg:text-2xl mb-6 font-bold font-playfair">Ideation</h3>
                         <ul class="list-disc pl-6">
                             <li  class="mb-3">Feature narrative</li>
@@ -130,7 +133,8 @@
                     </div>
                 </div>
                 <div class="p-8 rounded-lg bg-brand-red-4">
-                    <div class="h-64 bg-four bg-contain bg-center bg-no-repeat">
+                    <div class="min-h-64 bg-four bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-design.png" alt="Process Design"></div>
                         <h3 class="text-lg md:text-xl lg:text-2xl mb-6 font-bold font-playfair">Design</h3>
                         <ul class="list-disc pl-6">
                             <li class="mb-3">Userflow</li>
@@ -139,9 +143,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="h-80 p-8 rounded-lg bg-brand-purple-4">
-                    <div class="h-64 bg-five bg-contain bg-center bg-no-repeat">
-                        <h3 class="text-lg lg:text-2xl mb-6 font-bold font-playfair">Feeding</h3>
+                <div class="p-8 rounded-lg bg-brand-purple-4">
+                    <div class="min-h-64 bg-five bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-feedback.png" alt="Process Feedback"></div>
+                        <h3 class="text-lg lg:text-2xl mb-6 font-bold font-playfair">Feedback</h3>
                         <ul class="list-disc pl-6">
                             <li class="mb-3">Stake holder reviews</li>
                             <li class="mb-3">Field testing</li>
@@ -149,8 +154,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="h-80 p-8 rounded-lg bg-brand-purple-4">
-                    <div class="h-64 bg-five bg-contain bg-center bg-no-repeat">
+                <div class="p-8 rounded-lg bg-brand-purple-4">
+                    <div class="min-h-64 bg-five bg-contain bg-center bg-no-repeat">
+                        <div><img class="w-full" src="../assets/process-iteration.png" alt="Process Iteration"></div>
                         <h3 class="text-lg lg:text-2xl mb-6 font-bold font-playfair">Iteration</h3>
                         <ul class="list-disc pl-6">
                             <li class="mb-3">Iterations</li>

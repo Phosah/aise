@@ -514,16 +514,28 @@
                     <img class="w-full" src="../assets/simplified-dashboard.png" alt="Simplified dashboard">
                 </div>
             </div>
-            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
-                <div class="md:flex-1 mb-10 md:mb-0">
+            <div class="hidden md:flex items-center justify-between space-x-12 py-20">
+                <div class="flex-1">
                     <img class="w-full" src="../assets/customer-management.png" alt="Simplified dashboard">
                 </div>
-                <div class="md:flex-1">
-                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Simplified Dashboard</h2>
+                <div class="flex-1">
+                    <h2 class="mb-6 text-2xtext-3xl lg:text-4xl font-bold font-playfair">Customer Management</h2>
                     <p class="">A good customer and business relationship improves the bonds customers have with businesses which in turn makes them stay longer with a business that relates with them better and the business would know how best to serve the customers as you can directly message the customers and they receive the messages in the mails and SMS and every reply you receive in the customer's thread on your dashboard</p>
                     <p>You can add new customers, delete customers, place customers on services and even send them messages on events like popular holidays and birthdays to ensure an even greater bond.</p>
                 </div>
             </div>
+            <!-- Mobile version -->
+            <div class="block md:hidden py-20">
+                <div class="mb-10">
+                    <h2 class="mb-6 text-2xl font-bold font-playfair">Customer Management</h2>
+                    <p class="mb-6">A good customer and business relationship improves the bonds customers have with businesses which in turn makes them stay longer with a business that relates with them better and the business would know how best to serve the customers as you can directly message the customers and they receive the messages in the mails and SMS and every reply you receive in the customer's thread on your dashboard</p>
+                    <p>You can add new customers, delete customers, place customers on services and even send them messages on events like popular holidays and birthdays to ensure an even greater bond.</p>
+                </div>
+                <div class="">
+                    <img class="w-full" src="../assets/customer-management.png" alt="Simplified dashboard">
+                </div>
+            </div>
+            <!-- End of Mobile version -->
             <div class="py-20">
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Payments &  Transfer</h2>
                 <p class="mb-10">Organizations that give recurring services that require timely payments now can simplify their processes and monitor their activities, here you get to see all the services rendered, the number of subscribers to each service, the customers/subscribers, and view each of their payment histories. also, you don't always have to remind them of every payment or send them the account to pay in again, all subscribers have their registration date and last reactivation date. so 1 week, 3days, and 1 day to every subscription the subscribers receive a custom message made by you about their renewal and the means of payment, and all this is done without you lifting a finger.</p>
@@ -538,16 +550,28 @@
                     <img class="w-full" src="../assets/user-management.png" alt="User management">
                 </div>
             </div>
-            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
-                <div class="md:flex-1 mb-10 md:mb-0">
+            <div class="hidden md:flex items-center justify-between space-x-12 py-20">
+                <div class="flex-1">
                     <img class="w-full" src="../assets/payment-link.png" alt="Payment link">
                 </div>
-                <div class="md:flex-1">
+                <div class="flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Payment Link</h2>
                     <p class="mb-6">A pay link is a one time link created by an organization that customers can use to make payments repetitive times or can be shared with multiple customers to make payments using several payment methods that the customer(s) feels comfortable with, this helps the business from always having to create invoices every time and saves time and stress. The business can decide to set the amount to be paid or that privilege can be left to the customer</p>
                     <p>This is also used a lot and integrated with eCommerce systems where this would be used as a portal to make payment for purchased goods which would be integrated into the eCommerce platforms</p>
                 </div>
             </div>
+            <!-- Mobile version -->
+            <div class="block md:hidden py-20">
+                <div class="mb-10">
+                    <h2 class="mb-6 text-2xl font-bold font-playfair">Payment Link</h2>
+                    <p class="mb-6">A pay link is a one time link created by an organization that customers can use to make payments repetitive times or can be shared with multiple customers to make payments using several payment methods that the customer(s) feels comfortable with, this helps the business from always having to create invoices every time and saves time and stress. The business can decide to set the amount to be paid or that privilege can be left to the customer</p>
+                    <p>This is also used a lot and integrated with eCommerce systems where this would be used as a portal to make payment for purchased goods which would be integrated into the eCommerce platforms</p>
+                </div>
+                <div class="">
+                    <img class="w-full" src="../assets/payment-link.png" alt="Payment link">
+                </div>
+            </div>
+            <!-- End of Mobile version -->
             <div class="py-20">
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Account Reconciliation & Balancing</h2>
                 <p class="mb-10">One of the foundations of every good business is a solid financial system, businesses that fail to have a proper account balance would fail to plan against the next month or year. We help businesses reconcile all payments to and from the business and can even link external accounts that the transitions affect the business. Cash payments play a major part in balancing so we give you the ability to register all cash payments made into your business account to serve as a record and the payment can be reconciled as well for a good business accounting system.</p>
@@ -563,7 +587,7 @@
         </section>
         <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
             <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
-                <div class="md:flex-1">
+                <div class="md:flex-1 mb-10 md:mb-0">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Conclusion</h2>
                     <p class="mb-6">It's hard enough to get a single person or business to trust you to help handle their finances when dealing with businesses and financial activities I have discovered that transparency and ease of use are of top priority in getting the best of results and user retention. And also the understanding of business goals to ensure the business makes a profit has to be placed as another priority hence a lot of calls with stakeholders and the aligning of design and business goals has to be established from the start.</p>
                     <p>I enjoyed this project and I got to realize how we can help people who run businesses if they focus on the business itself  they have more time and strategic juice to focus and take their organization to greater heights</p>

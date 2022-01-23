@@ -92,11 +92,9 @@
             <!-- End of mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="">
-                <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
-                    <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">The Process</h1>
-                    <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
-                </div>
+            <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">The Process</h1>
+                <p class="mb-4">Although I was the sole designer of this project I didn't work alone, it was a strong team effort that included the project manager, content manager, Stakeholders, and three skilled developers. We communicated and brainstormed throughout the entire process</p>
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 text-white text-sm md:text-base">
                 <div class="p-8 rounded-lg bg-brand-gray-light-2 text-brand-black-2">
@@ -425,7 +423,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
             <div class="mb-12">
                 <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Business Opportunities</h1>
                 <p class="mb-6">For every startup, the main goal is to make money, if not what's the use, so to be the next unicorn, you cannot design without accounting for what and where would fetch finances and the best ways of going about it that would still give value to the users.</p>
@@ -438,18 +436,189 @@
                 <div><img class="w-full" src="../assets/opportunities-1.png" alt="Opportunities"></div>
                 <div><img class="w-full" src="../assets/opportunities-2.png" alt="Opportunities"></div>
             </div>
-            <div>
+            <div class="mb-12">
                 <p class="mb-6">With over $33billion in cumulative revenue of e-commerce transactions and with an increasing pace estimated at $48billion in 2025, if 5% of those transactions are handled by Collect in the first year of launch considering its newness to the market and striving for acceptance, that would result in 1.65million dollars, now with an estimate of 1% in transaction fee (by the way that the lowest ever) would result in $16.5 million dollars from eCommerce in the first launch</p>
                 <p>Now who said anything about just commerce, Softwares are sprouting on a daily and subscriptions are made by their customers and this requires a portal to monitor payments, small businesses like gym, and even down to the laundry service that gives you a periodic service requires payments and this also is an opportunity base to harness.</p>
             </div>
             <div class="md:flex items-center space-x-6 mb-10 bg-brand-black-3 text-white">
-                <div class="md:flex-1">
+                <div class="md:flex-1 mb-12 md:mb-0">
                     <h4 class="mb-4 text-2xl lg:text-3xl font-bold">Estimated transaction volume of $8tn in 2025</h4>
                     <p>With 10% of this tranascation relating with the African market, the opportunities available is endless</p>
                 </div>
                 <div class="md:flex-1"><img src="../assets/opportunities-graph-2.png" alt="Opportunities graph"></div>
             </div>
         </section>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <div class="mb-20">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Value Proposition - Customers</h1>
+                <p class="mb-14">In the customer's profile you describe the job your customer is trying to get done by highlighting customers pains and gains, it's used to track users needs and position the company’s to know more about the customers needs to properly create value</p>
+                <div><img class="w-full" src="../assets/value-proposition-customer.png" alt="Value Proposition"></div>
+            </div>
+            <div class="">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Value Proposition - Business</h1>
+                <p class="mb-14">Here you list the products and services your value proposition build on, describing in which way the product features and services are pain relievers an outline how they are gain creators</p>
+                <div><img class="w-full" src="../assets/value-proposition-map.png" alt="Value Proposition"></div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">User Stories</h1>
+            <p class="mb-10">Two of the major painpoints that some users faced are stated below </p>
+            <ul class="list-disc pl-6 text-xs">
+                <li class="mb-2">As a user i want to be able to receive payments from my customers so i can get paid for my services</li>
+                <li class="mb-2">As a user i want to be able to set reocurring payments for my customers</li>
+                <li class="mb-2">As a user i want to be able to create paylinks that my customers would be able to pay into</li>
+                <li class="mb-2">As a user i want to be able to fund my wallet in order to carry out transactions</li>
+                <li class="mb-2">As a user i want to be able to add customers to my organization and manage my customers in order to maintain a good relationship</li>
+                <li class="mb-2">As a user i want to be able to receive payments in other curreencies so i can be able to run my business in other countries</li>
+                <li class="mb-2">As a user i want to be able to add my staffs to my organization, so the team can properly manage activities</li>
+                <li class="mb-2">As a user i want to be able to send payments out of my dashboard so i can be able to pay for services we might need</li>
+                <li class="mb-2">As a user i want to be able toreconcile my account so i can have proper records of account</li>
+                <li class="mb-2">As a user i want to be able to send invoices to my customers to make payments</li>
+                <li class="mb-2">As a user i want to be able to receive payments with multiple payment methods so users would always have a means to pay from</li>
+                <li>As a user i wan to be able to able to make refunds incase a customer complains about a service and requests</li>
+            </ul>
+        </section>
+        <section>
+            <div class="max-w-7xl mx-auto px-4 md:px-16 pt-20 text-sm md:text-base">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">User flows</h1>
+                <p class="mb-8 md:mb-16">User flows helped me pattern the flow of the users activities in the product from the entry point to the users decisions and the resulting actions to help account for every step of the users journey</p>
+            </div>
+            <div class="max-w-7xl mx-auto mb-20"><img src="../assets/user-flows.png" alt="User flows"></div>
+        </section>
+        <section>
+            <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Sitemap</h1>
+                <p class="mb-8 md:mb-16">Reviewing my personas and user journeys and having certain features in mind, I started to think about the structure of the app. I had a rough idea of keeping the structure simple with co-existing hierarchies, since there is a great deal of overlapping information and wanted my users to have easy access from one page to the other.</p>
+            </div>
+            <div class="max-w-7xl mx-auto mb-20"><img src="../assets/sitemap.png" alt="User flows"></div>
+        </section>
+        <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+            <div class="mb-10 md:w-5/6 mx-auto text-center text-sm md:text-base">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">The solution</h1>
+                <p class="mb-4">The solution had to have a mobile app and a dashboard and a mobile app, they both provide similar solutions but with little difference based on the target audience and what they have accessible to work with to better suit their needs</p>
+            </div>
+            <div><img class="w-full" src="../assets/the-solution.png" alt="The solution"></div>
+        </section>
+        <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+            <div class="mb-20">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Onboarding Screens </h2>
+                <p class="mb-10">The onboarding is properly tailored to be quick and seamless, to improve the user's experience by accounting for all business categories with including small scale, large scale, and freelancers. The sign-up aims to be short and quick so all unnecessary steps were removed to reduce the rate of drop-off by customers without necessary documents to finish the process. So after signup, you have restrictions to some transaction activities till you have provided the necessary documents, so we give you value at all times.</p>
+                <div class="mb-16"><img class="w-full" src="../assets/onboarding-screens-2.png" alt="Onboarding screens"></div>
+            </div>
+            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div class="md:flex-1 mb-10 md:mb-0">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Simplified Dashboard</h2>
+                    <p class="">As a user, your first daily interaction is with the dashboard where you receive a summary of reports and lasted activities that have happened in your company as regards financial activities, hence the design of the dashboard had to be optimized to be easy to read, prioritize the data visualization to display info from the highest priority to the least and still give room to take major actions in the product.</p>
+                </div>
+                <div class="md:flex-1">
+                    <img class="w-full" src="../assets/simplified-dashboard.png" alt="Simplified dashboard">
+                </div>
+            </div>
+            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div class="md:flex-1 mb-10 md:mb-0">
+                    <img class="w-full" src="../assets/customer-management.png" alt="Simplified dashboard">
+                </div>
+                <div class="md:flex-1">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Simplified Dashboard</h2>
+                    <p class="">A good customer and business relationship improves the bonds customers have with businesses which in turn makes them stay longer with a business that relates with them better and the business would know how best to serve the customers as you can directly message the customers and they receive the messages in the mails and SMS and every reply you receive in the customer's thread on your dashboard</p>
+                    <p>You can add new customers, delete customers, place customers on services and even send them messages on events like popular holidays and birthdays to ensure an even greater bond.</p>
+                </div>
+            </div>
+            <div class="py-20">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Payments &  Transfer</h2>
+                <p class="mb-10">Organizations that give recurring services that require timely payments now can simplify their processes and monitor their activities, here you get to see all the services rendered, the number of subscribers to each service, the customers/subscribers, and view each of their payment histories. also, you don't always have to remind them of every payment or send them the account to pay in again, all subscribers have their registration date and last reactivation date. so 1 week, 3days, and 1 day to every subscription the subscribers receive a custom message made by you about their renewal and the means of payment, and all this is done without you lifting a finger.</p>
+                <div><img class="w-full" src="../assets/payment-transfer.png" alt="Onboarding screens"></div>
+            </div>
+            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div class="md:flex-1 mb-10 md:mb-0">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">User Management</h2>
+                    <p class="">Both large and small scale organizations usually have multiple people handling the affairs, it can be as little as two or as much as 1 thousand and for those who have branches all over the world makes it even bigger whereby you can have even more people for one role e.g Accountants. So to properly ensure the business is optimized, you can add members of your organization to your product and assign roles or create new ones, and customize the permissions available for each role and what actions exch role can carry out or data they can see</p>
+                </div>
+                <div class="md:flex-1">
+                    <img class="w-full" src="../assets/user-management.png" alt="User management">
+                </div>
+            </div>
+            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div class="md:flex-1 mb-10 md:mb-0">
+                    <img class="w-full" src="../assets/payment-link.png" alt="Payment link">
+                </div>
+                <div class="md:flex-1">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Payment Link</h2>
+                    <p class="mb-6">A pay link is a one time link created by an organization that customers can use to make payments repetitive times or can be shared with multiple customers to make payments using several payment methods that the customer(s) feels comfortable with, this helps the business from always having to create invoices every time and saves time and stress. The business can decide to set the amount to be paid or that privilege can be left to the customer</p>
+                    <p>This is also used a lot and integrated with eCommerce systems where this would be used as a portal to make payment for purchased goods which would be integrated into the eCommerce platforms</p>
+                </div>
+            </div>
+            <div class="py-20">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Account Reconciliation & Balancing</h2>
+                <p class="mb-10">One of the foundations of every good business is a solid financial system, businesses that fail to have a proper account balance would fail to plan against the next month or year. We help businesses reconcile all payments to and from the business and can even link external accounts that the transitions affect the business. Cash payments play a major part in balancing so we give you the ability to register all cash payments made into your business account to serve as a record and the payment can be reconciled as well for a good business accounting system.</p>
+                <div class="mb-16"><img class="w-full" src="../assets/account-reconciliation.png" alt="Account reconciliation and balancing"></div>
+            </div>
+            <div  class="mb-10">
+                <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Mobile responsiveness</h2>
+                <p>60% of the target users are mobile users and hence to maximize the experience of users, there needs to be a lot of attention paid to the mobile views of the dashboard as that might be the main entry point of most users</p>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto">
+            <div class=""><img class="w-full" src="../assets/collect-mobile.png" alt="More Features"></div>
+        </section>
+        <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+            <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div class="md:flex-1">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Conclusion</h2>
+                    <p class="mb-6">It's hard enough to get a single person or business to trust you to help handle their finances when dealing with businesses and financial activities I have discovered that transparency and ease of use are of top priority in getting the best of results and user retention. And also the understanding of business goals to ensure the business makes a profit has to be placed as another priority hence a lot of calls with stakeholders and the aligning of design and business goals has to be established from the start.</p>
+                    <p>I enjoyed this project and I got to realize how we can help people who run businesses if they focus on the business itself  they have more time and strategic juice to focus and take their organization to greater heights</p>
+                </div>
+                <div class="md:flex-1">
+                    <img class="w-full" src="../assets/collect-conclusion.png" alt="Collect conclusion">
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto py-20 md:px-16">
+            <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
+            <div class="hidden md:block">
+                <div class="flex items-center justify-between space-x-8">
+                    <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
+                    <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
+                </div>
+            </div>
+            <!-- Mobile version -->
+            <section class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+                <div class="text-center">
+                    <div class="mb-20">
+                        <h2 class="mb-4 text-2xl font-semibold font-playfair">Trigle</h2>
+                        <p class="mb-12 text-xl font-light">Food delivery, Commerce</p>
+                        <router-link to="/doorstep" class="inline-block pb-1 text-xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div>
+                    <img src="../assets/trigle-home.png" alt="Trigle home photo">
+                </div>
+            </section>
+            <section class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white">
+                <div class="text-center">
+                    <div class="mb-20">
+                        <h2 class="mb-4 text-2xl font-semibold font-playfair">TrustBreed</h2>
+                        <p class="mb-12 text-xl font-light">Customer Service, B2C</p>
+                        <router-link to="/trustbreed" class="inline-block pb-1 text-xl font-semibold border-b-2">Case Study</router-link>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo">
+                </div>
+            </section>
+            <!-- End of mobile version -->
+        </section>
+       <section class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16 text-brand-black-1">
+            <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
+            <div class="px-16 md:px-0">
+                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+            </div>
+            <button class="px-8 py-6 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
+        </section>
+        <div class="">
+            <FooterDark />
+        </div>
     </div>
 </template>
 

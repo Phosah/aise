@@ -580,7 +580,7 @@
             <h2 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold font-playfair">Conclusion</h2>
             <p>This project is open to massive expansion and growth, the product aims to expand to cover sectors like payroll whereby organizations with employees working in multiple countries can all be registered and payments can be disbursed once and payroll run with each of them receiving their cash in their local currency or crypto if selected</p>
         </section>
-         <section class="max-w-7xl mx-auto py-20 md:px-16">
+        <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
                 <div class="flex items-center justify-between space-x-8">

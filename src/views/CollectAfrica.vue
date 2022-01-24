@@ -647,11 +647,15 @@
 </template>
 
 <script>
+import NavbarDark from '@/components/NavbarDark'
+import FooterDark from '@/components/FooterDark'
 export default {
-
+    components: {NavbarDark, FooterDark}
 }
 </script>
 
 <style>
-
+body {
+  font-family: 'Euclid Circular A Medium';
+}
 </style>

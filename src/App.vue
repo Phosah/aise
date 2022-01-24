@@ -9,3 +9,13 @@ export default {
   }
 }
 </script>
+
+<style>
+@font-face {
+  font-family: 'Euclid Circular A Medium';
+  src: url('./fonts/Euclid-Circular-A-Medium.ttf') format("OpenType")
+}
+body {
+  font-family: 'Euclid Circular A Medium';
+}
+</style>

@@ -638,5 +638,7 @@ export default {
 </script>
 
 <style>
-
+body {
+  font-family: 'Euclid Circular A Medium';
+}
 </style>

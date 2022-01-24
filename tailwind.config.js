@@ -1,3 +1,5 @@
+// const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [],
   darkMode: 'class',
@@ -85,7 +87,8 @@ module.exports = {
         'solutions-mobile': "url('../src/assets/the-solutions-mobile.png')",
       },
       fontFamily: {
-        'playfair': ['Playfair Display', 'serif']
+        'playfair': ['Playfair Display', 'serif'],
+        // 'euclid': ['Euclid Circular A', 'sans serif'],
       }
     },
   },

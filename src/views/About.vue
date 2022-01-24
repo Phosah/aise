@@ -117,4 +117,7 @@ export default {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
+div {
+    font-family: "Euclid Circular A", sans-serif;
+}
 </style>

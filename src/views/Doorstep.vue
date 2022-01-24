@@ -528,5 +528,7 @@ export default {
 </script>
 
 <style>
-
+div {
+    font-family: "Euclid Circular A", sans-serif;
+}
 </style>

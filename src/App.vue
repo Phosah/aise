@@ -12,10 +12,8 @@ export default {
 
 <style>
 @font-face {
-  font-family: 'Euclid Circular A Medium';
-  src: url('./fonts/Euclid-Circular-A-Medium.ttf') format("OpenType")
-}
-body {
-  font-family: 'Euclid Circular A Medium';
+  font-family: "Euclid Circular A";
+  src: local("Euclid Circular A"),
+   url('./fonts/Euclid-Circular-A-Light.ttf') format("OpenType");
 }
 </style>

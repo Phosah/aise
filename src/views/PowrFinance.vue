@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
       <div class="max-w-7xl mx-auto">
             <NavbarDark />
         </div>
@@ -638,7 +638,7 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: 'Euclid Circular A Medium';
+div {
+    font-family: "Euclid Circular A", sans-serif;
 }
 </style>

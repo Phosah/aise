@@ -160,6 +160,9 @@ export default {
 </script>
 
 <style scoped>
+div {
+    font-family: "Euclid Circular A", sans-serif;
+}
 .header {
     height: calc(100vh - 80px);
 }

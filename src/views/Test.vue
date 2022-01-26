@@ -1,15 +1,16 @@
 <template>
-    <div class="max-w-7xl mx-auto flex relative">
-        <!-- Sidebar -->
+    <div class="wrapper flex bg-green-700 relative">
+        <!-- Left Sidebar -->
         <div class="absolute">
             <div class="fixed bg-red-200"><img class="w-16 lg:w-20" src="../assets/logo-dark.png" alt="Aise Logo"></div>
         </div>
-        <div class="flex-1 mx-24">
-            <div class="mim-w-full max-w-7xl mx-auto bg-gray-400 h-screen"></div>
+        <!-- Main page -->
+        <div class="flex-1">
+            <div class="max-w-7xl mx-auto bg-gray-400 h-screen"></div>
             <div class="h-56 bg-yellow-600">This is a rough start</div>
         </div>
-        <!-- Sidebar -->
-        <div class="absolute right-0">
+        <!-- Right Sidebar -->
+        <div class="absolute">
             <div class="fixed bg-green-300"><img class="w-16 lg:w-20" src="../assets/menu-icon-dark.png" alt="Menu toggle icon"></div>
         </div>
     </div>
@@ -29,6 +30,14 @@ export default {
 </script>
 
 <style>
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+.sidebar {
+    width: 24px;
+    left: 95%;
+}
 .header {
     height: calc(100vh - 80px);
 }

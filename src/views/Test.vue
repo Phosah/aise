@@ -1,22 +1,25 @@
 <template>
-    <div class="bg-red-300">
-        <div class="max-w-7xl mx-auto bg-green-400">
-            <NavbarDark/>
+    <div class="max-w-7xl mx-auto flex relative">
+        <!-- Sidebar -->
+        <div class="absolute">
+            <div class="fixed bg-red-200"><img class="w-16 lg:w-20" src="../assets/logo-dark.png" alt="Aise Logo"></div>
         </div>
-        <section class="bg-yellow-400 max-w-7xl mx-auto px-16">
-            <div class="h-72 bg-blue-300 max-w-6xl mx-auto">
-            </div>
-        </section>
-
-
+        <div class="flex-1 mx-24">
+            <div class="mim-w-full max-w-7xl mx-auto bg-gray-400 h-screen"></div>
+            <div class="h-56 bg-yellow-600">This is a rough start</div>
+        </div>
+        <!-- Sidebar -->
+        <div class="absolute right-0">
+            <div class="fixed bg-green-300"><img class="w-16 lg:w-20" src="../assets/menu-icon-dark.png" alt="Menu toggle icon"></div>
+        </div>
     </div>
 </template>
 
 <script>
-import NavbarDark from '../components/NavbarDark'
+// import NavbarDark from '../components/NavbarDark'
 export default {
     name: "Doorstep",
-    components: {NavbarDark},
+    components: {},
     data() {
         return {
         

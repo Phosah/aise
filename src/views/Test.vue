@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper">
-        <div class="flex">
+        <div class="flex justify-center space-x-2">
             <!-- Left Sidebar -->
-            <div class="mx-4 relative w-14 lg:w-16">
+            <div class=" relative w-14 lg:w-16">
                 <div class="absolute bg-yellow-200">
                     <div class="fixed">
                         <div><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></div>
@@ -162,7 +162,7 @@
             <!-- End of main page -->
             
             <!-- Right Sidebar -->
-            <div class="mx-4 relative w-14 lg:w-26">
+            <div class=" relative w-14 lg:w-26">
                 <div class="item absolute bg-red-600">
                     <div class="fixed">
                         <div class="">
@@ -199,30 +199,8 @@ export default {
 </script>
 
 <style>
-.item {
-    /* left: 50%; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-
-}
 .wrapper {
-    max-width: 100rem;
+    /* max-width: 100rem; */
     margin: 0 auto;
-}
-.header {
-    height: calc(100vh - 80px);
-}
-.heading-box {
-    display: flex;
-    justify-content: center;
-}
-.heading {
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    background-color: chocolate;
-    margin-top: 10px;
 }
 </style>

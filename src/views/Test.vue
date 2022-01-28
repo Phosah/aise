@@ -201,6 +201,6 @@ export default {
 <style>
 .wrapper {
     /* max-width: 100rem; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 </style>

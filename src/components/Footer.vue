@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-wrap justify-between w-10/12 mx-auto py-10 text-white font-semibold">
-    <a class="pb-3 border-b-2 border-transparent hover:border-b-2 hover:border-white" href="#">LinkedIn</a>
-    <a class="pb-3 border-b-2 border-transparent hover:border-2 hover:border-white" href="#">Dribble</a>
-    <a class="pb-3 border-b-2 border-transparent hover:border-b-2 hover:border-white" href="#">Twitter</a>
+  <div class="flex justify-between max-w-7xl mx-auto px-4 md:px-16 py-10 text-white font-semibold">
+    <a class="pb-2 border-b-4 border-transparent hover:border-b-4 hover:border-white" href="#">LinkedIn</a>
+    <a class="pb-2 border-b-4 border-transparent hover:border-b-4 hover:border-white" href="#">Dribble</a>
+    <a class="pb-2 border-b-4 border-transparent hover:border-b-4 hover:border-white" href="#">Twitter</a>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
             <div class="z-10 relative w-14 lg:w-16">
                 <div class="absolute bg-yellow-200">
                     <div class="fixed">
-                        <div class="bg-white"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></div>
+                        <div class="bg-white"><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
                     </div>
                 </div>
             </div>
@@ -15,9 +15,9 @@
             <div class="dark:bg-brand-black-1">
                 <header class="h-screen flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 md:px-16">
                     <div class="flex flex-col md:block items-center">
-                        <h3 class="mb-12 md:mb-0 md:w-2/3 px-16 md:px-0 text-3xl md:text-4xl lg:text-6xl dark:text-white font-extrabold font-playfair leading-snug">Simplifying user <br> experiences through <br> digital solutions</h3>
+                        <h3 class="mb-12 md:mb-0 md:w-2/3 px-4 md:px-0 text-3xl md:text-4xl lg:text-6xl dark:text-white font-extrabold font-playfair leading-snug">Simplifying user experiences through digital solutions</h3>
                         <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                        <div class="md:flex md:w-1/2 md:ml-auto px-16 md:px-0 -translate-y-20 text-sm lg:text-lg dark:text-white">Aise is a User Experience designer focused on maximizing <br> business need and user satisfaction through the creation of <br> simple digital experiences.</div>
+                        <div class="md:flex md:w-1/2 md:ml-auto px-4 md:px-0 -translate-y-20 text-sm lg:text-lg dark:text-white">Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</div>
                     </div>
                 </header>
             </div>
@@ -47,7 +47,7 @@
         <!-- Main page -->
         <main class="max-w-7xl mx-auto mb-32 md:px-16">
             <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
+            <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                 <div class="flex-1 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
@@ -59,7 +59,7 @@
                     <img src="../assets/collect-africa-home.png" alt="Collect home photo">
                 </div>
             </section>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
+            <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white">
                 <div class="flex-1 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
@@ -71,7 +71,7 @@
                     <img src="../assets/trigle-home.png" alt="Trigle home photo">
                 </div>
             </section>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
+            <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white">
                 <div class="flex-1  md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
@@ -83,7 +83,7 @@
                     <img src="../assets/doorstep-home.png" alt="Trigle home photo">
                 </div>
             </section>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white">
+            <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white">
                 <div class="flex-1 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">TrustBreed</h2>
@@ -95,7 +95,7 @@
                     <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo">
                 </div>
             </section>
-            <section class="works-box md:flex md:items-center md:justify-between mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
+            <section class="works-box md:flex md:items-center md:justify-between md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white">
                 <div class="flex-1 md:text-left text-center">
                     <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
                         <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
@@ -175,8 +175,8 @@
         <section class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1 dark:text-white">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
             <div class="px-16 md:px-0">
-                <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold">Let's talk about your project</h3>
-                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+                <h3 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h3>
+                <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
             </div>
             <button class="px-8 py-5 font-bold rounded-sm text-white dark:text-brand-black-1 bg-brand-black-1 dark:bg-white">Book an appointment</button>
         </section>

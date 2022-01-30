@@ -6,6 +6,7 @@ import Trustbreed from '../views/Trustbreed.vue'
 import PowrFinance from '../views/PowrFinance.vue'
 import Doorstep from '../views/Doorstep.vue'
 import CollectAfrica from '../views/CollectAfrica.vue'
+import Menu from '../views/Menu.vue'
 import Test from '../views/Test.vue'
 
 const routes = [
@@ -43,6 +44,11 @@ const routes = [
         path: '/collectafrica',
         name: 'collectafrica',
         component: CollectAfrica
+    },
+    {
+        path: '/menu',
+        name: 'menu',
+        component: Menu
     },
     {
         path: '/test',

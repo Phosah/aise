@@ -20,8 +20,8 @@
             <div class="max-w-5xl mx-auto md:px-16">
                 <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Trigle App Design</h1>
                 <p class="mb-14 md:text-lg lg:text-xl">Bringing simplicity and flexibility to having your meals</p>
-                <div class="mb-14 md:px-12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
-                    Trigle is a restaurant finding app with a <br> framework developed for both tourists, <br> and residents to find restaurants closest <br> to them depending on the location
+                <div class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal">
+                    Trigle is a restaurant finding app with a framework developed for both tourists, and residents to find restaurants closest to them depending on the location
                 </div>
                 <p class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8">It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over. </p>
             </div>
@@ -227,7 +227,7 @@
                 <div class="w-1/3">
                     <img class="w-full" src="../assets/samuel.png" alt="Man photo">
                 </div>
-                <div class="w-2/3 pl-12">
+                <div class="w-2/3 md:pl-12">
                     <p class="mb-2"><span class="text-lg font-bold">Age:</span> 20 years old</p>
                     <p class="mb-2"><span class="text-lg font-bold">Occupation:</span> Engineer</p>
                     <p class="mb-2"><span class="text-lg font-bold">Status:</span> Single</p>
@@ -255,7 +255,7 @@
                 <div class="w-1/3">
                     <img class="w-full" src="../assets/ari.png" alt="">
                 </div>
-                <div class="w-2/3 pl-12">
+                <div class="w-2/3 md:pl-12">
                     <p class="mb-2"><span class="text-lg font-bold">Age:</span> 24 years old</p>
                     <p class="mb-2"><span class="text-lg font-bold">Occupation:</span> Illustrator</p>
                     <p class="mb-2"><span class="text-lg font-bold">Status:</span> Single</p>
@@ -301,18 +301,18 @@
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Product Goal</h2>
                 <p class="mb-12">From results gotten from research and identifying of users pain points, we discovered that users want to be able to have their meals regardless of location or language, also they want to be able to have space where they can create memories with friends and loved ones. hence these solutions were brought to life and are listed below.</p>
                 <div class="md:flex md:space-x-8 lg:space-x-12">
-                    <div class="md:mb-10">
-                        <div class="mb-8"><img src="../assets/reservation.png" alt="Reservation"></div>
+                    <div class="mb-10 md:mb-0">
+                        <div class="mb-4 md:mb-8"><img src="../assets/reservation.png" alt="Reservation"></div>
                         <h5 class="mb-3 text-lg font-bold">Space reservation</h5>
                         <p>The ability to reserve a spot in the restaurant for yourself and loved one so you don't have to hope you meet space and probably be disappointed</p>
                     </div>
-                    <div class="md:mb-10">
-                        <div class="mb-8"><img src="../assets/order.png" alt="Order"></div>
+                    <div class="mb-10 md:mb-0">
+                        <div class="mb-4 md:mb-8"><img src="../assets/order.png" alt="Order"></div>
                         <h5 class="mb-3 text-lg font-bold">Make an order</h5>
                         <p>This is the standard and most basic for any restaurant app and that's being able to order food of your choice now from a range of available stores/restaurants</p>
                     </div>
                     <div>
-                        <div class="mb-8"><img src="../assets/ar.png" alt="AR Directions"></div>
+                        <div class="mb-4 md:mb-8"><img src="../assets/ar.png" alt="AR Directions"></div>
                         <h5 class="mb-3 text-lg font-bold">AR Directions</h5>
                         <p>Due to the constant pain points of users having issues with locating the restaurants due to their unfamiliarity of the terrain and the complexity of understanding google maps, a more simplified means of direction pointers should be used</p>
                     </div>
@@ -326,7 +326,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="lg:w-5/6 mx-auto mb-20 text-center text-sm md:text-base">
                 <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Onboarding to the rescue</h1>
-                <p class="md:mb-0 sm:w-2/3 lg:w-2/4 mx-auto">The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
+                <p class="md:mb-0 sm:w-2/3 md:w-3/4 lg:w-4/6 mx-auto">The onboarding flow guides visitors through a quick transition that explains the summary of the experience.</p>
             </div>
             <div class="hidden md:flex items-center justify-center space-x-16">
                 <div><img class="" src="../assets/phone-1.png" alt="Phone"></div>
@@ -337,7 +337,9 @@
                 <div><img class="" src="../assets/phone-4.png" alt="Phone"></div>
                 <div><img class="" src="../assets/phone-5.png" alt="Phone"></div>
             </div>
+            <!-- Mobile version -->
             <div class=" md:hidden"><img class="mx-auto" src="../assets/phone-1.png" alt="Phone"></div>
+            <!-- End of mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="sm:flex sm:items-center sm:justify-between sm:space-x-12">
@@ -354,7 +356,7 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
             <div class="hidden sm:flex items-center justify-between space-x-12">
                 <div class="flex-1">
-                    <img class="" src="../assets/restaurant-page-photo.png" alt="Phones">
+                    <img class="w-full" src="../assets/restaurant-page-photo.png" alt="Phones">
                 </div>
                 <div class="flex-1">
                     <h2 class="mb-6 md:text-3xl lg:text-4xl font-bold font-playfair">Restaurant page</h2>
@@ -393,38 +395,40 @@
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="mb-20 text-center text-sm md:text-base">
                 <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Payment options</h1>
-                <p class="sm:w-2/3 md:w-11/12 mx-auto">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
+                <p class="sm:w-2/3 md:w-10/12 mx-auto">In order to keep Trigle flexible and modern, payment options like card, bank transfer and cryptocurrency are enabled. For the card aswell Trigle provides a simplified solution aswell instead of typing a scan of the card fills its respective text field</p>
             </div>
             <div class="hidden md:flex md:items-center md:justify-between md:space-x-8">
                 <div><img class="w-full" src="../assets/payment-phone-1.png" alt="Payment phone"></div>
                 <div><img class="w-full" src="../assets/payment-phone-2.png" alt="Payment phone"></div>
                 <div><img class="w-full" src="../assets/payment-phone-3.png" alt="Payment phone"></div>
             </div>
+            <!-- Mobile version -->
             <div class="block md:hidden">
-                <img class="w-full" src="../assets/payment-phone-2.png" alt="Payment phone">
+                <img class="mx-auto" src="../assets/payment-phone-2.png" alt="Payment phone">
             </div>
+            <!-- End of mobile version -->
         </section>
         <section class="max-w-7xl mx-auto pt-20">
             <h1 class="mb-24 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">+70 design screens</h1>
             <div><img src="../assets/screens.png" alt="Screens"></div>
         </section>
-        <section class="max-w-7xl mx-auto py-36 bg-brand-black-6">
+        <section class="py-36 bg-brand-black-6">
             <div class="hidden md:block">
                 <div class="flex flex-wrap items-center justify-center space-x-4 mb-14">
-                    <div class="flex-1"><img class="" src="../assets/other-phone-1.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-2.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-3.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-4.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-5.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-6.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-1.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-2.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-3.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-4.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-5.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-6.png" alt="Phone"></div>
                 </div>
                 <div class="flex items-center justify-center space-x-4">
-                    <div class="flex-1"><img class="" src="../assets/other-phone-7.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-8.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-9.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-10.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-11.png" alt="Phone"></div>
-                    <div class="flex-1"><img class="" src="../assets/other-phone-12.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-7.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-8.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-9.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-10.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-11.png" alt="Phone"></div>
+                    <div class="flex-1"><img class="w-full" src="../assets/other-phone-12.png" alt="Phone"></div>
                 </div>
             </div>
             <div class="block md:hidden">
@@ -457,7 +461,7 @@
         <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
-                <div class="flex items-center justify-between space-x-8">
+                <div class="flex items-center space-x-8">
                     <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>

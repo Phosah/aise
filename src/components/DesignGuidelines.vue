@@ -1,7 +1,7 @@
 <template>
-    <div class="mb-10 px-6 py-6 bg-brand-black-2 shadow-sm" :class="border">
+    <div class="mb-3 md:mb-6 px-6 py-6 bg-brand-black-2 shadow-sm" :class="border">
         <div class="mb-8"><img :src="imageUrl" :alt="altText"></div>
-        <h4 class="mb-6 text-2xl font-semibold">{{ title }}</h4>
+        <h4 class="mb-6 text-2xl lg:text-3xl font-semibold font-playfair">{{ title }}</h4>
         <p>{{ text }}</p>
     </div>
 </template>

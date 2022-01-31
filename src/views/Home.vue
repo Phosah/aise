@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="relative">
         <div class="flex justify-center space-x-2">
             <!-- Left Sidebar -->
             <div class="z-10 relative w-14 lg:w-16">
@@ -28,7 +28,7 @@
                 <div class="item absolute bg-red-600">
                     <div class="fixed">
                         <div class="">
-                            <div class="mb-10 bg-white"><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></div>
+                            <div @click="openMenu()" class="mb-10 bg-white"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
                             <div class="flex items-center justify-center mb-10">
                                 <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
                             </div>
@@ -44,6 +44,12 @@
             </div>
             <!-- End of right sidebar -->
         </div>
+        <!-- Menu page -->
+        <div id="menu-icon" class="hidden">
+            <Menu />
+        </div>
+        <!-- End of Menu page -->
+
         <!-- Main page -->
         <main class="max-w-7xl mx-auto mb-32 md:px-16">
             <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
@@ -188,9 +194,16 @@
 </template>
 
 <script>
+import Menu from '../components/Menu.vue'
 import FooterDark from '../components/FooterDark.vue'
 export default {
-    components: {FooterDark }
+    components: {Menu, FooterDark },
+    methods: {
+        openMenu () {
+            const btn = document.getElementById("menu-icon");
+            btn.classList.toggle("hidden");
+        }
+    }
 }
 </script>
 

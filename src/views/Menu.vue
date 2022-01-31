@@ -1,5 +1,6 @@
 <template>
-  <div class="menu-wrapper max-w-7xl mx-auto">
+<div class="">
+    <div class="menu-content max-w-7xl mx-auto">
       <header class="flex flex-col h-screen p-2 bg-red-200">
             <div class="flex items-center justify-between">
                 <div><img class="w-14" src="../assets/logo-dark.png" alt="Logo icon"></div>
@@ -27,6 +28,7 @@
             </nav>
       </header>
   </div>
+</div>
 </template>
 
 <script>
@@ -45,13 +47,5 @@ div {
 .nav-link-line {
     display: none;
 }
-.menu-wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    background-color: red;
-}
+
 </style>

@@ -201,7 +201,8 @@ export default {
     methods: {
         openMenu () {
             const btn = document.getElementById("menu-icon");
-            btn.classList.toggle("hidden");
+            btn.classList.remove("hidden");
+            
         }
     }
 }

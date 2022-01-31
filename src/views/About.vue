@@ -56,7 +56,7 @@
             <div class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16">
                 <div class="mb-24"><img src="../assets/project-talk.png" alt="Project talk"></div>
                 <div  class="px-16 md:px-0">
-                    <h1 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h1>
+                    <h1 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center font-semibold font-playfair">Let's talk about your project</h1>
                     <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
                 </div>
                 <button class="px-8 py-6 font-bold rounded-sm rounded-sm text-brand-black-1 bg-white">Book an appointment</button>

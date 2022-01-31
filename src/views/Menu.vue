@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto">
+  <div class="menu-wrapper max-w-7xl mx-auto">
       <header class="flex flex-col h-screen p-2 bg-red-200">
             <div class="flex items-center justify-between">
                 <div><img class="w-14" src="../assets/logo-dark.png" alt="Logo icon"></div>

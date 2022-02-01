@@ -1,10 +1,10 @@
 <template>
-<div id="close-menu" class="menu-overlay">
+<div class="menu-overlay">
     <div class="max-w-7xl mx-auto bg-brand-black-1 text-white">
       <header class="flex flex-col h-screen p-2">
             <div class="flex items-center justify-between">
                 <div><img class="w-14" src="../assets/logo-dark.png" alt="Logo icon"></div>
-                <div @click="closeMenu()"><button><img class="w-8" src="../assets/close.png" alt="Close icon"></button></div>
+                <div @click="close()"><button><img class="w-8" src="../assets/close.png" alt="Close icon"></button></div>
             </div>
             <nav class="flex-1 flex items-center px-14">
                 <div class="md:ml-16 text-3xl md:text-4xl lg:text-6xl font-bold">
@@ -34,9 +34,8 @@
 <script>
 export default {
     methods: {
-        closeMenu () {
-            const closeBtn = document.getElementById("close-menu");
-            closeBtn.classList.add("hidden");
+        close () {
+            this.$emit("close-menu");
         }
     }
 }

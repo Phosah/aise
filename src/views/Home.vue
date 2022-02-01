@@ -46,7 +46,7 @@
         </div>
         <!-- Menu page -->
         <div id="menu-icon" class="hidden">
-            <Menu />
+            <Menu @close-menu="closeMenu"/>
         </div>
         <!-- End of Menu page -->
 
@@ -202,6 +202,11 @@ export default {
         openMenu () {
             const btn = document.getElementById("menu-icon");
             btn.classList.remove("hidden");
+            
+        },
+        closeMenu () {
+            const btn = document.getElementById("menu-icon");
+            btn.classList.add("hidden");
             
         }
     }

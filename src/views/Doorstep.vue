@@ -152,7 +152,7 @@
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
             <div class="md:flex md:items-center md:justify-between md:space-x-12 text-sm md:text-base">
-                <div class="md:flex-1">
+                <div class="md:flex-1 mb-8 md:mb-0">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">The problem</h2>
                     <p>The difficulty of knowing how to send a package and knowing the dimensions and and weights of packages and parcels which are usually a major criteria in creating a shipping request. Also a major problem was tracking each major milestone in the packages journey</p>
                 </div>
@@ -168,98 +168,121 @@
                 <p>Project timeline: <span class="font-bold">4 weeks</span></p>
             </div>
             <div class="md:flex md:flex-wrap md:justify-center md:space-x-4 text-white font-semibold">
-                <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-blue-3 via-brand-blue-4 to-brand-blue-5">Week 1: Interviews</div>
-                <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-orange-4 to-brand-orange-5">Week 2: Research</div>
-                <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-purple-2 to-brand-purple-3">Week 3: Brainstorming & IA</div>
-                <div class="mb-4 py-4 px-5 rounded-xl bg-gradient-to-r from-brand-red-2 to-brand-red-3">Week 4: Visual design</div>
+                <div class="mb-4 py-4 px-8 rounded-xl bg-gradient-to-r from-brand-blue-3 via-brand-blue-4 to-brand-blue-5">Week 1: Interviews</div>
+                <div class="mb-4 py-4 px-8 rounded-xl bg-gradient-to-r from-brand-orange-4 to-brand-orange-5">Week 2: Research</div>
+                <div class="mb-4 py-4 px-8 rounded-xl bg-gradient-to-r from-brand-purple-2 to-brand-purple-3">Week 3: Brainstorming & IA</div>
+                <div class="mb-4 py-4 px-8 rounded-xl bg-gradient-to-r from-brand-red-2 to-brand-red-3">Week 4: Visual design</div>
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="md:flex md:items-center md:justify-between md:space-x-12">
-                <div class="md:flex-1 mb-12"><img class="w-full" src="../assets/trigle-research.png" alt="Research"></div>
-                <div class="md:flex-1 text-sm md:text-base">
+            <div class="hidden md:flex items-center justify-between space-x-12">
+                <div class="flex-1 mb-12"><img class="w-full" src="../assets/trigle-research.png" alt="Research"></div>
+                <div class="flex-1 text-sm md:text-base">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">User Interviews</h2>
                     <p class="mb-6">Interviews & surveys are aimed at getting an indepth approach of how our targeted users would engage the product, determine their pain points, challenges, what they would love to have on the platform and structure all to get  the best solution for their problems.</p>
                     <p>I gathered the data from the interviews and structured out their pains and needs to have a structure for an empathy mapping</p>
                 </div>
             </div>
+            <!-- Mobile version -->
+            <div class="block md:hidden text-sm md:text-base">
+                <div class="mb-12">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">User Interviews</h2>
+                    <p class="mb-6">Interviews & surveys are aimed at getting an indepth approach of how our targeted users would engage the product, determine their pain points, challenges, what they would love to have on the platform and structure all to get  the best solution for their problems.</p>
+                    <p>I gathered the data from the interviews and structured out their pains and needs to have a structure for an empathy mapping</p>
+                </div>
+                <div class="">
+                    <img class="w-full" src="../assets/trigle-research.png" alt="Research">
+                </div>
+            </div>
+            <!-- End of Mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="md:flex md:items-center md:justify-between md:space-x-12">
-                <div class="md:flex-1 mb-12">
+            <div class="hidden md:flex items-center justify-between space-x-12">
+                <div class="flex-1 mb-12">
                     <img class="w-full" src="../assets/research-photo.png" alt="Quantitative research">
                 </div>
-                <div class="md:flex-1 text-sm md:text-base">
+                <div class="flex-1 text-sm text-base">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Quantitative research result</h2>
                     <p>From the findings of our survey and interviews carried out along with an online research of users complaints from users of competitors products, the largest pain was the identifying of the dimensions of the package to be sent which is usually a requirement to detemine shipment cost</p>
                 </div>
             </div>
+            <!-- Mobile version -->
+            <div class="block md:hidden text-sm md:text-base">
+                <div class="mb-12">
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Quantitative research result</h2>
+                    <p>From the findings of our survey and interviews carried out along with an online research of users complaints from users of competitors products, the largest pain was the identifying of the dimensions of the package to be sent which is usually a requirement to detemine shipment cost</p>
+                </div>
+                <div class="">
+                    <img class="w-full" src="../assets/research-photo.png" alt="Quantitative research">
+                </div>
+            </div>
+            <!-- End of Mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-white bg-brand-black-4">
             <h2 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Personas</h2>
-            <div class="lg:flex lg:space-x-14 lg:justify-center">
+            <div class="lg:flex lg:space-x-14 lg:justify-center text-xs">
                 <div class="sm:flex sm:space-x-6 mb-12 lg:mb-0">
                     <div class="sm:flex-1">
-                        <div class="flex space-x-4 items-center mb-4">
+                        <div class="flex space-x-4 items-center mb-6">
                             <div><img src="../assets/personas-1.png" alt="Man"></div>
                             <div>
-                                <h4 class="mb-2 font-bold">Jonathan Ini</h4>
-                                <p class="text-sm">Accountant</p>
+                                <h4 class="mb-2 font-bold text-sm">Jonathan Ini</h4>
+                                <p class="">Accountant</p>
                             </div>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5 text-sm">Rarely use logistics services</div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">About Jonathan</h4>
-                            <p class="text-sm">Jonathan is an Accountant with over 3 years working experience, he is a graduate of the Convenant university Ota. <br>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5 ">Rarely use logistics services</div>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">About Jonathan</h4>
+                            <p class="">Jonathan is an Accountant with over 3 years working experience, he is a graduate of the Convenant university Ota. <br>
                             He is a calm, inquisitive, career driven and a lover of family</p>
                         </div>
                     </div>
                     <div class="sm:flex-1">
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Demographics</h4>
-                            <p class="text-sm">27 years old</p>
-                            <p class="text-sm">Lives in Lagos, Nigeria</p>
-                            <p class="text-sm">Single</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Demographics</h4>
+                            <p class="">27 years old</p>
+                            <p class="">Lives in Lagos, Nigeria</p>
+                            <p class="">Single</p>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Goals and needs</h4>
-                            <p class="text-sm">A means to be able to send packages to his siblings abroad and be aware of everything going on along the delivery</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Goals and needs</h4>
+                            <p class="">A means to be able to send packages to his siblings abroad and be aware of everything going on along the delivery</p>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Pain points</h4>
-                            <p class="text-sm">Its really difficult to know the exact or approximate dimensions of your shipments due to the fact i dont know alot about dimensioning</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Pain points</h4>
+                            <p class="">Its really difficult to know the exact or approximate dimensions of your shipments due to the fact i dont know alot about dimensioning</p>
                         </div>
                     </div>
                 </div>
                 <div class="sm:flex sm:space-x-6">
                     <div class="sm:flex-1">
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div><img src="../assets/personas-1.png" alt="Man"></div>
+                        <div class="flex space-x-4 items-center mb-6">
+                            <div><img src="../assets/personas-2.png" alt="Man"></div>
                             <div>
-                                <h4 class="mb-2 font-bold">Damilola Peters</h4>
-                                <p class="text-sm">Businessman</p>
+                                <h4 class="mb-2 font-bold text-sm">Damilola Peters</h4>
+                                <p class="">Businessman</p>
                             </div>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5 text-sm">Very frequency in using logistics services</div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-8 font-bold">About Damilola</h4>
-                            <p class="text-sm">Damilola is an Entrepreneur into fabric exportation. He has been into the exportation business for 8 years and wishes to expand his business from just Asia to Europe aswell</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5 ">Very frequency in using logistics services</div>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">About Damilola</h4>
+                            <p class="">Damilola is an Entrepreneur into fabric exportation. He has been into the exportation business for 8 years and wishes to expand his business from just Asia to Europe aswell</p>
                         </div>
                     </div>
                     <div class="sm:flex-1">
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Demographics</h4>
-                            <p class="text-sm">32 years old</p>
-                            <p class="text-sm">Lives in Kenya, Nairobi</p>
-                            <p class="text-sm">Married</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Demographics</h4>
+                            <p class="">32 years old</p>
+                            <p class="">Lives in Kenya, Nairobi</p>
+                            <p class="">Married</p>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Goals and needs</h4>
-                            <p class="text-sm">A means to be able to send my goods to to my business partners at flexible timings based on urgency</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Goals and needs</h4>
+                            <p class="">A means to be able to send my goods to to my business partners at flexible timings based on urgency</p>
                         </div>
-                        <div class="lg:w-52 mb-4 p-4 rounded-md bg-brand-black-5">
-                            <h4 class="mb-4 font-bold">Pain points</h4>
-                            <p class="text-sm">The fact that i would have to wait sometimes for days befor the container gets filled with other peoples products so all can be shipped together slows my business down</p>
+                        <div class="lg:w-52 mb-6 p-6 rounded-md bg-brand-black-5">
+                            <h4 class="mb-4 font-bold text-sm">Pain points</h4>
+                            <p class="">The fact that i would have to wait sometimes for days befor the container gets filled with other peoples products so all can be shipped together slows my business down</p>
                         </div>
                     </div>
                 </div>
@@ -282,7 +305,7 @@
             </div>
             <!-- Mobile version -->
             <div class="block sm:hidden">
-                <div class="mb-12">
+                <div class="mb-12 text-sm">
                     <h3 class="mb-6 text-2xl font-bold font-playfair">Competitor analysis</h3>
                     <p>In order to understand the market, i conducted a SWOT analysis on the clients top competitors. Here i investigated the in’s and out’s of the companies, their strengths and weakness, opportunities and potential threats</p>
                 </div>
@@ -298,11 +321,11 @@
             <!-- End of mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
+            <div class="mb-20 md:w-5/6 mx-auto text-center text-sm md:text-base">
                 <h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Design strategy</h2>
                 <p>My design strategy comprised of integrated planning processes that examined the relationships between how the design and business may complement one another, in simple terms finding a balance between business objectives and creative solutions</p>
             </div>
-            <div class="flex justify-center"><img class="w-full" src="../assets/strategy.png" alt="Design strategy"></div>
+            <div class="flex justify-center mb-20"><img class="mx-auto" src="../assets/strategy.png" alt="Design strategy"></div>
             <div class="md:flex md:space-x-6  text-sm md:text-base">
                 <div class="md:flex-1 mb-12 md:mb-0">
                     <div class="flex items-center mb-10">
@@ -404,7 +427,7 @@
             <!-- End of Mobile version -->
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
-            <div class="mb-12  md:w-5/6 mx-auto text-center">
+            <div class="mb-20 md:w-5/6 mx-auto text-center">
                 <h2 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Conclusion</h2>
                 <p>The experience of this project was an insightful one, the aim to simplify the process even further is in progress and results from feedback of V1 would be used to make the users experience better and solve the problems better for the users</p>
             </div>
@@ -413,7 +436,7 @@
         <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
-                <div class="flex items-center justify-between space-x-8">
+                <div class="flex items-center space-x-8">
                     <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>

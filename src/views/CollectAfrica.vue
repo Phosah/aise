@@ -27,7 +27,7 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
-            <div class="md:flex md:items-center text-xs bg-gray-400">
+            <div class="md:flex md:items-center text-xs bg-gray-200">
                 <div class="flex-1 flex flex-col justify-center items-center py-8 md:py-0 border-b md:border-r">
                     <h4 class="text-base md:text-lg font-bold">1 month</h4>
                     <p>Product Timeline</p>
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto pb-20 px-4 md:px-16 text-sm md:text-base">
+        <section class="max-w-7xl mx-auto pb-20 md:py-20 px-4 md:px-16 text-sm md:text-base">
             <div class="mb-12">
                 <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Research time !!!</h1>
                 <p>I conducted some research alongside the product manager to discover what we are building, despite having a brief given we conducted some research to validate, and have a deeper understanding of the pain points of the users and bridge it with the business goals. The UX phase began with getting to know the users and their behaviors and the research goal was aimed at getting a clear idea of the problem as it directly affects the users, and uncovering their needs and frustrations to better understand how to create a better experience for them. This enabled me to get a better understanding of the pain points of our users and empathize more. Research started with interviews to get some qualitative data and from the data gotten, we decided to work towards an MVP, and from the gotten pain points we needed some quantitative data to identify the most sorted solutions of our target market to properly roll out an MVP</p>
@@ -519,7 +519,7 @@
                     <img class="w-full" src="../assets/customer-management.png" alt="Simplified dashboard">
                 </div>
                 <div class="flex-1">
-                    <h2 class="mb-6 text-2xtext-3xl lg:text-4xl font-bold font-playfair">Customer Management</h2>
+                    <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Customer Management</h2>
                     <p class="">A good customer and business relationship improves the bonds customers have with businesses which in turn makes them stay longer with a business that relates with them better and the business would know how best to serve the customers as you can directly message the customers and they receive the messages in the mails and SMS and every reply you receive in the customer's thread on your dashboard</p>
                     <p>You can add new customers, delete customers, place customers on services and even send them messages on events like popular holidays and birthdays to ensure an even greater bond.</p>
                 </div>
@@ -600,7 +600,7 @@
         <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
-                <div class="flex items-center justify-between space-x-8">
+                <div class="flex items-center space-x-8">
                     <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>

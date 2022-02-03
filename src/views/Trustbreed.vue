@@ -28,7 +28,7 @@
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
             <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">My Role</h2>
-            <p>For this project, my role was to explore ways to ensure users' complaints are heard and resolutions to the problems were made, also give users a way to identify the best companies and services for a particular need. To achieve this I had to understand the pain points of users of digital and physical services through a series of research, analysis, and best practices in UX design. Then sealing it with good visuals to make the interface attractive for the users.</p>
+            <p class="mb-4">For this project, my role was to explore ways to ensure users' complaints are heard and resolutions to the problems were made, also give users a way to identify the best companies and services for a particular need. To achieve this I had to understand the pain points of users of digital and physical services through a series of research, analysis, and best practices in UX design. Then sealing it with good visuals to make the interface attractive for the users.</p>
             <p>Throughout the project timeline, there was a triangular interaction between myself, users, and the stakeholders.</p>
         </section>
         <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
@@ -169,7 +169,7 @@
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
-            <div class="mb-8">
+            <div class="mb-8 px-4">
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">User Personas</h2>
                 <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>
             </div>
@@ -288,20 +288,20 @@
                 </ul>
                 <p>Both in-person and remote moderated usability tests were conducted.  The test included a short brieﬁng and task performance with the Trustbreed. 5 participants took part in the usability test, all participants agreed that the app is uncomplicated and simple to use, including mainly only necessary information and buttons. After collecting the information, I created a rainbow sheet to identify valuable insights.</p>
             </div>
-            <div class="hidden md:block rounded-lg rounded-t-lg bg-red-300 text-sm">
-                <div class="flex space-x-10 px-6 py-4 border-b border-brand-black-4 bg-red-500 rounded-t-lg">
+            <div class="hidden md:block rounded-lg rounded-t-lg bg-brand-black-7 text-sm text-white">
+                <div class="flex space-x-10 px-6 py-4 border-b border-gray-600 bg-brand-black-5 rounded-t-lg">
                     <p class="flex-1">Test Feedbacks</p>
                     <p class="flex-1">Possible Solutions</p>
                 </div>
-                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-gray-600">
                     <p class="flex-1">Was constantly looking for the search field to easily search for companies and could not find it</p>
                     <p class="flex-1">The search box should be brought lower to within the section so its easier to spot by users</p>
                 </div>
-                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-gray-600">
                     <p class="flex-1">It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
                     <p class="flex-1">The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when cpcked </p>
                 </div>
-                <div class="flex space-x-10 p-6 border-b border-brand-black-4">
+                <div class="flex space-x-10 p-6 border-b border-gray-600">
                     <p class="flex-1">On the dashboard, the 4 categories take too much space</p>
                     <p class="flex-1">The four categories can be merged with one button that has a down showing all the actions that can be taken</p>
                 </div>
@@ -311,16 +311,16 @@
                 </div>                   
             </div>
             <!-- Mobile version -->
-            <div class="block md:hidden text-sm">
-                <div class="mb-10 divide-y border-brand-black-4 rounded-lg bg-red-300">
-                    <p class="px-6 py-4 bg-red-500 rounded-t-lg">Test Feedbacks</p>
+            <div class="block md:hidden text-sm text-white">
+                <div class="mb-10 divide-y border-gray-600 rounded-lg bg-brand-black-5">
+                    <p class="px-6 py-4 bg-brand-black-7 rounded-t-lg">Test Feedbacks</p>
                     <p class="p-6">Was constantly looking for the search field to easily search for companies and could not find it</p>
                     <p class="p-6">It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
                     <p class="p-6">On the dashboard, the 4 categories take too much space</p>
                     <p class="p-6">Wanted to make a video of the service I received but could not</p>
                 </div>
-                <div class="divide-y border-brand-black-4 rounded-lg bg-red-300">
-                    <p class="px-6 py-4 bg-red-500 rounded-t-lg">Possible Solutions</p>
+                <div class="divide-y border-gray-600 rounded-lg bg-brand-black-5">
+                    <p class="px-6 py-4 bg-brand-black-7 rounded-t-lg">Possible Solutions</p>
                     <p class="p-6">The search box should be brought lower to within the section so its easier to spot by users</p>
                     <p class="p-6">The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when clicked </p>
                     <p class="p-6">The four categories can be merged with one button that has a down showing all the actions that can be taken</p>
@@ -336,7 +336,7 @@
         <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
-                <div class="flex items-center justify-between space-x-8">
+                <div class="flex items-center space-x-8">
                     <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>

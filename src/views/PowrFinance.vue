@@ -290,7 +290,7 @@
                     </ul>
                 </div>
                 <div class="flex-1">
-                    <h5 class="mb-4 text-lg font-bold">Threats</h5>
+                    <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h5>
                     <ul class="list-disc pl-6">
                         <li class="mb-1">PayPal does not invest in advertising on the internet causes the brand image of PayPal is not very well. So it also needs to strengthen its brand through the Web</li>
                         <li class="mb-1">In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image</li>
@@ -300,14 +300,14 @@
             </div>
         </section>
         <section class="md:py-20">
-            <div class="hidden md:flex items-center justify-center h-screen max-w-7xl mx-auto bg-persona-1 bg-cover bg-center bg-no-repeat text-white">
+            <div class="bg-image hidden md:flex items-center justify-center h-screen max-w-7xl mx-auto bg-cover bg-center bg-no-repeat  text-white">
                 <div class="w-2/3 mx-auto text-center md:text-base">
                     <h1 class="mb-8 text-6xl lg:text-7xl font-semibold">User Personas</h1>
                     <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>               
                 </div>
             </div>
             <!-- Mobile version -->
-            <div class="flex md:hidden items-center justify-center h-screen max-w-7xl mx-auto bg-persona-1-mobile bg-cover bg-center bg-no-repeat text-white">
+            <div class="bg-image-mobile flex md:hidden items-center justify-center h-screen max-w-7xl mx-auto bg-cover bg-center bg-no-repeat text-white">
                 <div class="w-11/12 mx-auto text-center text-sm">
                     <h1 class="mb-8 text-5xl font-semibold">User Personas</h1>
                     <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>               
@@ -381,7 +381,7 @@
                     <p class="mb-1 font-bold">Of business men</p>
                     <p class="mb-6 md:mb-0">Send money abroad to their clients using banks or 3rd party agents</p>
                 </div>
-                <div class="flex-1 mb-8 pr-4 border-dashed border-b md:border-b-0 md:border-r border-brand-black-4">
+                <div class="flex-1 mb-8 md:mb-0 pr-4 border-dashed border-b md:border-b-0 md:border-r border-brand-black-4">
                     <h3 class="mb-3 text-4xl md:text-5xl lg:text-7xl font-bold">55%</h3>
                     <p class="mb-1 font-bold">Of business men</p>
                     <p class="mb-6 md:mb-0">Prefer receiving their payment in cryptocurrency from clients</p>
@@ -498,7 +498,7 @@
                 <div class="block md:hidden"><img class="w-full" src="../assets/onboarding-screens-mobile.png" alt="Onboarding Screens"></div>
                 <!-- End of Mobile version -->
             </div>
-            <div class="md:flex items-center space-x-6 mb-32">
+            <div class="md:flex items-center space-x-10 mb-32">
                 <div class="md:flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Create Bank Accounts</h2>
                     <p class="mb-16 md:mb-0">Have access to creating a bank account for all the major currencies in the world, these bank accounts would be used to receive money from foreign clients by just sending them the account number</p>
@@ -516,7 +516,7 @@
                 <div class="block md:hidden"><img src="../assets/send-money-mobile.png" alt="Create bank account"></div>
                 <!-- End of Mobile version -->
             </div>
-            <div class="hidden md:flex items-center space-x-6 mb-32">
+            <div class="hidden md:flex items-center space-x-10 mb-32">
                 <div class="flex-1"><img class="w-full" src="../assets/crypto-payments.png" alt="Crypto payments"></div>
                 <div class="flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfairfont-bold font-playfair">Crypto Payments</h2>
@@ -532,7 +532,7 @@
                 </div>
             </div>
             <!-- End of Mobile version -->
-            <div class="md:flex md:items-center md:space-x-6 mb-32">
+            <div class="md:flex md:items-center md:space-x-10 mb-32">
                 <div class="md:flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Lending / Leveraging</h2>
                     <p class="mb-16 md:mb-0">Every user has a credit capacity/ credit score and that is decided by the platform, in which the credit score is decided from your transaction history carried out on Powr finance. These credits can be used to make purchases or run businesses but are disbursed only with proof of utilization.</p>
@@ -542,7 +542,7 @@
                 <div class="block md:hidden"><img class="w-full" src="../assets/lending-mobile.png" alt="Lending and Leverage"></div>
                 <!-- End of Mobile version -->
             </div>
-            <div class="hidden md:flex items-center space-x-6 mb-32 ">
+            <div class="hidden md:flex items-center space-x-10 mb-32 ">
                 <div class="flex-1"><img class="w-full" src="../assets/dollar-cards.png" alt="Dollar master card"></div>
                 <div class="flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Dollar Master Cards</h2>
@@ -558,7 +558,7 @@
                 <div class=""><img class="w-full" src="../assets/dollar-cards-mobile.png" alt="Dollar master card"></div>
             </div>
             <!-- End of Mobile version -->
-            <div class="md:flex md:items-center md:space-x-6 mb-32">
+            <div class="md:flex md:items-center md:space-x-10 mb-32">
                 <div class="md:flex-1">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Offline Transactions</h2>
                     <p class="mb-16">With offline transactions, we have station points with our field agents in various stores scattered around the country whereby you can walk in like a bank with your cash and the agent helps you make the transfer, this is beneficial for businesses who deal a lot with cash and would need to go to the bank first to deposit before crediting their Powr finance account. When using an agent, you provide your user id so the payment record would be sent to your app so it can be recorded in the account statement</p>
@@ -583,7 +583,7 @@
         <section class="max-w-7xl mx-auto py-20 md:px-16">
             <h1 class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center">Other Projects</h1>
             <div class="hidden md:block">
-                <div class="flex items-center justify-between space-x-8">
+                <div class="flex items-center space-x-8">
                     <router-link to="/"><div><img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr"></div></router-link>
                     <router-link to="/doorstep"><div><img class="w-full" src="../assets/doorstep.png" alt="Doorstep"></div></router-link>
                 </div>
@@ -640,5 +640,11 @@ export default {
 <style>
 div {
     font-family: "Euclid Circular A", sans-serif;
+}
+.bg-image {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.7)), url('../assets/user-persona-1.png');
+}
+.bg-image-mobile {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.7)), url('../assets/user-persona-2.png');
 }
 </style>

@@ -80,7 +80,7 @@ module.exports = {
         'five': "url('../src/assets/5.png')",
         'analysis': "url('../src/assets/competitive-analysis.png')",
         'analysis-mobile': "url('../src/assets/competitive-analysis-mobile.png')",
-        'persona-1': "url('../src/assets/user-persona-1.png')",
+        // 'persona-1': "url('../src/assets/user-persona-1.png'),",
         'persona-1-mobile': "url('../src/assets/user-persona-2.png')",
         'business': "url('../src/assets/business-opportunity.png')",
         'business-mobile': "url('../src/assets/business-opportunity-mobile.png')",

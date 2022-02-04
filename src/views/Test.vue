@@ -138,8 +138,8 @@
                         <div class="border-b border-2 w-1/4"></div>
                     </div>
                     <div class="flex-1 flex items-center justify-end space-x-4">
-                        <button class="rounded p-3"><img src="../assets/left-arrow.png" alt="Left arrow"></button>
-                        <button class="rounded-full p-4 bg-white"><img src="../assets/right-arrow.png" alt="Right arrow"></button>
+                        <button class="rounded p-3"><img src="../assets/left.png" alt="Left arrow"></button>
+                        <button class="rounded-full p-4 bg-white"><img src="../assets/right.png" alt="Right arrow"></button>
                     </div>
                 </div>
             </div>

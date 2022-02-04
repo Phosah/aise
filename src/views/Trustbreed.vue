@@ -141,7 +141,7 @@
             <div>
                 <p class="mb-4 font-bold font-playfair">1. Have you ever been disappointed with the services provided to you by any company</p>
                 <div class="hidden md:block">
-                    <div class="mb-6 py-20 bg-brand-black-2"><img class="mx-auto" src="../assets/survey-photo.png" alt="Survey photo"></div>
+                    <div class="mb-6 py-20 bg-brand-black-2"><img class="mx-auto" src="../assets/trustbreed-survey-photo-1.png" alt="Survey photo"></div>
                     <div class="flex items-center space-x-12 px-16 md:px-0">
                         <div class="flex flex-1 space-x-4">
                             <div class="border-brand-black-2 border-b-4 w-1/4"></div>
@@ -166,6 +166,9 @@
                     </div>                 
                 </div>
                 <!-- End of mobile version -->
+                <!-- Carousel -->
+                <Carousel :cards="cards" />
+                <!-- End of Carousel -->
             </div>
         </section>
         <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
@@ -385,8 +388,39 @@
 <script>
 import NavbarDark from '@/components/NavbarDark.vue'
 import FooterDark from '@/components/FooterDark'
+import Carousel from '@/components/Carousel'
 export default {
-    components: {NavbarDark, FooterDark}
+    components: {NavbarDark, FooterDark, Carousel},
+    data() {
+        return {
+            cards: [
+                {
+                headline: "Makes App available Offline",
+                text:
+                    "By using the CachingAPI all static elements on an app can be pre-cached",
+                imgName: "trustbreed-survey-photo-1.png"
+                },
+                {
+                headline: "Use background sync to defer actions",
+                text:
+                    "User inputs entered when offline are sent in the background once they get connectivity.",
+                imgName: "trustbreed-survey-photo-2.png"
+                },
+                {
+                headline: "Send Push Notifications",
+                text:
+                    "The Notifications API lets us send push notifications to re-engage users.",
+                imgName: "trustbreed-survey-photo-3.png"
+                },
+                {
+                headline: "Send Push Notifications",
+                text:
+                    "The Notifications API lets us send push notifications to re-engage users.",
+                imgName: "trustbreed-survey-photo-4.png"
+                }
+            ]
+        }
+    }
 }
 </script>
 

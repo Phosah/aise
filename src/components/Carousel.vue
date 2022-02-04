@@ -1,36 +1,36 @@
 <template>
-  <div>
-      <Card 
-        :imgName="currentElement.imgName"       
-      />
-      <div>
-          <div>
-              <Indicator 
-                :elements="this.cards"
-                :currentElementIndex="this.currentElementIndex"
-                :showElement="this.showElement"
-              />
-          </div>
-          <div>
-            <ArrowButton 
-                arrowType="left"
-                @click="showPrevElement"
-                :disabled="this.reachedMaxLeft"
-            />
-            <ArrowButton 
-                arrowType="right"
-                @click="showNextElement"
-                :disabled="this.reachedMaxRight"
-            />
-          </div>
-      </div>
-  </div>
+    <div>
+        <Card 
+            :imgName="currentElement.imgName"       
+        />
+        <div class="flex items-center">
+            <div class="flex-1">
+                <Indicator 
+                    :elements="this.cards"
+                    :currentElementIndex="this.currentElementIndex"
+                    :showElement="this.showElement"
+                />
+            </div>
+            <div class="flex-1 flex items-center justify-end space-x-4">
+                <ArrowButton 
+                    arrowType="left"
+                    @click="showPrevElement"
+                    :disabled="this.reachedMaxLeft"
+                />
+                <ArrowButton 
+                    arrowType="right"
+                    @click="showNextElement"
+                    :disabled="this.reachedMaxRight"
+                />
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-import Card from "./Card.vue"
-import ArrowButton from "./ArrowButton.vue"
-import Indicator from "./Indicator.vue"
+import Card from "./Card.vue";
+import ArrowButton from "./ArrowButton.vue";
+import Indicator from "./Indicator.vue";
 export default {
     name: "Carousel",
     props: {

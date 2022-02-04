@@ -140,32 +140,6 @@
             <p class="mb-10">Organizing the interviews was the most challenging part of the user research process - but conducting them was highly exciting. Listening to users talk about their experiences with poor services helped me to further refine the problem statement. Below holds some of the questions and the collated results</p>
             <div>
                 <p class="mb-4 font-bold font-playfair">1. Have you ever been disappointed with the services provided to you by any company</p>
-                <div class="hidden md:block">
-                    <div class="mb-6 py-20 bg-brand-black-2"><img class="mx-auto" src="../assets/trustbreed-survey-photo-1.png" alt="Survey photo"></div>
-                    <div class="flex items-center space-x-12 px-16 md:px-0">
-                        <div class="flex flex-1 space-x-4">
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        </div>
-                        <div class="flex-1 flex items-center justify-end space-x-4">
-                            <button class="rounded p-3 bg-red-400"><img src="../assets/left.png" alt="Left arrow"></button>
-                            <button class="rounded-full p-4 bg-red-400"><img src="../assets/right.png" alt="Right arrow"></button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mobile version -->
-                <div class="block md:hidden">
-                    <div class="mb-6 py-20 bg-brand-black-2"><img class="mx-auto" src="../assets/survey-photo-mobile.png" alt="Survey photo"></div>
-                    <div class="flex space-x-4">
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                    </div>                 
-                </div>
-                <!-- End of mobile version -->
                 <!-- Carousel -->
                 <Carousel :cards="cards" />
                 <!-- End of Carousel -->

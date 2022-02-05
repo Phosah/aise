@@ -369,28 +369,16 @@ export default {
         return {
             cards: [
                 {
-                headline: "Makes App available Offline",
-                text:
-                    "By using the CachingAPI all static elements on an app can be pre-cached",
-                imgName: "trustbreed-survey-photo-1.png"
+                    imgName: "trustbreed-survey-photo-1.png"
                 },
                 {
-                headline: "Use background sync to defer actions",
-                text:
-                    "User inputs entered when offline are sent in the background once they get connectivity.",
-                imgName: "trustbreed-survey-photo-2.png"
+                    imgName: "trustbreed-survey-photo-2.png"
                 },
                 {
-                headline: "Send Push Notifications",
-                text:
-                    "The Notifications API lets us send push notifications to re-engage users.",
-                imgName: "trustbreed-survey-photo-3.png"
+                    imgName: "trustbreed-survey-photo-3.png"
                 },
                 {
-                headline: "Send Push Notifications",
-                text:
-                    "The Notifications API lets us send push notifications to re-engage users.",
-                imgName: "trustbreed-survey-photo-4.png"
+                    imgName: "trustbreed-survey-photo-4.png"
                 }
             ]
         }

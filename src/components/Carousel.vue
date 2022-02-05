@@ -43,7 +43,9 @@ export default {
     },
     data() {
         return {
-            currentElementIndex: 0,       
+            currentElementIndex: 0,
+            isDisabled: false,
+            disabledClass: "opacity-15 bg-green-400"
         }
     }, 
     computed: {
@@ -52,6 +54,7 @@ export default {
         },
         reachedMaxLeft() {
             return this.currentElementIndex === 0;
+            
         },
         reachedMaxRight() {
             return this.currentElementIndex === this.cards.length - 1;

@@ -170,32 +170,9 @@
                 <p>I conducted some research alongside the product manager to discover what we are building, despite having a brief given we conducted some research to validate, and have a deeper understanding of the pain points of the users and bridge it with the business goals. The UX phase began with getting to know the users and their behaviors and the research goal was aimed at getting a clear idea of the problem as it directly affects the users, and uncovering their needs and frustrations to better understand how to create a better experience for them. This enabled me to get a better understanding of the pain points of our users and empathize more. Research started with interviews to get some qualitative data and from the data gotten, we decided to work towards an MVP, and from the gotten pain points we needed some quantitative data to identify the most sorted solutions of our target market to properly roll out an MVP</p>
             </div>
             <div>
-                <div class="hidden md:block">
-                    <div class="mb-6"><img class="w-full mx-auto" src="../assets/research-time.png" alt="Survey photo"></div>
-                    <div class="flex items-center space-x-12 px-16 md:px-0">
-                        <div class="flex flex-1 space-x-4">
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                            <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        </div>
-                        <div class="flex-1 flex items-center justify-end space-x-4">
-                            <button class="rounded p-3 bg-red-400"><img src="../assets/left.png" alt="Left arrow"></button>
-                            <button class="rounded-full p-4 bg-red-400"><img src="../assets/right.png" alt="Right arrow"></button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mobile version -->
-                <div class="block md:hidden">
-                    <div class="mb-6"><img class="mx-auto" src="../assets/research-time.png" alt="Survey photo"></div>
-                    <div class="flex space-x-4">
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                        <div class="border-brand-black-2 border-b-4 w-1/4"></div>
-                    </div>                 
-                </div>
-                <!-- End of mobile version -->
+                <!-- Carousel -->
+                <Carousel :cards="cards" />
+                <!-- End of Carousel -->
             </div>
         </section>
         <section class="max-w-7xl mx-auto px-4 md:px-16 pb-20 text-sm md:text-base">
@@ -635,7 +612,7 @@
        <section class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16 text-brand-black-1">
             <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
             <div class="px-16 md:px-0">
-                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold">Let's talk about your project</h3>
+                <h3 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h3>
                 <p class="mb-16 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
             </div>
             <button class="px-8 py-6 font-bold rounded-sm text-white bg-brand-black-1">Book an appointment</button>
@@ -649,8 +626,27 @@
 <script>
 import NavbarDark from '@/components/NavbarDark'
 import FooterDark from '@/components/FooterDark'
+import Carousel from '@/components/Carousel'
 export default {
-    components: {NavbarDark, FooterDark}
+    components: {NavbarDark, FooterDark, Carousel},
+    data() {
+        return {
+            cards: [
+                {
+                    imgName: "collectafrica-survey-photo-1.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-2.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-3.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-4.png"
+                }
+            ]
+        }
+    }
 }
 </script>
 

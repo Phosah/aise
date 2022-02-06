@@ -1,11 +1,11 @@
 <template>
-    <div class="relative">
+    <div class="dark relative">
         <div class="flex justify-center space-x-2">
             <!-- Left Sidebar -->
             <div class="z-10 relative w-14 lg:w-16">
                 <div class="absolute bg-yellow-200">
                     <div class="fixed">
-                        <div class="bg-white"><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
+                        <div class=""><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
                     </div>
                 </div>
             </div>
@@ -28,14 +28,14 @@
                 <div class="item absolute bg-red-600">
                     <div class="fixed">
                         <div class="">
-                            <div @click="openMenu()" class="mb-10 bg-white"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
+                            <div @click="openMenu()" class="mb-10"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
                             <div class="flex items-center justify-center mb-10">
                                 <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
                             </div>
                             <div class="flex items-center justify-center">
                                 <div class="w-8 p-2 bg-gray-200 rounded-2xl">
                                     <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
-                                    <div><button><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
+                                    <div><button @click="darkModeActive"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
                                 </div>
                             </div>
                         </div>
@@ -208,6 +208,23 @@ export default {
             const btn = document.getElementById("menu-icon");
             btn.classList.add("hidden");
             
+        },
+        darkModeActive() {
+            console.log("clicked");
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+            } else {
+            document.documentElement.classList.remove('dark')
+            }
+
+            // Whenever the user explicitly chooses light mode
+            localStorage.theme = 'light'
+
+            // Whenever the user explicitly chooses dark mode
+            localStorage.theme = 'dark'
+
+            // Whenever the user explicitly chooses to respect the OS preference
+            localStorage.removeItem('theme')
         }
     }
 }

@@ -24,7 +24,7 @@
                                     </div>
                                 </div>
                                 <div class="flex-1">
-                                    <img src="../assets/powr-finance-home.png" alt="Powr finance home photo">
+                                    <img class="w-full" src="../assets/powr-finance-home.png" alt="Powr finance home photo">
                                 </div>
                             </div>
                         </section>
@@ -51,8 +51,72 @@
                         </div>
                         <!-- End of right sidebar -->
                     </div>
+                    <div class="relative">
+                <div class="flex justify-center space-x-2">
+                    <!-- Left Sidebar -->
+                    <div class="z-10 relative w-14 lg:w-16">
+                        <div class="absolute bg-yellow-200">
+                            <div class="fixed">
+                                <div class=""><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of left sidebar -->
+
+                    <!-- Header -->
+                    <section class="max-w-7xl mx-auto md:px-16">
+                        <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
+                            <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
+                                <div class="md:ml-16 md:pr-6">
+                                    <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
+                                    <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech, B2B, B2C</p>
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <img src="../assets/powr-finance-home.png" alt="Trustbreed home photo">
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End of Header -->
+
+                    <!-- Right Sidebar -->
+                    <div class="z-10 relative w-14 lg:w-26">
+                        <div class="item absolute bg-red-600">
+                            <div class="fixed">
+                                <div class="">
+                                    <div @click="openMenu()" class="mb-10"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
+                                    <div class="flex items-center justify-center mb-10">
+                                        <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
+                                    </div>
+                                    <div class="flex items-center justify-center">
+                                        <div class="w-8 p-2 bg-gray-200 rounded-2xl">
+                                            <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
+                                            <div><button @click="darkModeActive"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of right sidebar -->
                 </div>
-                
+            </div>
+                </div>
+                <section class="max-w-7xl mx-auto md:px-16">
+                    <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-center bg-brand-blue-8 text-white">
+                        <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
+                            <div class="md:ml-16 md:pr-6">
+                                <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
+                                <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech, B2B, B2C</p>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <img src="../assets/powr-finance-home.png" alt="Powr finance home photo">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Main -->               
                 <section class="max-w-7xl mx-auto py-20 px-16">
                     <div class="max-w-5xl mx-auto md:px-16">
                         <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Powr Finance</h1>
@@ -684,5 +748,8 @@ div {
 }
 .bg-image-mobile {
     background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.7)), url('../assets/user-persona-2.png');
+}
+.header-block {
+    max-width: 1200px;
 }
 </style>

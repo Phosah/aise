@@ -28,7 +28,7 @@
                             </div>
                         </section>
                         <!-- End of Header -->
-                         <!-- Right Sidebar -->
+                        <!-- Right Sidebar -->
                         <div class="z-10 relative w-14 lg:w-26">
                             <div class="item absolute bg-red-600">
                                 <div class="fixed">

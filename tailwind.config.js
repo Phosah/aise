@@ -46,6 +46,9 @@ module.exports = {
             light: {
               1: '#F6F6FA',
               2: '#F5F6FA'
+            },
+            dark: {
+              1: '#232222'
             }
           },
           purple: {

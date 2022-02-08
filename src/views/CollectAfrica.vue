@@ -15,7 +15,7 @@
                         <!-- End of left sidebar -->
 
                         <!-- Header  -->
-                        <section class="max-w-7xl mx-auto md:px-16">
+                        <section class="max-w-7xl mx-auto md:px-40">
                             <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                                 <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
                                     <div class="md:ml-16 md:pr-6">
@@ -54,19 +54,6 @@
                 </div>
 
                 <!-- Main section -->
-                <section class="max-w-7xl mx-auto md:px-16">
-                    <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
-                        <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                            <div class="md:ml-16 md:pr-6">
-                                <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
-                                <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech Solution</p>
-                            </div>
-                        </div>
-                        <div class="flex-1">
-                            <img src="../assets/collect-africa-home.png" alt="Collect Africa home photo">
-                        </div>
-                    </div>
-                </section>
                 <section class="max-w-7xl mx-auto py-20 px-16">
                     <div class="max-w-5xl mx-auto md:px-16">
                         <h1 class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair">Collect Africa</h1>

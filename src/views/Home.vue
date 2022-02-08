@@ -1,5 +1,5 @@
 <template>
-    <div class="dark">
+    <div class="">
         <div class="dark:bg-brand-black-1">
             <div class="relative">
                 <div class="flex justify-center space-x-2">
@@ -37,7 +37,7 @@
                                     <div class="flex items-center justify-center">
                                         <div class="w-8 p-2 bg-gray-200 rounded-2xl">
                                             <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
-                                            <div><button @click="darkModeActive"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
+                                            <div><button @click="darkModeActive()"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
                                         </div>
                                     </div>
                                 </div>
@@ -202,6 +202,9 @@ import Menu from '../components/Menu.vue'
 import FooterDark from '../components/FooterDark.vue'
 export default {
     components: {Menu, FooterDark },
+    mounted () {
+        window.scrollTo(0, 0)
+    },
     methods: {
         openMenu () {
             const btn = document.getElementById("menu-icon");
@@ -230,7 +233,8 @@ export default {
             // Whenever the user explicitly chooses to respect the OS preference
             localStorage.removeItem('theme')
         }
-    }
+    },
+
 }
 </script>
 

@@ -8,6 +8,7 @@ import Doorstep from '../views/Doorstep.vue'
 import CollectAfrica from '../views/CollectAfrica.vue'
 import Menu from '../views/Menu.vue'
 import Test from '../views/Test.vue'
+import PageNotFound from '../views/PageNotFound.vue'
 
 const routes = [
     {
@@ -55,11 +56,29 @@ const routes = [
         name: 'test',
         component: Test
     },
+    {
+        path: '/:catchAll(.*)*',
+        name: "PageNotFound",
+        component: PageNotFound,
+    },
+
 ]
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
-    routes
+    routes,
+    scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) {
+      return savedPosition;
+    } else if (to.hash) {
+      return {
+        selector: to.hash
+      };
+    } else {
+      return { x: 0, y: 0 };
+    }
+  }
 })
+
 
 export default router

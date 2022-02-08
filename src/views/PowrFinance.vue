@@ -672,7 +672,10 @@
 <script>
 import FooterDark from '@/components/FooterDark'
 export default {
-    components: {FooterDark}
+    components: {FooterDark},
+    mounted () {
+        window.scrollTo(0, 0)
+    }
 }
 </script>
 

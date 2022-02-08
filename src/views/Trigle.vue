@@ -532,8 +532,8 @@
                 <section class="flex flex-col items-center max-w-7xl mx-auto py-20 md:px-16">
                     <div class="mb-24"><img src="../assets/project-talk-dark.png" alt="Project talk-dark"></div>
                     <div class="md:w-5/6 mx-auto px-16 md:px-0">
-                        <h1 class="mb-8 text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-semibold font-playfair">Let's talk about your project</h1>
-                        <p class="mb-14 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of <br> users needs, and business goals to design the future</span></p>
+                        <h1 class="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-center font-semibold font-playfair">Let's talk about your project</h1>
+                        <p class="mb-14 md:text-xl font-light text-center">It takes any designer to design a product, but it takes creative <span class="font-bold">identification of users needs, and business goals to design the future</span></p>
                     </div>
                     <button class="px-8 py-6 font-bold rounded-sm text-white bg-brand-black-1 dark:bg-white dark:text-brand-black-1">Book an appointment</button>
                 </section>
@@ -554,6 +554,9 @@ export default {
     data() {
         return {
         }
+    },
+    mounted () {
+        window.scrollTo(0, 0)
     }
 }
 </script>

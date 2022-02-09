@@ -1,5 +1,5 @@
 <template>
-    <div class="dark">
+    <div class="">
         <div class="dark:bg-brand-black-1">
             <div class="text-brand-black-4 dark:text-white">
                 <div class="relative">
@@ -15,7 +15,7 @@
                         <!-- End of left sidebar -->
 
                         <!-- Header  -->
-                        <section class="max-w-7xl mx-auto md:px-16 lg:px-40">
+                        <section class="max-w-7xl mx-auto md:px-16 xl:px-40">
                             <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                                 <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
                                     <div class="md:ml-16 md:pr-6">

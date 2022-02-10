@@ -34,12 +34,7 @@
                                     <div class="flex items-center justify-center mb-10">
                                         <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
                                     </div>
-                                    <div class="flex items-center justify-center">
-                                        <div class="w-8 p-2 bg-gray-200 rounded-2xl">
-                                            <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
-                                            <div><button @click="isDark = !isDark"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
-                                        </div>
-                                    </div>
+                                    <ToggleMode @change-mode="$emit('change-mode')"/>
                                 </div>
                             </div>
                         </div>
@@ -199,9 +194,10 @@
 
 <script>
 import Menu from '../components/Menu.vue'
+import ToggleMode from '../components/ToggleMode.vue'
 import FooterDark from '../components/FooterDark.vue'
 export default {
-    components: {Menu, FooterDark },
+    components: {Menu, ToggleMode, FooterDark },
     data() {
         return {
             isDark: false

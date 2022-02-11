@@ -50,6 +50,7 @@
                 <!-- Main page -->
                 <main class="max-w-7xl mx-auto mb-32 md:px-16">
                     <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
+                    <h4></h4>
                     <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                         <div class="flex-1 md:text-left text-center">
                             <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
@@ -200,11 +201,14 @@ export default {
     components: {Menu, ToggleMode, FooterDark },
     data() {
         return {
-            isDark: false
+            
         }
     },
     mounted () {
         window.scrollTo(0, 0)
+    },
+    computed: {
+
     },
     methods: {
         openMenu () {
@@ -217,23 +221,6 @@ export default {
             btn.classList.add("hidden");
             
         },
-        darkModeActive() {
-            console.log("clicked");
-            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark')
-            } else {
-            document.documentElement.classList.remove('dark')
-            }
-
-            // Whenever the user explicitly chooses light mode
-            localStorage.theme = 'light'
-
-            // Whenever the user explicitly chooses dark mode
-            localStorage.theme = 'dark'
-
-            // Whenever the user explicitly chooses to respect the OS preference
-            localStorage.removeItem('theme')
-        }
     },
 
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="dark">
+    <div :class="$store.state.themeColor">
         <div class="dark:bg-brand-black-1">
             <div class="relative">
                 <div class="flex justify-center space-x-2">
@@ -40,8 +40,7 @@
                                     </div>
                                     <div class="flex items-center justify-center">
                                         <div class="w-8 p-2 bg-gray-200 rounded-2xl">
-                                            <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
-                                            <div><button @click="darkModeActive"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
+                                            <ToggleMode @change-theme="changeTheme"/>
                                         </div>
                                     </div>
                                 </div>
@@ -400,9 +399,10 @@
 
 <script>
 import FooterDark from '@/components/FooterDark'
+import ToggleMode from '@/components/ToggleMode'
 import Carousel from '@/components/Carousel'
 export default {
-    components: {FooterDark, Carousel},
+    components: {FooterDark, ToggleMode, Carousel},
     data() {
         return {
             cards: [
@@ -423,6 +423,11 @@ export default {
     },
     mounted () {
         window.scrollTo(0, 0)
+    },
+    methods: {
+        changeTheme() {
+            return this.$store.getters.changeTheme;
+        }
     }
 }
 </script>

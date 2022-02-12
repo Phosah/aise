@@ -1,5 +1,5 @@
 <template>
-    <div :class="isDark ? 'dark': ''">
+    <div :class="$store.state.themeColor">
         <div class="dark:bg-brand-black-1">
             <div class="relative">
                 <div class="flex justify-center space-x-2">
@@ -34,7 +34,7 @@
                                     <div class="flex items-center justify-center mb-10">
                                         <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
                                     </div>
-                                    <ToggleMode @change-mode="$emit('change-mode')"/>
+                                    <ToggleMode @change-theme="changeTheme"/>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,6 @@
                 <!-- Main page -->
                 <main class="max-w-7xl mx-auto mb-32 md:px-16">
                     <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
-                    <h4></h4>
                     <section class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                         <div class="flex-1 md:text-left text-center">
                             <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
@@ -208,7 +207,9 @@ export default {
         window.scrollTo(0, 0)
     },
     computed: {
-
+        // changeTheme() {
+        //     return this.$store.getters.changeTheme;
+        // }
     },
     methods: {
         openMenu () {
@@ -221,6 +222,9 @@ export default {
             btn.classList.add("hidden");
             
         },
+        changeTheme() {
+            return this.$store.getters.changeTheme;
+        }
     },
 
 }

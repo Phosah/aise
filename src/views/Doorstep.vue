@@ -1,5 +1,5 @@
 <template>
-    <div class="dark">
+    <div :class="$store.state.themeColor">
         <div class="dark:bg-brand-black-1">
             <div class="text-brand-black-4 dark:text-white">
                 <div class="relative">
@@ -39,8 +39,7 @@
                                         </div>
                                         <div class="flex items-center justify-center">
                                             <div class="w-8 p-2 bg-gray-200 rounded-2xl">
-                                                <div class="mb-2"><button><img class="min-w-min" src="../assets/light-mode.png" alt="Light mode button"></button></div>
-                                                <div><button @click="darkModeActive"><img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button"></button></div>
+                                                <ToggleMode @change-theme="changeTheme"/>
                                             </div>
                                         </div>
                                     </div>
@@ -520,10 +519,11 @@
 
 <script>
 // import ProjectResponsibilities from '../components/ProjectResponsibilities'
+import ToggleMode from '../components/ToggleMode'
 import FooterDark from '../components/FooterDark'
 export default {
     name: "Doorstep",
-    components: {FooterDark},
+    components: {ToggleMode, FooterDark,},
     data() {
         return {
             projects: [
@@ -584,6 +584,11 @@ export default {
     },
     mounted () {
         window.scrollTo(0, 0)
+    },
+    methods: {
+        changeTheme() {
+            return this.$store.getters.changeTheme;
+        }
     }
 }
 </script>

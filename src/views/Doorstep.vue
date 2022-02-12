@@ -587,7 +587,7 @@ export default {
     },
     methods: {
         changeTheme() {
-            return this.$store.getters.changeTheme;
+            this.$store.commit('changeTheme');
         }
     }
 }

@@ -7,7 +7,7 @@ const store = createStore ({
             text: "Hello state management"
         }
     },
-    getters: {
+    mutations: {
         changeTheme (state) {
             if(state.themeColor === 'dark') {
                 state.themeColor = 'light';

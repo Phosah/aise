@@ -223,7 +223,7 @@ export default {
             
         },
         changeTheme() {
-            return this.$store.getters.changeTheme;
+            this.$store.commit('changeTheme');
         }
     },
 

@@ -2,8 +2,8 @@
     <div :class="$store.state.themeColor">
         <div class="dark:bg-brand-black-1">
             <div class="text-brand-black-4 dark:text-white">
-                <div class="relative">
-                    <div class="flex justify-center space-x-2">
+                <div class="relative max-w-7xl w-full mx-auto">
+                    <div class="flex w-full justify-between space-x-2">
                         <!-- Left Sidebar -->
                         <div class="z-10 relative w-14 lg:w-16">
                             <div class="absolute bg-yellow-200">

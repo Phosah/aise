@@ -1,52 +1,23 @@
 <template>
-    <div :class="$store.state.themeColor">
+    <div :class="themeColor">
         <div class="dark:bg-brand-black-1">
-            <div class="relative">
-                <div class="flex justify-center space-x-2">
-                    <!-- Left Sidebar -->
-                    <div class="z-10 relative w-14 lg:w-16">
-                        <div class="absolute bg-yellow-200">
-                            <div class="fixed">
-                                <div class=""><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of left sidebar -->
-
-                    <!-- Header -->
-                    <div class="dark:bg-brand-black-1">
-                        <header class="h-screen flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 md:px-16">
-                            <div class="flex flex-col md:block items-center">
-                                <h3 class="mb-12 md:mb-0 md:w-2/3 px-4 md:px-0 text-3xl md:text-4xl lg:text-6xl dark:text-white font-extrabold font-playfair leading-snug">Simplifying user experiences through digital solutions</h3>
-                                <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
-                                <div class="md:flex md:w-1/2 md:ml-auto px-4 md:px-0 -translate-y-20 text-sm lg:text-lg dark:text-white">Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</div>
-                            </div>
-                        </header>
-                    </div>
-                    <!-- End of Header -->
-                    
-                    <!-- Right Sidebar -->
-                    <div class="z-10 relative w-14 lg:w-26">
-                        <div class="item absolute bg-red-600">
-                            <div class="fixed">
-                                <div class="">
-                                    <div @click="openMenu()" class="mb-10"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
-                                    <div class="flex items-center justify-center mb-10">
-                                        <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
-                                    </div>
-                                    <ToggleMode @change-theme="changeTheme"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of right sidebar -->
-                </div>
+            <div>
                 <!-- Menu page -->
                 <div id="menu-icon" class="hidden">
                     <Menu @close-menu="closeMenu"/>
                 </div>
                 <!-- End of Menu page -->
-
+                <!-- Header -->
+                <div class="dark:bg-brand-black-1">
+                    <header class="h-screen flex items-center justify-center max-w-7xl mx-auto mb-10 md:mb-0 py-32 md:px-16">
+                        <div class="flex flex-col md:block items-center">
+                            <h3 class="mb-12 md:mb-0 md:w-2/3 px-4 md:px-0 text-3xl md:text-4xl lg:text-6xl dark:text-white font-extrabold font-playfair leading-snug">Simplifying user experiences through digital solutions</h3>
+                            <div class="mb-16 md:mb-0 md:transform md:-translate-y-16"><img src="../assets/solutions.png" alt="Creative solutions image"></div>
+                            <div class="md:flex md:w-1/2 md:ml-auto px-4 md:px-0 -translate-y-20 text-sm lg:text-lg dark:text-white">Aise is a User Experience designer focused on maximizing business need and user satisfaction through the creation of simple digital experiences.</div>
+                        </div>
+                    </header>
+                </div>
+                <!-- End of Header -->
                 <!-- Main page -->
                 <main class="max-w-7xl mx-auto mb-32 md:px-16">
                     <h2 class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left">SOME WORKS</h2>
@@ -194,10 +165,9 @@
 
 <script>
 import Menu from '../components/Menu.vue'
-import ToggleMode from '../components/ToggleMode.vue'
 import FooterDark from '../components/FooterDark.vue'
 export default {
-    components: {Menu, ToggleMode, FooterDark },
+    components: { Menu, FooterDark },
     data() {
         return {
             
@@ -207,9 +177,9 @@ export default {
         window.scrollTo(0, 0)
     },
     computed: {
-        // changeTheme() {
-        //     return this.$store.getters.changeTheme;
-        // }
+        themeColor() {
+            return this.$store.state.themeColor;
+        }
     },
     methods: {
         openMenu () {

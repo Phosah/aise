@@ -1,20 +1,14 @@
 <template>
-    <div class="max-w-2xl mx-auto">
-        <div class="container">
-            <main class="slides">
-                <section class="section-1"></section>
-                <section class="section-2"></section>
-                <section class="section-3">></section>
-            </main>
-        </div>
+    <div>
+        <Navbar />
     </div>
 </template>
 
 <script>
-// import NavbarDark from '../components/NavbarDark'
+import Navbar from "../components/Navbar.vue"
 export default {
-    name: "Doorstep",
-    components: {},
+    name: "Test",
+    components: { Navbar },
     data() {
         return {
         

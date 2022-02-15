@@ -1,14 +1,27 @@
 <template>
-  <div>
-    <div class="flex justify-between p-3">
-      <div><img src="../assets/logo.png" alt="Aise Logo"></div>
-      <div><img src="../assets/menu-icon.png" alt="Menu toggle icon"></div>
+  <div class="fixed w-full pointer-events-none z-10 bg-red-200 bg-opacity-60">
+    <div class="max-w-7xl mx-auto flex justify-between">
+      <div><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
+      
+      <!-- Right Sidebar -->
+      <div>
+        <div @click="openMenu" class="mb-10"><button><img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo"></button></div>
+        <div class="flex items-center justify-center mb-10">
+          <div class="w-1 h-96 bg-gray-400"><div class="w-1 h-28 bg-gray-200"></div></div>
+        </div>
+        <ToggleMode @change-theme="changeTheme"/>
+      </div>
+      <!-- End of right sidebar -->
     </div>
   </div>
 </template>
 
 <script>
+import ToggleMode from './ToggleMode'
 export default {
-  name: 'Header'
+  name: 'Header',
+  components: {
+    ToggleMode
+  }
 }
 </script>

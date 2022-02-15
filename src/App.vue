@@ -17,6 +17,6 @@ export default {
 @font-face {
   font-family: "Euclid Circular A";
   src: local("Euclid Circular A"),
-   url('./fonts/Euclid-Circular-A-Light.ttf') format("OpenType");
+    url("./fonts/Euclid-Circular-A-Light.ttf") format("OpenType");
 }
 </style>

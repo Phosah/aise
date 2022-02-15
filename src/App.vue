@@ -11,12 +11,12 @@ export default {
   name: 'App',
   components: {
     Navbar
-},
-computed: {
-  themeColor() {
+  },
+  computed: {
+    themeColor() {
       return this.$store.state.themeColor;
-  }
-},
+    }
+  },
 }
 </script>
 

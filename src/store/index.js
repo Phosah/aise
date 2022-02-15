@@ -1,23 +1,24 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
 
-const store = createStore ({
-    state() {
-        return {           
-            themeColor: 'dark',
-            text: "Hello state management"
-        }
+const store = createStore({
+  state() {
+    return {
+      themeColor: localStorage.getItem("theme-color") ?? "dark",
+    };
+  },
+  mutations: {
+    changeTheme(state, color) {
+      state.themeColor = color;
+
+      //   if (state.themeColor === "dark") {
+      //     state.themeColor = "light";
+      //   } else {
+      //     state.themeColor = "dark";
+      //   }
+
+      localStorage.setItem("theme-color", state.themeColor);
     },
-    mutations: {
-        changeTheme (state) {
-            if(state.themeColor === 'dark') {
-                state.themeColor = 'light';
-                console.log(state.themeColor)
-            } else {
-                state.themeColor = 'dark';
-                console.log(state.themeColor)
-            }
-        }
-    },
+  },
 });
 
-export default store
+export default store;

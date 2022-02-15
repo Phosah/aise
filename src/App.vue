@@ -1,6 +1,8 @@
 <template>
-  <Navbar />
-  <router-view></router-view>
+  <div :class="themeColor">
+    <Navbar />
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -9,7 +11,12 @@ export default {
   name: 'App',
   components: {
     Navbar
-}
+},
+computed: {
+  themeColor() {
+      return this.$store.state.themeColor;
+  }
+},
 }
 </script>
 
@@ -18,5 +25,8 @@ export default {
   font-family: "Euclid Circular A";
   src: local("Euclid Circular A"),
     url("./fonts/Euclid-Circular-A-Light.ttf") format("OpenType");
+}
+.header-box {
+  height: 600px;
 }
 </style>

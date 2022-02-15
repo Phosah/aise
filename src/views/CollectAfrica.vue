@@ -1,9 +1,9 @@
 <template>
-    <div :class="themeColor">
+    <div>
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header  -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div class="md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
+                <div class="header-box md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0  bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white">
                     <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
                         <div class="md:ml-16 md:pr-6">
                             <h2 class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
@@ -649,16 +649,6 @@ export default {
     mounted() {
         window.scrollTo(0, 0)
     },
-    computed: {
-        themeColor() {
-            return this.$store.state.themeColor;
-        }
-    },
-    methods: {
-        changeTheme() {
-            this.$store.commit('changeTheme');
-        }
-    }
 }
 </script>
 

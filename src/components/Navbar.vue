@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed w-full pointer-events-none z-10 bg-red-200 bg-opacity-60">
+  <div class="fixed w-full z-10 bg-transparent bg-opacity-60">
     <div class="max-w-7xl mx-auto flex justify-between">
       <div><router-link to="/"><img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon"></router-link></div>
       
@@ -22,6 +22,11 @@ export default {
   name: 'Header',
   components: {
     ToggleMode
+  },
+  methods: {
+    changeTheme() {
+        this.$store.commit('changeTheme');
+    }
   }
 }
 </script>

@@ -847,7 +847,6 @@
                 <!-- End of mobile version -->
             </section>
             <BookAppointment />
-            <FooterDark />
         </div>
     </div>
 </template>
@@ -855,10 +854,9 @@
 <script>
 // import ProjectResponsibilities from '../components/ProjectResponsibilities'
 import BookAppointment from '../components/BookAppointment'
-import FooterDark from '../components/FooterDark'
 export default {
     name: "Doorstep",
-    components: { BookAppointment, FooterDark, },
+    components: { BookAppointment },
     data() {
         return {
             projects: [

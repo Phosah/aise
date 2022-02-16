@@ -1,17 +1,29 @@
 <template>
   <div class="fixed w-full z-10 bg-transparent bg-opacity-60">
     <div class="max-w-7xl mx-auto flex justify-between">
-      <div>
+      <div class="mr-16">
         <router-link to="/">
-          <img class="w-14 lg:w-16" src="../assets/logo-dark.png" alt="Menu toggle icon" />
+          <img
+            v-if="themeColor === 'light'"
+            class="w-14 lg:w-16"
+            src="../assets/logo-dark.png"
+            alt="Menu toggle icon"
+          />
+          <img v-else class="w-14 lg:w-16" src="../assets/logo.png" alt="Menu toggle icon" />
         </router-link>
       </div>
 
       <!-- Right Sidebar -->
-      <div>
-        <div @click="openMenu" class="mb-10">
+      <div class="ml-16">
+        <div @click="openMenu()" class="mb-10">
           <button>
-            <img class="w-14 lg:w-26" src="../assets/menu-icon-dark.png" alt="Aise Logo" />
+            <img
+              v-if="themeColor === 'light'"
+              class="w-14 lg:w-26"
+              src="../assets/menu-icon-dark.png"
+              alt="Aise Logo"
+            />
+            <img v-else class="w-14 lg:w-26" src="../assets/menu-icon.png" alt="Aise Logo" />
           </button>
         </div>
         <div class="flex items-center justify-center mb-10">
@@ -33,11 +45,16 @@ export default {
   components: {
     ToggleMode
   },
-
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
     }
   },
+  methods: {
+    openMenu() {
+      const btn = document.getElementById("menu-icon");
+      btn.classList.remove("hidden");
+    },
+  }
 }
 </script>

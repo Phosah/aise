@@ -232,19 +232,23 @@
                     >User Personas</h2>
                     <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>
                 </div>
-                <div class="md:flex md:space-x-12 mb-28">
-                    <div class="md:w-1/3">
-                        <img class="w-full h-full" src="../assets/user-personas-1.png" alt />
-                        <div class="transform -translate-y-44 pl-6 text-white">
+                <div class="md:flex md:space-x-12 md:items-end mb-28">
+                    <div class="md:w-1/3 self-stretch flex flex-col justify-end relative">
+                        <img
+                            class="w-full h-full absolute inset-0 object-cover"
+                            src="../assets/user-personas-1.png"
+                            alt
+                        />
+                        <div class="pl-6 pb-8 text-white z-10">
                             <h2
                                 class="mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-playfair"
                             >Jasmine Kent</h2>
                             <p class="mb-4">Age: 37 years old</p>
                             <p class="mb-4">Occupation: Product Manager</p>
-                            <p class="mb-4">Status: Married</p>
+                            <p class>Status: Married</p>
                         </div>
                     </div>
-                    <div class="md:w-2/3 px-4">
+                    <div class="md:w-2/3 px-4 pb-8">
                         <h3
                             class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
                         >About</h3>
@@ -267,23 +271,27 @@
                             class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
                         >Concerns</h3>
                         <p
-                            class="mb-8"
+                            class
                         >Privacy of her messages on services she is having issues with and the time of responses of those issues being as fast as possible</p>
                     </div>
                 </div>
                 <div class="md:flex md:space-x-12">
-                    <div class="md:w-1/3">
-                        <img class="w-full h-full" src="../assets/user-personas-2.png" alt />
-                        <div class="transform -translate-y-44 pl-6 text-white">
+                    <div class="md:w-1/3 self-stretch flex flex-col justify-end relative">
+                        <img
+                            class="w-full h-full absolute inset-0 object-cover"
+                            src="../assets/user-personas-2.png"
+                            alt
+                        />
+                        <div class="pl-6 pb-8 text-white z-10">
                             <h2
                                 class="mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-playfair"
                             >Richard Lawson</h2>
                             <p class="mb-4">Age: 24 years old</p>
                             <p class="mb-4">Occupation: Engineer</p>
-                            <p class="mb-4">Status: Single</p>
+                            <p class>Status: Single</p>
                         </div>
                     </div>
-                    <div class="md:w-2/3 px-4">
+                    <div class="md:w-2/3 px-4 pb-8">
                         <h4
                             class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
                         >About</h4>
@@ -303,9 +311,7 @@
                             class="mb-8"
                         >Need to be able to get answers to problems she faces with digital products as she works from home so 90% of services she patronizes are online</p>
                         <h4 class="mb-4 text-xl lg:text-3xl font-bold font-playfair">Concerns</h4>
-                        <p
-                            class="mb-8"
-                        >Privacy of her messages on services she is having issues with and the time of responses of those issues being as fast as possible</p>
+                        <p>Privacy of her messages on services she is having issues with and the time of responses of those issues being as fast as possible</p>
                     </div>
                 </div>
             </section>
@@ -584,17 +590,15 @@
                 <!-- End of mobile version -->
             </section>
             <BookAppointment />
-            <FooterDark />
         </div>
     </div>
 </template>
 
 <script>
-import FooterDark from '@/components/FooterDark'
 import Carousel from '@/components/Carousel'
 import BookAppointment from '../components/BookAppointment.vue'
 export default {
-    components: { FooterDark, Carousel, BookAppointment },
+    components: { Carousel, BookAppointment },
     data() {
         return {
             cards: [

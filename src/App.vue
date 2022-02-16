@@ -1,22 +1,40 @@
 <template>
   <div :class="themeColor">
-    <Navbar />
-    <router-view></router-view>
+    <div class="dark:bg-brand-black-1">
+      <Navbar />
+      <router-view></router-view>
+      <Footer />
+      <!-- Menu page -->
+      <div id="menu-icon" class="hidden">
+        <Menu @close-menu="closeMenu" />
+      </div>
+      <!-- End of Menu page -->
+    </div>
   </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+import Menu from "./components/Menu.vue";
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Footer,
+    Menu
   },
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
     }
   },
+  methods: {
+    closeMenu() {
+      const btn = document.getElementById("menu-icon");
+      btn.classList.add("hidden");
+    },
+  }
 }
 </script>
 

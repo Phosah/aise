@@ -32,7 +32,7 @@
                         class="mb-14 md:text-lg lg:text-xl"
                     >Bringing simplicity and flexibility to having your meals</p>
                     <div
-                        class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal"
+                        class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 dark:border-white text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal"
                     >Trigle is a restaurant finding app with a framework developed for both tourists, and residents to find restaurants closest to them depending on the location</div>
                     <p
                         class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8"

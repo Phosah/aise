@@ -4,11 +4,7 @@
       <Navbar />
       <router-view></router-view>
       <Footer />
-      <!-- Menu page -->
-      <div id="menu-icon" class="hidden">
-        <Menu @close-menu="closeMenu" />
-      </div>
-      <!-- End of Menu page -->
+      <Menu />
     </div>
   </div>
 </template>
@@ -27,14 +23,8 @@ export default {
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
-    }
-  },
-  methods: {
-    closeMenu() {
-      const btn = document.getElementById("menu-icon");
-      btn.classList.add("hidden");
     },
-  }
+  },
 }
 </script>
 

@@ -48,13 +48,12 @@ export default {
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
-    }
+    },
   },
   methods: {
     openMenu() {
-      const btn = document.getElementById("menu-icon");
-      btn.classList.remove("hidden");
-    },
+      return this.$store.commit('openMenu');
+    }
   }
 }
 </script>

@@ -6,7 +6,7 @@
       <div class="mb-1">
         <button
           @click="toggleTheme('light')"
-          :class="themeColor == 'dark' ? 'bg-brand-gray-dark-1 text-white transition duration-500' : 'text-brand-gray-dark-1 bg-white'"
+          :class="themeColor == 'dark' ? 'bg-brand-gray-dark-1 text-white' : 'text-brand-gray-dark-1 bg-white'"
           class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500"
         >
           <!-- <img class="min-w-min" src="../assets/light-mode.png" alt="Dark mode button" /> -->
@@ -27,7 +27,7 @@
       <div>
         <button
           @click="toggleTheme('dark')"
-          :class="themeColor == 'light' ? 'bg-brand-gray-dark-1 text-white transition duration-500' : 'text-brand-gray-dark-1 bg-white'"
+          :class="themeColor == 'light' ? 'bg-brand-gray-dark-1 text-white' : 'text-brand-gray-dark-1 bg-white'"
           class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500"
         >
           <!-- <img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button" /> -->

@@ -4,19 +4,21 @@ const store = createStore({
   state() {
     return {
       themeColor: localStorage.getItem("theme-color") ?? "dark",
+      menuState: "hidden",
     };
   },
   mutations: {
     changeTheme(state, color) {
       state.themeColor = color;
-
-      //   if (state.themeColor === "dark") {
-      //     state.themeColor = "light";
-      //   } else {
-      //     state.themeColor = "dark";
-      //   }
+      // state.themeColor = state.themeColor === "dark" ? "light" : "dark";
 
       localStorage.setItem("theme-color", state.themeColor);
+    },
+    openMenu(state) {
+      state.menuState = "block";
+    },
+    closeMenu(state) {
+      state.menuState = "hidden";
     },
   },
 });

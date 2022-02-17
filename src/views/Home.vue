@@ -28,7 +28,8 @@
       <!-- Main page -->
       <main class="max-w-7xl mx-auto mb-32 md:px-16">
         <h2
-          class="works-header dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left"
+          :class="themeColor === 'light' ? 'works-header' : 'works-header-dark'"
+          class="dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left"
         >SOME WORKS</h2>
         <section
           class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white"
@@ -123,6 +124,7 @@
       >
         <div class="hidden md:block max-w-7xl mx-auto md:px-16">
           <h2
+            :class="themeColor === 'light' ? 'testimonials-header-dark' : 'testimonials-header'"
             class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent"
           >TESTIMONIALS</h2>
           <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-8">
@@ -138,7 +140,8 @@
                 <p class="mr-2">1.0</p>
                 <div class="h-14 border-r border-2"></div>
                 <div class="flex items-end pb-2">
-                  <img src="../assets/logo.png" alt="Aise Logo" />
+                  <img v-if="themeColor === 'light'" src="../assets/logo.png" alt="Aise Logo" />
+                  <img v-else src="../assets/logo-dark.png" alt="Aise Logo" />
                   <p class="pb-2">cunad</p>
                 </div>
               </div>
@@ -147,31 +150,35 @@
                 class="mb-8"
               >Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
               <div class="flex items-center space-x-6">
-                <img src="../assets/twitter.png" alt="Twitter Logo" />
-                <img src="../assets/linkedin.png" alt="LinkedIn Logo" />
+                <img v-if="themeColor === 'light'" src="../assets/twitter.png" alt="Twitter Logo" />
+                <img v-else src="../assets/twitter-dark.png" alt="Twitter Logo" />
+                <img v-if="themeColor === 'light'" src="../assets/linkedin.png" alt="LinkedIn Logo" />
+                <img v-else src="../assets/linkedin-dark.png" alt="LinkedIn Logo" />
               </div>
             </div>
           </div>
           <div class="flex items-center space-x-12 px-16 md:px-0 dark:text-brand-black-1">
             <div class="flex flex-1 space-x-4">
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
+              <div class="w-1/4 border-b-4 border-white dark:border-black"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
             </div>
             <div class="flex-1 flex items-center justify-end space-x-4">
-              <button class="rounded p-3">
+              <button class="flex items-center justify-center rounded-full w-10 h-10">
                 <img src="../assets/left.png" alt="Left arrow" />
               </button>
-              <button class="rounded-full p-4 bg-white">
+              <button class="flex items-center justify-center rounded-full w-10 h-10 bg-white">
                 <img src="../assets/right.png" alt="Right arrow" />
               </button>
             </div>
           </div>
         </div>
+        <!-- Mobile version -->
         <div class="block md:hidden max-w-7xl mx-auto">
           <h2
-            class="testimonials-header mb-20 text-5xl sm:text-6xl text-center text-transparent"
+            :class="themeColor === 'light' ? 'testimonials-header-dark' : 'testimonials-header'"
+            class="mb-20 text-5xl sm:text-6xl text-center text-transparent"
           >TESTIMONIALS</h2>
           <div class="mb-8">
             <div class="flex-1 mb-4">
@@ -182,17 +189,18 @@
               />
             </div>
             <div class="flex flex-1 space-x-4 mb-10 px-16">
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
-              <div class="border-b border-2 w-1/4"></div>
+              <div class="w-1/4 border-b-4 border-white dark:border-black"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
+              <div class="w-1/4 border-b-4 border-gray-400 opacity-70"></div>
             </div>
             <div class="flex-1 px-16">
               <div class="flex items-center space-x-4 mb-12 text-2xl">
                 <p class="mr-2">1.0</p>
                 <div class="h-14 border-r border-2"></div>
                 <div class="flex items-end pb-2">
-                  <img src="../assets/logo.png" alt="Aise Logo" />
+                  <img v-if="themeColor === 'light'" src="../assets/logo.png" alt="Aise Logo" />
+                  <img v-else src="../assets/logo-dark.png" alt="Aise Logo" />
                   <p class="pb-2">cunad</p>
                 </div>
               </div>
@@ -207,6 +215,7 @@
             </div>
           </div>
         </div>
+        <!-- End of mobile version -->
       </section>
       <BookAppointment />
       <!-- End of Main page -->
@@ -261,15 +270,15 @@ div {
   }
 }
 .testimonials-header {
+  color: #000;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0e0f14;
+}
+.testimonials-header-dark {
   color: #fff;
   -webkit-text-fill-color: #0e0f14;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-}
-.testimonials-header-dark {
-  color: #0e0f14;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0e0f14;
 }
 </style>

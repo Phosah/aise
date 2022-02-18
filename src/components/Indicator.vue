@@ -3,15 +3,14 @@
         <li
             v-for="(_, index) in elements"
             :key="index"
-            class="border-brand-black-2 border-b-4 w-1/4 h-0"
-            :class="{'line-selected': currentElementIndex === index}"
+            :class="currentElementIndex === index ? 'border-white cursor-default' : 'border-gray-500'"
+            class="border-b-4 w-1/4 h-0"
         >
             <button
                 class="absolute border-transparent border-b-4 w-1/4 h-0"
-                @click='showElement(index)'
+                @click="showElement(index)"
                 :disabled="currentElementIndex === index"
-            >
-            </button>
+            ></button>
         </li>
     </ul>
 </template>
@@ -22,13 +21,3 @@ export default {
     props: { elements: Array, currentElementIndex: Number, showElement: Function }
 }
 </script>
-
-<style>
-.line-selected {
-  opacity: .25;
-  cursor: default;
-}
-.line-btn {
-    color: blue;
-}
-</style>

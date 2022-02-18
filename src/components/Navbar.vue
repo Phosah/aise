@@ -1,7 +1,7 @@
 <template>
   <div class="fixed w-full z-10 bg-transparent bg-opacity-60">
-    <div class="max-w-7xl mx-auto flex justify-between">
-      <div class="mr-16">
+    <div class="flex justify-center h-20">
+      <div class="mr-8">
         <router-link to="/">
           <img
             v-if="themeColor === 'light'"
@@ -12,9 +12,8 @@
           <img v-else class="w-14 lg:w-16" src="../assets/logo.png" alt="Menu toggle icon" />
         </router-link>
       </div>
-
-      <!-- Right Sidebar -->
-      <div class="ml-16">
+      <div class="flex-1 max-w-7xl"></div>
+      <div class="ml-8">
         <div @click="openMenu()" class="mb-10">
           <button>
             <img
@@ -33,7 +32,6 @@
         </div>
         <ToggleMode />
       </div>
-      <!-- End of right sidebar -->
     </div>
   </div>
 </template>

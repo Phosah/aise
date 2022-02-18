@@ -1,8 +1,6 @@
 <template>
-    <div>
-        <div class="block">
-            <div class="mb-6"><img class="mx-auto" :src="require(`@/assets/${imgName}`)"  alt="Survey photo"></div>
-        </div>
+    <div class="h-96 mb-6">
+        <img class="h-full mr-auto" :src="require(`@/assets/${imgName}`)" alt="Survey photo" />
     </div>
 </template>
 
@@ -14,7 +12,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>

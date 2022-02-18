@@ -1,23 +1,21 @@
 <template>
-    <div>
-        <Card 
-            :imgName="currentElement.imgName"       
-        />
+    <div class>
+        <Card :imgName="currentElement.imgName" />
         <div class="flex items-center">
             <div class="flex-1">
-                <Indicator 
+                <Indicator
                     :elements="this.cards"
                     :currentElementIndex="this.currentElementIndex"
                     :showElement="this.showElement"
                 />
             </div>
             <div class="flex-1 flex items-center justify-end space-x-4">
-                <ArrowButton 
+                <ArrowButton
                     arrowType="left"
                     @click="showPrevElement"
                     :disabled="this.reachedMaxLeft"
                 />
-                <ArrowButton 
+                <ArrowButton
                     arrowType="right"
                     @click="showNextElement"
                     :disabled="this.reachedMaxRight"
@@ -47,14 +45,14 @@ export default {
             isDisabled: false,
             disabledClass: "opacity-15 bg-green-400"
         }
-    }, 
+    },
     computed: {
         currentElement() {
             return this.cards[this.currentElementIndex];
         },
         reachedMaxLeft() {
             return this.currentElementIndex === 0;
-            
+
         },
         reachedMaxRight() {
             return this.currentElementIndex === this.cards.length - 1;

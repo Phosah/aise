@@ -1,10 +1,10 @@
 <template>
-    <button class="btn rounded-full p-2 bg-red-100">
-        <img 
+    <button class="btn rounded-full p-2 bg-white">
+        <img
             class="transparent opacity-75 h-6"
-            :src="require(`../assets/${arrowType}.svg`)" 
+            :src="require(`../assets/${arrowType}.svg`)"
             :alt="arrowType + ' arrow'"
-        >
+        />
     </button>
 </template>
 
@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .btn:disabled {
-    opacity: .25;
+    opacity: 0.25;
 }
 </style>

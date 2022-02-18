@@ -29,7 +29,7 @@
                         class="mb-14 md:text-lg lg:text-xl"
                     >The fastest way to ship your packages and parcels around the world</p>
                     <div
-                        class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal"
+                        class="mb-14 md:w-10/12 pl-6 border-l-4 border-brand-black-4 dark:border-white text-xl md:text-2xl lg:text-4xl font-bold leading-normal lg:leading-normal"
                     >Doorstep is a solution that helps to simplify logistics and shipping services to ensure quick delivery of packages in a simplified processes</div>
                     <p
                         class="md:w-4/5 lg:w-5/6 md:text-lg lg:text-xl md:leading-8"

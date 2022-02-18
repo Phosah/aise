@@ -74,6 +74,9 @@
                 <div class="md:hidden flex justify-end">
                     <ToggleMode />
                 </div>
+                <div>
+                    <Footer />
+                </div>
             </header>
         </div>
     </div>
@@ -81,6 +84,7 @@
 
 <script>
 import ToggleMode from "./ToggleMode.vue";
+import Footer from "./Footer.vue";
 export default {
     computed: {
         menu() {
@@ -99,7 +103,7 @@ export default {
             this.$router.push(path);
         }
     },
-    components: { ToggleMode }
+    components: { ToggleMode, Footer }
 }
 </script>
 <style>

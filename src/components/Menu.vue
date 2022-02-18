@@ -1,17 +1,23 @@
 <template>
     <div :class="menu" class="menu-overlay">
-        <div class="max-w-7xl mx-auto bg-brand-black-1 text-white">
+        <div class="bg-white text-brand-black-1 dark:bg-brand-black-1 dark:text-white">
             <header class="flex flex-col h-screen p-2">
                 <div class="flex items-center justify-between">
                     <div>
                         <router-link to="/">
-                            <img class="w-14" src="../assets/logo.png" alt="Logo icon" />
+                            <img
+                                v-if="themeColor === 'light'"
+                                class="w-14"
+                                src="../assets/logo-dark.png"
+                                alt="Logo icon"
+                            />
+                            <img v-else class="w-14" src="../assets/logo.png" alt="Logo icon" />
                         </router-link>
                     </div>
                     <div @click="close()">
                         <button>
                             <svg
-                                class="text-white w-16 h-16 bg-[#4466ee]"
+                                class="text-brand-black-1 dark:text-white w-16 h-16 bg-[#4466ee]"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +37,9 @@
                             @click="openLink('/')"
                             class="nav-link-box flex items-center space-x-4 mb-10 cursor-pointer"
                         >
-                            <div class="nav-link-line w-4 hover:w-24 h-1 bg-white"></div>
+                            <div
+                                class="nav-link-line w-4 hover:w-24 h-1 bg-brand-black-1 dark:bg-white"
+                            ></div>
                             <div class>
                                 <router-link to="/">Works</router-link>
                             </div>
@@ -40,14 +48,14 @@
                             @click="openLink('/about')"
                             class="nav-link-box flex items-center space-x-4 mb-10 cursor-pointer"
                         >
-                            <div class="nav-link-line w-0 h-1 bg-white"></div>
+                            <div class="nav-link-line w-0 h-1 bg-brand-black-1 dark:bg-white"></div>
                             <div>About me</div>
                         </div>
                         <div
                             @click="openLink('/works')"
                             class="nav-link-box flex items-center space-x-4 mb-10 cursor-pointer"
                         >
-                            <div class="nav-link-line w-0 h-1 bg-white"></div>
+                            <div class="nav-link-line w-0 h-1 bg-brand-black-1 dark:bg-white"></div>
                             <div>
                                 <div to="/">Contact me</div>
                             </div>
@@ -56,19 +64,23 @@
                             @click="openLink('/about')"
                             class="nav-link-box flex items-center space-x-4 mb-10 cursor-pointer"
                         >
-                            <div class="nav-link-line w-0 h-1 bg-white"></div>
+                            <div class="nav-link-line w-0 h-1 bg-brand-black-1 dark:bg-white"></div>
                             <div>
                                 <router-link to="/">Resume</router-link>
                             </div>
                         </div>
                     </div>
                 </nav>
+                <div class="md:hidden flex justify-end">
+                    <ToggleMode />
+                </div>
             </header>
         </div>
     </div>
 </template>
 
 <script>
+import ToggleMode from "./ToggleMode.vue";
 export default {
     computed: {
         menu() {
@@ -86,7 +98,8 @@ export default {
             this.close();
             this.$router.push(path);
         }
-    }
+    },
+    components: { ToggleMode }
 }
 </script>
 <style>

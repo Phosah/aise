@@ -1,18 +1,17 @@
 <template>
-    <ul class="flex space-x-4 items-center">
-        <li
+    <div class="flex space-x-4 items-center">
+        <button
             v-for="(_, index) in elements"
+            @click="showElement(index)"
             :key="index"
-            :class="currentElementIndex === index ? 'border-white cursor-default' : 'border-gray-500'"
-            class="border-b-4 w-1/4 h-0"
+            class="flex-1 py-4 focus:outline-none"
         >
-            <button
-                class="absolute border-transparent border-b-4 w-1/4 h-0"
-                @click="showElement(index)"
-                :disabled="currentElementIndex === index"
-            ></button>
-        </li>
-    </ul>
+            <div
+                :class="currentElementIndex === index ? 'border-white dark:border-black cursor-default' : 'border-gray-500 dark:border-gray-300'"
+                class="border-b-4 h-0"
+            ></div>
+        </button>
+    </div>
 </template>
 
 <script>

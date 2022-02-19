@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="themeColor === 'light'"
-    class="flex justify-between max-w-7xl mx-auto px-4 md:px-16 py-10 text-brand-black-1 font-semibold"
+    class="flex justify-between max-w-7xl mx-auto px-4 md:px-16 py-3 text-brand-black-1 font-semibold"
   >
     <a
       class="pb-2 border-b-4 border-transparent hover:border-b-4 hover:border-brand-black-1"
@@ -19,7 +19,7 @@
 
   <div
     v-else
-    class="flex justify-between max-w-7xl mx-auto px-4 md:px-16 py-10 text-white font-semibold"
+    class="flex justify-between max-w-7xl mx-auto px-4 md:px-16 py-3 text-white font-semibold"
   >
     <a
       class="pb-2 border-b-4 border-transparent hover:border-b-4 hover:border-white"

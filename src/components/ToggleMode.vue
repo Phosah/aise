@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center">
+  <div class="flex items-center justify-center mb-4 md:mb-0">
     <div
       class="w-10 justify-between py-1 flex flex-col items-center bg-brand-gray-dark-1 rounded-full"
     >
@@ -7,7 +7,7 @@
         <button
           @click="toggleTheme('light')"
           :class="themeColor == 'dark' ? 'bg-brand-gray-dark-1 text-white' : 'text-brand-gray-dark-1 bg-white'"
-          class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500"
+          class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500 focus:outline-none"
         >
           <!-- <img class="min-w-min" src="../assets/light-mode.png" alt="Dark mode button" /> -->
           <svg
@@ -28,7 +28,7 @@
         <button
           @click="toggleTheme('dark')"
           :class="themeColor == 'light' ? 'bg-brand-gray-dark-1 text-white' : 'text-brand-gray-dark-1 bg-white'"
-          class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500"
+          class="w-8 h-8 flex items-center justify-center rounded-full transition duration-500 focus:outline-none"
         >
           <!-- <img class="min-w-min" src="../assets/dark-mode.png" alt="Dark mode button" /> -->
           <svg

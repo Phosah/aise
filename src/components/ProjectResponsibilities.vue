@@ -1,11 +1,29 @@
 <template>
-    <div class="mb-10 px-6 py-6 bg-brand-gray-light-1 shadow-sm rounded-md">
-        <div class="mb-8"><img class="p-4 rounded-md" :class="bgColor" :src=iconUrl alt="Discover"></div>
-        <h4 class="mb-6 text-2xl font-semibold">{{title}}</h4>
-        <p class="mb-6">{{text}}</p>
-        <div v-for="(item,index) in items" :key="index" class="flex space-x-4 items-center mb-4">
-            <div><img class="p-3 rounded-full" :class="bgColor" :src=tickUrl alt="tick"></div>
-            <p>{{item}}</p>
+    <div class="p-10 bg-brand-gray-light-1 dark:bg-brand-black-5 shadow-sm rounded-md">
+        <div class="mb-8">
+            <img
+                class="p-4 rounded-2xl"
+                :class="project.bgColor"
+                :src="project.icon"
+                alt="Discover"
+            />
+        </div>
+        <h3 class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair">{{ project.title }}</h3>
+        <p class="mb-6">{{ project.text }}</p>
+        <div
+            v-for="(item, index) in project.items"
+            :key="index"
+            class="flex space-x-4 items-center mb-4"
+        >
+            <div>
+                <img
+                    class="p-3 rounded-full"
+                    :class="project.bgColor"
+                    :src="project.tick"
+                    alt="tick"
+                />
+            </div>
+            <p>{{ item }}</p>
         </div>
     </div>
 </template>
@@ -14,29 +32,8 @@
 export default {
     name: 'ProjectResponsibilities',
     props: {
-        iconUrl: {
-            type: String,
-            default: ""
-        },
-        title: {
-            type: String,
-            default: ""
-        },
-        text: {
-            type: String,
-            default: ""
-        },
-        items: {
-            type: Array,
-            default: () => [],
-        },
-        bgColor: {
-            type: String,
-            default: "bg-brand-gray-200"
-        },
-        tickUrl: {
-            type: String,
-            default: ""
+        project: {
+            type: Object,
         }
     },
 }

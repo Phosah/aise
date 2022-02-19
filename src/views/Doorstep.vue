@@ -60,250 +60,11 @@
                 </div>
                 <!-- End of mobile version -->
             </section>
-            <!-- <section class="max-w-7xl mx-auto py-20 px-16">
-                <div class="grid md:grid-cols-2 gap-10">
-                    <template v-for="(project, index) in projects" :key="index">
-                        <ProjectResponsibilities 
-                        :iconUrl="project.iconUrl" 
-                        :title="project.title" 
-                        :text="project.text"
-                        :items="project.items"
-                        :tickUrl="project.tickUrl"
-                        :class="project.bgColor"
-                        />
-                    </template>
-                </div>
-            </section>-->
             <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
                 <div class="grid md:grid-cols-2 gap-10 text-sm md:text-base">
-                    <div
-                        class="p-10 bg-brand-gray-light-1 dark:bg-brand-black-5 shadow-sm rounded-md"
-                    >
-                        <div class="mb-8">
-                            <img
-                                class="p-4 bg-brand-purple-1 rounded-2xl"
-                                src="../assets/discover-icon.png"
-                                alt="Discover"
-                            />
-                        </div>
-                        <h3
-                            class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                        >Discover</h3>
-                        <p
-                            class="mb-6"
-                        >Discovery was the first phase in the UX-design process that involved</p>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-purple-1 rounded-full"
-                                    src="../assets/tick-purple.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Design strategy</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-purple-1 rounded-full"
-                                    src="../assets/tick-purple.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Stakeholder interview</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-purple-1 rounded-full"
-                                    src="../assets/tick-purple.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Market strategy</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-purple-1 rounded-full"
-                                    src="../assets/tick-purple.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Competitor analysis</p>
-                        </div>
-                    </div>
-                    <div
-                        class="p-10 bg-brand-gray-light-1 dark:bg-brand-black-5 shadow-sm rounded-md"
-                    >
-                        <div class="mb-8">
-                            <img
-                                class="p-4 bg-brand-blue-2 rounded-2xl"
-                                src="../assets/define-icon.png"
-                                alt="Discover"
-                            />
-                        </div>
-                        <h3
-                            class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                        >Define</h3>
-                        <p
-                            class="mb-6"
-                        >Defining a product is a phase in the UX-design process that involves</p>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-blue-2 rounded-full"
-                                    src="../assets/tick-blue.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>User Research</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-blue-2 rounded-full"
-                                    src="../assets/tick-blue.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>User personas</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-blue-2 rounded-full"
-                                    src="../assets/tick-blue.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Data Gathering</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-blue-2 rounded-full"
-                                    src="../assets/tick-blue.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Empathy mapping</p>
-                        </div>
-                    </div>
-                    <div
-                        class="p-10 bg-brand-gray-light-1 dark:bg-brand-black-5 shadow-sm rounded-md"
-                    >
-                        <div class="mb-8">
-                            <img
-                                class="p-4 bg-brand-orange-2 rounded-2xl"
-                                src="../assets/ideate-icon.png"
-                                alt="Ideate"
-                            />
-                        </div>
-                        <h4
-                            class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                        >Ideate</h4>
-                        <p
-                            class="mb-6"
-                        >This part of the design process was where the product structure to shape</p>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-orange-2 rounded-full"
-                                    src="../assets/tick-yellow.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Brainstorming</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-orange-2 rounded-full"
-                                    src="../assets/tick-yellow.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>User flow</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-orange-2 rounded-full"
-                                    src="../assets/tick-yellow.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Information architecture</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-orange-2 rounded-full"
-                                    src="../assets/tick-yellow.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Card sorting</p>
-                        </div>
-                    </div>
-                    <div
-                        class="p-10 bg-brand-gray-light-1 dark:bg-brand-black-5 shadow-sm rounded-md"
-                    >
-                        <div class="mb-8">
-                            <img
-                                class="p-4 bg-brand-red-1 rounded-2xl"
-                                src="../assets/visual-icon.png"
-                                alt="Visual"
-                            />
-                        </div>
-                        <h4
-                            class="mb-3 text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                        >Visual Design</h4>
-                        <p
-                            class="mb-6"
-                        >The research and structuring was brought to life visually to solve the problem</p>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-red-1 rounded-full"
-                                    src="../assets/tick-red.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Wireframe</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-red-1 rounded-full"
-                                    src="../assets/tick-red.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Style guide generation</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-red-1 rounded-full"
-                                    src="../assets/tick-red.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>High fidelity design</p>
-                        </div>
-                        <div class="flex space-x-4 items-center mb-4">
-                            <div>
-                                <img
-                                    class="p-3 bg-brand-red-1 rounded-full"
-                                    src="../assets/tick-red.png"
-                                    alt="tick"
-                                />
-                            </div>
-                            <p>Prototype</p>
-                        </div>
-                    </div>
+                    <template v-for="(project, index) in projects" :key="index">
+                        <ProjectResponsibilities :project="project" />
+                    </template>
                 </div>
             </section>
             <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
@@ -852,20 +613,20 @@
 </template>
 
 <script>
-// import ProjectResponsibilities from '../components/ProjectResponsibilities'
+import ProjectResponsibilities from '../components/ProjectResponsibilities'
 import BookAppointment from '../components/BookAppointment'
 export default {
     name: "Doorstep",
-    components: { BookAppointment },
+    components: { ProjectResponsibilities, BookAppointment },
     data() {
         return {
             projects: [
                 {
-                    iconUrl: require("../assets/discover-icon.png"),
+                    icon: require("../assets/discover-icon.png"),
                     title: "Discover",
                     text: "Discovery was the first phase in the UX-design process that involved",
                     bgColor: "bg-brand-purple-1",
-                    tickUrl: require("../assets/tick-purple.png"),
+                    tick: require("../assets/tick-purple.png"),
                     items: [
                         "Design strategy",
                         "Stakeholder interview",
@@ -874,11 +635,11 @@ export default {
                     ]
                 },
                 {
-                    iconUrl: require("../assets/define-icon.png"),
+                    icon: require("../assets/define-icon.png"),
                     title: "Define",
                     text: "Defining a product is a phase in the UX-design process that involves",
                     bgColor: "bg-brand-blue-2",
-                    tickUrl: require("../assets/tick-blue.png"),
+                    tick: require("../assets/tick-blue.png"),
                     items: [
                         "User Research",
                         "User personas",
@@ -887,11 +648,11 @@ export default {
                     ]
                 },
                 {
-                    iconUrl: require("../assets/ideate-icon.png"),
+                    icon: require("../assets/ideate-icon.png"),
                     title: "Ideate",
                     text: "This part of the design process was where the product structure to shape",
                     bgColor: "bg-brand-orange-2",
-                    tickUrl: require("../assets/tick-yellow.png"),
+                    tick: require("../assets/tick-yellow.png"),
                     items: [
                         "Brainstorming",
                         "User flow",
@@ -900,11 +661,11 @@ export default {
                     ]
                 },
                 {
-                    iconUrl: require("../assets/visual-icon.png"),
+                    icon: require("../assets/visual-icon.png"),
                     title: "Visual Design",
                     text: "The research and structuring was brought to life visually to solve the problem",
                     bgColor: "bg-brand-red-1",
-                    tickUrl: require("../assets/tick-red.png"),
+                    tick: require("../assets/tick-red.png"),
                     items: [
                         "Wireframe",
                         "Style guide generation",

@@ -333,176 +333,8 @@
                         class="mb-6"
                     >Understanding our competitors on how they provide solutions for similar user needs has helped me define what creative solutions could be designed and improved for our product.</p>
                 </div>
-                <div class="mb-20">
-                    <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
-                        <div class="md:flex-1">
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Paystack Overview</h4>
-                                <p>
-                                    Paystack is a technology company solving payments problems for ambitious businesses. Our mission is to help businesses in Africa become profitable, envied, and loved.
-                                    By providing global and local payments for businesses.
-                                </p>
-                            </div>
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Key Objectives</h4>
-                                <ul class="list-disc pl-6">
-                                    <li class="mb-1">Providing worldwide payment services</li>
-                                    <li>Enabling payments methods integrated with all commerce services</li>
-                                </ul>
-                            </div>
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Market Advantage</h4>
-                                <p>Structured themselves as a solution where you can get paid by customers from anywhere in the world</p>
-                            </div>
-                        </div>
-                        <div class="md:flex-1">
-                            <img
-                                class="h-full"
-                                src="../assets/paystack.png"
-                                alt="Competitive analysis"
-                            />
-                        </div>
-                    </div>
-                    <div class="md:flex md:space-x-4 px-4 text-sm">
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
-                            <ul class="list-disc pl-6">
-                                <li
-                                    class="mb-1"
-                                >You can accept payments from internationally-issued cards or via Apple Pay.</li>
-                                <li
-                                    class="mb-1"
-                                >Ecommerce integrations to accept credit cards, debit cards, and money transfers.</li>
-                                <li
-                                    class="mb-1"
-                                >Ability to set a one-time or recurring payments service on the e-commerce app or website.</li>
-                                <li class="mb-1">Ability to Split Payments.</li>
-                                <li class="mb-1">High security.</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Slightly Higher Transaction fees</li>
-                                <li
-                                    class="mb-1"
-                                >The private status of the company limits its growth.</li>
-                                <li
-                                    class="mb-1"
-                                >A poor mobile app that can increase the user base for small businesses and small stores.</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
-                            <ul class="list-disc pl-6">
-                                <li
-                                    class="mb-1"
-                                >Small markets and business owners that have just phones with a good and optimized app would be able to increase the userbase.</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Unfavorable government regulations.</li>
-                                <li class="mb-1">Other competitors</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
-                        <div class="md:flex-1">
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Stripe Overview</h4>
-                                <p>Stripe brings together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s products power payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between.</p>
-                            </div>
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Key Objectives</h4>
-                                <ul class="list-disc pl-6">
-                                    <li
-                                        class="mb-1"
-                                    >Providing payment gateway for eCommerce platforms</li>
-                                    <li
-                                        class="mb-1"
-                                    >Providing billing and payments for SaaS businesses</li>
-                                    <li
-                                        class="mb-1"
-                                    >Help marketplaces receive payments using their custom-built API</li>
-                                    <li>Provide Financial reporting</li>
-                                </ul>
-                            </div>
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                                >Market Strategy</h4>
-                                <p
-                                    class="mb-6"
-                                >Stripe ensures maintaining contact with the audience by organizing an annual event where the users are familiarised with the new launches of Stripe and the company listen to the feedback of the users</p>
-                                <p>Strengthening Brand Recognition and Loyalty with their blog and posts</p>
-                            </div>
-                        </div>
-                        <div class="md:flex-1">
-                            <img
-                                class="h-full"
-                                src="../assets/stripe.png"
-                                alt="Competitive analysis"
-                            />
-                        </div>
-                    </div>
-                    <div class="md:flex md:space-x-4 px-4 text-sm">
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Integration with eCommerce platforms</li>
-                                <li
-                                    class="mb-1"
-                                >Power payments for your store and marketplace with Stripes API</li>
-                                <li class="mb-1">Deliver exceptional customer experience.</li>
-                                <li
-                                    class="mb-1"
-                                >Issue of corporate cards and covers almost all financial services including billings and invoicing.</li>
-                                <li class="mb-1">Strong Partners’ Program:</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
-                            <ul class="list-disc pl-6">
-                                <li
-                                    class="mb-1"
-                                >Their foreign currency conversion rate is 2% which is double that of some competitors.</li>
-                                <li class="mb-1">Global presence</li>
-                                <li
-                                    class="mb-1"
-                                >Integrations with open source API become a challenge to businesses and individuals who lack tech skills to develop and customize their products.</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1 mb-8 md:mb-0">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Global Expansion:</li>
-                                <li
-                                    class="mb-1"
-                                >Do not properly optimize/account for small businesses whose operations occur over the phone</li>
-                            </ul>
-                        </div>
-                        <div class="md:flex-1">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Increasing Competition:</li>
-                                <li class="mb-1">Negative Reviews on Lack of Customer Support</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div v-for="(analysis, ix) in analysisArray" :key="ix">
+                    <CompetitionAnalysis :analysis="analysis" />
                 </div>
             </section>
             <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
@@ -990,8 +822,9 @@
 <script>
 import BookAppointment from '@/components/BookAppointment'
 import Carousel from '@/components/Carousel'
+import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
 export default {
-    components: { Carousel, BookAppointment },
+    components: { Carousel, BookAppointment, CompetitionAnalysis },
     data() {
         return {
             cards: [
@@ -1007,7 +840,89 @@ export default {
                 {
                     imgName: "collectafrica-survey-photo-4.png"
                 }
-            ]
+            ],
+            analysisArray: [
+                {
+                    overview: 'Paystack Overview',
+                    overviewMessage: 'Paystack is a technology company solving payments problems for ambitious businesses. Our mission is to help businesses in Africa become profitable, envied, and loved.By providing global and local payments for businesses.',
+                    objectives: 'Key Objectives',
+                    objectivesItems: [
+                        "Providing worldwide payment services",
+                        "EEnabling payments methods integrated with all commerce services",
+                    ],
+                    advantages: 'Market Advantage',
+                    advantagesList: [
+                        'Structured themselves as a solution where you can get paid by customers from anywhere in the world',
+                    ],
+                    img: require('../assets/paystack.png'),
+                    alt: 'Paypal',
+                    strength: 'Strength',
+                    strengthList: [
+                        "You can accept payments from internationally-issued cards or via Apple Pay.",
+                        "Ecommerce integrations to accept credit cards, debit cards, and money transfers.",
+                        "Ability to set a one-time or recurring payments service on the e-commerce app or website.",
+                        "Ability to Split Payments.",
+                        "High security."
+                    ],
+                    weakness: 'Weakness',
+                    weaknessList: [
+                        "Slightly Higher Transaction fees",
+                        "The private status of the company limits its growth.",
+                        "A poor mobile app that can increase the user base for small businesses and small stores.",
+                    ],
+                    opportunities: "Oppurtunities",
+                    opportunitiesList: [
+                        "Small markets and business owners that have just phones with a good and optimized app would be able to increase the userbase.",
+                    ],
+                    threats: 'Threats',
+                    threatsList: [
+                        "Unfavorable government regulations.",
+                        "Other competitors",
+                    ]
+                },
+                {
+                    overview: 'Stripe Overview',
+                    overviewMessage: 'Stripe brings together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s products power payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between.',
+                    objectives: 'Key Objectives',
+                    objectivesItems: [
+                        "Providing payment gateway for eCommerce platforms",
+                        "Providing billing and payments for SaaS businesses",
+                        "Help marketplaces receive payments using their custom-built API",
+                        "Provide Financial reporting"
+                    ],
+                    advantages: 'Market Strategy',
+                    advantagesList: [
+                        'Stripe ensures maintaining contact with the audience by organizing an annual event where the users are familiarised with the new launches of Stripe and the company listen to the feedback of the users',
+                        "Strengthening Brand Recognition and Loyalty with their blog and posts"
+                    ],
+                    img: require('../assets/stripe.png'),
+                    alt: 'Stripe',
+                    strength: 'Strength',
+                    strengthList: [
+                        "Integration with eCommerce platforms",
+                        "Power payments for your store and marketplace with Stripes API",
+                        "Deliver exceptional customer experience.",
+                        "Issue of corporate cards and covers almost all financial services including billings and invoicing.",
+                        "Strong Partners’ Program:"
+                    ],
+                    weakness: 'Weakness',
+                    weaknessList: [
+                        "Their foreign currency conversion rate is 2% which is double that of some competitors.",
+                        "Global presence",
+                        "Integrations with open source API become a challenge to businesses and individuals who lack tech skills to develop and customize their products.",
+                    ],
+                    opportunities: "Oppurtunities",
+                    opportunitiesList: [
+                        "Global Expansion:",
+                        "Do not properly optimize/account for small businesses whose operations occur over the phone"
+                    ],
+                    threats: 'Threats',
+                    threatsList: [
+                        "Increasing Competition:",
+                        "Negative Reviews on Lack of Customer Support",
+                    ]
+                }
+            ],
         }
     },
     mounted() {

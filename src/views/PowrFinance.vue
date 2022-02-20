@@ -103,306 +103,8 @@
                 <p>Understanding our competitors on how they solve problems of similar products that provide solutions for similar user needs has helped me as a designer define what creative solutions could be designed and improved for our product. The three main primary competitors are Wise, Payoneer, & PayPal.</p>
             </section>
             <section class="max-w-7xl mx-auto md:px-16 pb-20 text-sm md:text-base">
-                <div class="flex items-center space-x-4 mb-10 px-4">
-                    <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Wise</h3>
-                    <div class="h-8 border-r-2 border-brand-black-4"></div>
-                    <h3
-                        class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                    >Competitive Analysis</h3>
-                </div>
-                <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
-                    <div class="md:flex-1 px-4">
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
-                            <p>The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.</p>
-                        </div>
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Key Objectives</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Providing services at cheap prices</li>
-                                <li>Enabling usage of funds both online and offline in any country</li>
-                            </ul>
-                        </div>
-                        <div class="mb-8">
-                            <h4
-                                class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                            >Market Advantage</h4>
-                            <p>Built a high level of trust with low fees and transparency</p>
-                        </div>
-                        <div class="mb-8">
-                            <h4
-                                class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                            >Market Positioning</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Display of trust compared to conventional banks</li>
-                                <li class="mb-1">Leverage big online and offline publications.</li>
-                                <li class="mb-1">Collaborated affiliations with other brands</li>
-                                <li class="mb-1">SEO Optimization</li>
-                                <li class="mb-1">UX and Design</li>
-                                <li>Social media & Referrals</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="md:flex-1">
-                        <img class="h-full" src="../assets/wise.png" alt="Competitive analysis" />
-                    </div>
-                </div>
-                <div class="md:flex md:space-x-4 px-4 text-sm">
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >Available in over 60 countries, increasing its userbase.</li>
-                            <li
-                                class="mb-1"
-                            >Strong financial health with a net worth of above $5 billion, which shows the market’s trust in it.</li>
-                            <li>Low cost and transaction fees</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >With approximately 8 million users worldwide, it has the potential to be much higher. If the company markets properly</li>
-                            <li>The private status of the company limits its growth.</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >Exploiting blockchain technology to improve its payment process</li>
-                            <li class="mb-1">Globalization.</li>
-                            <li class="mb-1">Going public</li>
-                            <li>Constant evolution by frequently analyzing customers needs.</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >New competitors can easily enter the market and challenge them</li>
-                            <li>Offline transfer systems like Western Union and Moneygram pose a threat as well.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
-                <div class="flex items-center space-x-4 mb-10 px-4">
-                    <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Payoneer</h3>
-                    <div class="h-8 border-r-2 border-brand-black-4"></div>
-                    <h3
-                        class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                    >Competitive Analysis</h3>
-                </div>
-                <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
-                    <div class="md:flex-1 px-4">
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
-                            <p>Payoneer is the world’s go-to partner for digital commerce, everywhere. From borderless payments to boundless growth, Payoneer promises any business, in any market, the technology, connections, and confidence to participate and flourish in the new global economy.</p>
-                        </div>
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Key Objectives</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Providing borderless payments</li>
-                                <li>Facilitate digital commerce</li>
-                            </ul>
-                        </div>
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg font-bold">Market Advantage</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Solid customer support</li>
-                                <li>Payment portal for most E-commerce vendors</li>
-                            </ul>
-                        </div>
-                        <div class="mb-8">
-                            <h4
-                                class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                            >Market Positioning</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Display of trust with solid customer service</li>
-                                <li class="mb-1">Merchant service payment plan</li>
-                                <li class="mb-1">Ease of bill payment</li>
-                                <li class="mb-1">Collaborated affiliations with other brands</li>
-                                <li class="mb-1">Clean and usable Design</li>
-                                <li>Global Expansion</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img class="h-full" src="../assets/payoneer.png" alt="Competitive analysis" />
-                    </div>
-                </div>
-                <div class="md:flex md:space-x-4 px-4 text-sm">
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >Payoneer provides services to both developed economies and developing countries, increasing its userbase to over 4m</li>
-                            <li
-                                class="mb-1"
-                            >They have over 300 employees for the customer service, assisting the users in more than 70 different languages</li>
-                            <li class="mb-1">A diverse range of financial services</li>
-                            <li
-                                class="mb-1"
-                            >The computer interface of Payoneer is user-friendly, simple, and easy to use.</li>
-                            <li>It allows users to integrate their Payoneer account with the major freelancing platforms like Fiverr, Freelancer, Upwork, People Per Hour, and many other platforms and this increases userbase.</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
-                        <ul class="list-disc pl-6">
-                            <li class="mb-1">Strict Approval Policies</li>
-                            <li
-                                class="mb-1"
-                            >Payoneer also has the control to require extra from the users, to freeze their account, and stop sending or receiving payments.</li>
-                            <li
-                                class="mb-1"
-                            >No transaction can be done without the internet which is an issue in developing countries.</li>
-                            <li
-                                class="mb-1"
-                            >Payoneer only allows users to make payments either to the bank accounts or to other users.</li>
-                            <li class="mb-1">High fee structure.</li>
-                            <li>Payoneer has a minimum monthly payment requirement of $20,000</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >Exploiting new technology advancements like blockchain to improve its processes and speed transfer</li>
-                            <li
-                                class="mb-1"
-                            >The fast expansion of internet services across the world.</li>
-                            <li class="mb-1">Going public</li>
-                            <li
-                                class="mb-1"
-                            >Constant evolution by frequently analyzing customers needs.</li>
-                            <li>Improved marketing campaigns to increase the userbase</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >The customer prefers a local provider rather than an international service provider.</li>
-                            <li
-                                class="mb-1"
-                            >New competitors can easily enter the market and challenge them.</li>
-                            <li
-                                class="mb-1"
-                            >Financial fraud and account hacking activities have also increased in recent years.</li>
-                            <li class="mb-1">Unfavorable international regulations</li>
-                            <li>Payoneer has a high amount of investment capital, making it vulnerable to loosing investors if the economy declines</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
-                <div class="flex items-center space-x-4 mb-10 px-4">
-                    <h3 class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair">Paypal</h3>
-                    <div class="h-8 border-r-2 border-brand-black-4"></div>
-                    <h3
-                        class="text-xl md:text-2xl lg:text-3xl font-bold font-playfair"
-                    >Competitive Analysis</h3>
-                </div>
-                <div class="md:flex md:items-center md:space-x-10 mb-10 text-sm">
-                    <div class="md:flex-1 px-4">
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Overview</h4>
-                            <p>The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.</p>
-                        </div>
-                        <div class="mb-8">
-                            <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Key Objectives</h4>
-                            <ul class="list-disc pl-6">
-                                <li class="mb-1">Providing services at cheap prices</li>
-                                <li>Enabling usage of funds both online and offline in any country</li>
-                            </ul>
-                        </div>
-                        <div class="mb-8">
-                            <h4
-                                class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                            >Market Advantage</h4>
-                            <ul class="list-disc pl-6">
-                                <li
-                                    class="mb-1"
-                                >Established a house hold name for e-commerce activities which has improved trust in the product</li>
-                            </ul>
-                        </div>
-                        <div class="mb-8">
-                            <h4
-                                class="mb-4 text-lg md:text-xl lg:text-2xl font-bold"
-                            >Market Positioning</h4>
-                            <ul class="list-disc pl-6">
-                                <li
-                                    class="mb-1"
-                                >Portrays as the only online global payment system in the world</li>
-                                <li class="mb-1">Old and reliable.</li>
-                                <li class="mb-1">Large userbase signifying trust in the market</li>
-                                <li>Ecommerce payment portal</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="md:flex-1">
-                        <img class="h-full" src="../assets/paypal.png" alt="Competitive analysis" />
-                    </div>
-                </div>
-                <div class="md:flex md:space-x-4 px-4 text-sm">
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Strength</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >PayPal doesn’t charge an annual maintenance fee to use its Mastercard.</li>
-                            <li class="mb-1">Global Presence</li>
-                            <li class="mb-1">Large customer base</li>
-                            <li
-                                class="mb-1"
-                            >High business alliance of PayPal with companies like Facebook to handle all its payment transactions</li>
-                            <li class="mb-1">You don’t need to register an account to use PayPal</li>
-                            <li>Selection of who pays the fees from PayPal charges</li>
-                        </ul>
-                    </div>
-                    <div class="md:flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Weakness</h4>
-                        <ul class="list-disc pl-6">
-                            <li class="mb-1">PayPal is not using a database-driven ordering system</li>
-                            <li class="mb-1">Bad communication between PayPal and its customer</li>
-                            <li
-                                class="mb-1"
-                            >PayPal has been accused of Withheld funds, freezing and termination of PayPal accounts</li>
-                            <li>Dependent on internet connections</li>
-                        </ul>
-                    </div>
-                    <div class="flex-1 mb-8 md:mb-0">
-                        <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Opportunities</h4>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >The acquisition is one of the opportunities for PayPal as it can bring more customers to PayPal especially with a company that also run IT business</li>
-                            <li class="mb-1">Move towards Cashless or fewer cash Economies</li>
-                            <li>Digital currency and technological advancement:</li>
-                        </ul>
-                    </div>
-                    <div class="flex-1">
-                        <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-bold">Threats</h5>
-                        <ul class="list-disc pl-6">
-                            <li
-                                class="mb-1"
-                            >PayPal does not invest in advertising on the internet causes the brand image of PayPal is not very well. So it also needs to strengthen its brand through the Web</li>
-                            <li
-                                class="mb-1"
-                            >In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image</li>
-                            <li>Hacking and Fraud threats</li>
-                        </ul>
-                    </div>
+                <div v-for="(analysis, ix) in analysisArray" :key="ix">
+                    <CompetitionAnalysis :analysis="analysis" />
                 </div>
             </section>
             <section class="md:py-20">
@@ -975,8 +677,177 @@
 
 <script>
 import BookAppointment from '../components/BookAppointment.vue'
+import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
 export default {
-    components: { BookAppointment },
+    components: { BookAppointment, CompetitionAnalysis },
+    data() {
+        return {
+            analysisArray: [
+                {
+                    title: "Wise",
+                    overview: 'Overview',
+                    overviewMessage: 'The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.',
+                    objectives: 'Key Objectives',
+                    objectivesItems: [
+                        "Providing services at cheap prices",
+                        "Enabling usage of funds both online and offline in any country"
+                    ],
+                    advantages: 'Market Advantage',
+                    advantagesList: [
+                        'Built a high level of trust with low fees and transparency',
+                    ],
+                    position: 'Market Positioning',
+                    positioningList: [
+                        "Display of trust compared to conventional banks",
+                        "Leverage big online and offline publications.",
+                        "Collaborated affiliations with other brands",
+                        "SEO Optimization",
+                        "UX and Design",
+                        "Social media & Referrals"
+                    ],
+                    img: require('../assets/wise.png'),
+                    alt: 'Wise',
+                    strength: 'Strength',
+                    strengthList: [
+                        "Available in over 60 countries, increasing its userbase.",
+                        "Strong financial health with a net worth of above $5 billion, which shows the market’s trust in it.",
+                        "Low cost and transaction fees"
+                    ],
+                    weakness: 'Weakness',
+                    weaknessList: [
+                        "With approximately 8 million users worldwide, it has the potential to be much higher. If the company markets properly",
+                        "The private status of the company limits its growth."
+                    ],
+                    opprtunities: "Oppurtunities",
+                    opportunitiesList: [
+                        "Exploiting blockchain technology to improve its payment process",
+                        "Globalization",
+                        "Going public",
+                        "Constant evolution by frequently analyzing customers needs."
+                    ],
+                    threats: 'Threats',
+                    threatsList: [
+                        "New competitors can easily enter the market and challenge them",
+                        "ffline transfer systems like Western Union and Moneygram pose a threat as well."
+                    ]
+                },
+                {
+                    title: "Payoneer",
+                    overview: 'Overview',
+                    overviewMessage: 'Payoneer is the world’s go-to partner for digital commerce, everywhere. From borderless payments to boundless growth, Payoneer promises any business, in any market, the technology, connections, and confidence to participate and flourish in the new global economy. ',
+                    objectives: 'Key Objectives',
+                    objectivesItems: [
+                        "Providing borderless payment",
+                        "Facilitate digital commerce"
+                    ],
+                    advantages: 'Market Advantage',
+                    advantagesList: [
+                        'Solid customer support',
+                        "Payment portal for most E-commerce vendors"
+                    ],
+                    position: 'Market Positioning',
+                    positioningList: [
+                        "Display of trust with solid customer service",
+                        "Merchant service payment plan",
+                        "Ease of bill payment.",
+                        "Collaborated affiliations with other brands",
+                        "Clean and usable Design",
+                        "Global Expansion"
+                    ],
+                    img: require('../assets/payoneer.png'),
+                    alt: 'Payoneer',
+                    strength: 'Strength',
+                    strengthList: [
+                        "Payoneer provides services to both developed economies and developing countries, increasing its userbase to over 4m",
+                        "They have over 300 employees for the customer service, assisting the users in more than 70 different languages",
+                        "A diverse range of financial services",
+                        "The computer interface of Payoneer is user-friendly, simple, and easy to use.",
+                        "It allows users to integrate their Payoneer account with the major freelancing platforms like Fiverr, Freelancer, Upwork, People Per Hour, and many other platforms and this increases userbase."
+                    ],
+                    weakness: 'Weakness',
+                    weaknessList: [
+                        "Strict Approval Policies",
+                        "Payoneer also has the control to require extra from the users, to freeze their account, and stop sending or receiving payments.",
+                        "No transaction can be done without the internet which is an issue in developing countries.",
+                        "Payoneer only allows users to make payments either to the bank accounts or to other users.",
+                        "High fee structure.",
+                        "Payoneer has a minimum monthly payment requirement of $20,000"
+                    ],
+                    opportunities: "Oppurtunities",
+                    opportunitiesList: [
+                        "Exploiting new technology advancements like blockchain to improve its processes and speed transfer",
+                        "The fast expansion of internet services across the world.",
+                        "Going public",
+                        "Constant evolution by frequently analyzing customers needs",
+                        "Improved marketing campaigns to increase the userbase"
+
+                    ],
+                    threats: 'Threats',
+                    threatsList: [
+                        "The customer prefers a local provider rather than an international service provider.",
+                        "New competitors can easily enter the market and challenge them.",
+                        "Financial fraud and account hacking activities have also increased in recent years.",
+                        "Unfavorable international regulations",
+                        "Payoneer has a high amount of investment capital, making it vulnerable to loosing investors if the economy declines",
+                    ]
+                },
+                {
+                    title: "Paypal",
+                    overview: 'Overview',
+                    overviewMessage: 'The heart of Wise is: helping people manage their money internationally more cheaply, quickly, and transparently. This are done by giving their users the ability to: Receive money from any country, Spend money in the city and transfer money to any country of your choice.',
+                    objectives: 'Key Objectives',
+                    objectivesItems: [
+                        "Providing services at cheap prices",
+                        "Enabling usage of funds both online and offline in any country",
+
+
+                    ],
+                    advantages: 'Market Advantage',
+                    advantagesList: [
+                        'Established a house hold name for e-commerce activities which has improved trust in the product',
+                    ],
+                    position: 'Market Positioning',
+                    positioningList: [
+                        "Portrays as the only online global payment system in the world",
+                        "Old and reliable.",
+                        "Large userbase signifying trust in the market",
+                        "Ecommerce payment portal",
+                    ],
+                    img: require('../assets/paypal.png'),
+                    alt: 'Paypal',
+                    strength: 'Strength',
+                    strengthList: [
+                        "PayPal doesn’t charge an annual maintenance fee to use its Mastercard.",
+                        "Global Presence",
+                        "Large customer base",
+                        "High business alliance of PayPal with companies like Facebook to handle all its payment transactions",
+                        "You don’t need to register an account to use PayPal",
+                        "Selection of who pays the fees from PayPal charges"
+                    ],
+                    weakness: 'Weakness',
+                    weaknessList: [
+                        "PayPal is not using a database-driven ordering system",
+                        "Bad communication between PayPal and its customer",
+                        "PayPal has been accused of Withheld funds, freezing and termination of PayPal accounts",
+                        "Dependent on internet connections",
+                    ],
+                    opportunities: "Oppurtunities",
+                    opportunitiesList: [
+                        "The acquisition is one of the opportunities for PayPal as it can bring more customers to PayPal especially with a company that also run IT business",
+                        "Move towards Cashless or fewer cash Economies",
+                        "Digital currency and technological advancement",
+                    ],
+                    threats: 'Threats',
+                    threatsList: [
+                        "PayPal does not invest in advertising on the internet causes the brand image of PayPal is not very well. So it also needs to strengthen its brand through the Web",
+                        "In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image",
+                        "Hacking and Fraud threats",
+                        "Unfavorable international regulations",
+                    ]
+                }
+            ]
+        }
+    },
     mounted() {
         window.scrollTo(0, 0)
     },

@@ -346,87 +346,8 @@
                         class="mb-6"
                     >To empathize with users’ needs, to guide my decision-making process, I created user personas for two individuals based on research findings.</p>
                 </div>
-                <div class="md:flex md:space-x-6 md:items-center mb-20 dark:bg-brand-black-5">
-                    <div class="md:w-1/3 mb-10 md:mb-0">
-                        <img class="w-full" src="../assets/user-persona-4.png" alt="User persona" />
-                    </div>
-                    <div class="md:w-2/3">
-                        <div class="mb-8">
-                            <h4
-                                class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
-                            >Marvin Oluimde</h4>
-                            <p>Marvin is a 32 year old business man in Lagos that runs a small business where he sells and delivers wristwatches withing and out of Lagos from his little store at Obalende Market</p>
-                        </div>
-                        <div class="md:flex md:space-x-6">
-                            <div class="md:flex-1 mb-8 md:mb-0">
-                                <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
-                                <p
-                                    class="mb-3"
-                                >Marvin needs a medium to receive payments from his customers all over the country who order his watches</p>
-                                <p
-                                    class="mb-3"
-                                >Marvin is looking for a way to easily receive payments from other vendors who purchase similar from him regularly to resell</p>
-                                <p>Receive payments from customers who want to pay with card or cash and without mixing business account with personal.</p>
-                            </div>
-                            <div class="md:flex-1 mb-8 md:mb-0">
-                                <h5 class="mb-3 text-base font-bold">Frustrations</h5>
-                                <p
-                                    class="mb-3"
-                                >Customers who come to the shop to pay, sometimes bank doesn't show the credit alert, thereby delaying the customer from leaving</p>
-                                <p>Inability to fully organize and handle his account.</p>
-                                <p>Finds it difficult to balance his account.</p>
-                            </div>
-                            <div class="md:flex-1">
-                                <h5 class="mb-3 text-base font-bold">Behaviours</h5>
-                                <p
-                                    class="mb-3"
-                                >Marvin usually send his account via WhatsApp to old customers who make orders and make the delivery when they pay, and always send when they need</p>
-                                <p>For customers who come to his store he either receives cash and or those who transfer he gives his bank account number and waits for an alert before selling.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:flex md:space-x-6 md:items-center dark:bg-brand-black-5">
-                    <div class="md:w-1/3 mb-10 md:mb-0">
-                        <img class="w-full" src="../assets/user-persona-5.png" alt="User persona" />
-                    </div>
-                    <div class="md:w-2/3">
-                        <div class="mb-8">
-                            <h4
-                                class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
-                            >Jennson Mobiles</h4>
-                            <p>Jennson mobile is an electronics company that deals in selling and repairs of all phones ranging from android to ios, they have over 50 staff and 20 outlets all over the country.</p>
-                        </div>
-                        <div class="md:flex md:space-x-6">
-                            <div class="md:flex-1 mb-8 md:mb-0">
-                                <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
-                                <p
-                                    class="mb-3"
-                                >Jennson mobile needs a medium to receive payments from customers all over the country who do business with them</p>
-                                <p
-                                    class="mb-3"
-                                >They are looking for a way to easily balance their accounts and reconcile payments in one place despite having stores all over the country</p>
-                                <p>Create invoices for services rendered</p>
-                                <p>Manage users roles</p>
-                            </div>
-                            <div class="md:flex-1 mb-8 md:mb-0">
-                                <h5 class="mb-3 text-base font-bold">Frustrations</h5>
-                                <p
-                                    class="mb-3"
-                                >Customers cant purchase from his business website easily without the agents always having to send the account details for each payment</p>
-                                <p
-                                    class="mb-3"
-                                >Inability to manage financial accounts, leading to unbalanced records</p>
-                                <p
-                                    class="mb-3"
-                                >Finds it difficult to manage customers and maintain relationships</p>
-                            </div>
-                            <div class="md:flex-1">
-                                <h5 class="mb-3 text-base font-bold">Behaviours</h5>
-                                <p>Jennson Mobiles staff usually just receive payments and because they need to receive alerts and not all can have company emails or phones to do so, each branch has an account where they control and receive alerts to confirm payments, and at the end of a period remit to the main company account.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div v-for="(persona, ix) in personasArray" :key="ix">
+                    <UserPersona :persona="persona" />
                 </div>
             </section>
             <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
@@ -823,8 +744,9 @@
 import BookAppointment from '@/components/BookAppointment'
 import Carousel from '@/components/Carousel'
 import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
+import UserPersona from '../components/UserPersona.vue'
 export default {
-    components: { Carousel, BookAppointment, CompetitionAnalysis },
+    components: { Carousel, BookAppointment, CompetitionAnalysis, UserPersona },
     data() {
         return {
             cards: [
@@ -920,6 +842,53 @@ export default {
                     threatsList: [
                         "Increasing Competition:",
                         "Negative Reviews on Lack of Customer Support",
+                    ]
+                }
+            ],
+            personasArray: [
+                {
+                    img: require('../assets/user-persona-3.png'),
+                    alt: "User Persona",
+                    name: "Marvin Oluimde",
+                    info: "Marvin is a 32 year old business man in Lagos that runs a small business where he sells and delivers  wristwatches withing and out of Lagos from his little store at Obalende Market",
+                    goalsList: [
+                        "Marvin needs a medium to receive payments from his customers all over the country who order his watches",
+                        "Marvin is looking for a way to easily receive payments from other vendors who purchase similar from him regularly to resell",
+                        "Receive payments from customers who want to pay with card or cash and  without mixing business account with personal."
+                    ],
+                    frustration: "Frustrations",
+                    frustrationsList: [
+                        "Customers who come to the shop to pay, sometimes bank doesn't show the credit alert, thereby delaying the customer from leaving",
+                        "Inability to fully organize and handle his account.",
+                        "Finds it difficult to balance his account."
+                    ],
+                    behaviour: "Behaviours",
+                    behavioursList: [
+                        "Marvin usually send his account via WhatsApp to old customers who make orders and make the delivery when they pay, and always send when they need",
+                        "For customers who come to his store he either receives cash and or those who transfer he gives his bank account number and waits for an alert before selling."
+                    ]
+                },
+                {
+                    img: require("../assets/user-persona-4.png"),
+                    alt: "User Persona",
+                    name: "Jennson Mobiles",
+                    info: "Jennson mobile is an electronics company that deals in selling and repairs of all phones ranging from android to ios, they have over 50 staff and 20 outlets all over the country",
+                    goal: "Goals and needs",
+                    goalsList: [
+                        "Jennson mobile needs a medium to receive payments from customers all over the country who do business with them",
+                        "They are looking for a way to easily balance their accounts and reconcile payments in one place despite having stores all over the country",
+                        "Create invoices for services rendered",
+                        "Manage users roles"
+                    ],
+                    frustration: "Frustrations",
+                    frustrationsList: [
+                        "Customers cant purchase from his business website easily without the agents always having to send the account details for each payment",
+                        "Inability to manage financial accounts, leading to unbalanced records",
+                        "Finds it difficult to manage customers and maintain relationships",
+                    ],
+                    behaviour: "Behaviours",
+                    behavioursList: [
+                        "Jennson Mobiles staff usually just receive payments and because they need to receive alerts and not all can have company emails or phones to do so, each branch has an account where they control and receive alerts to confirm payments, and at the end of a period remit to the main company account."
                     ]
                 }
             ],

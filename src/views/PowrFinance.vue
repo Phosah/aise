@@ -129,84 +129,8 @@
             </section>
             <section>
                 <div class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
-                    <div class="md:flex md:space-x-6 md:items-center mb-16 bg-brand-black-5">
-                        <div class="md:w-1/3 mb-10 md:mb-0">
-                            <img
-                                class="w-full"
-                                src="../assets/user-persona-2.png"
-                                alt="User persona"
-                            />
-                        </div>
-                        <div class="md:w-2/3">
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
-                                >Annabelle Riche</h4>
-                                <p>Anabelle is a 25-year-old front-end developer that stays in Nigeria and has been freelancing for a living for the past 3 years with over 120 clients from all over the world including America, Europe, and Asia.</p>
-                            </div>
-                            <div class="md:flex md:space-x-6">
-                                <div class="md:flex-1 mb-8 md:mb-0">
-                                    <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
-                                    <p
-                                        class="mb-3"
-                                    >Anabelle freelances and wants to expand her reach to higher-paying countries for her talents and skills, hence she is seeking the most secure means of receiving funds from abroad</p>
-                                    <p>She is also looking for a way to save her money, occasionally as a freelancer when she gets paid in whatever currency but she leverages on crypto for long term savings.</p>
-                                </div>
-                                <div class="md:flex-1 mb-8 md:mb-0">
-                                    <h5 class="mb-3 text-base font-bold">Frustrations</h5>
-                                    <p
-                                        class="mb-3"
-                                    >Extremely high rates that her DOm account provided by banks charge her</p>
-                                    <p>Her Bank converts her pay at a lesser amount that she would get on the black market or other platforms</p>
-                                    <p>Payments might take days to deliver.</p>
-                                </div>
-                                <div class="md:flex-1">
-                                    <h5 class="mb-3 text-base font-bold">Behaviours</h5>
-                                    <p
-                                        class="mb-3"
-                                    >Kate spends most of her time using the laptop for coding. She uses it for her jobs and communication purposes</p>
-                                    <p>She gets paid based on the hours of work she does and keeps track of her payment and expenses on her bank mobile app</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:flex md:space-x-6 md:items-center bg-brand-black-5">
-                        <div class="md:w-1/3 bg-red-400 mb-10 md:mb-0">
-                            <img
-                                class="w-full"
-                                src="../assets/user-persona-3.png"
-                                alt="User persona"
-                            />
-                        </div>
-                        <div class="md:w-2/3">
-                            <div class="mb-8">
-                                <h4
-                                    class="mb-3 text-lg md:text-xl lg:text-2xl font-bold font-playfair"
-                                >Austine Chidozie</h4>
-                                <p>Austine is a 32-year-old importer who imports spare parts of top automobiles in the world to be used for repair purposes in West Africa. Spends most of his time in Ghana where he lives with his wife and daughter.</p>
-                            </div>
-                            <div class="md:flex md:space-x-6">
-                                <div class="md:flex-1 mb-8 md:mb-0">
-                                    <h5 class="mb-3 text-base font-bold">Goals and needs</h5>
-                                    <p
-                                        class="mb-3"
-                                    >Austine is a businessman that constantly makes purchases from China and Germany for spare parts and needs a way to make payment to his overseas business partners.</p>
-                                    <p>He also makes send money to some friends and family both in Nigeria and other countries hence need a way to separate his business account and his personal</p>
-                                    <p>He needs to have access to generating invoices and also applying for loans.</p>
-                                </div>
-                                <div class="md:flex-1 mb-8 md:mb-0">
-                                    <h5 class="mb-3 text-base font-bold">Frustrations</h5>
-                                    <p
-                                        class="mb-3"
-                                    >One of his major pains is having multiple accounts that is being controlled by different apps, one for personal and one for business and he needs a way to have his accounts in one app and easy to switch in one space</p>
-                                    <p>There are times when I need to make some orders and I just see some massive business opportunities that are above my budget, I need a way to have quick leverage for that purchase that I can payback</p>
-                                </div>
-                                <div class="md:flex-1">
-                                    <h5 class="mb-3 text-base font-bold">Behaviours</h5>
-                                    <p>Austine is a busy person, he does not like his time being wasted, so he needs to be able to maximize his time, since time is money, hence he needs to be able to make payments on the go and</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div v-for="(persona, ix) in personasArray" :key="ix">
+                        <UserPersona :persona="persona" />
                     </div>
                 </div>
             </section>
@@ -678,8 +602,9 @@
 <script>
 import BookAppointment from '../components/BookAppointment.vue'
 import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
+import UserPersona from '../components/UserPersona.vue'
 export default {
-    components: { BookAppointment, CompetitionAnalysis },
+    components: { BookAppointment, CompetitionAnalysis, UserPersona },
     data() {
         return {
             analysisArray: [
@@ -843,6 +768,51 @@ export default {
                         "In the image of the public, PayPal’s brand is closely associated with smaller merchants, low-cost auctions, and P2P money transfers. As a result, some larger firms might not want their brands associated with PayPal brand image",
                         "Hacking and Fraud threats",
                         "Unfavorable international regulations",
+                    ]
+                }
+            ],
+            personasArray: [
+                {
+                    img: require('../assets/user-persona-2.png'),
+                    alt: "User Persona",
+                    name: "Anabelle Richie",
+                    info: "Anabelle is a 25-year-old front-end developer that stays in Nigeria and has been freelancing for a living for the past 3 years with over 120 clients from all over the world including America, Europe, and Asia.",
+                    goal: "Goals and needs",
+                    goalsList: [
+                        "Anabelle freelances and wants to expand her reach to higher-paying countries for her talents and skills, hence she is seeking the most secure means of receiving funds from abroad",
+                        "She is also looking for a way to save her money, occasionally as a freelancer when she gets paid in whatever currency but she leverages on crypto  for long term savings",
+                    ],
+                    frustration: "Frustrations",
+                    frustrationsList: [
+                        "Extremely high rates that her DOm account provided by banks charge her",
+                        "Her Bank converts her pay at a lesser amount that she would get on the black market or other platforms",
+                        "Payments might take days to deliver."
+                    ],
+                    behaviour: "Behaviours",
+                    behavioursList: [
+                        "Kate spends most of her time using the laptop for coding. She uses it for her jobs and communication purposes",
+                        "She gets paid based on the hours of work she does and keeps track of her payment and expenses on her bank mobile app"
+                    ]
+                },
+                {
+                    img: require("../assets/user-persona-3.png"),
+                    alt: "User Persona",
+                    name: "Austine Chidozie",
+                    info: "Austine is a 32-year-old importer who imports spare parts of top automobiles in the world to be used for repair purposes in West Africa. Spends most of his time in Ghana where he lives with his wife and daughter.",
+                    goal: "Goals and needs",
+                    goalsList: [
+                        "Austine is a businessman that constantly makes purchases from China and Germany for spare parts and needs a way to make payment to his overseas business partners.",
+                        "He also makes send money to some friends and family both in Nigeria and other countries hence need a way to separate his business account and his personal",
+                        "He needs to have access to generating invoices and also applying for loans."
+                    ],
+                    frustration: "Frustrations",
+                    frustrationsList: [
+                        "One of his major pains is having multiple accounts that is being controlled by different apps, one for personal and one for business and he needs a way to have his accounts in one app and easy to switch in one space",
+                        "There are times when I need to make some orders and I just see some massive business opportunities that are above my budget, I need a way to have quick leverage for that purchase that I can payback"
+                    ],
+                    behaviour: "Behaviours",
+                    behavioursList: [
+                        "Austine is a busy person, he does not like his time being wasted, so he needs to be able to maximize his time, since time is money, hence he needs to be able to make payments on the go and"
                     ]
                 }
             ]

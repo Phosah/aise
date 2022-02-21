@@ -551,61 +551,8 @@
                 <h2 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold font-playfair">Conclusion</h2>
                 <p>This project is open to massive expansion and growth, the product aims to expand to cover sectors like payroll whereby organizations with employees working in multiple countries can all be registered and payments can be disbursed once and payroll run with each of them receiving their cash in their local currency or crypto if selected</p>
             </section>
-            <section class="max-w-7xl mx-auto py-20 md:px-16">
-                <h1
-                    class="mb-16 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center"
-                >Other Projects</h1>
-                <div class="hidden md:block">
-                    <div class="flex items-center space-x-8">
-                        <router-link class="flex-1" to="/">
-                            <div>
-                                <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
-                            </div>
-                        </router-link>
-                        <router-link class="flex-1" to="/doorstep">
-                            <div>
-                                <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
-                            </div>
-                        </router-link>
-                    </div>
-                </div>
-                <!-- Mobile version -->
-                <section
-                    class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white"
-                >
-                    <div class="text-center">
-                        <div class="mb-20">
-                            <h2 class="mb-4 text-2xl font-semibold font-playfair">Trigle</h2>
-                            <p class="mb-12 text-xl font-light">Food delivery, Commerce</p>
-                            <router-link
-                                to="/doorstep"
-                                class="inline-block pb-1 text-xl font-semibold border-b-2"
-                            >Case Study</router-link>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/trigle-home.png" alt="Trigle home photo" />
-                    </div>
-                </section>
-                <section
-                    class="block md:hidden works-box mb-20 py-28 px-14 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white"
-                >
-                    <div class="text-center">
-                        <div class="mb-20">
-                            <h2 class="mb-4 text-2xl font-semibold font-playfair">TrustBreed</h2>
-                            <p class="mb-12 text-xl font-light">Customer Service, B2C</p>
-                            <router-link
-                                to="/trustbreed"
-                                class="inline-block pb-1 text-xl font-semibold border-b-2"
-                            >Case Study</router-link>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo" />
-                    </div>
-                </section>
-                <!-- End of mobile version -->
-            </section>
+
+            <OtherProjects />
             <BookAppointment />
         </div>
     </div>
@@ -616,8 +563,9 @@ import Works from '../components/Works.vue'
 import BookAppointment from '../components/BookAppointment.vue'
 import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
 import UserPersona from '../components/UserPersona.vue'
+import OtherProjects from '../components/OtherProjects.vue'
 export default {
-    components: { Works, BookAppointment, CompetitionAnalysis, UserPersona },
+    components: { Works, BookAppointment, CompetitionAnalysis, UserPersona, OtherProjects },
     data() {
         return {
             analysisArray: [

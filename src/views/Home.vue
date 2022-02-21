@@ -33,6 +33,7 @@
       <div v-for="(work, ix) in worksArray" :key="ix">
         <Works :work="work" />
       </div>
+      {{ worksArray }}
     </main>
     <section
       class="flex items-center md:min-h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1"
@@ -40,7 +41,7 @@
       <div class="max-w-7xl mx-auto w-full md:px-16">
         <h2
           :class="themeColor === 'light' ? 'testimonials-header-dark' : 'testimonials-header'"
-          class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent"
+          class="testimonials-header dark:testimonials-header-dark mb-20 md:mb-8 text-4xl sm:text-6xl md:text-8xl lg:text-9xl text-center md:text-left text-transparent"
         >TESTIMONIALS</h2>
         <TestimonialCarousel :cards="cards" />
         <!-- Mobile version -->
@@ -78,48 +79,6 @@ export default {
           testimonialMessage: "It is a really a nice thing to work with professionals",
         }
       ],
-      worksArray: [
-        {
-          bgColor: "bg-brand-blue-8",
-          title: "Collect Africa",
-          subtitle: "Fintech Solution",
-          imgPosition: "",
-          img: require("../assets/collect-africa-home.png"),
-          alt: "Collect"
-        },
-        {
-          bgColor: "bg-brand-orange-1",
-          title: "Trigle",
-          subtitle: "Food delivery, Commerce",
-          imgPosition: "lg:absolute lg:h-128 lg:-bottom-28 lg:-right-20",
-          img: require("../assets/trigle-home.png"),
-          alt: "Trigle"
-        },
-        {
-          bgColor: "bg-brand-green-1",
-          title: "Doorstep",
-          subtitle: "Logistics",
-          imgPosition: "",
-          img: require("../assets/doorstep-home.png"),
-          alt: "Doorstep"
-        },
-        {
-          bgColor: "bg-brand-red-5",
-          title: "Trustbreed",
-          subtitle: "Customer Service, B2C",
-          imgPosition: "lg:w-2/3 lg:absolute lg:-bottom-28 lg:-right-24",
-          img: require("../assets/trustbreed-home.png"),
-          alt: "Trustbreed"
-        },
-        {
-          bgColor: "bg-brand-blue-8",
-          title: "Powr Finance",
-          subtitle: "Logistics",
-          imgPosition: "",
-          img: require("../assets/powrfinance-home.png"),
-          alt: "Powr Finance"
-        },
-      ]
     }
   },
   mounted() {
@@ -128,6 +87,9 @@ export default {
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
+    },
+    worksArray() {
+      return this.$store.state.worksArr;
     }
   },
   methods: {

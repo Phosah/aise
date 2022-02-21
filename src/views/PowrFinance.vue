@@ -3,25 +3,7 @@
         <div class="dark:bg-brand-black-4 text-brand-black-4 dark:text-white">
             <!-- Header -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div
-                    class="header-box md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-center bg-brand-blue-8 text-white"
-                >
-                    <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                        <div class="md:ml-16 md:pr-6">
-                            <h2
-                                class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair"
-                            >Powr Finance</h2>
-                            <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech, B2B, B2C</p>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img
-                            class="w-full"
-                            src="../assets/powr-finance-home.png"
-                            alt="Powr finance home photo"
-                        />
-                    </div>
-                </div>
+                <Works :work="this.$store.state.worksArr[4]" hideLink />
             </section>
             <!-- End of Header -->
             <!-- Main -->
@@ -222,11 +204,18 @@
                     <li>An improved user experience.</li>
                     <li>An advanced product value proposition.</li>
                 </ul>
-                <div class="hidden md:flex items-center space-x-6 mb-10 text-white">
+                <div class="hidden md:flex items-center space-x-6 mb-10 dark:text-white">
                     <div class="flex-1">
                         <img
+                            v-if="themeColor === 'light'"
                             class="w-full"
                             src="../assets/opportunities-graph-1.png"
+                            alt="Opportunities graph"
+                        />
+                        <img
+                            v-else
+                            class="w-full"
+                            src="../assets/opportunities-graph-dark-1.png"
                             alt="Opportunities graph"
                         />
                     </div>
@@ -238,7 +227,7 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden mb-10 text-white">
+                <div class="block md:hidden mb-10 dark:text-white">
                     <div class="mb-12">
                         <h2
                             class="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold"
@@ -247,8 +236,15 @@
                     </div>
                     <div class>
                         <img
+                            v-if="themeColor === 'light'"
                             class="w-full"
                             src="../assets/opportunities-graph-1-mobile.png"
+                            alt="Opportunities graph"
+                        />
+                        <img
+                            v-else
+                            class="w-full"
+                            src="../assets/opportunities-graph-dark-1-mobile.png"
                             alt="Opportunities graph"
                         />
                     </div>
@@ -257,7 +253,7 @@
                 <p
                     class="mb-20"
                 >With the pain points of users requesting payment in crypto currency, it opens up a new market to explore and that would mean another fast growing resource to tap into</p>
-                <div class="hidden md:flex items-center space-x-6 mb-10 text-white">
+                <div class="hidden md:flex items-center space-x-6 mb-10 dark:text-white">
                     <div class="flex-1">
                         <h4
                             class="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold"
@@ -265,11 +261,20 @@
                         <p>With 10% of this tranascation relating with the African market, the opportunities available is endless</p>
                     </div>
                     <div class="flex-1">
-                        <img src="../assets/opportunities-graph-2.png" alt="Opportunities graph" />
+                        <img
+                            v-if="themeColor === 'light'"
+                            src="../assets/opportunities-graph-2.png"
+                            alt="Opportunities graph"
+                        />
+                        <img
+                            v-else
+                            src="../assets/opportunities-graph-dark-2.png"
+                            alt="Opportunities graph"
+                        />
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden mb-16 text-white">
+                <div class="block md:hidden mb-16 dark:text-white">
                     <div class="mb-12">
                         <h2
                             class="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold"
@@ -278,8 +283,15 @@
                     </div>
                     <div class>
                         <img
+                            v-if="themeColor === 'light'"
                             class="w-full"
                             src="../assets/opportunities-graph-2-mobile.png"
+                            alt="Opportunities graph"
+                        />
+                        <img
+                            v-else
+                            class="w-full"
+                            src="../assets/opportunities-graph-dark-2-mobile.png"
                             alt="Opportunities graph"
                         />
                     </div>
@@ -545,12 +557,12 @@
                 >Other Projects</h1>
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
-                        <router-link to="/">
+                        <router-link class="flex-1" to="/">
                             <div>
                                 <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
                             </div>
                         </router-link>
-                        <router-link to="/doorstep">
+                        <router-link class="flex-1" to="/doorstep">
                             <div>
                                 <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
                             </div>
@@ -600,11 +612,12 @@
 </template>
 
 <script>
+import Works from '../components/Works.vue'
 import BookAppointment from '../components/BookAppointment.vue'
 import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
 import UserPersona from '../components/UserPersona.vue'
 export default {
-    components: { BookAppointment, CompetitionAnalysis, UserPersona },
+    components: { Works, BookAppointment, CompetitionAnalysis, UserPersona },
     data() {
         return {
             analysisArray: [
@@ -821,6 +834,11 @@ export default {
     mounted() {
         window.scrollTo(0, 0)
     },
+    computed: {
+        themeColor() {
+            return this.$store.state.themeColor;
+        }
+    }
 }
 </script>
 

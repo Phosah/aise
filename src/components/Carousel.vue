@@ -1,5 +1,6 @@
 <template>
-    <div class>
+    <div>
+        <p class="mb-4 font-bold font-playfair">{{ currentElement.title }}</p>
         <Card :imgName="currentElement.imgName" />
         <div class="flex items-center">
             <div class="flex-1">

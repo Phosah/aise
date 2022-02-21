@@ -3,23 +3,7 @@
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div
-                    class="header-box md:flex md:items-center md:justify-between mb-10 py-20 md:py-0 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white"
-                >
-                    <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                        <div class="md:ml-16 md:pr-6">
-                            <h2
-                                class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair"
-                            >Trigle</h2>
-                            <p
-                                class="text-lg md:text-xl lg:text-3xl font-light"
-                            >Food delivery, Commerce</p>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../assets/trigle-home.png" alt="Trigle home photo" />
-                    </div>
-                </div>
+                <Works :work="this.$store.state.worksArr[1]" hideLink />
             </section>
             <!-- End of Header -->
             <!-- Main -->
@@ -764,12 +748,12 @@
                 >Other Projects</h1>
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
-                        <router-link to="/">
+                        <router-link to="/" class="flex-1">
                             <div>
                                 <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
                             </div>
                         </router-link>
-                        <router-link to="/doorstep">
+                        <router-link to="/doorstep" class="flex-1">
                             <div>
                                 <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
                             </div>
@@ -820,10 +804,11 @@
 
 <script>
 import BookAppointment from '../components/BookAppointment'
+import Works from '../components/Works.vue';
 
 export default {
     name: 'Trigle',
-    components: { BookAppointment },
+    components: { BookAppointment, Works },
     data() {
         return {
         }

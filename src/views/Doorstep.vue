@@ -3,21 +3,7 @@
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div
-                    class="header-box md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white"
-                >
-                    <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                        <div class="md:ml-16 md:pr-6">
-                            <h2
-                                class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair"
-                            >Doorstep</h2>
-                            <p class="text-lg md:text-xl lg:text-3xl font-light">Logistics</p>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../assets/doorstep-home.png" alt="Doorstep home photo" />
-                    </div>
-                </div>
+                <Works :work="this.$store.state.worksArr[2]" hideLink />
             </section>
             <!-- End of Header -->
             <section class="max-w-7xl mx-auto py-20 px-16">
@@ -558,12 +544,12 @@
                 >Other Projects</h1>
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
-                        <router-link to="/">
+                        <router-link class="flex-1" to="/">
                             <div>
                                 <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
                             </div>
                         </router-link>
-                        <router-link to="/doorstep">
+                        <router-link class="flex-1" to="/doorstep">
                             <div>
                                 <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
                             </div>
@@ -613,11 +599,12 @@
 </template>
 
 <script>
+import Works from '../components/Works'
 import ProjectResponsibilities from '../components/ProjectResponsibilities'
 import BookAppointment from '../components/BookAppointment'
 export default {
     name: "Doorstep",
-    components: { ProjectResponsibilities, BookAppointment },
+    components: { Works, ProjectResponsibilities, BookAppointment },
     data() {
         return {
             projects: [

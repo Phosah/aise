@@ -3,23 +3,7 @@
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div
-                    class="header-box md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white"
-                >
-                    <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                        <div class="md:ml-16 md:pr-6">
-                            <h2
-                                class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair"
-                            >TrustBreed</h2>
-                            <p
-                                class="text-lg md:text-xl lg:text-3xl font-light"
-                            >Customer Service, B2C</p>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo" />
-                    </div>
-                </div>
+                <Works :work="this.$store.state.worksArr[3]" hideLink />
             </section>
             <!-- End of Header -->
             <section class="max-w-7xl mx-auto py-20 px-16">
@@ -217,11 +201,13 @@
                     class="mb-10"
                 >Organizing the interviews was the most challenging part of the user research process - but conducting them was highly exciting. Listening to users talk about their experiences with poor services helped me to further refine the problem statement. Below holds some of the questions and the collated results</p>
                 <div>
-                    <p
-                        class="mb-4 font-bold font-playfair"
-                    >1. Have you ever been disappointed with the services provided to you by any company</p>
                     <!-- Carousel -->
-                    <Carousel :cards="cards" />
+                    <div v-if="themeColor === 'light'">
+                        <Carousel :cards="cards" />
+                    </div>
+                    <div v-else>
+                        <Carousel :cards="cardsDark" />
+                    </div>
                     <!-- End of Carousel -->
                 </div>
             </section>
@@ -326,7 +312,8 @@
                     class="mb-16"
                 >Creating Mental Models and User Journey Maps was a great way to empathize with future users, getting a clearer idea about pain points and what support would they expect from the product.</p>
                 <div>
-                    <img src="../assets/user-map.png" alt="User map" />
+                    <img v-if="themeColor === 'light'" src="../assets/user-map.png" alt="User map" />
+                    <img v-else src="../assets/user-map-dark.png" alt="User map" />
                 </div>
             </section>
             <section>
@@ -458,15 +445,13 @@
                     <p>Both in-person and remote moderated usability tests were conducted. The test included a short brieﬁng and task performance with the Trustbreed. 5 participants took part in the usability test, all participants agreed that the app is uncomplicated and simple to use, including mainly only necessary information and buttons. After collecting the information, I created a rainbow sheet to identify valuable insights.</p>
                 </div>
                 <div
-                    class="hidden md:block rounded-lg rounded-t-lg bg-brand-black-7 text-sm text-white"
+                    class="hidden md:block rounded-lg rounded-t-lg bg-brand-black-5 text-sm text-white"
                 >
-                    <div
-                        class="flex space-x-10 px-6 py-4 border-b border-gray-600 bg-brand-black-5 rounded-t-lg"
-                    >
+                    <div class="flex space-x-10 px-6 py-4 bg-brand-black-7 rounded-t-lg">
                         <p class="flex-1">Test Feedbacks</p>
                         <p class="flex-1">Possible Solutions</p>
                     </div>
-                    <div class="flex space-x-10 p-6 border-b border-gray-600">
+                    <div class="flex space-x-10 p-6 border-b border-white border-opacity-5">
                         <p
                             class="flex-1"
                         >Was constantly looking for the search field to easily search for companies and could not find it</p>
@@ -474,7 +459,7 @@
                             class="flex-1"
                         >The search box should be brought lower to within the section so its easier to spot by users</p>
                     </div>
-                    <div class="flex space-x-10 p-6 border-b border-gray-600">
+                    <div class="flex space-x-10 p-6 border-b border-white border-opacity-5">
                         <p
                             class="flex-1"
                         >It became stressful to select a company category with the horizontal scroll of the categories on the desktop</p>
@@ -482,7 +467,7 @@
                             class="flex-1"
                         >The categories could be redesigned to show just 4 categories and a dropdown showing more that reveals all the rest categories when cpcked</p>
                     </div>
-                    <div class="flex space-x-10 p-6 border-b border-gray-600">
+                    <div class="flex space-x-10 p-6 border-b border-white border-opacity-5">
                         <p class="flex-1">On the dashboard, the 4 categories take too much space</p>
                         <p
                             class="flex-1"
@@ -499,7 +484,9 @@
                 </div>
                 <!-- Mobile version -->
                 <div class="block md:hidden text-sm text-white">
-                    <div class="mb-10 divide-y border-gray-600 rounded-lg bg-brand-black-5">
+                    <div
+                        class="mb-10 divide-y divide-white divide-opacity-5 rounded-lg bg-brand-black-5"
+                    >
                         <p class="px-6 py-4 bg-brand-black-7 rounded-t-lg">Test Feedbacks</p>
                         <p
                             class="p-6"
@@ -512,7 +499,7 @@
                             class="p-6"
                         >Wanted to make a video of the service I received but could not</p>
                     </div>
-                    <div class="divide-y border-gray-600 rounded-lg bg-brand-black-5">
+                    <div class="divide-y divide-white divide-opacity-5 rounded-lg bg-brand-black-5">
                         <p class="px-6 py-4 bg-brand-black-7 rounded-t-lg">Possible Solutions</p>
                         <p
                             class="p-6"
@@ -540,12 +527,12 @@
                 >Other Projects</h1>
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
-                        <router-link to="/">
+                        <router-link class="flex-1" to="/">
                             <div>
                                 <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
                             </div>
                         </router-link>
-                        <router-link to="/doorstep">
+                        <router-link class="flex-1" to="/doorstep">
                             <div>
                                 <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
                             </div>
@@ -595,24 +582,63 @@
 </template>
 
 <script>
+import Works from '@/components/Works'
 import Carousel from '@/components/Carousel'
 import BookAppointment from '../components/BookAppointment.vue'
 export default {
-    components: { Carousel, BookAppointment },
+    components: { Works, Carousel, BookAppointment },
     data() {
         return {
+            work: {
+                bgColor: "bg-brand-red-5",
+                title: "Trustbreed",
+                subtitle: "Customer Service, B2C",
+                imgPosition: "lg:w-2/3 absolute md:-bottom-40 md:-right-60 lg:-bottom-24 lg:-right-24",
+                img: require("../assets/trustbreed-home.png"),
+                alt: "Trustbreed",
+            },
             cards: [
                 {
+                    title: "1. Have you ever been dissapointed with the services provided to you by any company",
                     imgName: "trustbreed-survey-photo-1.png"
                 },
                 {
+                    title: "2. What do you do when you have a poor service",
                     imgName: "trustbreed-survey-photo-2.png"
                 },
                 {
+                    title: "3. How frequently does the company solve your problem when you complain",
                     imgName: "trustbreed-survey-photo-3.png"
                 },
                 {
+                    title: "4. On a scale of 1-5 how difficult is it to pick the best service providers",
                     imgName: "trustbreed-survey-photo-4.png"
+                },
+                {
+                    title: "5. What source do you trust when deciding to try a new company",
+                    imgName: "trustbreed-survey-photo-5.png"
+                }
+            ],
+            cardsDark: [
+                {
+                    title: "1. Have you ever been dissapointed with the services provided to you by any company",
+                    imgName: "trustbreed-survey-photo-dark-1.png"
+                },
+                {
+                    title: "2. What do you do when you have a poor service",
+                    imgName: "trustbreed-survey-photo-dark-2.png"
+                },
+                {
+                    title: "3. How frequently does the company solve your problem when you complain",
+                    imgName: "trustbreed-survey-photo-dark-3.png"
+                },
+                {
+                    title: "4. On a scale of 1-5 how difficult is it to pick the best service providers",
+                    imgName: "trustbreed-survey-photo-dark-4.png"
+                },
+                {
+                    title: "5. What source do you trust when deciding to try a new company",
+                    imgName: "trustbreed-survey-photo-dark-5.png"
                 }
             ]
         }

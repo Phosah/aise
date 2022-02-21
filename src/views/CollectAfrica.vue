@@ -3,25 +3,7 @@
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header  -->
             <section class="max-w-7xl mx-auto md:px-16 pt-4">
-                <div
-                    class="header-box md:flex md:items-center md:justify-between mb-10 py-20 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white"
-                >
-                    <div class="flex-1 mb-8 md:mb-0 md:text-left text-center">
-                        <div class="md:ml-16 md:pr-6">
-                            <h2
-                                class="mb-4 text-2xl md:text-3xl lg:text-5xl font-semibold font-playfair"
-                            >Collect Africa</h2>
-                            <p class="text-lg md:text-xl lg:text-3xl font-light">Fintech Solution</p>
-                        </div>
-                    </div>
-                    <div class="flex-1">
-                        <img
-                            class="w-full"
-                            src="../assets/collect-africa-home.png"
-                            alt="Collect Africa home photo"
-                        />
-                    </div>
-                </div>
+                <Works :work="this.$store.state.worksArr[0]" hideLink />
             </section>
             <!-- End of Header  -->
             <!-- Main section -->
@@ -262,8 +244,14 @@
                 </div>
                 <div>
                     <!-- Carousel -->
-                    <Carousel :cards="cards" />
+                    <div v-if="themeColor === 'light'">
+                        <Carousel :cards="cards" />
+                    </div>
+                    <div v-else>
+                        <Carousel :cards="cardsDark" />
+                    </div>
                     <!-- End of Carousel -->
+                    {{ cards }} // {{ cardsDark }}
                 </div>
             </section>
             <section class="max-w-7xl mx-auto px-4 md:px-16 pb-20 text-sm md:text-base">
@@ -387,7 +375,16 @@
                         <p>With 10% of this tranascation relating with the African market, the opportunities available is endless</p>
                     </div>
                     <div class="md:flex-1">
-                        <img src="../assets/opportunities-graph-2.png" alt="Opportunities graph" />
+                        <img
+                            v-if="themeColor === 'light'"
+                            src="../assets/opportunities-graph-2.png"
+                            alt="Opportunities graph"
+                        />
+                        <img
+                            v-else
+                            src="../assets/opportunities-graph-dark-2.png"
+                            alt="Opportunities graph"
+                        />
                     </div>
                 </div>
             </section>
@@ -686,12 +683,12 @@
                 >Other Projects</h1>
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
-                        <router-link to="/">
+                        <router-link class="flex-1" to="/">
                             <div>
                                 <img class="w-full" src="../assets/bitpowr.png" alt="Bitpowr" />
                             </div>
                         </router-link>
-                        <router-link to="/doorstep">
+                        <router-link class="flex-1" to="/doorstep">
                             <div>
                                 <img class="w-full" src="../assets/doorstep.png" alt="Doorstep" />
                             </div>
@@ -745,8 +742,9 @@ import BookAppointment from '@/components/BookAppointment'
 import Carousel from '@/components/Carousel'
 import CompetitionAnalysis from '../components/CompetitionAnalysis.vue'
 import UserPersona from '../components/UserPersona.vue'
+import Works from '../components/Works.vue'
 export default {
-    components: { Carousel, BookAppointment, CompetitionAnalysis, UserPersona },
+    components: { Carousel, BookAppointment, CompetitionAnalysis, UserPersona, Works },
     data() {
         return {
             cards: [
@@ -761,6 +759,20 @@ export default {
                 },
                 {
                     imgName: "collectafrica-survey-photo-4.png"
+                }
+            ],
+            cardsDark: [
+                {
+                    imgName: "collectafrica-survey-photo-dark-1.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-dark-2.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-dark-3.png"
+                },
+                {
+                    imgName: "collectafrica-survey-photo-dark-4.png"
                 }
             ],
             analysisArray: [
@@ -897,6 +909,11 @@ export default {
     mounted() {
         window.scrollTo(0, 0)
     },
+    computed: {
+        themeColor() {
+            return this.$store.state.themeColor;
+        }
+    }
 }
 </script>
 

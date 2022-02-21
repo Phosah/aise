@@ -13,18 +13,23 @@
                 :currentElementIndex="currentElementIndex"
                 :showElement="showElement"
             />
-            <div class="flex-1 mt-12">
-                <div class="flex items-center space-x-4 mb-12 text-2xl">
+            <div class="flex-1 mt-8">
+                <div class="flex items-center space-x-4 mb-8 font-bold">
                     <p class="mr-2">1.0</p>
-                    <div class="h-14 border-r border-2"></div>
-                    <div class="flex items-end pb-2">
-                        <img v-if="themeColor === 'light'" src="../assets/logo.png" alt="Aise Logo" />
-                        <img v-else src="../assets/logo-dark.png" alt="Aise Logo" />
-                        <p class="pb-2">cunad</p>
+                    <div class="h-8 border-r border-2"></div>
+                    <div class="flex items-center">
+                        <img
+                            v-if="themeColor === 'light'"
+                            class="w-12"
+                            src="../assets/logo.png"
+                            alt="Aise Logo"
+                        />
+                        <img v-else class="w-12" src="../assets/logo-dark.png" alt="Aise Logo" />
+                        <p class>cunad</p>
                     </div>
                 </div>
-                <h3 class="mb-8 text-2xl">{{ card.testimonialName }}</h3>
-                <p class="mb-8">{{ card.testimonialMessage }}</p>
+                <h3 class="mb-6 text-2xl">{{ card.testimonialName }}</h3>
+                <p class="mb-6">{{ card.testimonialMessage }}</p>
                 <div class="flex items-center space-x-6">
                     <img
                         v-if="themeColor === 'light'"

@@ -1,5 +1,5 @@
 <template>
-    <button class="btn rounded-full p-2 bg-white">
+    <button class="btn rounded-full p-2 bg-white border dark:border-brand-black-1">
         <img
             class="transparent opacity-75 h-6"
             :src="require(`../assets/${arrowType}.svg`)"
@@ -13,7 +13,6 @@ export default {
     name: "ArrowButton",
     props: {
         arrowType: String,
-        // disabled: Boolean
     }
 }
 </script>

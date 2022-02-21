@@ -93,7 +93,9 @@ module.exports = {
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
-        // 'euclid': ['Euclid Circular A', 'sans serif'],
+      },
+      height: {
+        128: "40rem",
       },
     },
   },

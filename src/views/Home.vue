@@ -30,93 +30,9 @@
         :class="themeColor === 'light' ? 'works-header' : 'works-header-dark'"
         class="dark:works-header-dark mb-6 md:mb-2 text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-transparent text-center md:text-left"
       >SOME WORKS</h2>
-      <section
-        class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-8 text-white"
-      >
-        <div class="flex-1 md:text-left text-center">
-          <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-            <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Collect Africa</h2>
-            <p class="mb-12 text-xl lg:text-3xl font-light">Fintech Solution</p>
-            <router-link
-              to="/collectafrica"
-              class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
-            >Case Study</router-link>
-          </div>
-        </div>
-        <div class="flex-1">
-          <img src="../assets/collect-africa-home.png" alt="Collect home photo" />
-        </div>
-      </section>
-      <section
-        class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-orange-1 text-white"
-      >
-        <div class="flex-1 md:text-left text-center">
-          <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-            <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Trigle</h2>
-            <p class="mb-12 text-xl lg:text-3xl font-light">Food delivery, Commerce</p>
-            <router-link
-              to="/trigle"
-              class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
-            >Case Study</router-link>
-          </div>
-        </div>
-        <div class="flex-1">
-          <img src="../assets/trigle-home.png" alt="Trigle home photo" />
-        </div>
-      </section>
-      <section
-        class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-green-1 text-white"
-      >
-        <div class="flex-1 md:text-left text-center">
-          <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-            <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Doorstep</h2>
-            <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
-            <router-link
-              to="/doorstep"
-              class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
-            >Case Study</router-link>
-          </div>
-        </div>
-        <div class="flex-1">
-          <img src="../assets/doorstep-home.png" alt="Trigle home photo" />
-        </div>
-      </section>
-      <section
-        class="works-box md:flex md:items-center md:justify-between mb-10 md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-red-5 text-white"
-      >
-        <div class="flex-1 md:text-left text-center">
-          <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-            <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">TrustBreed</h2>
-            <p class="mb-12 text-xl lg:text-3xl font-light">Customer Service, B2C</p>
-            <router-link
-              to="/trustbreed"
-              class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
-            >Case Study</router-link>
-          </div>
-        </div>
-        <div class="flex-1">
-          <img src="../assets/trustbreed-home.png" alt="Trustbreed home photo" />
-        </div>
-      </section>
-      <section
-        class="works-box md:flex md:items-center md:justify-between md:mb-20 py-28 px-14 md:px-0 bg-hero-image bg-no-repeat bg-cover bg-brand-blue-1 text-white"
-      >
-        <div class="flex-1 md:text-left text-center">
-          <div class="md:ml-16 mb-20 md:mb-0 md:pr-6">
-            <h2 class="mb-4 text-3xl lg:text-5xl font-semibold font-playfair">Powr Finance</h2>
-            <p class="mb-12 text-xl lg:text-3xl font-light">Logistics</p>
-            <router-link
-              to="/powrfinance"
-              class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
-            >Case Study</router-link>
-          </div>
-        </div>
-        <div class="flex flex-1 justify-end">
-          <div>
-            <img class src="../assets/powrfinance-home.png" alt="Powr Finance devices" />
-          </div>
-        </div>
-      </section>
+      <div v-for="(work, ix) in worksArray" :key="ix">
+        <Works :work="work" />
+      </div>
     </main>
     <section
       class="flex items-center md:min-h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1"
@@ -137,11 +53,12 @@
 </template>
 
 <script>
+import Works from '../components/Works.vue'
 import BookAppointment from '../components/BookAppointment.vue'
 import TestimonialCarousel from '../components/TestimonialCarousel.vue';
 import TestimonialCarouselMobile from '../components/TestimonialCarouselMobile.vue';
 export default {
-  components: { BookAppointment, TestimonialCarousel, TestimonialCarouselMobile },
+  components: { BookAppointment, TestimonialCarousel, TestimonialCarouselMobile, Works },
   data() {
     return {
       cards: [
@@ -160,6 +77,48 @@ export default {
           testimonialName: "Pete Doe",
           testimonialMessage: "It is a really a nice thing to work with professionals",
         }
+      ],
+      worksArray: [
+        {
+          bgColor: "bg-brand-blue-8",
+          title: "Collect Africa",
+          subtitle: "Fintech Solution",
+          imgPosition: "",
+          img: require("../assets/collect-africa-home.png"),
+          alt: "Collect"
+        },
+        {
+          bgColor: "bg-brand-orange-1",
+          title: "Trigle",
+          subtitle: "Food delivery, Commerce",
+          imgPosition: "lg:absolute lg:h-128 lg:-bottom-28 lg:-right-20",
+          img: require("../assets/trigle-home.png"),
+          alt: "Trigle"
+        },
+        {
+          bgColor: "bg-brand-green-1",
+          title: "Doorstep",
+          subtitle: "Logistics",
+          imgPosition: "",
+          img: require("../assets/doorstep-home.png"),
+          alt: "Doorstep"
+        },
+        {
+          bgColor: "bg-brand-red-5",
+          title: "Trustbreed",
+          subtitle: "Customer Service, B2C",
+          imgPosition: "lg:w-2/3 lg:absolute lg:-bottom-28 lg:-right-24",
+          img: require("../assets/trustbreed-home.png"),
+          alt: "Trustbreed"
+        },
+        {
+          bgColor: "bg-brand-blue-8",
+          title: "Powr Finance",
+          subtitle: "Logistics",
+          imgPosition: "",
+          img: require("../assets/powrfinance-home.png"),
+          alt: "Powr Finance"
+        },
       ]
     }
   },
@@ -176,30 +135,12 @@ export default {
       this.$store.commit('changeTheme');
     }
   },
-
 }
 </script>
 
 <style scoped>
 div {
   font-family: "Euclid Circular A", sans-serif;
-}
-.works-header {
-  color: #000;
-  -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0e0f14;
-}
-.works-header-dark {
-  color: #fff;
-  -webkit-text-fill-color: #0e0f14;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-}
-@media screen and (min-width: 768px) {
-  .works-box {
-    height: 650px;
-  }
 }
 .testimonials-header {
   color: #000;

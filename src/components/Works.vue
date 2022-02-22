@@ -10,7 +10,7 @@
                 <router-link
                     v-if="work.routeName && !hideLink"
                     :to="work.route"
-                    class="inline-block pb-1 text-xl lg:text-2xl font-semibold border-b-2"
+                    class="inline-block pb-1 text-xl lg:text-2xl font-semibold hover:border-white border-transparent border-b-2"
                 >{{ work.routeName }}</router-link>
             </div>
         </div>

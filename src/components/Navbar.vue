@@ -1,6 +1,6 @@
 <template>
-  <div id="navbar" class="fixed w-full z-10 bg-transparent">
-    <div class="flex justify-center h-16">
+  <div id="navbar" class="fixed w-full transition-all duration-1000 z-50 bg-transparent">
+    <div class="flex justify-center h-24 md:h-16">
       <div class="mr-8">
         <router-link to="/">
           <img
@@ -36,6 +36,34 @@
       </div>
     </div>
   </div>
+  <!-- <div
+    id="navbar"
+    class="fixed md:hidden flex items-center justify-between w-full h-20 bg-red-300 opacity-40 ease-in-out duration-500"
+  >
+    <div>
+      <router-link to="/">
+        <img
+          v-if="themeColor === 'light'"
+          class="w-14 lg:w-16"
+          src="../assets/logo-dark.png"
+          alt="Menu toggle icon"
+        />
+        <img v-else class="w-14 lg:w-16" src="../assets/logo.png" alt="Menu toggle icon" />
+      </router-link>
+    </div>
+    
+    <div @click="openMenu()">
+      <button>
+        <img
+          v-if="themeColor === 'light'"
+          class="w-14 lg:w-26"
+          src="../assets/menu-icon-dark.png"
+          alt="Aise Logo"
+        />
+        <img v-else class="w-14 lg:w-26" src="../assets/menu-icon.png" alt="Aise Logo" />
+      </button>
+    </div>
+  </div>-->
 </template>
 
 <script>
@@ -49,25 +77,29 @@ export default {
     themeColor() {
       return this.$store.state.themeColor;
     },
+
   },
   methods: {
     openMenu() {
       return this.$store.commit('openMenu');
     },
-  },
-  mounted: {
     showNavbarOnScrollUp() {
       let prevScrollpos = window.pageYOffset;
+
       window.onscroll = function () {
         let currentScrollPos = window.pageYOffset;
+        console.log(prevScrollpos, currentScrollPos)
         if (prevScrollpos > currentScrollPos) {
           document.getElementById("navbar").style.top = "0";
         } else {
-          document.getElementById("navbar").style.top = "-50px";
+          document.getElementById("navbar").style.top = "-80px";
         }
         prevScrollpos = currentScrollPos;
       }
     }
+  },
+  created() {
+    this.showNavbarOnScrollUp()
   }
 }
 </script>

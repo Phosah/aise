@@ -110,13 +110,13 @@
                 <!-- End of Mobile version -->
             </section>
             <section>
-                <div class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
+                <div class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm">
                     <div v-for="(persona, ix) in personasArray" :key="ix">
                         <UserPersona :persona="persona" />
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <h2
                     class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                 >Surveys & user interviews</h2>
@@ -251,7 +251,7 @@
                 </div>
                 <!-- End of Mobile version -->
                 <p
-                    class="mb-20"
+                    class="mb-10 md:mb-20"
                 >With the pain points of users requesting payment in crypto currency, it opens up a new market to explore and that would mean another fast growing resource to tap into</p>
                 <div class="hidden md:flex items-center space-x-6 mb-10 dark:text-white">
                     <div class="flex-1">
@@ -298,7 +298,7 @@
                 </div>
                 <!-- End of Mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto px-4 md:px-16 pb-20 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto px-4 md:px-16 pb-10 md:pb-20 text-sm md:text-base">
                 <div class="mb-20">
                     <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">Risk</h2>
                     <p
@@ -358,7 +358,7 @@
                 <!-- End of Mobile version -->
             </section>
             <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
-                <div class="mb-32">
+                <div class="mb-16 md:mb-32">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Onboarding Screens</h2>
@@ -382,7 +382,7 @@
                     </div>
                     <!-- End of Mobile version -->
                 </div>
-                <div class="md:flex items-center space-x-10 mb-32">
+                <div class="md:flex items-center md:space-x-10 mb-16 md:mb-32">
                     <div class="md:flex-1">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -403,7 +403,7 @@
                     </div>
                     <!-- End of Mobile version -->
                 </div>
-                <div class="mb-32">
+                <div class="mb-16 md:mb-32">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Send Money</h2>
@@ -435,7 +435,7 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden mb-32">
+                <div class="block md:hidden mb-16 md:mb-32">
                     <div class>
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -453,7 +453,7 @@
                     </div>
                 </div>
                 <!-- End of Mobile version -->
-                <div class="md:flex md:items-center md:space-x-10 mb-32">
+                <div class="md:flex md:items-center md:space-x-10 mb-16 md:mb-32">
                     <div class="md:flex-1">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -491,7 +491,7 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden mb-32">
+                <div class="block md:hidden mb-16 md:mb-32">
                     <div class>
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -509,7 +509,7 @@
                     </div>
                 </div>
                 <!-- End of Mobile version -->
-                <div class="md:flex md:items-center md:space-x-10 mb-32">
+                <div class="md:flex md:items-center md:space-x-10 mb-16 md:mb-32">
                     <div class="md:flex-1">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"

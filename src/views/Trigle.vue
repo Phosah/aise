@@ -7,7 +7,7 @@
             </section>
             <!-- End of Header -->
             <!-- Main -->
-            <section class="max-w-7xl mx-auto py-20 px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-16">
                 <div class="max-w-5xl mx-auto md:px-16">
                     <h1
                         class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -23,7 +23,7 @@
                     >It gets to solve this by its provision of an Augmented reality (AR) system which when given access to your camera, displays a live view of your current location with accurate steps and paths that leads you to that meal you have been salivating over.</p>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">
+            <section class="max-w-7xl mx-auto px-4 md:px-16 py-10 md:py-20">
                 <div class="hidden md:flex items-center justify-between space-x-12">
                     <div class="flex-1">
                         <h2 class="mb-6 text-3xl lg:text-4xl font-bold font-playfair">The problem</h2>
@@ -59,7 +59,7 @@
                 </div>
                 <!-- End of mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto px-4 md:px-16 py-20">
+            <section class="max-w-7xl mx-auto px-4 md:px-16 py-10 md:py-20">
                 <div class="md:flex md:items-center md:justify-between md:space-x-12">
                     <div class="flex-1 mb-10 md:mb-0">
                         <img
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:pl-16 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:pl-16 md:px-16">
                 <div class="hidden md:flex items-center justify-between space-x-12">
                     <div class="flex-1">
                         <h2
@@ -151,7 +151,7 @@
                 </div>
                 <!-- End of Mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="md:flex md:justify-between md:space-x-12">
                     <div class="md:flex-1 mb-28 md:mb-0 text-sm md:text-base">
                         <h2
@@ -195,7 +195,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class>
                     <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
                         <h1
@@ -233,7 +233,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="md:flex md:items-center md:justify-between md:space-x-12">
                     <div class="md:flex-1 mb-12">
                         <img class="w-full" src="../assets/trigle-research.png" alt="Research" />
@@ -252,7 +252,7 @@
                     </div>
                 </div>
             </section>
-            <section class="hidden md:block max-w-7xl mx-auto py-20 px-16">
+            <section class="hidden md:block max-w-7xl mx-auto py-10 md:py-20 px-16">
                 <div class="flex items-center justify-between space-x-10 mb-16">
                     <div class="w-1/3">
                         <img class="w-full" src="../assets/samuel.png" alt />
@@ -292,7 +292,7 @@
                     </div>
                 </div>
             </section>
-            <section class="hidden md:block max-w-7xl mx-auto py-20 px-16">
+            <section class="hidden md:block max-w-7xl mx-auto py-10 md:py-20 px-16">
                 <div class="flex items-center justify-between space-x-10 mb-16">
                     <div class="w-1/3">
                         <img class="w-full" src="../assets/ari.png" alt />
@@ -331,7 +331,7 @@
                 </div>
             </section>
             <!-- Mobile version -->
-            <section class="block md:hidden max-w-7xl mx-auto py-20 px-4">
+            <section class="block md:hidden max-w-7xl mx-auto py-10 md:py-20 px-4">
                 <div class="flex items-center space-x-4 mb-16">
                     <div class="w-1/3">
                         <img class="w-full" src="../assets/samuel.png" alt="Man photo" />
@@ -371,7 +371,7 @@
                     </div>
                 </div>
             </section>
-            <section class="block md:hidden max-w-7xl mx-auto py-20 px-4">
+            <section class="block md:hidden max-w-7xl mx-auto py-10 md:py-20 px-4">
                 <div class="flex items-center space-x-4 mb-16">
                     <div class="w-1/3">
                         <img class="w-full" src="../assets/ari.png" alt />
@@ -412,7 +412,7 @@
                 </div>
             </section>
             <!-- End of Mobile version -->
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class>
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -442,7 +442,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class>
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -475,7 +475,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="mb-28">
                     <img
                         v-if="themeColor === 'light'"
@@ -505,7 +505,7 @@
                     />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="lg:w-5/6 mx-auto mb-20 text-center text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -541,7 +541,7 @@
                 </div>
                 <!-- End of mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="sm:flex sm:items-center sm:justify-between sm:space-x-12">
                     <div class="mb-12 md:mb-0 sm:flex-1 text-sm md:text-base">
                         <h2 class="mb-6 text-3xl lg:text-5xl font-bold font-playfair">Home screen</h2>
@@ -555,7 +555,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="hidden sm:flex items-center justify-between space-x-12">
                     <div class="flex-1">
                         <img class="w-full" src="../assets/restaurant-page-photo.png" alt="Phones" />
@@ -585,7 +585,7 @@
                 </div>
                 <!-- End of mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div
                     class="sm:flex sm:items-center sm:justify-between sm:space-x-12 text-sm md:text-base"
                 >
@@ -606,7 +606,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="mb-20 text-center text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair text-center"
@@ -709,7 +709,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div
                     class="md:flex md:items-center md:justify-between md:space-x-12 text-sm md:text-base"
                 >

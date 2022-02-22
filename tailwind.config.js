@@ -95,6 +95,7 @@ module.exports = {
         playfair: ["Playfair Display", "serif"],
       },
       height: {
+        110: "32rem",
         128: "40rem",
       },
     },

@@ -1,5 +1,7 @@
 <template>
-    <div class="md:flex md:space-x-6 md:items-center mb-16 bg-brand-black-5 text-white md:pr-4">
+    <div
+        class="md:flex md:space-x-6 md:items-center mb-16 dark:bg-brand-black-5 dark:text-white text-brand-black-1 md:pr-4"
+    >
         <div class="md:w-1/3 mb-10 md:mb-0">
             <img class="w-full" :src="persona.img" :alt="persona.alt" />
         </div>

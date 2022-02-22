@@ -6,7 +6,7 @@
                 <Works :work="this.$store.state.worksArr[3]" hideLink />
             </section>
             <!-- End of Header -->
-            <section class="max-w-7xl mx-auto py-20 px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-16">
                 <div class="max-w-5xl mx-auto md:px-16">
                     <h1
                         class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -22,14 +22,14 @@
                     >Trustbreed was born to help users/customers as a result of users being tired of receiving sub-standard services for their hard-earned money from products/companies they patronize to serve them.</p>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <h2 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair">My Role</h2>
                 <p
                     class="mb-4"
                 >For this project, my role was to explore ways to ensure users' complaints are heard and resolutions to the problems were made, also give users a way to identify the best companies and services for a particular need. To achieve this I had to understand the pain points of users of digital and physical services through a series of research, analysis, and best practices in UX design. Then sealing it with good visuals to make the interface attractive for the users.</p>
                 <p>Throughout the project timeline, there was a triangular interaction between myself, users, and the stakeholders.</p>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <h2
                     class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                 >My Approach</h2>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div
                     class="md:flex md:items-center md:justify-between md:space-x-12 text-sm md:text-base"
                 >
@@ -125,7 +125,7 @@
                 </div>
             </section>
             <section
-                class="max-w-7xl mx-auto py-20 px-4 md:px-16 bg-brand-black-1 text-white text-sm md:text-base"
+                class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 bg-brand-black-1 text-white text-sm md:text-base"
             >
                 <h2
                     class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -140,7 +140,7 @@
                     <img class="w-full" src="../assets/ux-competition-analysis-1.png" alt />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="md:w-2/3 mb-12">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -190,7 +190,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <h2
                     class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                 >Surveys & user interviews</h2>
@@ -211,7 +211,7 @@
                     <!-- End of Carousel -->
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 md:px-16 text-sm md:text-base">
                 <div class="mb-8 px-4">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -219,9 +219,11 @@
                     <p>Based on the generative user research I conducted, I created user personas that capture the essence of my target group. Jasmine and Richard helped me to always keep the needs of the users at the forefront.</p>
                 </div>
                 <div class="md:flex md:space-x-12 md:items-end mb-28">
-                    <div class="md:w-1/3 self-stretch flex flex-col justify-end relative">
+                    <div
+                        class="md:w-1/3 self-stretch flex flex-col justify-end relative h-110 md:h-auto mb-8 md:mb-0"
+                    >
                         <img
-                            class="w-full h-full absolute inset-0 object-cover"
+                            class="w-full h-full absolute inset-0 object-cover object-top"
                             src="../assets/user-personas-1.png"
                             alt
                         />
@@ -262,9 +264,11 @@
                     </div>
                 </div>
                 <div class="md:flex md:space-x-12">
-                    <div class="md:w-1/3 self-stretch flex flex-col justify-end relative">
+                    <div
+                        class="md:w-1/3 self-stretch flex flex-col justify-end relative h-110 md:h-auto mb-8 md:mb-0"
+                    >
                         <img
-                            class="w-full h-full absolute inset-0 object-cover"
+                            class="w-full h-full absolute inset-0 object-cover object-top"
                             src="../assets/user-personas-2.png"
                             alt
                         />
@@ -301,7 +305,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <h2
                     class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                 >Mental models and user journey map</h2>
@@ -317,7 +321,7 @@
                 </div>
             </section>
             <section>
-                <div class="max-w-7xl mx-auto px-4 md:px-16 pt-20 text-sm md:text-base">
+                <div class="max-w-7xl mx-auto px-4 md:px-16 pt-10 md:pt-20 text-sm md:text-base">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >User flows</h2>
@@ -330,7 +334,7 @@
                 </div>
             </section>
             <section>
-                <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+                <div class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
                     <h2
                         class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Sitemap</h2>
@@ -343,7 +347,7 @@
                 </div>
             </section>
             <section class>
-                <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+                <div class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Wireframing</h2>
@@ -355,7 +359,7 @@
                     <img src="../assets/wireframe.png" alt="Wireframe" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-20">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -371,8 +375,10 @@
                         />
                     </div>
                 </div>
-                <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
-                    <div class="md:flex-1">
+                <div
+                    class="md:flex md:items-center md:justify-between md:space-x-12 py-10 md:py-20"
+                >
+                    <div class="md:flex-1 mb-8 md:mb-0">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                         >Complaints screens</h2>
@@ -388,7 +394,7 @@
                         />
                     </div>
                 </div>
-                <div class="pt-20">
+                <div class="pt-10 md:pt-20">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Compare Companies</h2>
@@ -405,7 +411,7 @@
                 </div>
             </section>
             <section class="text-sm md:text-base">
-                <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16">
+                <div class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16">
                     <h3
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Other Features</h3>
@@ -416,7 +422,7 @@
                 <div class="max-w-7xl mx-auto mb-20">
                     <img src="../assets/other-features.png" alt="User flows" />
                 </div>
-                <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16">
+                <div class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Mobile responsiveness</h2>
@@ -428,7 +434,7 @@
                     <img src="../assets/mobile-responsive-photo.png" alt="User flows" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-16">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -515,7 +521,7 @@
                 </div>
                 <!-- End of Mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <h3 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold font-playfair">Conclusion</h3>
                 <p
                     class="md:mb-16"

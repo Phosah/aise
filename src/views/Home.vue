@@ -33,7 +33,6 @@
       <div v-for="(work, ix) in worksArray" :key="ix">
         <Works :work="work" />
       </div>
-      {{ worksArray }}
     </main>
     <section
       class="flex items-center md:min-h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1"

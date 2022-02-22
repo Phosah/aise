@@ -1,5 +1,5 @@
 <template>
-  <div class="md:fixed w-full z-10 bg-transparent">
+  <div id="navbar" class="fixed w-full z-10 bg-transparent">
     <div class="flex justify-center h-16">
       <div class="mr-8">
         <router-link to="/">
@@ -53,6 +53,20 @@ export default {
   methods: {
     openMenu() {
       return this.$store.commit('openMenu');
+    },
+  },
+  mounted: {
+    showNavbarOnScrollUp() {
+      let prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
     }
   }
 }

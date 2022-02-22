@@ -7,7 +7,7 @@
             </section>
             <!-- End of Header  -->
             <!-- Main section -->
-            <section class="max-w-7xl mx-auto py-20 px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-16">
                 <div class="max-w-5xl mx-auto md:px-16">
                     <h1
                         class="mb-4 lg:mb-7 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -23,7 +23,7 @@
                     >Collect aims to build a technology to help Africa’s best and modern businesses achieve greater heights by making it easy for businesses to accept secure payments from multiple local and global payment channels, and then we give you the tools to ensure customer management and retention.</p>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="md:flex md:items-center text-xs">
                     <div
                         class="flex-1 flex flex-col justify-center items-center py-8 md:py-0 border-b md:border-b-0 md:border-r"
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <h2
                     class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                 >My Design Process</h2>
@@ -62,7 +62,7 @@
                 </div>
                 <!-- End of Mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="md:flex md:items-center md:justify-between md:space-x-12 mb-20">
                     <div class="md:flex-1 mb-12 md:mb-0">
                         <h2
@@ -112,7 +112,7 @@
                 </div>
                 <!-- End of mobile version -->
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class="mb-16 md:w-5/6 mx-auto text-center text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -235,7 +235,9 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto pb-20 md:py-20 px-4 md:px-16 text-sm md:text-base">
+            <section
+                class="max-w-7xl mx-auto pb-20 py-10 md:py-20 px-4 md:px-16 text-sm md:text-base"
+            >
                 <div class="mb-12">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -251,7 +253,6 @@
                         <Carousel :cards="cardsDark" />
                     </div>
                     <!-- End of Carousel -->
-                    {{ cards }} // {{ cardsDark }}
                 </div>
             </section>
             <section class="max-w-7xl mx-auto px-4 md:px-16 pb-20 text-sm md:text-base">
@@ -282,7 +283,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <div class>
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -312,7 +313,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto px-4 md:px-16 py-20 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto px-4 md:px-16 py-10 md:py-20 text-sm md:text-base">
                 <div class="mb-12">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -325,7 +326,7 @@
                     <CompetitionAnalysis :analysis="analysis" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm">
                 <div class="mb-12">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -338,7 +339,7 @@
                     <UserPersona :persona="persona" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-12">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -353,7 +354,7 @@
                     >Opportunities</h2>
                     <p>With over 245,000 companies and over 41.2 million small businesses all over Nigeria, in which 5million of them make and receive bank transfers, and with over 50 million businesses all over Africa taking their transaction digitally, the market is saturated for demand and the opportunities are enormous.</p>
                 </div>
-                <div class="flex space-x-10 mb-10">
+                <div class="md:flex md:space-x-10 mb-10">
                     <div>
                         <img class="w-full" src="../assets/opportunities-1.png" alt="Opportunities" />
                     </div>
@@ -388,7 +389,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-20">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -420,7 +421,7 @@
                     </div>
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto py-20 px-4 md:px-16">
+            <section class="max-w-7xl mx-auto py-10 md:py-20 px-4 md:px-16">
                 <h1
                     class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
                 >User Stories</h1>
@@ -463,7 +464,7 @@
                 </ul>
             </section>
             <section>
-                <div class="max-w-7xl mx-auto px-4 md:px-16 pt-20 text-sm md:text-base">
+                <div class="max-w-7xl mx-auto px-4 md:px-16 pt-10 md:pt-20 text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
                     >User flows</h1>
@@ -476,7 +477,7 @@
                 </div>
             </section>
             <section>
-                <div class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+                <div class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
                     >Sitemap</h1>
@@ -488,7 +489,7 @@
                     <img src="../assets/sitemap.png" alt="User flows" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-10 md:w-5/6 mx-auto text-center text-sm md:text-base">
                     <h1
                         class="mb-6 text-4xl md:text-5xl lg:text-6xl font-semibold font-playfair"
@@ -501,7 +502,7 @@
                     <img class="w-full" src="../assets/the-solution.png" alt="The solution" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
+            <section class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
                 <div class="mb-20">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -517,7 +518,9 @@
                         />
                     </div>
                 </div>
-                <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div
+                    class="md:flex md:items-center md:justify-between md:space-x-12 py-10 md:py-20"
+                >
                     <div class="md:flex-1 mb-10 md:mb-0">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -534,7 +537,7 @@
                         />
                     </div>
                 </div>
-                <div class="hidden md:flex items-center justify-between space-x-12 py-20">
+                <div class="hidden md:flex items-center justify-between space-x-12 py-10 md:py-20">
                     <div class="flex-1">
                         <img
                             class="w-full"
@@ -553,7 +556,7 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden py-20">
+                <div class="block md:hidden py-10 md:py-20">
                     <div class="mb-10">
                         <h2 class="mb-6 text-2xl font-bold font-playfair">Customer Management</h2>
                         <p
@@ -570,7 +573,7 @@
                     </div>
                 </div>
                 <!-- End of Mobile version -->
-                <div class="py-20">
+                <div class="py-10 md:py-20">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Payments & Transfer</h2>
@@ -585,7 +588,9 @@
                         />
                     </div>
                 </div>
-                <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+                <div
+                    class="md:flex md:items-center md:justify-between md:space-x-12 py-10 md:py-20"
+                >
                     <div class="md:flex-1 mb-10 md:mb-0">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
@@ -602,7 +607,7 @@
                         />
                     </div>
                 </div>
-                <div class="hidden md:flex items-center justify-between space-x-12 py-20">
+                <div class="hidden md:flex items-center justify-between space-x-12 py-10 md:py-20">
                     <div class="flex-1">
                         <img class="w-full" src="../assets/payment-link.png" alt="Payment link" />
                     </div>
@@ -617,7 +622,7 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
-                <div class="block md:hidden py-20">
+                <div class="block md:hidden py-10 md:py-20">
                     <div class="mb-10">
                         <h2 class="mb-6 text-2xl font-bold font-playfair">Payment Link</h2>
                         <p
@@ -630,7 +635,7 @@
                     </div>
                 </div>
                 <!-- End of Mobile version -->
-                <div class="py-20">
+                <div class="py-10 md:py-20">
                     <h2
                         class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"
                     >Account Reconciliation & Balancing</h2>
@@ -657,8 +662,10 @@
                     <img class="w-full" src="../assets/collect-mobile.png" alt="More Features" />
                 </div>
             </section>
-            <section class="max-w-7xl mx-auto pt-20 px-4 md:px-16 text-sm md:text-base">
-                <div class="md:flex md:items-center md:justify-between md:space-x-12 py-20">
+            <section class="max-w-7xl mx-auto pt-10 md:pt-20 px-4 md:px-16 text-sm md:text-base">
+                <div
+                    class="md:flex md:items-center md:justify-between md:space-x-12 py-10 md:py-20"
+                >
                     <div class="md:flex-1 mb-10 md:mb-0">
                         <h2
                             class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold font-playfair"

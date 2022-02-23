@@ -52,13 +52,11 @@
                             <div>About me</div>
                         </div>
                         <div
-                            @click="openLink('/works')"
+                            @click="openLink('/#bookings')"
                             class="nav-link-box flex items-center space-x-4 mb-10 cursor-pointer"
                         >
                             <div class="nav-link-line w-0 h-1 bg-brand-black-1 dark:bg-white"></div>
-                            <div>
-                                <div to="/">Contact me</div>
-                            </div>
+                            <div>Contact me</div>
                         </div>
                         <div
                             @click="openLink('/about')"

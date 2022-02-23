@@ -1,5 +1,6 @@
 <template>
     <section
+        id
         class="flex flex-col items-center max-w-7xl mx-auto py-32 md:py-20 md:px-16 text-brand-black-1 dark:text-white"
     >
         <div class="mb-24">

@@ -35,6 +35,7 @@
       </div>
     </main>
     <section
+      id="test"
       class="flex items-center md:min-h-screen py-20 dark:bg-white bg-text-brand-black-1 bg-brand-black-1 text-white dark:text-brand-black-1"
     >
       <div class="max-w-7xl mx-auto w-full md:px-16">
@@ -47,6 +48,8 @@
         <TestimonialCarouselMobile :cards="cards" />
       </div>
     </section>
+
+    <div name="bookings" id="bookings"></div>
     <BookAppointment />
     <!-- End of Main page -->
   </div>
@@ -91,6 +94,20 @@ export default {
   methods: {
     changeTheme() {
       this.$store.commit('changeTheme');
+    }
+  },
+  mounted() {
+    var section = this.$router.currentRoute.value.hash.replace("#", "");
+    console.log(section);
+    if (section) {
+      this.$nextTick(() => {
+        const divToScroll = window.document.getElementById(section);
+        window.document.getElementById(section).scrollIntoView()
+
+        window.scrollTo(0, divToScroll.offsetTop - document.body.offsetHeight);
+
+      });
+
     }
   },
 }

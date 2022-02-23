@@ -8,7 +8,7 @@
         >
             <div
                 :class="currentElementIndex === index ? 'border-gray-200 dark:border-gray-600 cursor-default' : 'border-gray-500 dark:border-gray-300'"
-                class="border-b-4 h-0"
+                class="transition-all duration-500 ease-in border-b-4 h-0"
             ></div>
         </button>
     </div>

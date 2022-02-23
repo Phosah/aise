@@ -28,7 +28,7 @@
         <div class="hidden md:block">
           <div class="flex items-center justify-center mb-10">
             <div class="w-1 h-96 bg-gray-300">
-              <div :style="{ height: this.percent + '%' }" class="w-1 bg-gray-600"></div>
+              <div :style="{ height: this.percent + '%' }" class="transition-all w-1 bg-gray-600"></div>
             </div>
           </div>
           <ToggleMode />
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="block md:hidden fixed top-0 h-1 bg-white w-full">
-      <div :style="{ width: this.percent + '%' }" class="h-full bg-gray-600"></div>
+      <div :style="{ width: this.percent + '%' }" class="transition-all h-full bg-gray-600"></div>
     </div>
   </div>
   <!-- <div

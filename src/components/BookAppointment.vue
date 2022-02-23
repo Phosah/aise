@@ -21,9 +21,13 @@
                 >identification of users needs, and business goals to design the future</span>
             </p>
         </div>
-        <button
+        <!-- Calendly link widget begin -->
+        <a
             class="px-8 py-5 font-bold rounded-sm text-white dark:text-brand-black-1 bg-brand-black-1 dark:bg-white"
-        >Book an appointment</button>
+            href
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/aiseidahor'});return false;"
+        >Book an appointment</a>
+        <!-- Calendly link widget end -->
     </section>
 </template>
 
@@ -37,6 +41,3 @@ export default {
     },
 }
 </script>
-
-<style>
-</style>

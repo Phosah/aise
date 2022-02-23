@@ -860,9 +860,6 @@ export default {
             ],
         }
     },
-    mounted() {
-        window.scrollTo(0, 0)
-    },
     computed: {
         themeColor() {
             return this.$store.state.themeColor;

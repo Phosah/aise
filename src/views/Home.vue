@@ -96,20 +96,6 @@ export default {
       this.$store.commit('changeTheme');
     }
   },
-  mounted() {
-    var section = this.$router.currentRoute.value.hash.replace("#", "");
-    console.log(section);
-    if (section) {
-      this.$nextTick(() => {
-        const divToScroll = window.document.getElementById(section);
-        window.document.getElementById(section).scrollIntoView()
-
-        window.scrollTo(0, divToScroll.offsetTop - document.body.offsetHeight);
-
-      });
-
-    }
-  },
 }
 </script>
 

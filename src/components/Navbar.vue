@@ -1,6 +1,6 @@
 <template>
   <div id="navbar" class="fixed w-full transition-all duration-1000 z-50 bg-transparent">
-    <div class="flex justify-center h-24 md:h-16">
+    <div class="flex justify-center h-16 md:h-16">
       <div class="mr-8">
         <router-link to="/">
           <img
@@ -27,13 +27,16 @@
         </div>
         <div class="hidden md:block">
           <div class="flex items-center justify-center mb-10">
-            <div class="w-1 h-96 bg-gray-400">
-              <div class="w-1 h-28 bg-gray-200"></div>
+            <div class="w-1 h-96 bg-gray-300">
+              <div :style="{ height: this.percent + '%' }" class="w-1 bg-gray-600"></div>
             </div>
           </div>
           <ToggleMode />
         </div>
       </div>
+    </div>
+    <div class="block md:hidden fixed top-0 h-1 bg-white w-full">
+      <div :style="{ width: this.percent + '%' }" class="h-full bg-gray-600"></div>
     </div>
   </div>
   <!-- <div
@@ -73,6 +76,12 @@ export default {
   components: {
     ToggleMode
   },
+  data() {
+    return {
+      percent: 0,
+      color: 'bg-red-300',
+    }
+  },
   computed: {
     themeColor() {
       return this.$store.state.themeColor;
@@ -84,17 +93,28 @@ export default {
       return this.$store.commit('openMenu');
     },
     showNavbarOnScrollUp() {
-      let prevScrollpos = window.pageYOffset;
+      let prevScrollpos = window.scrollY;
 
-      window.onscroll = function () {
-        let currentScrollPos = window.pageYOffset;
-        console.log(prevScrollpos, currentScrollPos)
+      window.onscroll = () => {
+        let currentScrollPos = window.scrollY;
+        // console.log(prevScrollpos, currentScrollPos)
         if (prevScrollpos > currentScrollPos) {
           document.getElementById("navbar").style.top = "0";
         } else {
-          document.getElementById("navbar").style.top = "-80px";
+          document.getElementById("navbar").style.top = "-62px";
         }
         prevScrollpos = currentScrollPos;
+        const totalHeight = document.body.scrollHeight;
+        const screenHeight = screen.height;
+        console.log(currentScrollPos, totalHeight, screenHeight);
+
+        this.percent = ((currentScrollPos + screenHeight) / totalHeight) * 100;
+
+        // if (this.percent > 40 && this.percent < 60) {
+        //   this.color = "bg-blue-400";
+        // } else {
+        //   this.color = "bg-red-400";
+        // }
       }
     }
   },

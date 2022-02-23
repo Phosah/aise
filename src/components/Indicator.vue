@@ -1,5 +1,5 @@
 <template>
-    <div class="flex space-x-4 items-center">
+    <div class="flex space-x-1 md:space-x-4 items-center">
         <button
             v-for="(_, index) in elements"
             @click="showElement(index)"
@@ -7,7 +7,7 @@
             class="flex-1 py-4 focus:outline-none"
         >
             <div
-                :class="currentElementIndex === index ? 'border-white dark:border-black cursor-default' : 'border-gray-500 dark:border-gray-300'"
+                :class="currentElementIndex === index ? 'border-gray-200 dark:border-gray-600 cursor-default' : 'border-gray-500 dark:border-gray-300'"
                 class="border-b-4 h-0"
             ></div>
         </button>

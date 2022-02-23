@@ -1,6 +1,6 @@
 <template>
-    <div class="h-96 mb-6">
-        <img class="h-full mr-auto" :src="require(`@/assets/${imgName}`)" alt="Survey photo" />
+    <div class="mb-6">
+        <img class="h-full w-full mr-auto" :src="require(`@/assets/${imgName}`)" alt="Survey photo" />
     </div>
 </template>
 

@@ -2,8 +2,8 @@
     <div>
         <div class="dark:bg-brand-black-1 text-brand-black-4 dark:text-white">
             <!-- Header -->
-            <section class="max-w-7xl mx-auto md:px-16 pt-20 md:pt-4">
-                <Works :work="this.$store.state.worksArr[3]" hideLink />
+            <section class="max-w-7xl mx-auto md:px-16 pt-16 md:pt-4">
+                <Works :work="this.$store.state.worksArr[2]" hideLink />
             </section>
             <!-- End of Header -->
             <section class="max-w-7xl mx-auto py-10 md:py-20 px-16">

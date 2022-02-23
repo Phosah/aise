@@ -8,6 +8,16 @@ const store = createStore({
       worksArr: [
         {
           bgColor: "bg-brand-blue-8",
+          title: "Powr Finance",
+          subtitle: "Logistics",
+          imgPosition: "",
+          img: require("../assets/powrfinance-home.png"),
+          alt: "Powr Finance",
+          routeName: "Case study",
+          route: "/powrfinance",
+        },
+        {
+          bgColor: "bg-brand-blue-8",
           title: "Collect Africa",
           subtitle: "Fintech Solution",
           imgPosition: "",
@@ -15,6 +25,17 @@ const store = createStore({
           alt: "Collect",
           routeName: "Case study",
           route: "/collectafrica",
+        },
+        {
+          bgColor: "bg-brand-red-5",
+          title: "Trustbreed",
+          subtitle: "Customer Service, B2C",
+          imgPosition:
+            "lg:w-2/3 absolute md:-bottom-40 md:-right-60 lg:-bottom-24 lg:-right-24",
+          img: require("../assets/trustbreed-home.png"),
+          alt: "Trustbreed",
+          routeName: "Case study",
+          route: "/trustbreed",
         },
         {
           bgColor: "bg-brand-orange-1",
@@ -35,27 +56,6 @@ const store = createStore({
           alt: "Doorstep",
           routeName: "Case study",
           route: "/doorstep",
-        },
-        {
-          bgColor: "bg-brand-red-5",
-          title: "Trustbreed",
-          subtitle: "Customer Service, B2C",
-          imgPosition:
-            "lg:w-2/3 absolute md:-bottom-40 md:-right-60 lg:-bottom-24 lg:-right-24",
-          img: require("../assets/trustbreed-home.png"),
-          alt: "Trustbreed",
-          routeName: "Case study",
-          route: "/trustbreed",
-        },
-        {
-          bgColor: "bg-brand-blue-8",
-          title: "Powr Finance",
-          subtitle: "Logistics",
-          imgPosition: "",
-          img: require("../assets/powrfinance-home.png"),
-          alt: "Powr Finance",
-          routeName: "Case study",
-          route: "/powrfinance",
         },
       ],
     };

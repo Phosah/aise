@@ -39,34 +39,6 @@
       <div :style="{ width: this.percent + '%' }" class="transition-all h-full bg-gray-600"></div>
     </div>
   </div>
-  <!-- <div
-    id="navbar"
-    class="fixed md:hidden flex items-center justify-between w-full h-20 bg-red-300 opacity-40 ease-in-out duration-500"
-  >
-    <div>
-      <router-link to="/">
-        <img
-          v-if="themeColor === 'light'"
-          class="w-14 lg:w-16"
-          src="../assets/logo-dark.png"
-          alt="Menu toggle icon"
-        />
-        <img v-else class="w-14 lg:w-16" src="../assets/logo.png" alt="Menu toggle icon" />
-      </router-link>
-    </div>
-    
-    <div @click="openMenu()">
-      <button>
-        <img
-          v-if="themeColor === 'light'"
-          class="w-14 lg:w-26"
-          src="../assets/menu-icon-dark.png"
-          alt="Aise Logo"
-        />
-        <img v-else class="w-14 lg:w-26" src="../assets/menu-icon.png" alt="Aise Logo" />
-      </button>
-    </div>
-  </div>-->
 </template>
 
 <script>
@@ -97,7 +69,6 @@ export default {
 
       window.onscroll = () => {
         let currentScrollPos = window.scrollY;
-        // console.log(prevScrollpos, currentScrollPos)
         if (prevScrollpos > currentScrollPos) {
           document.getElementById("navbar").style.top = "0";
         } else {
@@ -106,7 +77,6 @@ export default {
         prevScrollpos = currentScrollPos;
         const totalHeight = document.body.scrollHeight;
         const screenHeight = screen.height;
-        console.log(currentScrollPos, totalHeight, screenHeight);
 
         this.percent = ((currentScrollPos + screenHeight) / totalHeight) * 100;
 

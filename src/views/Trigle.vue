@@ -760,11 +760,11 @@ export default {
         return {
         }
     },
-    computed: {
-        themeColor() {
-            return this.$store.state.themeColor;
-        }
-    },
+    // computed: {
+    //     themeColor() {
+    //         return this.$store.state.themeColor;
+    //     }
+    // },
 }
 </script>
 
